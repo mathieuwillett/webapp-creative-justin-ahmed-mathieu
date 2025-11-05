@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les héros de l'éclipse</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+</head>
+
+<body>
+    <!-- Vue testing -->
+    <div id="app">
+        <!-- loop dans le .json -->
+        <div class="Characters" v-for="datas in values" :key="datas.id">
+            <div>
+                <h2>{{ datas.name }}</h2>
+                <img style="height:300px" :src="chooseImage(datas)" alt="">
+                <!-- appelle la méthode test -->
+                <button @click="talk(datas)">Talking</button>
+                <button @click="mad(datas)">mad</button>
+                <button @click="wounded(datas)">wounded</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
