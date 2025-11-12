@@ -8,8 +8,7 @@
 div {
     background-color: red;
     border: solid 2px black;
-    width: 40vw;
-    height: 40vh;
+    width: 100vw;
+    height: 10vh;
 }
-
 </style>
