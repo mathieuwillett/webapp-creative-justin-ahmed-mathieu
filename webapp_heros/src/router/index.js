@@ -1,5 +1,8 @@
 /* On importe les méthodes nécessaires depuis le module `vue-router` */
-import { createRouter, createWebHistory } from 'vue-router';
+import {
+  createRouter,
+  createWebHistory
+} from 'vue-router';
 
 /* 
 On importe les différentes views (pages) du projet, par exemple pour le 
@@ -11,8 +14,7 @@ import RoomView from '../views/RoomView.vue';
 import EndingView from '../views/EndingView.vue';
 
 /* Définition des routes dans un tableau [ ] d'objets { } */
-const routes = [
-  {
+const routes = [{
     path: '/', // (obligatoire) Contient la portion d'URL
     component: MenuView, // (obligatoire) Fait référence à la View souhaitée
     name: 'home' // (optionnel) Permet de nommer la route pour l'appeler plus simplement
@@ -23,12 +25,12 @@ const routes = [
     name: 'chapter'
   },
   {
-    path: '/ending/:id',  
+    path: '/ending/:id', // ← Exemple de route avec paramètre dynamique
     component: EndingView,
     name: 'ending'
   },
   {
-    path: '/room/:id',  
+    path: '/room/:id',
     component: RoomView,
     name: 'room'
   }
@@ -36,7 +38,8 @@ const routes = [
 
 // Création du router via la méthode createRouter
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL), // outil d'historique
+  history: createWebHistory(
+    import.meta.env.BASE_URL), // outil d'historique
   routes // contient les routes déclarées préalablement
 });
 
