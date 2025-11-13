@@ -12,12 +12,13 @@ import MenuView from '../views/MenuView.vue';
 import ChapterView from '../views/ChapterView.vue';
 import RoomView from '../views/RoomView.vue';
 import EndingView from '../views/EndingView.vue';
+import SavesView from '../views/SavesView.vue';
 
 /* Définition des routes dans un tableau [ ] d'objets { } */
 const routes = [{
     path: '/', // (obligatoire) Contient la portion d'URL
     component: MenuView, // (obligatoire) Fait référence à la View souhaitée
-    name: 'home' // (optionnel) Permet de nommer la route pour l'appeler plus simplement
+    name: 'menu' // (optionnel) Permet de nommer la route pour l'appeler plus simplement
   },
   {
     path: '/chapter/:id',
@@ -33,6 +34,16 @@ const routes = [{
     path: '/room/:id',
     component: RoomView,
     name: 'room'
+  },
+  {
+    path: 'saves',
+    component: SavesView,
+    name: 'saves'
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'not-found',
+    redirect: {name: 'menu'}
   }
 ];
 
