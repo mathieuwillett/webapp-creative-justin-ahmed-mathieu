@@ -4,7 +4,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 div {
     background-color: red;
     border: solid 2px black;

@@ -36,7 +36,7 @@ const routes = [{
     name: 'room'
   },
   {
-    path: 'saves',
+    path: '/saves',
     component: SavesView,
     name: 'saves'
   },
