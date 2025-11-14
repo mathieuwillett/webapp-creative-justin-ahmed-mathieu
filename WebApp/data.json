@@ -164,27 +164,29 @@
     {
         "id": 102,
         "text": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "CAPQC & Alex attaquent l'homme volant",
+        "choix2": "L'équipe se cache et appellent des renforts",
         "suite": ""
     },
     {
         "id": 103,
         "text": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Elie & emeryk attaquent l'homme volant",
+        "choix2": "L'équipe se cache et appellent des renforts",
         "suite": ""
     },
+
+
     {
         "id": 104,
         "text": "Qui devrait attaquer",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Ahmed ?",
+        "choix2": "Casquette man (mik) ?",
         "suite": ""
     },
     {
         "id": 105,
-        "text": "Ahmed se cache par peur, Mikael tente de le rejoindre mais l'homme qui vole se précipite sur lui et l'attrape par le cou",
+        "text": "Ahmed se cache par peur, Mikael tente de le rejoindre mais l'homme qui vole se précipite sur lui et l'attrape par le cou. ",
         "choix1": "",
         "choix2": "",
         "suite": ""
