@@ -153,13 +153,19 @@
         "id": 100,
         "text": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
         "choix1": "Ahmed & Mik attaquent l'homme volant",
-        "choix2": "L'équipe se cache et appellent des renforts"
+        "choix2": "L'équipe se cache et appellent des renforts",
+        "suiteID": 0,
+        "choix1ID": 104,
+        "choix2ID": 105
     },
     {
         "id": 101,
         "text": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
         "choix1": "Raf & William attaquent l'homme volant",
-        "choix2": "L'équipe se cache et appellent des renforts"
+        "choix2": "L'équipe se cache et appellent des renforts",
+        "suiteID": 0,
+        "choix1ID": 106,
+        "choix2ID": 107
     },
     {
         "id": 102,
@@ -167,8 +173,8 @@
         "choix1": "CAPQC & Alex attaquent l'homme volant",
         "choix2": "L'équipe se cache et appellent des renforts",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 108,
+        "choix2ID": 109
     },
     {
         "id": 103,
@@ -176,8 +182,8 @@
         "choix1": "Elie & emeryk attaquent l'homme volant",
         "choix2": "L'équipe se cache et appellent des renforts",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 110,
+        "choix2ID": 111
     },
     {
         "id": 104,
@@ -185,15 +191,15 @@
         "choix1": "Ahmed ?",
         "choix2": "Casquette man (mik) ?",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 112,
+        "choix2ID": 113
     },
     {
         "id": 105,
         "text": "Ahmed se cache par peur, Mikael tente de le rejoindre mais l'homme qui vole se précipite sur lui et l'attrape par le cou. ",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 114,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -202,7 +208,7 @@
         "text": "Raf utilise un rayon phasique et tire sur l'homme, celui-ci esquive le rayon et fonce sur Raf à pleine vitesse, créant un énorme cratère au sol, Raf au fond.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 115,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -211,7 +217,7 @@
         "text": "Raf utilise son appareil de télécommunication pour faire appel aux héros de l'éclipse.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 116,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -220,7 +226,7 @@
         "text": "Alex utilise un sort afin d'immobiliser l'homme, puis CAPQC tire un éclair hydroélectrique sur celui-ci.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 117,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -229,7 +235,7 @@
         "text": "Les deux héros se cachent, Alex entre en synchronisation psychique avec les héros de l'éclipse pour les alerter de la menace, mais au même moment, l'homme défonce le mur qui cachait les deux héros.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 118,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -238,7 +244,7 @@
         "text": "Elie solidifie des chaînes de 3D, tirant l'homme volant au sol, l'homme se débat, mais Emeryk saute dessus afin de le maintenir au sol. Elie créa une cage pour le maintenir au sol.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 119,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -247,106 +253,250 @@
         "text": "Les deux héros se cachent, Elie créa une géante emblème des héros de l'éclipse dans le ciel, espérant que d'autres la voient.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 120,
         "choix1ID": 0,
         "choix2ID": 0
     },
     {
         "id": 112,
         "text": "Ahmed s'oppose à l'homme, l'homme fonce sur Ahmed, lui donnant un uppercut si puissant qu'Ahmed fut propulsé dans l'orbite.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Mikael fonce sur l'homme, lui lance sa caquette au visage.",
+        "choix2": "Mikael fuit le combat et appelle des renforts",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 121,
+        "choix2ID": 122
     },
     {
         "id": 113,
         "text": "Casquette man s'oppose à l'homme, qui en le voyant, lui donne un uppercut mortel, le propulsant dans l'orbite.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Ahmed se fâche",
+        "choix2": "Ahmed contient sa colère et fuit le combat",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 123,
+        "choix2ID": 124
     },
     {
         "id": 114,
         "text": "L'homme se présente, Haxan, dieu des dieux. Il stipule qu'il est présent afin de rétablir l'équilibre dans le monde, et pour cela, il doit anéantir la race humaine.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Ahmed attaque l'homme pour libérer Mik",
+        "choix2": "Ahmed s'excuse à l'homme et propose de relâcher Mik, pour que les deux partent",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 125,
+        "choix2ID": 126
     },
     {
         "id": 115,
         "text": "L'homme sorti du cratère et se présente, Haxan, dieu des dieux. Il stipule qu'il est présent afin de rétablir l'équilibre dans le monde, et pour cela, il doit anéantir la race humaine. Après quoi il cassa le cou de Raf, le tuant instantanément.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "William fonce sur Haxan et l'attaque avec ses haches",
+        "choix2": "William s'incline devant Haxan",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 127,
+        "choix2ID": 128
     },
     {
         "id": 116,
         "text": "Le message est bien reçu par les héros, qui répondent présent, mais au même moment, la communication est coupée par une mystérieuse voix, un dénommé Haxan, qui souhaite rétablir l'équilibre dans ce monde, en exterminant la race humaine.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Éteindre la communication",
+        "choix2": "Continuer d'écouter",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 129,
+        "choix2ID": 130
     },
     {
         "id": 117,
         "text": "L'homme semble inchangé, il se rapproche tranquillement, atterrit au sol, et se présente.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Réattaquer",
+        "choix2": "Invoquer des renforts (prix lourd)",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 131,
+        "choix2ID": 132
     },
     {
         "id": 118,
         "text": "Haxan se présente, puis tire des rayons laser mauves de ses yeux vers Alex.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "CapQC se jette devant Alex afin de le sauver des rayons",
+        "choix2": "CapQC tire une décharge Hydro-électrique pour contrer le rayon",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 133,
+        "choix2ID": 134
     },
     {
         "id": 119,
         "text": "L'homme se présente, Haxan, dieu des dieux. Il stipule qu'il est présent afin de rétablir l'équilibre dans le monde, et pour cela, il doit anéantir la race humaine. En un mouvement, il détruit la cage, lance Emeryk à travers un bâtiment et donne un violent coup de pied à Elie, le propulsant à plusieurs mètres.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Continuer le combat",
+        "choix2": "Rester au sol",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 135,
+        "choix2ID": 136
     },
     {
         "id": 120,
         "text": "L'homme vit l'emblème et commença à saccager la ville et tuer encore plus, mettant les héros dans un dilemme moral.",
+        "choix1": "Rester caché (prix lourd)",
+        "choix2": "Sortir et affronter l'homme",
+        "suiteID": 0,
+        "choix1ID": 137,
+        "choix2ID": 1201
+    },
+    {
+        "id": 1201,
+        "text": "Les deux héros sortirent affronter Haxan pour l'empêcher de faire encore plus de destruction, ils parvint à le retenir assez longtemps pour que le reste des héros arrivent.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1202,
         "choix1ID": 0,
         "choix2ID": 0
+    },
+    {
+        "id": 1202,
+        "text": "L'équipe se prépare à affronter Haxan",
+        "choix1": "Attaquer Haxan tous en même temps",
+        "choix2": "Attaquer à tour de rôle",
+        "suiteID": 0,
+        "choix1ID": 151,
+        "choix2ID": 152
     },
     {
         "id": 121,
         "text": "L'homme est gravement blessé au visage, il tombe à genoux, du sang tombe de son visage. Le reste de l'équipe fut alerté par le bruit, se rendant sur les lieux du combat.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1212,
         "choix1ID": 0,
         "choix2ID": 0
+    },
+    {
+        "id": 1212,
+        "text": "Équipe sans ahmed vs Haxan blessé (Ahmed vivant)",
+        "choix1": "Être offensif",
+        "choix2": "Être défensif",
+        "suiteID": 0,
+        "choix1ID": 1371,
+        "choix2ID": 138
+    },
+    {
+        "id": 1213,
+        "text": "L'équipe se prépare à combattre Haxan sans Ahmed (ahmed vivant)",
+        "choix1": "Être offensif",
+        "choix2": "Être défensif",
+        "suiteID": 0,
+        "choix1ID": 139,
+        "choix2ID": 140
+    },
+    {
+        "id": 1214,
+        "text": "Ahmed ultra s'apprête à affronter Haxan seul",
+        "choix1": "Être offensif",
+        "choix2": "Être défensif",
+        "suiteID": 0,
+        "choix1ID": 141,
+        "choix2ID": 142
+    },
+    {
+        "id": 1215,
+        "text": "L'équipe se prépare à combattre Haxan (ahmed & mik mort)",
+        "choix1": "Attaquer tous en même temps",
+        "choix2": "Attaquer à tour de rôle successivement",
+        "suiteID": 0,
+        "choix1ID": 143,
+        "choix2ID": 144
+    },
+    {
+        "id": 1216,
+        "text": "Ahmed se prépare à affronter Haxan (mik mort)",
+        "choix1": "Menacer Haxan",
+        "choix2": "Essayer de gagner du temps",
+        "suiteID": 0,
+        "choix1ID": 145,
+        "choix2ID": 146
+    },
+    {
+        "id": 1217,
+        "text": "L'équipe se prépare à combattre Haxan (William & raf mort)",
+        "choix1": "Attaquer Haxan tous en même temps",
+        "choix2": "Attaquer à tour de rôle",
+        "suiteID": 0,
+        "choix1ID": 147,
+        "choix2ID": 148
+    },
+    {
+        "id": 1218,
+        "text": "L'équipe se prépare à affronter Haxan surpuissant (raf & william mort)",
+        "choix1": "Attaquer Haxan tous en même temps",
+        "choix2": "Attaquer à tour de rôle",
+        "suiteID": 0,
+        "choix1ID": 149,
+        "choix2ID": 150
+    },
+    {
+        "id": 1219,
+        "text": "L'équipe se prépare à affronter Haxan",
+        "choix1": "Attaquer Haxan tous en même temps",
+        "choix2": "Attaquer à tour de rôle",
+        "suiteID": 0,
+        "choix1ID": 151,
+        "choix2ID": 152
+    },
+    {
+        "id": 1220,
+        "text": "L'équipe se prépare à affronter Haxan (Alex & Cap mort)",
+        "choix1": "Attaquer Haxan tous en même temps",
+        "choix2": "Attaquer à tour de rôle",
+        "suiteID": 0,
+        "choix1ID": 153,
+        "choix2ID": 154
+    },
+    {
+        "id": 1221,
+        "text": "L'équipe se prépare à affronter Haxan (Alex instable)",
+        "choix1": "Attaquer Haxan tous en même temps",
+        "choix2": "Attaquer à tour de rôle",
+        "suiteID": 0,
+        "choix1ID": 155,
+        "choix2ID": 156
+    },
+    {
+        "id": 1222,
+        "text": "l'équipe s'apprête à affronter Haxan (CapQc mort)",
+        "choix1": "Attaquer Haxan tous en même temps",
+        "choix2": "Attaquer à tour de rôle",
+        "suiteID": 0,
+        "choix1ID": 157,
+        "choix2ID": 158
+    },
+    {
+        "id": 1223,
+        "text": "l'équipe s'apprête à affronter Haxan (Alex mort)",
+        "choix1": "Attaquer Haxan tous en même temps",
+        "choix2": "Attaquer à tour de rôle",
+        "suiteID": 0,
+        "choix1ID": 159,
+        "choix2ID": 160
+    },
+    {
+        "id": 1224,
+        "text": "l'équipe s'apprête à affronter Haxan (Elie & Emeryk mort)",
+        "choix1": "Attaquer Haxan tous en même temps",
+        "choix2": "Attaquer à tour de rôle",
+        "suiteID": 0,
+        "choix1ID": 161,
+        "choix2ID": 162
+    },
+    {
+        "id": 1225,
+        "text": "l'équipe s'apprête à affronter Haxan (civils tués)",
+        "choix1": "Attaquer Haxan tous en même temps",
+        "choix2": "Attaquer à tour de rôle",
+        "suiteID": 0,
+        "choix1ID": 163,
+        "choix2ID": 164
     },
     {
         "id": 122,
         "text": "Le reste des héros arrivent, ils se préparent à un dur combat, sans Ahmed.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1213,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -355,7 +505,7 @@
         "text": "Ahmed tombe dans sa deuxième phase, il devient Ahmed Ultra.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1214,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -364,7 +514,7 @@
         "text": "L'homme rattrape Ahmed et le tue en passant sa main au travers de sa poitrine. Quelques heures plus tard, le reste de l'équipe se réunit pour l'affronter.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1215,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -373,7 +523,7 @@
         "text": "Haxan attrape Ahmed par le cou, puis les casse chacun en deux.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1214,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -382,7 +532,7 @@
         "text": "Haxan regarde Ahmed droit dans les yeux avant d'écraser Mik au sol, le tuant à l'impact.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1216,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -391,7 +541,7 @@
         "text": "Mathieu enfonce ses haches dans Haxan, mais n'arrive plus à les retirer. Haxan ricane, puis utilise un pouvoir psychique pour désintégrer William. Les héros arrivent plus tard.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1217,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -400,7 +550,7 @@
         "text": "Haxan est surpris du courage de William, et décide d'absorber son âme, augmentant encore plus la force phénoménale de Haxan.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1218,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -409,7 +559,7 @@
         "text": "Le message a bel et bien passé, mais malheureusement, Haxan connaît leur position. Il envoie une charge orbitale mortelle sur leur position, les réduisant en cendres.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1217,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -418,7 +568,7 @@
         "text": "Les héros avec le temps supplémentaire ont le temps de localiser la position de Raf, mais Haxan aussi. Il lança une charge orbitale pour anéantir Raf et William, mais au même moment, Alex ouvra un portail dimensionnel, téléportant les héros de l'éclipse sur leur position, permettant à Elie de créer un bouclier 3D.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1219,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -427,7 +577,7 @@
         "text": "CapQC lance une décharge hydroélectrique qui est cette fois totalement absorbée par Haxan, qui gagne en puissance. CapQc affaibli, il se fit prendre par surprise par Haxan, qui le tua d'un coup fatal au dos, puis Haxan désintégra Alex.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1220,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -436,7 +586,7 @@
         "text": "Alex ouvre un portail spatio-temporel, invoquant chacun des membres des héros de l'éclipse. Cependant, ses pouvoirs devinrent instables.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1221,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -445,7 +595,7 @@
         "text": "CapQC est transpercé par les rayons, le laissant mourir au sol, laissant la vie sauve à Alex. Les autres héros arrivent au même moment.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1222,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -454,7 +604,7 @@
         "text": "La décharge de CapQc arrive partiellement à retenir le rayon de Haxan, mais pas complètement. Haxan parvint à tuer Alex de son rayon, laissant Cach seul. Les autres héros arrivent au même moment.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1223,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -463,7 +613,7 @@
         "text": "Les deux héros se relevèrent, combattirent du mieux qu'ils pouvaient, mais affaiblis, ils finirent par succomber aux forces du mal. Le reste de l'équipe arrive plus tard.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1224,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -472,7 +622,7 @@
         "text": "Les deux hommes choisirent de rester au sol, trop faibles pour continuer le combat. Alors qu'Haxan allait les achever, un homme en armure vola à toute allure pour atterrir au sol et arrêter le coup fatal qu'allait donner Haxan.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1219,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -481,18 +631,18 @@
         "text": "Haxan tua la quasi-totalité de la ville avant que la totalité de l'équipe ne soit réunie. Ils se préparèrent à l'affronter.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 1225,
         "choix1ID": 0,
         "choix2ID": 0
     },
     {
-        "id": 1377,
+        "id": 1371,
         "text": "L'équipe attaque Haxan tous en même temps, lui infligeant de lourds dégâts. Dans le combat, Alex est gravement touché. Une éclipse apparaît dans le ciel.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Alex utilise un sortilège pour faire en sorte que l'éclipse soit à son apogée",
+        "choix2": "Continuer de tous attaquer",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 136,
+        "choix2ID": 137
     },
     {
         "id": 138,
