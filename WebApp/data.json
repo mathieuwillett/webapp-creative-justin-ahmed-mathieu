@@ -152,14 +152,14 @@
     {
         "id": 100,
         "text": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
-        "choix1": "",
-        "choix2": ""
+        "choix1": "Ahmed & Mik attaquent l'homme volant",
+        "choix2": "L'équipe se cache et appellent des renforts"
     },
     {
         "id": 101,
         "text": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
-        "choix1": "",
-        "choix2": ""
+        "choix1": "Raf & William attaquent l'homme volant",
+        "choix2": "L'équipe se cache et appellent des renforts"
     },
     {
         "id": 102,
