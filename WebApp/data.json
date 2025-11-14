@@ -497,252 +497,252 @@
     {
         "id": 138,
         "text": "Mikael fit un plan de défense ingénieux. L'équipe reste sur ses gardes, bloquant les attaques d'Haxan et offrant une forte riposte. Haxan est légèrement blessé dans le processus. Cap QC est touché à l'épaule. Une éclipse apparaît dans le ciel.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Continuer d'attaquer",
+        "choix2": "Envoyer raf soigner Capitaine Québec",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 167,
+        "choix2ID": 168
     },
     {
         "id": 139,
         "text": "L'équipe attaque Haxan, ne lui infligeant pas grand dommage. Cependant, Raf voit son bras détruit dans l'action. Une éclipse apparaît dans le ciel.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Continuer d'attaquer",
+        "choix2": "Ordonner à Raf de se retirer pour soigner son bras",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 169,
+        "choix2ID": 170
     },
     {
         "id": 140,
         "text": "Mikael fit un plan de défense ingénieux, permettant à l'équipe de bien se défendre contre les attaques d'Haxan. Cap QC et Emeryk sont blessés dans l'action. Une éclipse apparaît dans le ciel.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Continuer d'attaquer",
+        "choix2": "se mettre sur la défensive",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 171,
+        "choix2ID": 172
     },
     {
         "id": 141,
         "text": "Haxan subit le coup, crache une dent au sol, puis prend un élan afin de riposter.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Attaquer",
+        "choix2": "Bloquer le coup",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 173,
+        "choix2ID": 174
     },
     {
         "id": 142,
         "text": "Haxan ne bouge pas d'un poil tandis que le rocher s'approche à toute vitesse. Le rocher est détruit à l'impact, Haxan n'a pas bougé d'un poil. Haxan tire un rayon laser mauve dans le torse d'Ahmed.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Bloquer le laser",
+        "choix2": "Foncer vers Haxan",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 179,
+        "choix2ID": 179
     },
     {
         "id": 143,
         "text": "L'équipe attaque, mais dans l'action, Alex fut distrait par le corps de son ami Ahmed au sol. C'est alors qu'Haxan en profita pour le perforer avec sa main. Raf devient furieux, fonce sur Haxan, mais Haxan le saisit et l'arrache en deux morceaux.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (mathieu, cap, elie & emeryk)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 181,
+        "choix2ID": 130
     },
     {
         "id": 144,
         "text": "Mathieu attaque le premier. Haxan le pulvérise d'un coup de laser, puis Cap QC intervient. Il se fait envoyer dans un trou noir. Elie tente de le sauver en construisant une chaîne, mais Haxan brise la chaîne et étrangle Elie jusqu'à sa mort.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (Emeryk, Alex, Raf)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 184,
+        "choix2ID": 130
     },
     {
         "id": 145,
         "text": "Ahmed menace Haxan de mort. Celui-ci n'a aucune réaction. Le jet des héros est aperçu dans le ciel. Haxan envoie un météore foncer dessus.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Négocier",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 187,
+        "choix2ID": 230
     },
     {
         "id": 146,
         "text": "Haxan rigole, il trouve Ahmed bien drôle. Les héros arrivent en jet, mais Haxan les voyant arriver, envoie un météore dessus.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Négocier",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 187,
+        "choix2ID": 230
     },
     {
         "id": 147,
         "text": "L'équipe attaque Haxan. Dans le combat, il tue Emeryk et Elie d'un coup de pied fatal.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (cap, Ahmed, Mik & Alex)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 189,
+        "choix2ID": 230
     },
     {
         "id": 148,
         "text": "L'équipe attaque Haxan. Dans le combat, Haxan tue Mikael, Alex et Emeryk.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (cap, Ahmed, Elie)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 190,
+        "choix2ID": 230
     },
     {
         "id": 149,
         "text": "Haxan, dans le combat, tue Cap QC, Emeryk, Elie et Mikael.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (Alex & Ahmed)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 192,
+        "choix2ID": 230
     },
     {
         "id": 150,
         "text": "Haxan tue dans le combat Cap QC, Emeryk, Elie, Mikael et Ahmed.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (Alex)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 193,
+        "choix2ID": 130
     },
     {
         "id": 151,
         "text": "L'équipe attaque Haxan. Dans le combat, Ahmed est gravement touché à la jambe et ne peut plus marcher.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Continuer d'attaquer Haxan",
+        "choix2": "Alex Invoque l'éclipse",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 195,
+        "choix2ID": 198
     },
     {
         "id": 152,
         "text": "L'équipe attaque Haxan. Dans le combat, Raf est perforé d'une lance de Elie, utilisée par Haxan.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Cap Qc recharge l'armure de Raf d'un éclair hydro-électrique",
+        "choix2": "Continuer de combattre",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 200,
+        "choix2ID": 201
     },
     {
         "id": 153,
         "text": "L'équipe attaque Haxan, qui riposte en tuant Ahmed et Elie.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (Mik, Emeryk, Raf & mathieu)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 202,
+        "choix2ID": 230
     },
     {
         "id": 154,
         "text": "L'équipe attaque Haxan, qui riposte en tuant Ahmed, Elie et Mathieu.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (Emeryk, Raf & mik)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 203,
+        "choix2ID": 230
     },
     {
         "id": 155,
         "text": "L'équipe attaque Haxan ensemble, mais dans la foulée, Haxan remarque une faille chez Alex. Cap QC est assommé en combat.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Continuer de combattre",
+        "choix2": "Sortir Cap du champ de bataille",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 205,
+        "choix2ID": 206
     },
     {
         "id": 156,
         "text": "L'équipe attaque Haxan ensemble, mais dans la foulée Haxan remarque une faille chez Alex.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Continuer de combattre",
+        "choix2": "se mettre en position défensive",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 205,
+        "choix2ID": 209
     },
     {
         "id": 157,
         "text": "Dans le combat, Haxan tue Ahmed et Raf.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (Alex, Mathieu, Elie, Emeryk, Mik)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 212,
+        "choix2ID": 230
     },
     {
         "id": 158,
         "text": "Dans le combat, Haxan tue Raf et Mikael.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (mathieu, Elie, Alex, Ahmed, Emeryk)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 212,
+        "choix2ID": 230
     },
     {
         "id": 159,
         "text": "Dans le combat, Elie et Mikael sont tués.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (Cap, Emeryk, Mathieu, Ahmed, Raf)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 213,
+        "choix2ID": 230
     },
     {
         "id": 160,
         "text": "Dans le combat, Haxan tue Elie et Mathieu.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (Cap, Mik, Ahmed, Emeryk, Raf)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 214,
+        "choix2ID": 230
     },
     {
         "id": 161,
         "text": "Haxan tue Alex et Raf dans le combat.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (Cap, Mathieu, Mik, Ahmed)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 216,
+        "choix2ID": 230
     },
     {
         "id": 162,
         "text": "Dans le combat, Haxan tue Cap QC et Ahmed.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Riposter (Mik, Alex, Mathieu, Raf)",
+        "choix2": "S'incliner",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 214,
+        "choix2ID": 230
     },
     {
         "id": 163,
         "text": "Cap QC est désolé de tous les civils tués. Haxan profite de ce moment de faiblesse pour prendre possession de l'esprit de Cap QC.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Exécuter Cap",
+        "choix2": "Alex tente de redonner à Cap contrôle de son esprit",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 217,
+        "choix2ID": 218
     },
     {
         "id": 164,
         "text": "Cap QC est désolé de tous les civils tués. Haxan profite de ce moment de faiblesse pour prendre possession de l'esprit de Cap QC et tue Alex dans le combat.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Exécuter Cap",
+        "choix2": "Tenter de résonner Capitaine Québec",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 221,
+        "choix2ID": 222
     },
     {
         "id": 165,
         "text": "Alors qu'Haxan avait saisi Alex par le cou et s'apprêtait à le tuer, un étrange projectile est tombé du ciel pour foncer vers Haxan, le propulsant à plusieurs mètres.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 175,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -751,7 +751,7 @@
         "text": "Haxan réussit à prendre Raf par surprise, lui arrachant la tête, mais au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 175,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -760,7 +760,7 @@
         "text": "Haxan commence à prendre le dessus, blesse Casquette Man et Emeryk, mais au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 175,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -769,7 +769,7 @@
         "text": "Alors que l'équipe était moins nombreuse, Haxan réussit à tuer Mathieu dans le combat, mais au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 175,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -823,7 +823,7 @@
         "text": "Haxan frappe dans les bras d'Ahmed qui bloque, l'onde de choc démolit complètement les deux bras d'Ahmed.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -832,25 +832,25 @@
         "text": "Ahmed Éclipse sortit du cratère, il lève son doigt au ciel, invoquant une éclipse miniature, qui sera bientôt prête à être lancée.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 176,
         "choix1ID": 0,
         "choix2ID": 0
     },
     {
         "id": 176,
         "text": "Haxan fut terrifié pour la première fois dans son existence. Il fit alors une proposition à Ahmed : il lui créera une réalité alternative où il a une femme parfaite et une famille, sa vie de rêve, mais cette réalité n'est possible que si Ahmed accepte de tuer ses camarades avec l'éclipse.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Propulser l'éclipse sur Haxan",
+        "choix2": "Propulser l'éclipse sur les héros de l'éclipse",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 177,
+        "choix2ID": 178
     },
     {
         "id": 177,
         "text": "Ahmed tua Haxan, rétablissant la paix sur la planète et sauvant l'avenir de la race humaine. Les héros de l'éclipse seront dorénavant reconnus pour des millénaires comme des légendes, sauveurs de l'humanité.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 232,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -859,7 +859,7 @@
         "text": "Ahmed tue les héros de l'éclipse. Haxan respecte sa part du marché et créa un univers alternatif pour Ahmed, où il vécut heureux avec sa femme et ses enfants, tandis que Haxan termine sa destruction de la planète Terre.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 228,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -868,7 +868,7 @@
         "text": "Le torse de Ahmed est transpercé, il s'écroule au sol, expirant son dernier souffle.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 180,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -877,18 +877,18 @@
         "text": "Les autres héros arrivèrent trop tard. Haxan détruit la Terre entière, les héros inclus.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 180,
         "choix1ID": 0,
         "choix2ID": 0
     },
     {
         "id": 181,
         "text": "Haxan, dans le combat, fut blessé au dos, mais tua Mathieu et Cap. Il propose d'épargner les deux autres, à condition qu'ils le suivent dans sa quête pour conquérir l'univers et le rendre 'meilleur'.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Accepter",
+        "choix2": "Refuser",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 182,
+        "choix2ID": 183
     },
     {
         "id": 182,
@@ -911,18 +911,18 @@
     {
         "id": 184,
         "text": "Dans le combat, Haxan est blessé au cœur, mais finit par tuer Alex et Emeryk. Raf, seul survivant, est gravement touché, il va mourir dans les prochaines minutes.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Raf s'autodétruit",
+        "choix2": "Raf se laisse mourir",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 185,
+        "choix2ID": 186
     },
     {
         "id": 185,
         "text": "Raf explosa, détruisant la planète Terre, tuant la race humaine et Haxan en un coup.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 229,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -931,7 +931,7 @@
         "text": "Raf se laissa mourir, les héros de l'éclipse échouèrent.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -940,7 +940,7 @@
         "text": "Ahmed offre à Haxan de faire un deal. Haxan semble réfléchir un moment, puis épargne le jet des héros, qui finissent par atterrir pour rejoindre Ahmed, qui lui avance vers Haxan.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 188,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -949,7 +949,7 @@
         "text": "Haxan aspira l'âme de Ahmed, puis s'envola dans l'espace, épargnant la planète Terre et ses habitants.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 226,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -958,7 +958,7 @@
         "text": "Haxan est blessé au visage, mais parvient à achever Alex et Mike. Ahmed, démoralisé, abandonnera le combat. Lui aussi finira par mourir des mains de Haxan.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -967,7 +967,7 @@
         "text": "Haxan est blessé au bras, mais finit par tuer Ahmed et Elie, laissant uniquement Capitaine Québec vivant.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 191,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -976,7 +976,7 @@
         "text": "Malgré ses nombreuses blessures et devant un adversaire définitivement plus fort, Capitaine continua de combattre jusqu'à son dernier souffle, prouvant son courage et son dévouement.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -985,43 +985,34 @@
         "text": "Dans le combat, Haxan absorbe l'âme des deux derniers héros, finissant victorieux.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
     {
         "id": 193,
         "text": "Haxan salue le courage d'Alex, avant de le saisir par le cou, se préparant à le tuer.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Alex invoque un vortex aspirant ce qu'il reste de la terre, lui compris, terminant le travail d'Haxan",
+        "choix2": "Laisser Haxan le tuer",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
-    },
-    {
-        "id": 194,
-        "text": "Alex invoque un vortex aspirant ce qu'il reste de la Terre, lui compris, terminant le travail de Haxan.",
-        "choix1": "",
-        "choix2": "",
-        "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 234,
+        "choix2ID": 231
     },
     {
         "id": 195,
         "text": "Haxan se voit blessé par les nombreuses attaques des héros. À genoux devant eux, Haxan alla saisir dans sa poche un collier, qu'il tendit aux héros. C'était le collier de la fille de Mathieu, qu'il a tuée précédemment. Un grand sourire au visage, Mathieu, fou de rage, fonce sur Haxan pour l'exécuter.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Laisser Mathieu agir",
+        "choix2": "Empêcher Mathieu de tuer Haxan",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 196,
+        "choix2ID": 197
     },
     {
         "id": 196,
         "text": "Alors qu'Alex se préparait à sceller Haxan dans un monde simulé pour le restant de l'éternité, Mathieu fonça sur Haxan, qui le saisit, puis prit contrôle de son âme. Il lui ordonna de tuer Alex, et avec son aide, ils finirent par tuer tous les héros de l'éclipse. À la fin de l'affrontement, Haxan salua Mathieu, avant de le détruire lui ainsi que le restant de la planète.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1030,7 +1021,7 @@
         "text": "Les héros de l'éclipse ont retenu Mathieu, qui finira par se calmer. Puis Alex invoqua un sceau qui scelle Haxan dans une simulation pour l'éternité, le neutralisant et ramenant la paix sur la planète.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 232,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1039,7 +1030,7 @@
         "text": "Une éclipse apparaît dans le ciel. Ahmed effectue un transformement physique incroyable, gagnant une force inégalable. Sa jambe fut soignée sur le coup. Ahmed se relève, fonce sur Haxan. Les deux firent un combat cosmique, de force presque égale. Les deux furent blessés, mais Haxan finit par prendre le dessus. Ahmed Éclipse, épuisé. Haxan s'apprête à donner le coup de grâce.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 199,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1048,16 +1039,16 @@
         "text": "Au même moment, le pouvoir de la souveraineté redonne courage et espoir à Ahmed, qui encaisse le coup, puis riposte d'un coup mortel, achevant Haxan.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 232,
         "choix1ID": 0,
         "choix2ID": 0
     },
     {
         "id": 200,
-        "text": "Raf devient hyperchargé de fénergie québécoise, se propulse sur Haxan. Avec le reste de l'équipe, ils viendront à bout d'Haxan, remportant la guerre.",
+        "text": "Raf devient hyperchargé de l'énergie québécoise, se propulse sur Haxan. Avec le reste de l'équipe, ils viendront à bout d'Haxan, remportant la guerre.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 232,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1066,7 +1057,7 @@
         "text": "Haxan prit le dessus sur les héros, achevant Raf, et tuant tous les héros.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1075,52 +1066,61 @@
         "text": "Haxan, dans un combat sans merci, prit le dessus sur les héros restants, tuant ceux qui restaient, faisant de lui le grand gagnant.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
     {
         "id": 203,
         "text": "Haxan tua Raf et Mikael, qui étaient déjà affaiblis. Il épargne Emeryk, lui offrant de devenir son esclave en échange de sa vie.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Accepter",
+        "choix2": "Refuser",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 204,
+        "choix2ID": 204
     },
     {
         "id": 204,
         "text": "Haxan rigola un coup, puis donna un coup de pied mortel à Emeryk, mettant fin au combat.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
     {
         "id": 205,
         "text": "Haxan exploite la faille chez Alex, forçant Alex à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, Ahmed se transforme en Ahmed Éclipse,...",
+        "choix1": "Envoyer Ahmed attaquer Alex",
+        "choix2": "Raisonner Alex",
+        "suiteID": 0,
+        "choix1ID": 2051,
+        "choix2ID": 208
+    },
+    {
+        "id": 2051,
+        "text": "Ahmed tua Alex d'un coup brutal, puis les héros affrontèrent Haxan, mais ne faisant pas le poids, succombèrent tous dans le combat",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
     {
         "id": 206,
         "text": "Tandis qu'Ahmed sortait CapQc du combat, Haxan exploite la faille chez Alex, le transformant en son alter ego maléfique, l'Éclipse. Au même moment Ahmed se transforma à son tour en sa phase ultime, Ahmed Éclipse, gagnant une force formidable.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Ordonner à Ahmed d'attaquer Alex",
+        "choix2": "Raisonner Alex",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 207,
+        "choix2ID": 208
     },
     {
         "id": 207,
         "text": "Ahmed, trop loin du combat, tenta d'exécuter Alex, mais le magicien parvint à invoquer un sortilège qui provoqua la réinitialisation de l'univers.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 236,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1129,25 +1129,25 @@
         "text": "Mikael tenta de redonner la raison à Alex, mais celui-ci désormais corrompu, invoqua un sortilège provoquant la réinitialisation de l'univers.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 236,
         "choix1ID": 0,
         "choix2ID": 0
     },
     {
         "id": 209,
         "text": "L'équipe se prépare à défendre, mais au même moment, Haxan exploite la faille chez Alex, forçant Alex à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, Ahmed se transforme en Ahmed Éclipse, gagnant une force phénoménale. Alex utilisa de la magie noire pour neutraliser toute l'équipe de héros, mais Ahmed ne fut pas affecté.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Ahmed attaque Alex",
+        "choix2": "Ahmed attaque Haxan",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 210,
+        "choix2ID": 211
     },
     {
         "id": 210,
         "text": "Ahmed attaque Alex, le pulvérisant d'un seul coup, puis se retourna pour affronter Haxan. S'ensuivit un combat acharné, qui termina par la mort d'Ahmed, qui avant de mourir donna le pouvoir de l'Éclipse à Haxan, qui était déjà trop puni pour contenir ce nouveau pouvoir, se désintégra.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 232,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1156,7 +1156,7 @@
         "text": "Alors qu'Ahmed s'attaquait à Haxan, Alex invoqua un sortilège noir réinitialisant l'univers.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 236,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1165,7 +1165,7 @@
         "text": "Les héros restants attaquèrent Haxan, lui infligeant de lourds dégâts, mais Haxan finit par venir à bout d'eux, faisant de lui le seul survivant de ce combat.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1174,25 +1174,25 @@
         "text": "Un combat acharné fut livré par les héros, mais ils n'étaient pas assez forts. Haxan finit par venir à bout de chacun des héros, remportant la guerre.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
     {
         "id": 214,
         "text": "Dans un long combat, Haxan finit par tuer tous les héros. Il saisit Emeryk, lui proposant de devenir l'animal de compagnie de sa femme.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Accepter",
+        "choix2": "Refuser",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 233,
+        "choix2ID": 215
     },
     {
         "id": 215,
         "text": "Haxan exécuta Emeryk puis conquit le restant de la planète, exterminant la race humaine.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1201,7 +1201,7 @@
         "text": "Haxan fut blessé au combat, mais finit par tout de même l'emporter, remportant la victoire sur les héros.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1210,25 +1210,25 @@
         "text": "Les héros attaquèrent Cap Qc, mais celui-ci combattait désormais avec Haxan. Surpris, les héros tombèrent un à un.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 235,
         "choix1ID": 0,
         "choix2ID": 0
     },
     {
         "id": 218,
         "text": "Alex réussit à redonner à Cap Qc le contrôle de son corps. Haxan, furieux, tua Alex, qui juste avant de mourir ouvrit un portail menant directement en enfer, aspirant Haxan, Alex, Ahmed et Casquette Man.",
-        "choix1": "",
-        "choix2": "",
+        "choix1": "Elie sauve Ahmed",
+        "choix2": "Elie sauve casquette man",
         "suiteID": 0,
-        "choix1ID": 0,
-        "choix2ID": 0
+        "choix1ID": 219,
+        "choix2ID": 220
     },
     {
         "id": 219,
         "text": "Elie sauva Ahmed, alors qu'Haxan et Casquette Man furent aspirés dans le trou noir. Ne voulant pas laisser la possibilité à Haxan de ressortir de ce portail, Alex le referma, y scellant à jamais Mikael et Haxan.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 232,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1237,7 +1237,7 @@
         "text": "Elie sauva Mikael, alors qu'Haxan et Ahmed furent aspirés dans le trou noir. Ne voulant pas laisser la possibilité à Haxan de ressortir de ce portail, Alex le referma, y scellant à jamais Ahmed et Haxan.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 232,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1246,7 +1246,7 @@
         "text": "Les héros exécutent Capitaine Québec, puis continuèrent le combat contre Haxan, mais surpris, ils finirent par tous périr.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 231,
         "choix1ID": 0,
         "choix2ID": 0
     },
@@ -1255,7 +1255,7 @@
         "text": "Sans succès, Capitaine Québec et Haxan affrontèrent les héros, jusqu'à ce que le dernier d'entre eux soit mort.",
         "choix1": "",
         "choix2": "",
-        "suiteID": 0,
+        "suiteID": 235,
         "choix1ID": 0,
         "choix2ID": 0
     },
