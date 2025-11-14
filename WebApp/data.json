@@ -156,7 +156,15 @@
         "choix2": "L'équipe se cache et appellent des renforts",
         "suiteID": 0,
         "choix1ID": 104,
-        "choix2ID": 105
+        "choix2ID": 105,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 101,
@@ -165,7 +173,15 @@
         "choix2": "L'équipe se cache et appellent des renforts",
         "suiteID": 0,
         "choix1ID": 106,
-        "choix2ID": 107
+        "choix2ID": 107,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 102,
@@ -174,7 +190,15 @@
         "choix2": "L'équipe se cache et appellent des renforts",
         "suiteID": 0,
         "choix1ID": 108,
-        "choix2ID": 109
+        "choix2ID": 109,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 103,
@@ -183,7 +207,15 @@
         "choix2": "L'équipe se cache et appellent des renforts",
         "suiteID": 0,
         "choix1ID": 110,
-        "choix2ID": 111
+        "choix2ID": 111,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 104,
@@ -192,7 +224,15 @@
         "choix2": "Casquette man (mik) ?",
         "suiteID": 0,
         "choix1ID": 112,
-        "choix2ID": 113
+        "choix2ID": 113,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 105,
@@ -201,7 +241,15 @@
         "choix2": "",
         "suiteID": 114,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 106,
@@ -210,7 +258,15 @@
         "choix2": "",
         "suiteID": 115,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 107,
@@ -219,7 +275,15 @@
         "choix2": "",
         "suiteID": 116,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 108,
@@ -228,7 +292,15 @@
         "choix2": "",
         "suiteID": 117,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 109,
@@ -237,7 +309,15 @@
         "choix2": "",
         "suiteID": 118,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 110,
@@ -246,7 +326,15 @@
         "choix2": "",
         "suiteID": 119,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 111,
@@ -255,7 +343,15 @@
         "choix2": "",
         "suiteID": 120,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 112,
@@ -264,7 +360,15 @@
         "choix2": "Mikael fuit le combat et appelle des renforts",
         "suiteID": 0,
         "choix1ID": 121,
-        "choix2ID": 122
+        "choix2ID": 122,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 113,
@@ -273,7 +377,15 @@
         "choix2": "Ahmed contient sa colère et fuit le combat",
         "suiteID": 0,
         "choix1ID": 123,
-        "choix2ID": 124
+        "choix2ID": 124,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 114,
@@ -282,7 +394,15 @@
         "choix2": "Ahmed s'excuse à l'homme et propose de relâcher Mik, pour que les deux partent",
         "suiteID": 0,
         "choix1ID": 125,
-        "choix2ID": 126
+        "choix2ID": 126,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 115,
@@ -291,7 +411,15 @@
         "choix2": "William s'incline devant Haxan",
         "suiteID": 0,
         "choix1ID": 127,
-        "choix2ID": 128
+        "choix2ID": 128,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 116,
@@ -300,7 +428,15 @@
         "choix2": "Continuer d'écouter",
         "suiteID": 0,
         "choix1ID": 129,
-        "choix2ID": 130
+        "choix2ID": 130,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 117,
@@ -309,7 +445,15 @@
         "choix2": "Invoquer des renforts (prix lourd)",
         "suiteID": 0,
         "choix1ID": 131,
-        "choix2ID": 132
+        "choix2ID": 132,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 118,
@@ -318,7 +462,15 @@
         "choix2": "CapQC tire une décharge Hydro-électrique pour contrer le rayon",
         "suiteID": 0,
         "choix1ID": 133,
-        "choix2ID": 134
+        "choix2ID": 134,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 119,
@@ -327,7 +479,15 @@
         "choix2": "Rester au sol",
         "suiteID": 0,
         "choix1ID": 135,
-        "choix2ID": 136
+        "choix2ID": 136,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 120,
@@ -336,7 +496,15 @@
         "choix2": "Sortir et affronter l'homme",
         "suiteID": 0,
         "choix1ID": 137,
-        "choix2ID": 1201
+        "choix2ID": 1201,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1201,
@@ -345,7 +513,15 @@
         "choix2": "",
         "suiteID": 1202,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1202,
@@ -354,7 +530,15 @@
         "choix2": "Attaquer à tour de rôle",
         "suiteID": 0,
         "choix1ID": 151,
-        "choix2ID": 152
+        "choix2ID": 152,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 121,
@@ -363,7 +547,15 @@
         "choix2": "",
         "suiteID": 1212,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1212,
@@ -372,7 +564,15 @@
         "choix2": "Être défensif",
         "suiteID": 0,
         "choix1ID": 1371,
-        "choix2ID": 138
+        "choix2ID": 138,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1213,
@@ -381,7 +581,15 @@
         "choix2": "Être défensif",
         "suiteID": 0,
         "choix1ID": 139,
-        "choix2ID": 140
+        "choix2ID": 140,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1214,
@@ -390,7 +598,15 @@
         "choix2": "Être défensif",
         "suiteID": 0,
         "choix1ID": 141,
-        "choix2ID": 142
+        "choix2ID": 142,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1215,
@@ -399,7 +615,15 @@
         "choix2": "Attaquer à tour de rôle successivement",
         "suiteID": 0,
         "choix1ID": 143,
-        "choix2ID": 144
+        "choix2ID": 144,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1216,
@@ -408,7 +632,15 @@
         "choix2": "Essayer de gagner du temps",
         "suiteID": 0,
         "choix1ID": 145,
-        "choix2ID": 146
+        "choix2ID": 146,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1217,
@@ -417,7 +649,15 @@
         "choix2": "Attaquer à tour de rôle",
         "suiteID": 0,
         "choix1ID": 147,
-        "choix2ID": 148
+        "choix2ID": 148,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1218,
@@ -426,7 +666,15 @@
         "choix2": "Attaquer à tour de rôle",
         "suiteID": 0,
         "choix1ID": 149,
-        "choix2ID": 150
+        "choix2ID": 150,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1219,
@@ -435,7 +683,15 @@
         "choix2": "Attaquer à tour de rôle",
         "suiteID": 0,
         "choix1ID": 151,
-        "choix2ID": 152
+        "choix2ID": 152,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1220,
@@ -444,7 +700,15 @@
         "choix2": "Attaquer à tour de rôle",
         "suiteID": 0,
         "choix1ID": 153,
-        "choix2ID": 154
+        "choix2ID": 154,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1221,
@@ -453,7 +717,15 @@
         "choix2": "Attaquer à tour de rôle",
         "suiteID": 0,
         "choix1ID": 155,
-        "choix2ID": 156
+        "choix2ID": 156,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1222,
@@ -462,7 +734,15 @@
         "choix2": "Attaquer à tour de rôle",
         "suiteID": 0,
         "choix1ID": 157,
-        "choix2ID": 158
+        "choix2ID": 158,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1223,
@@ -471,7 +751,15 @@
         "choix2": "Attaquer à tour de rôle",
         "suiteID": 0,
         "choix1ID": 159,
-        "choix2ID": 160
+        "choix2ID": 160,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1224,
@@ -480,7 +768,15 @@
         "choix2": "Attaquer à tour de rôle",
         "suiteID": 0,
         "choix1ID": 161,
-        "choix2ID": 162
+        "choix2ID": 162,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1225,
@@ -489,7 +785,15 @@
         "choix2": "Attaquer à tour de rôle",
         "suiteID": 0,
         "choix1ID": 163,
-        "choix2ID": 164
+        "choix2ID": 164,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 122,
@@ -498,7 +802,15 @@
         "choix2": "",
         "suiteID": 1213,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 123,
@@ -507,7 +819,15 @@
         "choix2": "",
         "suiteID": 1214,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 124,
@@ -516,7 +836,15 @@
         "choix2": "",
         "suiteID": 1215,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 125,
@@ -525,7 +853,15 @@
         "choix2": "",
         "suiteID": 1214,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 126,
@@ -534,7 +870,15 @@
         "choix2": "",
         "suiteID": 1216,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 127,
@@ -543,7 +887,15 @@
         "choix2": "",
         "suiteID": 1217,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 128,
@@ -552,7 +904,15 @@
         "choix2": "",
         "suiteID": 1218,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 129,
@@ -561,7 +921,15 @@
         "choix2": "",
         "suiteID": 1217,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 130,
@@ -570,7 +938,15 @@
         "choix2": "",
         "suiteID": 1219,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 131,
@@ -579,7 +955,15 @@
         "choix2": "",
         "suiteID": 1220,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 132,
@@ -588,7 +972,15 @@
         "choix2": "",
         "suiteID": 1221,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 133,
@@ -597,7 +989,15 @@
         "choix2": "",
         "suiteID": 1222,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 134,
@@ -606,7 +1006,15 @@
         "choix2": "",
         "suiteID": 1223,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 135,
@@ -615,7 +1023,15 @@
         "choix2": "",
         "suiteID": 1224,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 136,
@@ -624,7 +1040,15 @@
         "choix2": "",
         "suiteID": 1219,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 137,
@@ -633,7 +1057,15 @@
         "choix2": "",
         "suiteID": 1225,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 1371,
@@ -642,7 +1074,15 @@
         "choix2": "Continuer de tous attaquer",
         "suiteID": 0,
         "choix1ID": 165,
-        "choix2ID": 166
+        "choix2ID": 166,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 138,
@@ -651,7 +1091,15 @@
         "choix2": "Envoyer raf soigner Capitaine Québec",
         "suiteID": 0,
         "choix1ID": 167,
-        "choix2ID": 168
+        "choix2ID": 168,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 139,
@@ -660,7 +1108,15 @@
         "choix2": "Ordonner à Raf de se retirer pour soigner son bras",
         "suiteID": 0,
         "choix1ID": 169,
-        "choix2ID": 170
+        "choix2ID": 170,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 140,
@@ -669,7 +1125,15 @@
         "choix2": "se mettre sur la défensive",
         "suiteID": 0,
         "choix1ID": 171,
-        "choix2ID": 172
+        "choix2ID": 172,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 141,
@@ -678,7 +1142,15 @@
         "choix2": "Bloquer le coup",
         "suiteID": 0,
         "choix1ID": 173,
-        "choix2ID": 174
+        "choix2ID": 174,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 142,
@@ -687,7 +1159,15 @@
         "choix2": "Foncer vers Haxan",
         "suiteID": 0,
         "choix1ID": 179,
-        "choix2ID": 179
+        "choix2ID": 179,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 143,
@@ -696,7 +1176,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 181,
-        "choix2ID": 130
+        "choix2ID": 130,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 144,
@@ -705,7 +1193,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 184,
-        "choix2ID": 130
+        "choix2ID": 130,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 145,
@@ -714,7 +1210,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 187,
-        "choix2ID": 230
+        "choix2ID": 230,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 146,
@@ -723,7 +1227,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 187,
-        "choix2ID": 230
+        "choix2ID": 230,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 147,
@@ -732,7 +1244,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 189,
-        "choix2ID": 230
+        "choix2ID": 230,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 148,
@@ -741,7 +1261,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 190,
-        "choix2ID": 230
+        "choix2ID": 230,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 149,
@@ -750,7 +1278,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 192,
-        "choix2ID": 230
+        "choix2ID": 230,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 150,
@@ -759,7 +1295,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 193,
-        "choix2ID": 130
+        "choix2ID": 130,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 151,
@@ -768,7 +1312,15 @@
         "choix2": "Alex Invoque l'éclipse",
         "suiteID": 0,
         "choix1ID": 195,
-        "choix2ID": 198
+        "choix2ID": 198,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 152,
@@ -777,7 +1329,15 @@
         "choix2": "Continuer de combattre",
         "suiteID": 0,
         "choix1ID": 200,
-        "choix2ID": 201
+        "choix2ID": 201,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 153,
@@ -786,7 +1346,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 202,
-        "choix2ID": 230
+        "choix2ID": 230,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 154,
@@ -795,7 +1363,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 203,
-        "choix2ID": 230
+        "choix2ID": 230,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 155,
@@ -804,7 +1380,15 @@
         "choix2": "Sortir Cap du champ de bataille",
         "suiteID": 0,
         "choix1ID": 205,
-        "choix2ID": 206
+        "choix2ID": 206,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 156,
@@ -813,7 +1397,15 @@
         "choix2": "se mettre en position défensive",
         "suiteID": 0,
         "choix1ID": 205,
-        "choix2ID": 209
+        "choix2ID": 209,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 157,
@@ -822,7 +1414,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 212,
-        "choix2ID": 230
+        "choix2ID": 230,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 158,
@@ -831,7 +1431,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 212,
-        "choix2ID": 230
+        "choix2ID": 230,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 159,
@@ -840,7 +1448,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 213,
-        "choix2ID": 230
+        "choix2ID": 230,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 160,
@@ -849,7 +1465,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 214,
-        "choix2ID": 230
+        "choix2ID": 230,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 161,
@@ -858,7 +1482,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 216,
-        "choix2ID": 230
+        "choix2ID": 230,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 162,
@@ -867,7 +1499,15 @@
         "choix2": "S'incliner",
         "suiteID": 0,
         "choix1ID": 214,
-        "choix2ID": 230
+        "choix2ID": 230,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 163,
@@ -876,7 +1516,15 @@
         "choix2": "Alex tente de redonner à Cap contrôle de son esprit",
         "suiteID": 0,
         "choix1ID": 217,
-        "choix2ID": 218
+        "choix2ID": 218,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 164,
@@ -885,7 +1533,15 @@
         "choix2": "Tenter de résonner Capitaine Québec",
         "suiteID": 0,
         "choix1ID": 221,
-        "choix2ID": 222
+        "choix2ID": 222,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 165,
@@ -894,7 +1550,15 @@
         "choix2": "",
         "suiteID": 175,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 166,
@@ -903,7 +1567,15 @@
         "choix2": "",
         "suiteID": 175,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 167,
@@ -912,7 +1584,15 @@
         "choix2": "",
         "suiteID": 175,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 168,
@@ -921,7 +1601,15 @@
         "choix2": "",
         "suiteID": 175,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 169,
@@ -930,7 +1618,15 @@
         "choix2": "",
         "suiteID": 175,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 170,
@@ -939,7 +1635,15 @@
         "choix2": "",
         "suiteID": 175,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 171,
@@ -948,7 +1652,15 @@
         "choix2": "",
         "suiteID": 175,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 172,
@@ -957,7 +1669,15 @@
         "choix2": "",
         "suiteID": 175,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 173,
@@ -966,7 +1686,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 174,
@@ -975,7 +1703,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 175,
@@ -984,7 +1720,15 @@
         "choix2": "",
         "suiteID": 176,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 176,
@@ -993,7 +1737,15 @@
         "choix2": "Propulser l'éclipse sur les héros de l'éclipse",
         "suiteID": 0,
         "choix1ID": 177,
-        "choix2ID": 178
+        "choix2ID": 178,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 177,
@@ -1002,7 +1754,15 @@
         "choix2": "",
         "suiteID": 232,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 178,
@@ -1011,7 +1771,15 @@
         "choix2": "",
         "suiteID": 228,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 179,
@@ -1020,7 +1788,15 @@
         "choix2": "",
         "suiteID": 180,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 180,
@@ -1029,7 +1805,15 @@
         "choix2": "",
         "suiteID": 180,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 181,
@@ -1038,7 +1822,15 @@
         "choix2": "Refuser",
         "suiteID": 0,
         "choix1ID": 182,
-        "choix2ID": 183
+        "choix2ID": 183,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 182,
@@ -1047,7 +1839,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 183,
@@ -1056,7 +1856,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 184,
@@ -1065,7 +1873,15 @@
         "choix2": "Raf se laisse mourir",
         "suiteID": 0,
         "choix1ID": 185,
-        "choix2ID": 186
+        "choix2ID": 186,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 185,
@@ -1074,7 +1890,15 @@
         "choix2": "",
         "suiteID": 229,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 186,
@@ -1083,7 +1907,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 187,
@@ -1092,7 +1924,15 @@
         "choix2": "",
         "suiteID": 188,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 188,
@@ -1101,7 +1941,15 @@
         "choix2": "",
         "suiteID": 226,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 189,
@@ -1110,7 +1958,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 190,
@@ -1119,7 +1975,15 @@
         "choix2": "",
         "suiteID": 191,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 191,
@@ -1128,7 +1992,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 192,
@@ -1137,7 +2009,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 193,
@@ -1146,7 +2026,15 @@
         "choix2": "Laisser Haxan le tuer",
         "suiteID": 0,
         "choix1ID": 234,
-        "choix2ID": 231
+        "choix2ID": 231,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 195,
@@ -1155,7 +2043,15 @@
         "choix2": "Empêcher Mathieu de tuer Haxan",
         "suiteID": 0,
         "choix1ID": 196,
-        "choix2ID": 197
+        "choix2ID": 197,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 196,
@@ -1164,7 +2060,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 197,
@@ -1173,7 +2077,15 @@
         "choix2": "",
         "suiteID": 232,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 198,
@@ -1182,7 +2094,15 @@
         "choix2": "",
         "suiteID": 199,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 199,
@@ -1191,7 +2111,15 @@
         "choix2": "",
         "suiteID": 232,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 200,
@@ -1200,7 +2128,15 @@
         "choix2": "",
         "suiteID": 232,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 201,
@@ -1209,7 +2145,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 202,
@@ -1218,7 +2162,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 203,
@@ -1227,7 +2179,15 @@
         "choix2": "Refuser",
         "suiteID": 0,
         "choix1ID": 204,
-        "choix2ID": 204
+        "choix2ID": 204,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 204,
@@ -1236,7 +2196,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 205,
@@ -1245,7 +2213,15 @@
         "choix2": "Raisonner Alex",
         "suiteID": 0,
         "choix1ID": 2051,
-        "choix2ID": 208
+        "choix2ID": 208,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 2051,
@@ -1254,7 +2230,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 206,
@@ -1263,7 +2247,15 @@
         "choix2": "Raisonner Alex",
         "suiteID": 0,
         "choix1ID": 207,
-        "choix2ID": 208
+        "choix2ID": 208,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 207,
@@ -1272,7 +2264,15 @@
         "choix2": "",
         "suiteID": 236,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 208,
@@ -1281,7 +2281,15 @@
         "choix2": "",
         "suiteID": 236,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 209,
@@ -1290,7 +2298,15 @@
         "choix2": "Ahmed attaque Haxan",
         "suiteID": 0,
         "choix1ID": 210,
-        "choix2ID": 211
+        "choix2ID": 211,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 210,
@@ -1299,7 +2315,15 @@
         "choix2": "",
         "suiteID": 232,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 211,
@@ -1308,7 +2332,15 @@
         "choix2": "",
         "suiteID": 236,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 212,
@@ -1317,7 +2349,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 213,
@@ -1326,7 +2366,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 214,
@@ -1335,7 +2383,15 @@
         "choix2": "Refuser",
         "suiteID": 0,
         "choix1ID": 233,
-        "choix2ID": 215
+        "choix2ID": 215,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 215,
@@ -1344,7 +2400,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 216,
@@ -1353,7 +2417,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 217,
@@ -1362,7 +2434,15 @@
         "choix2": "",
         "suiteID": 235,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 218,
@@ -1371,7 +2451,15 @@
         "choix2": "Elie sauve casquette man",
         "suiteID": 0,
         "choix1ID": 219,
-        "choix2ID": 220
+        "choix2ID": 220,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 219,
@@ -1380,7 +2468,15 @@
         "choix2": "",
         "suiteID": 232,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 220,
@@ -1389,7 +2485,15 @@
         "choix2": "",
         "suiteID": 232,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 221,
@@ -1398,7 +2502,15 @@
         "choix2": "",
         "suiteID": 231,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 222,
@@ -1407,7 +2519,15 @@
         "choix2": "",
         "suiteID": 235,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 226,
@@ -1416,7 +2536,15 @@
         "choix2": "",
         "suiteID": 0,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 227,
@@ -1425,7 +2553,15 @@
         "choix2": "",
         "suiteID": 0,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 228,
@@ -1434,7 +2570,15 @@
         "choix2": "",
         "suiteID": 0,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 229,
@@ -1443,7 +2587,15 @@
         "choix2": "",
         "suiteID": 0,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 230,
@@ -1452,7 +2604,15 @@
         "choix2": "",
         "suiteID": 0,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 231,
@@ -1461,7 +2621,15 @@
         "choix2": "",
         "suiteID": 0,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 232,
@@ -1470,7 +2638,15 @@
         "choix2": "",
         "suiteID": 0,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 233,
@@ -1479,7 +2655,15 @@
         "choix2": "",
         "suiteID": 0,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 234,
@@ -1488,7 +2672,15 @@
         "choix2": "",
         "suiteID": 0,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 235,
@@ -1497,7 +2689,15 @@
         "choix2": "",
         "suiteID": 0,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 236,
@@ -1506,7 +2706,15 @@
         "choix2": "",
         "suiteID": 0,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     },
     {
         "id": 237,
@@ -1515,6 +2723,14 @@
         "choix2": "",
         "suiteID": 0,
         "choix1ID": 0,
-        "choix2ID": 0
+        "choix2ID": 0,
+        "AhmedHP": 100,
+        "MikaelHP": 100,
+        "CapQcHP": 100,
+        "AlexHP": 100,
+        "MathieuHP": 100,
+        "RafHP": 100,
+        "ElieHP": 100,
+        "EmerykHP": 100
     }
 ]
