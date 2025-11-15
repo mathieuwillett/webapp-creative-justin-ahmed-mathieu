@@ -1,17 +1,18 @@
 <template>
     <footer>
-        Réalisé par Justin Montpetit, Ahmed Kaissoumi et Mathieu Willett
+       <p>Réalisé par Justin Montpetit, Ahmed Kaissoumi et Mathieu Willett</p>
     </footer>
 </template>
 
 <style scoped>
-div {
+footer {
     background-color: grey;
     border: solid 2px black;
     width: 100vw;
-    height: 10vh;
+    height: 5vh;
     position: fixed;
-    top: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 </style>

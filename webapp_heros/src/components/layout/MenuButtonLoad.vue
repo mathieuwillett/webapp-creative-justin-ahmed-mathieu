@@ -10,5 +10,6 @@ button {
     border: solid 2px black;
     width: 30vw;
     height: 12vh;
+    font-size: 2vw;
 }
 </style>

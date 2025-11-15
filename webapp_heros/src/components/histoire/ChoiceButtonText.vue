@@ -1,14 +1,3 @@
 <template>
-    <div>
-        test
-    </div>
+    <p>Choix</p>
 </template>
-
-<style scoped>
-div {
-    background-color: red;
-    border: solid 2px black;
-    width: 100vw;
-    height: 10vh;
-}
-</style>

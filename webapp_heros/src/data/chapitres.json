@@ -1,0 +1,105 @@
+{
+    "0": {
+        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
+        "choix": [
+            {
+                "id": 1,
+                "text": "L'Homme et le Tacticien attaquent l'homme volant.",
+                "nextChapter": "4"
+            },
+            {
+                "id": 2,
+                "text": "L'équipe se cache et appellent des renforts",
+                "nextChapter": "5"
+            }
+        ]
+    },
+    "1": {
+        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
+        "choix": [
+            {
+                "id": 1,
+                "text": "Le Cyborg et le Barbare attaquent l'homme volant",
+                "nextChapter": ""
+            },
+            {
+                "id": 2,
+                "text": "L'équipe se cache et appellent des renforts",
+                "nextChapter": "7"
+            }
+        ]
+    },
+    "2": {
+        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
+        "choix": [
+            {
+                "id": 1,
+                "text": "Capitaine Québec et le Magicien attaquent l'homme volant",
+                "nextChapter": "8"
+            },
+            {
+                "id": 2,
+                "text": "L'équipe se cache et appellent des renforts",
+                "nextChapter": "9"
+            }
+        ]
+    },
+    "3": {
+        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
+        "choix": [
+            {
+                "id": 1,
+                "text": "Le Modélisateur et le Loup attaquent l'homme volant",
+                "nextChapter": "10"
+            },
+            {
+                "id": 2,
+                "text": "L'équipe se cache et appellent des renforts",
+                "nextChapter": "11"
+            }
+        ]
+    },
+    "4": {
+        "texte": "Qui devrait attaquer",
+        "choix": [
+            {
+                "id": 1,
+                "text": "L'Homme",
+                "nextChapter": "4"
+            },
+            {
+                "id": 2,
+                "text": "Le Tacticien",
+                "nextChapter": "5"
+            }
+        ]
+    },
+    "5": {
+        "texte": "L'Homme se cache par peur. Le Tacticien tente de le rejoindre, mais l'homme volant se précipite sur lui et l'attrape par le cou. ",
+        "nextChapter": "14"
+    },
+    "6": {
+        "texte": "Le Cyborg utilise un rayon phasique et tire sur l'homme, celui-ci esquive le rayon et fonce sur lui à pleine vitesse, créant un énorme cratère au sol, le Cyborg gisant au fond.",
+        "nextChapter": "15"
+    },
+    "7": {
+        "texte": "Le Cyborg utilise son appareil de télécommunication pour faire appel aux héros de l'éclipse.",
+        "nextChapter": "16"
+    },
+    "8": {
+        "texte": "Le Magicien utilise un sort afin d'immobiliser l'homme et Capitaine Québec tire un éclair hydroélectrique sur celui-ci.",
+        "nextChapter": "17"
+    },
+    "9": {
+        "texte": "Les deux héros se cachent, le Magicien entre en synchronisation psychique avec les héros de l'éclipse pour les alerter de la menace, mais au même moment, l'homme défonce le mur qui cachait les deux héros.",
+        "nextChapter": "18"
+    },
+    "10": {
+        "texte": "Le Modélisateur solidifie des chaînes de 3D, tirant l'homme volant au sol, l'homme se débat, mais Emeryk saute dessus afin de le maintenir au sol. Elie créa une cage pour le maintenir au sol.",
+        "nextChapter": "19"
+    },
+    "11": {
+        "texte": "Les deux héros se cachent et le Modélisateur créa une géante emblème des héros de l'éclipse dans le ciel, espérant que d'autres la voient.",
+        "nextChapter": "20"
+    }
+}

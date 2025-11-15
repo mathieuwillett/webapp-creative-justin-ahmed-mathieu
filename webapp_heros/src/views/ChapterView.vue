@@ -1,18 +1,28 @@
 <script setup lang="ts">
-import ChapterHeader from '@/components/histoire/ChapterHeader.vue';
 import ContinueButton from '@/components/histoire/ContinueButton.vue';
-import ImageChapitre from '@/components/histoire/ImageChapitre.vue';
-import ProgressBar from '@/components/histoire/ProgressBar.vue';
-import SaveManager from '@/components/layout/SaveManager.vue';
+import ChoiceButton from '@/components/histoire/ChoiceButton.vue';
+import ChoiceButtonText from '@/components/histoire/ChoiceButtonText.vue';
+import ChoicePanel from '@/components/histoire/ChoicePanel.vue';
+import NarrativeText from '@/components/histoire/NarrativeText.vue';
+import NarrativeTextParagraph from '@/components/histoire/NarrativeTextParagraph.vue';
+import PersonnagesBloc from '@/components/histoire/PersonnagesBloc.vue';
 
 </script>
 
 <template>
     <div>
-        <SaveManager></SaveManager>
-        <ContinueButton></ContinueButton>
-        <ImageChapitre></ImageChapitre>
-        <ChapterHeader></ChapterHeader>
-        <ProgressBar></ProgressBar>
+        <PersonnagesBloc></PersonnagesBloc>
+        <!-- <ContinueButton></ContinueButton> -->
+        <NarrativeText>
+            <NarrativeTextParagraph></NarrativeTextParagraph>
+        </NarrativeText>
+        <ChoicePanel>
+            <ChoiceButton>
+                <ChoiceButtonText></ChoiceButtonText>
+            </ChoiceButton>
+             <ChoiceButton>
+                <ChoiceButtonText></ChoiceButtonText>
+            </ChoiceButton>
+        </ChoicePanel>
     </div>
 </template>

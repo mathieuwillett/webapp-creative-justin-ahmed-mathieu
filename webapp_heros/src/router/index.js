@@ -10,7 +10,6 @@ projet "Mémoires interactives", on pourrait imaginer 4 views (pages) de base:
 */
 import MenuView from '../views/MenuView.vue';
 import ChapterView from '../views/ChapterView.vue';
-import RoomView from '../views/RoomView.vue';
 import EndingView from '../views/EndingView.vue';
 import SavesView from '../views/SavesView.vue';
 
@@ -29,11 +28,6 @@ const routes = [{
     path: '/ending/:id', // ← Exemple de route avec paramètre dynamique
     component: EndingView,
     name: 'ending'
-  },
-  {
-    path: '/room/:id',
-    component: RoomView,
-    name: 'room'
   },
   {
     path: '/saves',
