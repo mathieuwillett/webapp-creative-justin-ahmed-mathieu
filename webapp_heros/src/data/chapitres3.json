@@ -1,0 +1,208 @@
+{
+    "100": {
+        "texte": "Raf devient hyperchargé de l'énergie québécoise, se propulse sur Haxan. Avec le reste de l'équipe, ils viendront à bout d'Haxan, remportant la guerre.",
+        "nextChapter": 132
+    },
+    "101": {
+        "texte": "Haxan prit le dessus sur les héros, achevant Raf, et tuant tous les héros.",
+        "nextChapter": 131
+    },
+    "102": {
+        "texte": "Haxan, dans un combat sans merci, prit le dessus sur les héros restants, tuant ceux qui restaient, faisant de lui le grand gagnant.",
+        "nextChapter": 131
+    },
+    "103": {
+        "texte": "Haxan tua Raf et Mikael, qui étaient déjà affaiblis. Il épargne Emeryk, lui offrant de devenir son esclave en échange de sa vie.",
+        "choix": [
+            {
+                "id": 1,
+                "text": "Accepter",
+                "nextChapter": 104
+            },
+            {
+                "id": 2,
+                "text": "Refuser",
+                "nextChapter": 104
+            }
+        ]
+    },
+    "104": {
+        "texte": "Haxan rigola un coup, puis donna un coup de pied mortel à Emeryk, mettant fin au combat.",
+        "nextChapter": 131
+    },
+    "105": {
+        "texte": "Haxan exploite la faille chez Alex, forçant Alex à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, Ahmed se transforme en Ahmed Éclipse,...",
+        "choix": [
+            {
+                "id": 1,
+                "text": "Envoyer Ahmed attaquer Alex",
+                "nextChapter": 1051
+            },
+            {
+                "id": 2,
+                "text": "Raisonner Alex",
+                "nextChapter": 108
+            }
+        ]
+    },
+    "1051": {
+        "texte": "Ahmed tua Alex d'un coup brutal, puis les héros affrontèrent Haxan, mais ne faisant pas le poids, succombèrent tous dans le combat",
+        "nextChapter": 131
+    },
+    "106": {
+        "texte": "Tandis qu'Ahmed sortait CapQc du combat, Haxan exploite la faille chez Alex, le transformant en son alter ego maléfique, l'Éclipse. Au même moment Ahmed se transforma à son tour en sa phase ultime, Ahmed Éclipse, gagnant une force formidable.",
+        "choix": [
+            {
+                "id": 1,
+                "text": "Ordonner à Ahmed d'attaquer Alex",
+                "nextChapter": 107
+            },
+            {
+                "id": 2,
+                "text": "Raisonner Alex",
+                "nextChapter": 108
+            }
+        ]
+    },
+    "107": {
+        "texte": "Ahmed, trop loin du combat, tenta d'exécuter Alex, mais le magicien parvint à invoquer un sortilège qui provoqua la réinitialisation de l'univers.",
+        "nextChapter": 136
+    },
+    "108": {
+        "texte": "Mikael tenta de redonner la raison à Alex, mais celui-ci désormais corrompu, invoqua un sortilège provoquant la réinitialisation de l'univers.",
+        "nextChapter": 136
+    },
+    "109": {
+        "texte": "L'équipe se prépare à défendre, mais au même moment, Haxan exploite la faille chez Alex, forçant Alex à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, Ahmed se transforme en Ahmed Éclipse, gagnant une force phénoménale. Alex utilisa de la magie noire pour neutraliser toute l'équipe de héros, mais Ahmed ne fut pas affecté.",
+        "choix": [
+            {
+                "id": 1,
+                "text": "Ahmed attaque Alex",
+                "nextChapter": 110
+            },
+            {
+                "id": 2,
+                "text": "Ahmed attaque Haxan",
+                "nextChapter": 111
+            }
+        ]
+    },
+    "110": {
+        "texte": "Ahmed attaque Alex, le pulvérisant d'un seul coup, puis se retourna pour affronter Haxan. S'ensuivit un combat acharné, qui termina par la mort d'Ahmed, qui avant de mourir donna le pouvoir de l'Éclipse à Haxan, qui était déjà trop puni pour contenir ce nouveau pouvoir, se désintégra.",
+        "nextChapter": 132
+    },
+    "111": {
+        "texte": "Alors qu'Ahmed s'attaquait à Haxan, Alex invoqua un sortilège noir réinitialisant l'univers.",
+        "nextChapter": 136
+    },
+    "112": {
+        "texte": "Les héros restants attaquèrent Haxan, lui infligeant de lourds dégâts, mais Haxan finit par venir à bout d'eux, faisant de lui le seul survivant de ce combat.",
+        "nextChapter": 131
+    },
+    "113": {
+        "texte": "Un combat acharné fut livré par les héros, mais ils n'étaient pas assez forts. Haxan finit par venir à bout de chacun des héros, remportant la guerre.",
+        "nextChapter": 131
+    },
+    "114": {
+        "texte": "Dans un long combat, Haxan finit par tuer tous les héros. Il saisit Emeryk, lui proposant de devenir l'animal de compagnie de sa femme.",
+        "choix": [
+            {
+                "id": 1,
+                "text": "Accepter",
+                "nextChapter": 133
+            },
+            {
+                "id": 2,
+                "text": "Refuser",
+                "nextChapter": 115
+            }
+        ]
+    },
+    "115": {
+        "texte": "Haxan exécuta Emeryk puis conquit le restant de la planète, exterminant la race humaine.",
+        "nextChapter": 131
+    },
+    "116": {
+        "texte": "Haxan fut blessé au combat, mais finit par tout de même l'emporter, remportant la victoire sur les héros.",
+        "nextChapter": 131
+    },
+    "117": {
+        "texte": "Les héros attaquèrent Cap Qc, mais celui-ci combattait désormais avec Haxan. Surpris, les héros tombèrent un à un.",
+        "nextChapter": 135
+    },
+    "118": {
+        "texte": "Alex réussit à redonner à Cap Qc le contrôle de son corps. Haxan, furieux, tua Alex, qui juste avant de mourir ouvrit un portail menant directement en enfer, aspirant Haxan, Alex, Ahmed et Casquette Man.",
+        "choix": [
+            {
+                "id": 1,
+                "text": "Elie sauve Ahmed",
+                "nextChapter": 119
+            },
+            {
+                "id": 2,
+                "text": "Elie sauve casquette man",
+                "nextChapter": 120
+            }
+        ]
+    },
+    "119": {
+        "texte": "Elie sauva Ahmed, alors qu'Haxan et Casquette Man furent aspirés dans le trou noir. Ne voulant pas laisser la possibilité à Haxan de ressortir de ce portail, Alex le referma, y scellant à jamais Mikael et Haxan.",
+        "nextChapter": 132
+    },
+    "120": {
+        "texte": "Elie sauva Mikael, alors qu'Haxan et Ahmed furent aspirés dans le trou noir. Ne voulant pas laisser la possibilité à Haxan de ressortir de ce portail, Alex le referma, y scellant à jamais Ahmed et Haxan.",
+        "nextChapter": 132
+    },
+    "121": {
+        "texte": "Les héros exécutent Capitaine Québec, puis continuèrent le combat contre Haxan, mais surpris, ils finirent par tous périr.",
+        "nextChapter": 131
+    },
+    "122": {
+        "texte": "Sans succès, Capitaine Québec et Haxan affrontèrent les héros, jusqu'à ce que le dernier d'entre eux soit mort.",
+        "nextChapter": 135
+    },
+    "126": {
+        "texte": "Ahmed sacrifia sa vie en échange de la planète Terre et de la race humaine.",
+        "nextChapter": 0
+    },
+    "127": {
+        "texte": "Ahmed tua Haxan, rétabissant la paix sur la planète et sauvant l'avenir de la race humaine. Les héros de l'éclipse seront dorénavant reconnus pour des millénaires comme des légendes, sauveurs de l'humanité.",
+        "nextChapter": 0
+    },
+    "128": {
+        "texte": "Ahmed tua les héros de l'éclipse. Haxan respecte sa part du marché et créa un univers alternatif pour Ahmed, où il vécut heureux avec sa femme et ses enfants, tandis que Haxan termina sa destruction de la planète Terre.",
+        "nextChapter": 0
+    },
+    "129": {
+        "texte": "Raf explosa, détruisant la planète Terre, tuant la race humaine et Haxan en un coup.",
+        "nextChapter": 0
+    },
+    "130": {
+        "texte": "Les héros s'inclinèrent devant le grand Haxan. Les médias de la Terre entière les voient comme des lâches, avant que Haxan n'en termine avec eux et le reste de la race humaine.",
+        "nextChapter": 0
+    },
+    "131": {
+        "texte": "Haxan vint à bout de tous les héros. Il décima la race humaine toute entière, puis changea de planète, à la conquête de la prochaine race à exterminer.",
+        "nextChapter": 0
+    },
+    "132": {
+        "texte": "Les héros vinrent à bout de Haxan, ramenant paix et sérénité sur la planète Terre, assurant la survie de la race humaine. Les héros de l'éclipse seront maintenant perçus pendant des millénaires comme des légendes, véritables sauveurs de l'humanité.",
+        "nextChapter": 0
+    },
+    "133": {
+        "texte": "Emeryk deviendra l'animal de compagnie de la femme de Haxan, laissant la Terre se faire détruire, Haxan remportant cette guerre.",
+        "nextChapter": 0
+    },
+    "134": {
+        "texte": "Alex détruit la Terre d'un vortex magique, tuant Haxan et le reste de la race humaine.",
+        "nextChapter": 0
+    },
+    "135": {
+        "texte": "Haxan remportera le combat, détruisant totalement la race humaine, achevant son objectif. Dorénavant accompagné de Capitaine Québec, maintenant renommé Colonel Canada, ils continueront leur chemin vers la prochaine planète à détruire.",
+        "nextChapter": 0
+    },
+    "136": {
+        "texte": "L'univers fut réinitialisé, effaçant toute trace d'existence de la vie, laissant place à la création d'un nouvel univers.",
+        "nextChapter": 0
+    }
+}
