@@ -7,7 +7,7 @@ import NarrativeTextParagraph from '@/components/histoire/NarrativeTextParagraph
 import StartBloc from '@/components/histoire/StartBloc.vue';
 
 export default {
-    name: 'menu',
+    name: 'start',
 
     components: {
         ChoiceButton,
@@ -73,5 +73,11 @@ export default {
 <style scoped>
 .bouton-start {
     width: 20vw;
+}
+
+.bouton-start:hover {
+    filter: brightness(105%);
+    transform: scale(1.05);
+    box-shadow: 0 0.5vw 0.5vw 0 #000;
 }
 </style>

@@ -71,7 +71,7 @@ export default {
 
 .bouton:hover {
     filter: brightness(105%);
-    transform: translateY(0.5vw);
+    transform: scale(1.05);
     box-shadow: 0 0.5vw 0.5vw 0 #000;
 }
 </style>
