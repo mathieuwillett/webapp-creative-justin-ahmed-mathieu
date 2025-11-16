@@ -17,8 +17,7 @@ export default {
     methods: {
         startAdventure() {
             this.$router.push({
-                name: 'chapter',
-                params: { id: '0' }
+                name: 'start'
             });
         }
     }

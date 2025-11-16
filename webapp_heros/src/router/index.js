@@ -9,6 +9,7 @@ On importe les différentes views (pages) du projet, par exemple pour le
 projet "Mémoires interactives", on pourrait imaginer 4 views (pages) de base:
 */
 import MenuView from '../views/MenuView.vue';
+import StartView from '../views/StartView.vue';
 import ChapterView from '../views/ChapterView.vue';
 import EndingView from '../views/EndingView.vue';
 import SavesView from '../views/SavesView.vue';
@@ -18,6 +19,11 @@ const routes = [{
     path: '/', // (obligatoire) Contient la portion d'URL
     component: MenuView, // (obligatoire) Fait référence à la View souhaitée
     name: 'menu' // (optionnel) Permet de nommer la route pour l'appeler plus simplement
+  },
+  {
+    path: '/start',
+    component: StartView,
+    name: 'start'
   },
   {
     path: '/chapter/:id',
