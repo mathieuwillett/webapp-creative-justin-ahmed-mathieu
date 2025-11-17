@@ -1,3 +1,3 @@
 <template>
-    <p>Choix</p>
+    <p><slot></slot></p>
 </template>

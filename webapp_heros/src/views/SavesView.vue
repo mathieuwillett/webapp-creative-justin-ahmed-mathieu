@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import SaveManager from '@/components/layout/SaveManager.vue';
 
 </script>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        Lorem ipsum dolor sit amet consectetur adipiscing, elit eget porttitor feugiat sodales, parturient nibh tellus erat himenaeos. Nunc eget fringilla venenatis aliquam himenaeos scelerisque suscipit, quam pulvinar tortor dignissim mollis nisl, curae elementum senectus sociosqu tincidunt viverra. Litora feugiat ultricies ut auctor euismod molestie aptent sollicitudin volutpat iaculis, facilisi fusce augue orci per leo aliquet massa platea cum, imperdiet senectus facilisis eu placerat convallis pulvinar pharetra ullamcorper.
+        <slot></slot>
     </div>
 </template>
 

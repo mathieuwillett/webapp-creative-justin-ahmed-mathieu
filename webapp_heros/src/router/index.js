@@ -18,7 +18,7 @@ import SavesView from '../views/SavesView.vue';
 const routes = [{
     path: '/', // (obligatoire) Contient la portion d'URL
     component: MenuView, // (obligatoire) Fait référence à la View souhaitée
-    name: 'menu' // (optionnel) Permet de nommer la route pour l'appeler plus simplement
+    name: 'home' // (optionnel) Permet de nommer la route pour l'appeler plus simplement
   },
   {
     path: '/start',

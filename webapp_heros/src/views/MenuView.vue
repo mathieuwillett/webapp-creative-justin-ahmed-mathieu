@@ -1,11 +1,11 @@
-<script lang="ts">
+<script>
 import MenuButtonNew from '../components/layout/MenuButtonNew.vue';
 import AppFooter from '../components/layout/AppFooter.vue';
 import MenuButtonLoad from '../components/layout/MenuButtonLoad.vue';
 import MenuButtonContinue from '../components/layout/MenuButtonContinue.vue';
 
 export default {
-    name: 'menu',
+    name: 'home',
 
     components: {
         MenuButtonNew,
