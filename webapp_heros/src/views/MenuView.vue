@@ -40,7 +40,7 @@ export default {
 <style>
 @font-face {
     font-family: pixel;
-    src: url(../assets/fonts/PixelifySans-VariableFont_wght.ttf) format(truetype);
+    src: url(../assets/fonts/Monocraft.ttf) format(truetype);
 }
 
 * {
