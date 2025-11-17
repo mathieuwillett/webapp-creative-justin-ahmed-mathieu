@@ -1,14 +1,13 @@
 <template>
     <div>
-        test
+        
     </div>
 </template>
 
 <style scoped>
 div {
-    background-color: red;
-    border: solid 2px black;
+    background-color: lightblue;
     width: 100vw;
-    height: 10vh;
+    height: 95vh;
 }
 </style>

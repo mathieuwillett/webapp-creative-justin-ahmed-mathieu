@@ -1,14 +1,14 @@
 <template>
-    <div>
-        test
-    </div>
+    <button>
+        Retourner au menu
+    </button>
 </template>
 
 <style scoped>
-div {
-    background-color: red;
+button {
+    background-color: grey;
     border: solid 2px black;
     width: 100vw;
-    height: 10vh;
+    height: 5vh;
 }
 </style>

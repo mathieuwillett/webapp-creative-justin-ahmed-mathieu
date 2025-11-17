@@ -47,14 +47,23 @@ export default {
     },
     methods: {
         selectChoice(choice) {
-            if (!choice.nextChapter) {
-                this.story.currentChapter = null
-                this.story.narrative = "Fin de l'histoire."
-                this.story.availableChoices = []
-            } else {
-                this.$router.push({ name: "chapter", params: { id: choice.nextChapter } })
-            }
+    if (!choice.nextChapter) {
+        this.story.currentChapter = null
+        this.story.narrative = "Fin de l'histoire."
+        this.story.availableChoices = []
+    } else {
+        const nextChapter = Number(choice.nextChapter)
+        this.story.currentChapter = nextChapter
+
+        // vérifie si le prochain chapitre est une fin, si oui, affiche l'écran de fin
+        if (nextChapter >= 126 && nextChapter <= 136) {
+            this.$router.push({ name: "ending" })
+        } else {
+            this.$router.push({ name: "chapter", params: { id: nextChapter } })
         }
+    }
+}
+
     }
 
 }
