@@ -1559,7 +1559,7 @@
         ]
     },
     "75": {
-        "texte": "l'Homme Éclipse sortit du cratère, il lève son doigt au ciel, invoquant une éclipse miniature, qui sera bientôt prête à être lancée.",
+        "texte": "L'Homme Éclipse sortit du cratère, il lève son doigt au ciel, invoquant une éclipse miniature, qui sera bientôt prête à être lancée.",
         "nextChapter": "76",
         "images": [
             "../-.png",
@@ -1585,7 +1585,7 @@
         ]
     },
     "77": {
-        "texte": "l'Homme tua Haxan, rétablissant la paix sur la planète et sauvant l'avenir de la race humaine. Les héros de l'éclipse seront dorénavant reconnus pour des millénaires comme des légendes, sauveurs de l'humanité.",
+        "texte": "L'Homme tue Haxan, rétablissant la paix sur la planète et sauvant l'avenir de la race humaine. Les héros de l'éclipse seront dorénavant reconnus pour des millénaires comme des légendes, sauveurs de l'humanité.",
         "nextChapter": "132",
         "images": [
             "../-.png",
@@ -1593,7 +1593,7 @@
         ]
     },
     "78": {
-        "texte": "l'Homme tue les héros de l'éclipse. Haxan respecte sa part du marché et créa un univers alternatif pour l'Homme, où il vécut heureux avec sa femme et ses enfants, tandis que Haxan termine sa destruction de la planète Terre.",
+        "texte": "L'Homme tue les héros de l'éclipse. Haxan respecte sa part du marché et créa un univers alternatif pour l'Homme, où il vécut heureux avec sa femme et ses enfants, tandis que Haxan termine sa destruction de la planète Terre.",
         "nextChapter": "128",
         "images": [
             "../-.png",
@@ -1617,7 +1617,7 @@
         ]
     },
     "81": {
-        "texte": "Haxan, dans le combat, fut blessé au dos, mais tua Barbare et Cap. Il propose d'épargner les deux autres, à condition qu'ils le suivent dans sa quête pour conquérir l'univers et le rendre 'meilleur'.",
+        "texte": "Haxan, dans le combat, fut blessé au dos, mais tua le Barbare et Capitaine Québec. Il propose d'épargner les deux autres, à condition qu'ils le suivent dans sa quête pour conquérir l'univers et le rendre 'meilleur'.",
         "choix": [{
                 "id": 1,
                 "text": "Accepter",
@@ -1651,7 +1651,7 @@
         ]
     },
     "84": {
-        "texte": "Dans le combat, Haxan est blessé au cœur, mais finit par tuer Magicien et Loup. Cyborg, seul survivant, est gravement touché, il va mourir dans les prochaines minutes.",
+        "texte": "Dans le combat, Haxan est blessé au cœur, mais finit par tuer le Magicien et le Loup. Le Cyborg, seul survivant, est gravement touché, il va mourir dans les prochaines minutes.",
         "choix": [{
                 "id": 1,
                 "text": "Le Cyborg s'autodétruit.",
@@ -1669,7 +1669,7 @@
         ]
     },
     "85": {
-        "texte": "Cyborg explosa, détruisant la planète Terre, tuant la race humaine et Haxan en un coup.",
+        "texte": "Le Cyborg explosa, détruisant la planète Terre, tuant la race humaine et Haxan en un coup.",
         "nextChapter": "129",
         "images": [
             "../-.png",
@@ -1677,7 +1677,7 @@
         ]
     },
     "86": {
-        "texte": "Cyborg se laissa mourir, les héros de l'éclipse échouèrent.",
+        "texte": "Le Cyborg se laissa mourir, les héros de l'éclipse échouèrent.",
         "nextChapter": "131",
         "images": [
             "../-.png",
@@ -1685,7 +1685,7 @@
         ]
     },
     "87": {
-        "texte": "l'Homme offre à Haxan de faire un deal. Haxan semble réfléchir un moment, puis épargne le jet des héros, qui finissent par atterrir pour rejoindre l'Homme, qui lui avance vers Haxan.",
+        "texte": "L'Homme offre à Haxan de faire un deal. Haxan semble réfléchir un moment, puis épargne le jet des héros, qui finissent par atterrir pour rejoindre l'Homme, qui lui avance vers Haxan.",
         "nextChapter": "88",
         "images": [
             "../-.png",
@@ -1701,7 +1701,7 @@
         ]
     },
     "89": {
-        "texte": "Haxan est blessé au visage, mais parvient à achever Magicien et Tacticien. l'Homme, démoralisé, abandonnera le combat. Lui aussi finira par mourir des mains de Haxan.",
+        "texte": "Haxan est blessé au visage, mais parvient à achever le Magicien et le Tacticien. L'Homme, démoralisé, abandonnera le combat. Lui aussi finira par mourir des mains de Haxan.",
         "nextChapter": "131",
         "images": [
             "../-.png",
@@ -1709,7 +1709,7 @@
         ]
     },
     "90": {
-        "texte": "Haxan est blessé au bras, mais finit par tuer l'Homme et Modélisateur, laissant uniquement Capitaine Québec vivant.",
+        "texte": "Haxan est blessé au bras, mais finit par tuer l'Homme et le Modélisateur, laissant uniquement Capitaine Québec vivant.",
         "nextChapter": "91",
         "images": [
             "../-.png",
@@ -1717,7 +1717,7 @@
         ]
     },
     "91": {
-        "texte": "Malgré ses nombreuses blessures et devant un adversaire définitivement plus fort, Capitaine continua de combattre jusqu'à son dernier souffle, prouvant son courage et son dévouement.",
+        "texte": "Malgré ses nombreuses blessures et devant un adversaire définitivement plus fort, Capitaine Québec continua de combattre jusqu'à son dernier souffle, prouvant son courage et son dévouement.",
         "nextChapter": "131",
         "images": [
             "../-.png",
@@ -1733,10 +1733,10 @@
         ]
     },
     "93": {
-        "texte": "Haxan salue le courage d'Magicien, avant de le saisir par le cou, se préparant à le tuer.",
+        "texte": "Haxan salue le courage du Magicien, avant de le saisir par le cou, se préparant à le tuer.",
         "choix": [{
                 "id": 1,
-                "text": "Magicien invoque un vortex aspirant ce qu'il reste de la terre, lui compris, terminant le travail d'Haxan",
+                "text": "Le Magicien invoque un vortex aspirant ce qu'il reste de la terre, lui compris, terminant le travail d'Haxan",
                 "nextChapter": "134"
             },
             {
@@ -1751,15 +1751,15 @@
         ]
     },
     "95": {
-        "texte": "Haxan se voit blessé par les nombreuses attaques des héros. À genoux devant eux, Haxan alla saisir dans sa poche un collier, qu'il tendit aux héros. C'était le collier de la fille de Barbare, qu'il a tuée précédemment. Un grand sourire au visage, Barbare, fou de rage, fonce sur Haxan pour l'exécuter.",
+        "texte": "Haxan se voit blessé par les nombreuses attaques des héros. À genoux devant eux, Haxan alla saisir dans sa poche un collier, qu'il tendit aux héros. C'était le collier de la fille du Barbare, qu'il a tuée précédemment. Un grand sourire au visage, le Barbare, fou de rage, fonce sur Haxan pour l'exécuter.",
         "choix": [{
                 "id": 1,
-                "text": "Laisser Barbare agir",
+                "text": "Laisser le Barbare agir",
                 "nextChapter": "96"
             },
             {
                 "id": 2,
-                "text": "Empêcher Barbare de tuer Haxan",
+                "text": "Empêcher le Barbare de tuer Haxan",
                 "nextChapter": "97"
             }
         ],
@@ -1769,7 +1769,7 @@
         ]
     },
     "96": {
-        "texte": "Alors qu'Magicien se préparait à sceller Haxan dans un monde simulé pour le restant de l'éternité, Barbare fonça sur Haxan, qui le saisit, puis prit contrôle de son âme. Il lui ordonna de tuer Magicien, et avec son aide, ils finirent par tuer tous les héros de l'éclipse. À la fin de l'affrontement, Haxan salua Barbare, avant de le détruire lui ainsi que le restant de la planète.",
+        "texte": "Alors que le Magicien se préparait à sceller Haxan dans un monde simulé pour le restant de l'éternité, le Barbare fonça sur Haxan, qui le saisit, puis prit contrôle de son âme. Il lui ordonna de tuer le Magicien, et avec son aide, ils finirent par tuer tous les héros de l'éclipse. À la fin de l'affrontement, Haxan salua le Barbare, avant de le détruire lui ainsi que le restant de la planète.",
         "nextChapter": "131",
         "images": [
             "../-.png",
@@ -1777,7 +1777,7 @@
         ]
     },
     "97": {
-        "texte": "Les héros de l'éclipse ont retenu Barbare, qui finira par se calmer. Puis Magicien invoqua un sceau qui scelle Haxan dans une simulation pour l'éternité, le neutralisant et ramenant la paix sur la planète.",
+        "texte": "Les héros de l'éclipse ont retenu le Barbare, qui finira par se calmer. Puis le Magicien invoqua un sceau qui scelle Haxan dans une simulation pour l'éternité, le neutralisant et ramenant la paix sur la planète.",
         "nextChapter": "132",
         "images": [
             "../-.png",
@@ -1785,7 +1785,7 @@
         ]
     },
     "98": {
-        "texte": "Une éclipse apparaît dans le ciel. l'Homme effectue un transformement physique incroyable, gagnant une force inégalable. Sa jambe fut soignée sur le coup. l'Homme se relève, fonce sur Haxan. Les deux firent un combat cosmique, de force presque égale. Les deux furent blessés, mais Haxan finit par prendre le dessus. l'Homme Éclipse, épuisé. Haxan s'apprête à donner le coup de grâce.",
+        "texte": "Une éclipse apparaît dans le ciel. L'Homme effectue un transformement physique incroyable, gagnant une force inégalable. Sa jambe fut soignée sur le coup. L'Homme se relève et fonce sur Haxan. Les deux firent un combat cosmique, de force presque égale. Les deux furent blessés, mais Haxan finit par prendre le dessus. L'Homme Éclipse, épuisé. Haxan s'apprête à donner le coup de grâce.",
         "nextChapter": "99",
         "images": [
             "../-.png",
@@ -1801,7 +1801,7 @@
         ]
     },
     "100": {
-        "texte": "Cyborg devient hyperchargé de l'énergie québécoise, se propulse sur Haxan. Avec le reste de l'équipe, ils viendront à bout d'Haxan, remportant la guerre.",
+        "texte": "Le Cyborg devient hyperchargé de l'énergie québécoise, se propulse sur Haxan. Avec le reste de l'équipe, ils viendront à bout d'Haxan, remportant la guerre.",
         "nextChapter": "132",
         "images": [
             "../-.png",
@@ -1809,7 +1809,7 @@
         ]
     },
     "101": {
-        "texte": "Haxan prit le dessus sur les héros, achevant Cyborg, et tuant tous les héros.",
+        "texte": "Haxan prit le dessus sur les héros, achevant le Cyborg, et tuant tous les héros.",
         "nextChapter": "131",
         "images": [
             "../-.png",
@@ -1821,7 +1821,7 @@
         "nextChapter": 131
     },
     "103": {
-        "texte": "Haxan tua Cyborg et le Tacticien, qui étaient déjà affaiblis. Il épargne Loup, lui offrant de devenir son esclave en échange de sa vie.",
+        "texte": "Haxan tua le Cyborg et le Tacticien, qui étaient déjà affaiblis. Il épargne le Loup, lui offrant de devenir son esclave en échange de sa vie.",
         "choix": [{
                 "id": 1,
                 "text": "Accepter",
@@ -1835,69 +1835,69 @@
         ]
     },
     "104": {
-        "texte": "Haxan rigola un coup, puis donna un coup de pied mortel à Loup, mettant fin au combat.",
+        "texte": "Haxan rigola un coup, puis donna un coup de pied mortel à le Loup, mettant fin au combat.",
         "nextChapter": 131
     },
     "105": {
-        "texte": "Haxan exploite la faille chez Magicien, forçant Magicien à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, l'Homme se transforme en l'Homme Éclipse,...",
+        "texte": "Haxan exploite la faille chez le Magicien, forçant celui-ci à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, l'Homme se transforme en l'Homme Éclipse,...",
         "choix": [{
                 "id": 1,
-                "text": "Envoyer l'Homme attaquer Magicien",
+                "text": "Envoyer l'Homme attaquer le Magicien",
                 "nextChapter": 2051
             },
             {
                 "id": 2,
-                "text": "Raisonner Magicien",
+                "text": "Raisonner le Magicien",
                 "nextChapter": 108
             }
         ]
     },
     "2051": {
-        "texte": "l'Homme tua Magicien d'un coup brutal, puis les héros affrontèrent Haxan, mais ne faisant pas le poids, succombèrent tous dans le combat",
+        "texte": "L'Homme tue le Magicien d'un coup brutal, puis les héros affrontèrent Haxan, mais ne faisant pas le poids, succombèrent tous dans le combat",
         "nextChapter": 131
     },
     "106": {
-        "texte": "Tandis qu'l'Homme sortait CapQc du combat, Haxan exploite la faille chez Magicien, le transformant en son alter ego maléfique, l'Éclipse. Au même moment l'Homme se transforma à son tour en sa phase ultime, l'Homme Éclipse, gagnant une force formidable.",
+        "texte": "Tandis qu'l'Homme sortait Capitaine Québec du combat, Haxan exploite la faille chez le Magicien, le transformant en son alter ego maléfique, l'Éclipse. Au même moment l'Homme se transforma à son tour en sa phase ultime, l'Homme Éclipse, gagnant une force formidable.",
         "choix": [{
                 "id": 1,
-                "text": "Ordonner à l'Homme d'attaquer Magicien",
+                "text": "Ordonner à l'Homme d'attaquer le Magicien",
                 "nextChapter": 107
             },
             {
                 "id": 2,
-                "text": "Raisonner Magicien",
+                "text": "Raisonner le Magicien",
                 "nextChapter": 108
             }
         ]
     },
     "107": {
-        "texte": "l'Homme, trop loin du combat, tenta d'exécuter Magicien, mais le magicien parvint à invoquer un sortilège qui provoqua la réinitialisation de l'univers.",
+        "texte": "L'Homme, trop loin du combat, tenta d'exécuter le Magicien, mais le Magicien parvint à invoquer un sortilège qui provoqua la réinitialisation de l'univers.",
         "nextChapter": 136
     },
     "108": {
-        "texte": "Tacticien tenta de redonner la raison à Magicien, mais celui-ci désormais corrompu, invoqua un sortilège provoquant la réinitialisation de l'univers.",
+        "texte": "Le Tacticien tenta de redonner la raison au Magicien, mais celui-ci désormais corrompu, invoqua un sortilège provoquant la réinitialisation de l'univers.",
         "nextChapter": 136
     },
     "109": {
-        "texte": "L'équipe se prépare à défendre, mais au même moment, Haxan exploite la faille chez Magicien, forçant Magicien à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, l'Homme se transforme en l'Homme Éclipse, gagnant une force phénoménale. Magicien utilisa de la magie noire pour neutraliser toute l'équipe de héros, mais l'Homme ne fut pas affecté.",
+        "texte": "L'équipe se prépare à défendre, mais au même moment, Haxan exploite la faille chez Magicien, forçant Magicien à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, l'Homme se transforme en l'Homme Éclipse, gagnant une force phénoménale. Le Magicien utilisa de la magie noire pour neutraliser toute l'équipe de héros, mais l'Homme ne fut pas affecté.",
         "choix": [{
                 "id": 1,
-                "text": "l'Homme attaque Magicien",
+                "text": "L'Homme attaque le Magicien",
                 "nextChapter": 110
             },
             {
                 "id": 2,
-                "text": "l'Homme attaque Haxan",
+                "text": "L'Homme attaque Haxan",
                 "nextChapter": 111
             }
         ]
     },
     "110": {
-        "texte": "l'Homme attaque Magicien, le pulvérisant d'un seul coup, puis se retourna pour affronter Haxan. S'ensuivit un combat acharné, qui termina par la mort d'l'Homme, qui avant de mourir donna le pouvoir de l'Éclipse à Haxan, qui était déjà trop puni pour contenir ce nouveau pouvoir, se désintégra.",
+        "texte": "L'Homme attaque le Magicien, le pulvérisant d'un seul coup, puis se retourna pour affronter Haxan. S'ensuivit un combat acharné, qui termina par la mort de l'Homme, qui avant de mourir donna le pouvoir de l'Éclipse à Haxan, qui était déjà trop puni pour contenir ce nouveau pouvoir, se désintégra.",
         "nextChapter": 132
     },
     "111": {
-        "texte": "Alors qu'l'Homme s'attaquait à Haxan, Magicien invoqua un sortilège noir réinitialisant l'univers.",
+        "texte": "Alors que l'Homme s'attaquait à Haxan, le Magicien invoqua un sortilège noir réinitialisant l'univers.",
         "nextChapter": 136
     },
     "112": {
@@ -1909,7 +1909,7 @@
         "nextChapter": 131
     },
     "114": {
-        "texte": "Dans un long combat, Haxan finit par tuer tous les héros. Il saisit Loup, lui proposant de devenir l'animal de compagnie de sa femme.",
+        "texte": "Dans un long combat, Haxan finit par tuer tous les héros. Il saisit le Loup, lui proposant de devenir l'animal de compagnie de sa femme.",
         "choix": [{
                 "id": 1,
                 "text": "Accepter",
@@ -1923,7 +1923,7 @@
         ]
     },
     "115": {
-        "texte": "Haxan exécuta Loup puis conquit le restant de la planète, exterminant la race humaine.",
+        "texte": "Haxan exécuta le Loup puis conquit le restant de la planète, exterminant la race humaine.",
         "nextChapter": 131
     },
     "116": {
@@ -1935,25 +1935,25 @@
         "nextChapter": 135
     },
     "118": {
-        "texte": "Magicien réussit à redonner à Capitaine Québec le contrôle de son corps. Haxan, furieux, tua Magicien, qui juste avant de mourir ouvrit un portail menant directement en enfer, aspirant Haxan, Magicien, l'Homme et Casquette Man.",
+        "texte": "Le Magicien réussit à redonner à Capitaine Québec le contrôle de son corps. Haxan, furieux, tua le Magicien, qui juste avant de mourir ouvrit un portail menant directement en enfer, aspirant Haxan, le Magicien, l'Homme et le Tacticien.",
         "choix": [{
                 "id": 1,
-                "text": "Modélisateur sauve l'Homme",
+                "text": "Le Modélisateur sauve l'Homme",
                 "nextChapter": 119
             },
             {
                 "id": 2,
-                "text": "Modélisateur sauve casquette man",
+                "text": "Le Modélisateur sauve le Tacticien",
                 "nextChapter": 120
             }
         ]
     },
     "119": {
-        "texte": "Modélisateur sauva l'Homme, alors qu'Haxan et Casquette Man furent aspirés dans le trou noir. Ne voulant pas laisser la possibilité à Haxan de ressortir de ce portail, Magicien le referma, y scellant à jamais Tacticien et Haxan.",
+        "texte": "Le Modélisateur sauva l'Homme, alors qu'Haxan et le Tacticien furent aspirés dans le trou noir. Ne voulant pas laisser la possibilité à Haxan de ressortir de ce portail, le Magicien le referma, y scellant à jamais le Tacticien et Haxan.",
         "nextChapter": 132
     },
     "120": {
-        "texte": "Modélisateur sauva Tacticien, alors qu'Haxan et l'Homme furent aspirés dans le trou noir. Ne voulant pas laisser la possibilité à Haxan de ressortir de ce portail, Magicien le referma, y scellant à jamais l'Homme et Haxan.",
+        "texte": "Le Modélisateur sauva le Tacticien, alors qu'Haxan et l'Homme furent aspirés dans le trou noir. Ne voulant pas laisser la possibilité à Haxan de ressortir de ce portail, Magicien le referma, y scellant à jamais l'Homme et Haxan.",
         "nextChapter": 132
     },
     "121": {
@@ -1965,19 +1965,19 @@
         "nextChapter": 135
     },
     "126": {
-        "texte": "l'Homme sacrifia sa vie en échange de la planète Terre et de la race humaine.",
+        "texte": "L'Homme sacrifia sa vie en échange de la planète Terre et de la race humaine.",
         "nextChapter": 0
     },
     "127": {
-        "texte": "l'Homme tua Haxan, rétabissant la paix sur la planète et sauvant l'avenir de la race humaine. Les héros de l'éclipse seront dorénavant reconnus pour des millénaires comme des légendes, sauveurs de l'humanité.",
+        "texte": "L'Homme tua Haxan, rétabissant la paix sur la planète et sauvant l'avenir de la race humaine. Les héros de l'éclipse seront dorénavant reconnus pour des millénaires comme des légendes, sauveurs de l'humanité.",
         "nextChapter": 0
     },
     "128": {
-        "texte": "l'Homme tua les héros de l'éclipse. Haxan respecte sa part du marché et créa un univers alternatif pour l'Homme, où il vécut heureux avec sa femme et ses enfants, tandis que Haxan termina sa destruction de la planète Terre.",
+        "texte": "L'Homme tua les héros de l'éclipse. Haxan respecte sa part du marché et créa un univers alternatif pour l'Homme, où il vécut heureux avec sa femme et ses enfants, tandis que Haxan termina sa destruction de la planète Terre.",
         "nextChapter": 0
     },
     "129": {
-        "texte": "Cyborg explosa, détruisant la planète Terre, tuant la race humaine et Haxan en un coup.",
+        "texte": "Le Cyborg explosa, détruisant la planète Terre, tuant la race humaine et Haxan en un coup.",
         "nextChapter": 0
     },
     "130": {
@@ -1993,11 +1993,11 @@
         "nextChapter": 0
     },
     "133": {
-        "texte": "Loup deviendra l'animal de compagnie de la femme de Haxan, laissant la Terre se faire détruire, Haxan remportant cette guerre.",
+        "texte": "Le Loup deviendra l'animal de compagnie de la femme de Haxan, laissant la Terre se faire détruire, Haxan remportant cette guerre.",
         "nextChapter": 0
     },
     "134": {
-        "texte": "Magicien détruit la Terre d'un vortex magique, tuant Haxan et le reste de la race humaine.",
+        "texte": "Le Magicien détruit la Terre d'un vortex magique, tuant Haxan et le reste de la race humaine.",
         "nextChapter": 0
     },
     "135": {
