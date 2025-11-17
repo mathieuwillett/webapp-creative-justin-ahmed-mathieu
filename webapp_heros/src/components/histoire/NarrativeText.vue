@@ -16,7 +16,6 @@ div {
     color: white;
     font-size: 25px;
     text-align: center;
-    letter-spacing: 1px;
 }
 </style>
 

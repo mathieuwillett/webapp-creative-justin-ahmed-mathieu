@@ -17,6 +17,6 @@ div {
     text-align: center;
     display: flex;
     align-items: center;
-    letter-spacing: 1px;
+    
 }
 </style>

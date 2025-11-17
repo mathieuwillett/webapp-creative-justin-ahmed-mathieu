@@ -8,6 +8,5 @@
 .paragraph {
   width: 100%;
   text-align: center; 
-  letter-spacing: 1px;
 }
 </style>
