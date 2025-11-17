@@ -12,5 +12,11 @@ div {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
 }
 </style>

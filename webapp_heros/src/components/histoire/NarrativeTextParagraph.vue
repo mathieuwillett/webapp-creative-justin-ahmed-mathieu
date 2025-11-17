@@ -1,5 +1,12 @@
 <template>
-    <div>
-        <p><slot></slot></p>
+    <div class="paragraph">
+      <slot></slot>
     </div>
-</template>
+  </template>
+
+<style scoped>
+.paragraph {
+  width: 100%;
+  text-align: center; 
+}
+</style>
