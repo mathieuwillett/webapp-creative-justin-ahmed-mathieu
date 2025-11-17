@@ -6,9 +6,9 @@
 
 <style scoped>
 div {
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(88, 88, 88);
     border: solid 2px black;
-    width: 50vw;
+    width: 40vw;
     height: 25vh;
     display: flex;
     justify-content: center;

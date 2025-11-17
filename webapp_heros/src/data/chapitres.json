@@ -1847,7 +1847,7 @@
             },
             {
                 "id": 2,
-                "text": "Raisonner Magicien",
+                "text": "Raisonner le Magicien",
                 "nextChapter": 108
             }
         ]
@@ -1865,7 +1865,7 @@
             },
             {
                 "id": 2,
-                "text": "Raisonner Magicien",
+                "text": "Raisonner le Magicien",
                 "nextChapter": 108
             }
         ]
@@ -1875,11 +1875,11 @@
         "nextChapter": 136
     },
     "108": {
-        "texte": "Tacticien tenta de redonner la raison à Magicien, mais celui-ci désormais corrompu, invoqua un sortilège provoquant la réinitialisation de l'univers.",
+        "texte": "Tacticien tenta de redonner la raison au Magicien, mais celui-ci désormais corrompu, invoqua un sortilège provoquant la réinitialisation de l'univers.",
         "nextChapter": 136
     },
     "109": {
-        "texte": "L'équipe se prépare à défendre, mais au même moment, Haxan exploite la faille chez Magicien, forçant Magicien à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, l'Homme se transforme en l'Homme Éclipse, gagnant une force phénoménale. Magicien utilisa de la magie noire pour neutraliser toute l'équipe de héros, mais l'Homme ne fut pas affecté.",
+        "texte": "L'équipe se prépare à défendre, mais au même moment, Haxan exploite la faille chez le Magicien, le forçant à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, l'Homme se transforme en l'Homme Éclipse, gagnant une force phénoménale. Magicien utilisa de la magie noire pour neutraliser toute l'équipe de héros, mais l'Homme ne fut pas affecté.",
         "choix": [{
                 "id": 1,
                 "text": "l'Homme attaque Magicien",

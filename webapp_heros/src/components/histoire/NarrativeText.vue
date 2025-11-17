@@ -16,6 +16,7 @@ div {
     color: white;
     font-size: 25px;
     text-align: center;
+    line-height: 30px;
 }
 </style>
 
