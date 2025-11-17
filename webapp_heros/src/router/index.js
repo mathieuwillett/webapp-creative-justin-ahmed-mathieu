@@ -1,24 +1,20 @@
-/* On importe les méthodes nécessaires depuis le module `vue-router` */
 import {
   createRouter,
   createWebHistory
 } from 'vue-router';
 
-/* 
-On importe les différentes views (pages) du projet, par exemple pour le 
-projet "Mémoires interactives", on pourrait imaginer 4 views (pages) de base:
-*/
+
 import MenuView from '../views/MenuView.vue';
 import StartView from '../views/StartView.vue';
 import ChapterView from '../views/ChapterView.vue';
 import EndingView from '../views/EndingView.vue';
 import SavesView from '../views/SavesView.vue';
 
-/* Définition des routes dans un tableau [ ] d'objets { } */
+
 const routes = [{
-    path: '/', // (obligatoire) Contient la portion d'URL
-    component: MenuView, // (obligatoire) Fait référence à la View souhaitée
-    name: 'home' // (optionnel) Permet de nommer la route pour l'appeler plus simplement
+    path: '/',
+    component: MenuView,
+    name: 'home'
   },
   {
     path: '/start',
@@ -31,7 +27,7 @@ const routes = [{
     name: 'chapter'
   },
   {
-    path: '/ending/:id', // ← Exemple de route avec paramètre dynamique
+    path: '/ending/:id',
     component: EndingView,
     name: 'ending'
   },
@@ -43,19 +39,17 @@ const routes = [{
   {
     path: '/:pathMatch(.*)*',
     name: 'not-found',
-    redirect: {name: 'menu'}
+    redirect: {
+      name: 'menu'
+    }
   }
 ];
 
-// Création du router via la méthode createRouter
+
 const router = createRouter({
   history: createWebHistory(
-    import.meta.env.BASE_URL), // outil d'historique
-  routes // contient les routes déclarées préalablement
+    import.meta.env.BASE_URL),
+  routes
 });
 
-/*
-Le routeur étant maintenant configuré, nous allons l'exporter
-pour l'importation dans le fichier main.js 
-*/
 export default router;

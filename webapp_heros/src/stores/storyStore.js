@@ -1,4 +1,6 @@
-import { defineStore } from "pinia"
+import {
+  defineStore
+} from "pinia"
 import chapitres from "../data/chapitres.json"
 
 export const useStoryStore = defineStore("story", {
@@ -6,13 +8,13 @@ export const useStoryStore = defineStore("story", {
     currentChapter: null,
     narrative: "",
     availableChoices: [],
-    chapitres: chapitres // make sure this is exactly your imported JSON
+    chapitres: chapitres
   }),
   actions: {
     loadChapters() {
-      // not necessary if already imported
       this.chapitres = chapitres
     },
+
     goToChapter(id) {
       const chapterId = String(id)
       const chapter = this.chapitres[chapterId]
@@ -25,12 +27,17 @@ export const useStoryStore = defineStore("story", {
       if (chapter.choix && chapter.choix.length > 0) {
         this.availableChoices = chapter.choix
       } else if (chapter.nextChapter) {
-        this.availableChoices = [{ id: 0, text: "Continuer", nextChapter: chapter.nextChapter }]
+        this.availableChoices = [{
+          id: 0,
+          text: "Continuer",
+          nextChapter: chapter.nextChapter
+        }]
       } else {
         this.availableChoices = []
       }
       console.log("Chapter loaded:", this.narrative, this.availableChoices)
     },
+
     makeChoice(choice) {
       if (choice.nextChapter) this.goToChapter(choice.nextChapter)
     }

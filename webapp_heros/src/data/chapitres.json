@@ -1,8 +1,7 @@
 {
     "0": {
         "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "L'Homme et le Tacticien attaquent l'homme volant.",
                 "nextChapter": "4"
@@ -16,8 +15,7 @@
     },
     "1": {
         "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Le Cyborg et le Barbare attaquent l'homme volant",
                 "nextChapter": ""
@@ -31,8 +29,7 @@
     },
     "2": {
         "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Capitaine Québec et le Magicien attaquent l'homme volant",
                 "nextChapter": "8"
@@ -46,8 +43,7 @@
     },
     "3": {
         "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Le Modélisateur et le Loup attaquent l'homme volant",
                 "nextChapter": "10"
@@ -61,8 +57,7 @@
     },
     "4": {
         "texte": "Qui devrait attaquer",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "L'Homme",
                 "nextChapter": "12"
@@ -104,8 +99,7 @@
     },
     "12": {
         "texte": "L'Homme s'oppose à la figure volante. Celle-ci fonce sur l'Homme, lui donnant un uppercut si puissant que celui-ci fut propulsé dans l'orbite.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Le Tacticien fonce sur le vilain et lui lance sa casquette au visage.",
                 "nextChapter": "21"
@@ -124,8 +118,7 @@
     },
     "13": {
         "texte": "Le Tacticien s'oppose à la figure volante, qui en le voyant, lui donne un uppercut mortel, le propulsant en orbite.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "L'Homme se fâche",
                 "nextChapter": "23"
@@ -139,8 +132,7 @@
     },
     "14": {
         "texte": "Le vilain se présente, Haxan, dieu des dieux. Il stipule qu'il est présent afin de rétablir l'équilibre dans le monde, et pour cela, il doit anéantir la race humaine.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "L'Homme attaque Haxan pour libérer le Tacticien",
                 "nextChapter": "25"
@@ -154,8 +146,7 @@
     },
     "15": {
         "texte": "Le vilain sort du cratère et se présente, Haxan, dieu des dieux. Il stipule qu'il est présent afin de rétablir l'équilibre dans le monde, et pour cela, il doit anéantir la race humaine. Après quoi, il casse le cou du Cyborg, le tuant instantanément.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Le Barbare fonce sur Haxan et l'attaque avec ses haches",
                 "nextChapter": "27"
@@ -169,8 +160,7 @@
     },
     "16": {
         "texte": "Le message est bien reçu par les héros, qui répondent présent, mais au même moment, la communication est coupée par une mystérieuse voix, un dénommé Haxan, qui souhaite rétablir l'équilibre dans ce monde, en exterminant la race humaine.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Éteindre la communication",
                 "nextChapter": "29"
@@ -184,8 +174,7 @@
     },
     "17": {
         "texte": "L'homme semble inchangé, il se rapproche tranquillement, atterrit au sol, et se présente, Haxan, dieu des dieux. Il stipule qu'il est présent afin de rétablir l'équilibre dans le monde, et pour cela, il doit anéantir la race humaine.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Réattaquer",
                 "nextChapter": "31"
@@ -199,8 +188,7 @@
     },
     "18": {
         "texte": "Le vilain Haxan se présente, puis tire des rayons laser mauves de ses yeux vers le Magicien.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Capitaine Québec se jette devant le Magicien afin de le sauver des rayons.",
                 "nextChapter": "33"
@@ -214,8 +202,7 @@
     },
     "19": {
         "texte": "Le vilain se présente, Haxan, dieu des dieux. Il stipule qu'il est présent afin de rétablir l'équilibre dans le monde, et pour cela, il doit anéantir la race humaine. En un mouvement, il détruit la cage, lance le Loup à travers un bâtiment et donne un violent coup de pied au Modélisateur, le propulsant à plusieurs mètres.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Continuer le combat",
                 "nextChapter": "35"
@@ -229,8 +216,7 @@
     },
     "20": {
         "texte": "Le vilain vit l'emblème et commença à saccager la ville et tuer encore plus, mettant les héros dans un dilemme moral.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Rester cachés",
                 "nextChapter": "37"
@@ -248,8 +234,7 @@
     },
     "1202": {
         "texte": "L'équipe se prépare à affronter Haxan",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Attaquer Haxan tous en même temps",
                 "nextChapter": "51"
@@ -263,8 +248,7 @@
     },
     "21": {
         "texte": "Haxan est gravement blessé au visage, il tombe à genoux, du sang tombe de son visage. Le reste de l'équipe fut alerté par le bruit, se rendant sur les lieux du combat.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Être offensif",
                 "nextChapter": "1371"
@@ -278,8 +262,7 @@
     },
     "1213": {
         "texte": "L'équipe se prépare à combattre Haxan sans l'Homme.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Être offensif",
                 "nextChapter": "39"
@@ -293,8 +276,7 @@
     },
     "1214": {
         "texte": "Ultra s'apprête à affronter Haxan seul",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Être offensif",
                 "nextChapter": "41"
@@ -308,8 +290,7 @@
     },
     "1215": {
         "texte": "L'équipe se prépare à combattre Haxan.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Attaquer tous en même temps.",
                 "nextChapter": "43"
@@ -323,8 +304,7 @@
     },
     "1216": {
         "texte": "L'Homme se prépare à affronter Haxan",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Menacer Haxan",
                 "nextChapter": "45"
@@ -338,8 +318,7 @@
     },
     "1217": {
         "texte": "L'équipe se prépare à combattre Haxan",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Attaquer Haxan tous en même temps.",
                 "nextChapter": "47"
@@ -353,8 +332,7 @@
     },
     "1218": {
         "texte": "L'équipe se prépare à affronter Haxan surpuissant",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Attaquer Haxan tous en même temps.",
                 "nextChapter": "49"
@@ -368,8 +346,7 @@
     },
     "1219": {
         "texte": "L'équipe se prépare à affronter Haxan",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Attaquer Haxan tous en même temps.",
                 "nextChapter": "51"
@@ -383,8 +360,7 @@
     },
     "1220": {
         "texte": "L'équipe se prépare à affronter Haxan.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Attaquer Haxan tous en même temps.",
                 "nextChapter": "53"
@@ -398,8 +374,7 @@
     },
     "1221": {
         "texte": "L'équipe se prépare à affronter Haxan.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Attaquer Haxan tous en même temps.",
                 "nextChapter": "55"
@@ -413,8 +388,7 @@
     },
     "1222": {
         "texte": "L'équipe se prépare à affronter Haxan.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Attaquer Haxan tous en même temps.",
                 "nextChapter": "57"
@@ -428,8 +402,7 @@
     },
     "1223": {
         "texte": "L'équipe se prépare à affronter Haxan.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Attaquer Haxan tous en même temps.",
                 "nextChapter": "59"
@@ -443,8 +416,7 @@
     },
     "1224": {
         "texte": "L'équipe se prépare à affronter Haxan.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Attaquer Haxan tous en même temps.",
                 "nextChapter": "61"
@@ -458,8 +430,7 @@
     },
     "1225": {
         "texte": "L'équipe se prépare à affronter Haxan.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Attaquer Haxan tous en même temps.",
                 "nextChapter": "63"
@@ -537,8 +508,7 @@
     },
     "1371": {
         "texte": "L'équipe attaque Haxan tous en même temps, lui infligeant de lourds dégâts. Dans le combat, le Magicien est gravement touché. Une éclipse apparaît dans le ciel.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Le Magicien utilise un sortilège pour faire en sorte que l'éclipse soit à son apogée",
                 "nextChapter": "65"
@@ -552,8 +522,7 @@
     },
     "38": {
         "texte": "Le Tacticien fit un plan de défense ingénieux. L'équipe reste sur ses gardes, bloquant les attaques d'Haxan et offrant une forte riposte. Haxan est légèrement blessé dans le processus. Capitaine Québec est touché à l'épaule. Une éclipse apparaît dans le ciel.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Continuer d'attaquer",
                 "nextChapter": "67"
@@ -567,8 +536,7 @@
     },
     "39": {
         "texte": "L'équipe attaque Haxan, ne lui infligeant pas grand dommage. Cependant, Le Cyborg voit son bras détruit dans l'action. Une éclipse apparaît dans le ciel.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Continuer d'attaquer",
                 "nextChapter": "69"
@@ -582,8 +550,7 @@
     },
     "40": {
         "texte": "Le Tacticien fit un plan de défense ingénieux, permettant à l'équipe de bien se défendre contre les attaques d'Haxan. Capitaine Québec et le Loup sont blessés dans l'action. Une éclipse apparaît dans le ciel.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Continuer d'attaquer",
                 "nextChapter": "171"
@@ -595,10 +562,9 @@
             }
         ]
     },
-    "141": {
+    "41": {
         "texte": "Haxan subit le coup, crache une dent au sol, puis prend un élan afin de riposter.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Attaquer",
                 "nextChapter": "73"
@@ -612,8 +578,7 @@
     },
     "42": {
         "texte": "Haxan ne bouge pas d'un poil tandis que le rocher s'approche à toute vitesse. Le rocher est détruit à l'impact, Haxan n'a pas bougé d'un poil. Haxan tire un rayon laser mauve dans le torse de l'Homme.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Bloquer le laser",
                 "nextChapter": "79"
@@ -627,8 +592,7 @@
     },
     "43": {
         "texte": "L'équipe attaque, mais dans l'action, le Magicien fut distrait par le corps de son ami au sol. C'est alors qu'Haxan en profita pour le perforer avec sa main. Le Cyborg devient furieux, fonce sur Haxan, mais Haxan le saisit et l'arrache en deux morceaux.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter",
                 "nextChapter": "81"
@@ -642,8 +606,7 @@
     },
     "44": {
         "texte": "Le Barbare attaque le premier. Haxan le pulvérise d'un coup de laser, puis Cap QC intervient. Il se fait envoyer dans un trou noir. Elie tente de le sauver en construisant une chaîne, mais Haxan brise la chaîne et étrangle Elie jusqu'à sa mort.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter",
                 "nextChapter": "84"
@@ -657,8 +620,7 @@
     },
     "45": {
         "texte": "L'Homme menace Haxan de mort. Celui-ci n'a aucune réaction. Le jet des héros est aperçu dans le ciel. Haxan envoie un météore dessus.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Négocier",
                 "nextChapter": "87"
@@ -672,8 +634,7 @@
     },
     "46": {
         "texte": "Haxan rigole, il trouve l'Homme bien drôle. Les héros arrivent en jet, mais Haxan les voyant arriver, envoie un météore dessus.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Négocier",
                 "nextChapter": "87"
@@ -687,8 +648,7 @@
     },
     "47": {
         "texte": "L'équipe attaque Haxan. Dans le combat, il tue le Loup et le Modélisateur d'un coup de pied fatal.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter",
                 "nextChapter": "89"
@@ -702,8 +662,7 @@
     },
     "48": {
         "texte": "L'équipe attaque Haxan. Dans le combat, Haxan tue le Tacticien, le Magicien et le Loup.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter",
                 "nextChapter": "90"
@@ -717,8 +676,7 @@
     },
     "49": {
         "texte": "Haxan, dans le combat, tue Capitaine Québec, le Loup, le Modélisateur et le Tacticien.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter",
                 "nextChapter": "92"
@@ -732,8 +690,7 @@
     },
     "50": {
         "texte": "Haxan tue dans le combat Capitaine Québec, le Loup, le Modélisateur, le Tacticien et l'Homme.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter",
                 "nextChapter": "93"
@@ -746,9 +703,8 @@
         ]
     },
     "51": {
-        "texte": "L'équipe attaque Haxan. Dans le combat, Ahmed est gravement touché à la jambe et ne peut plus marcher.",
-        "choix": [
-            {
+        "texte": "L'équipe attaque Haxan. Dans le combat, L'Homme est gravement touché à la jambe et ne peut plus marcher.",
+        "choix": [{
                 "id": 1,
                 "text": "Continuer d'attaquer Haxan",
                 "nextChapter": "95"
@@ -766,8 +722,7 @@
     },
     "52": {
         "texte": "L'équipe attaque Haxan. Dans le combat, Raf est perforé d'une lance de Elie, utilisée par Haxan.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Cap Qc recharge l'armure de Raf d'un éclair hydro-électrique",
                 "nextChapter": "100"
@@ -785,8 +740,7 @@
     },
     "53": {
         "texte": "L'équipe attaque Haxan, qui riposte en tuant Ahmed et Elie.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter (Mik, Emeryk, Raf & mathieu)",
                 "nextChapter": "102"
@@ -804,8 +758,7 @@
     },
     "54": {
         "texte": "L'équipe attaque Haxan, qui riposte en tuant Ahmed, Elie et Mathieu.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter (Emeryk, Raf & mik)",
                 "nextChapter": "103"
@@ -823,8 +776,7 @@
     },
     "55": {
         "texte": "L'équipe attaque Haxan ensemble, mais dans la foulée, Haxan remarque une faille chez Alex. Cap QC est assommé en combat.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Continuer de combattre",
                 "nextChapter": "105"
@@ -842,8 +794,7 @@
     },
     "56": {
         "texte": "L'équipe attaque Haxan ensemble, mais dans la foulée Haxan remarque une faille chez Alex.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Continuer de combattre",
                 "nextChapter": "105"
@@ -861,8 +812,7 @@
     },
     "57": {
         "texte": "Dans le combat, Haxan tue Ahmed et Raf.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter (Alex, Mathieu, Elie, Emeryk, Mik)",
                 "nextChapter": "112"
@@ -880,8 +830,7 @@
     },
     "58": {
         "texte": "Dans le combat, Haxan tue Raf et Mikael.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter (mathieu, Elie, Alex, Ahmed, Emeryk)",
                 "nextChapter": "112"
@@ -899,8 +848,7 @@
     },
     "59": {
         "texte": "Dans le combat, Elie et Mikael sont tués.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter (Cap, Emeryk, Mathieu, Ahmed, Raf)",
                 "nextChapter": "113"
@@ -918,8 +866,7 @@
     },
     "60": {
         "texte": "Dans le combat, Haxan tue Elie et Mathieu.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter (Cap, Mik, Ahmed, Emeryk, Raf)",
                 "nextChapter": "114"
@@ -937,8 +884,7 @@
     },
     "61": {
         "texte": "Haxan tue Alex et Raf dans le combat.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter (Cap, Mathieu, Mik, Ahmed)",
                 "nextChapter": "116"
@@ -956,8 +902,7 @@
     },
     "62": {
         "texte": "Dans le combat, Haxan tue Cap QC et Ahmed.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Riposter (Mik, Alex, Mathieu, Raf)",
                 "nextChapter": "114"
@@ -975,8 +920,7 @@
     },
     "63": {
         "texte": "Cap QC est désolé de tous les civils tués. Haxan profite de ce moment de faiblesse pour prendre possession de l'esprit de Cap QC.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Exécuter Cap",
                 "nextChapter": "117"
@@ -994,8 +938,7 @@
     },
     "64": {
         "texte": "Cap QC est désolé de tous les civils tués. Haxan profite de ce moment de faiblesse pour prendre possession de l'esprit de Cap QC et tue Alex dans le combat.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Exécuter Cap",
                 "nextChapter": "121"
@@ -1013,8 +956,7 @@
     },
     "65": {
         "texte": "Alors qu'Haxan avait saisi Alex par le cou et s'apprêtait à le tuer, un étrange projectile est tombé du ciel.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "75"
@@ -1032,8 +974,7 @@
     },
     "66": {
         "texte": "Haxan réussit à prendre Raf par surprise et lui arracha la tête. Un projectile s'écrasa au sol.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "75"
@@ -1051,8 +992,7 @@
     },
     "67": {
         "texte": "Haxan commence à prendre le dessus, blesse Casquette Man et Emeryk, puis un projectile s'écrasa au sol.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "75"
@@ -1070,8 +1010,7 @@
     },
     "68": {
         "texte": "Haxan tue Mathieu mais un projectile s'écrasa au sol.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "75"
@@ -1089,8 +1028,7 @@
     },
     "69": {
         "texte": "Cap QC est transpercé au cœur. Un projectile s'écrasa au sol.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "75"
@@ -1108,8 +1046,7 @@
     },
     "70": {
         "texte": "Elie est tué d'un projectile mortel. Un autre projectile s'écrasa au sol.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "75"
@@ -1127,8 +1064,7 @@
     },
     "71": {
         "texte": "Emeryk est tué. Mathieu et Alex sont blessés. Un projectile s'écrasa au sol.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "75"
@@ -1146,8 +1082,7 @@
     },
     "72": {
         "texte": "Cap QC se sacrifie. Un projectile s'écrasa au sol.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "75"
@@ -1165,8 +1100,7 @@
     },
     "73": {
         "texte": "Haxan esquive, puis tranche la tête d'Ahmed.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "131"
@@ -1184,8 +1118,7 @@
     },
     "74": {
         "texte": "Haxan frappe Ahmed, détruisant ses deux bras.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "131"
@@ -1203,8 +1136,7 @@
     },
     "75": {
         "texte": "Ahmed Éclipse sortit du cratère, invoquant une éclipse miniature.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "76"
@@ -1222,8 +1154,7 @@
     },
     "76": {
         "texte": "Haxan propose à Ahmed une réalité alternative.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Propulser l'éclipse sur Haxan",
                 "nextChapter": "77"
@@ -1241,8 +1172,7 @@
     },
     "77": {
         "texte": "Ahmed tua Haxan et sauva l'humanité.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "132"
@@ -1260,8 +1190,7 @@
     },
     "78": {
         "texte": "Ahmed tue les héros de l'éclipse et vit heureux dans un monde alternatif.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "128"
@@ -1279,8 +1208,7 @@
     },
     "79": {
         "texte": "Le torse d’Ahmed est transpercé. Il meurt.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "80"
@@ -1298,8 +1226,7 @@
     },
     "80": {
         "texte": "Haxan détruit la Terre entière.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "80"
@@ -1317,8 +1244,7 @@
     },
     "81": {
         "texte": "Haxan propose d'épargner les deux survivants.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Accepter",
                 "nextChapter": "82"
@@ -1336,8 +1262,7 @@
     },
     "82": {
         "texte": "Haxan désintègre les deux héros restants.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "131"
@@ -1355,8 +1280,7 @@
     },
     "83": {
         "texte": "Haxan tue les derniers héros.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "131"
@@ -1374,8 +1298,7 @@
     },
     "84": {
         "texte": "Haxan achève Alex et Mike. Ahmed abandonne et meurt.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "131"
@@ -1393,8 +1316,7 @@
     },
     "85": {
         "texte": "Haxan tue Ahmed et Elie. Seul Cap reste.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "91"
@@ -1412,8 +1334,7 @@
     },
     "86": {
         "texte": "Capitaine Québec combat jusqu’à son dernier souffle.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "131"
@@ -1431,8 +1352,7 @@
     },
     "87": {
         "texte": "Haxan absorbe les âmes des derniers héros.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "131"
@@ -1450,8 +1370,7 @@
     },
     "88": {
         "texte": "Haxan saisit Alex par le cou.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Alex invoque un vortex",
                 "nextChapter": "134"
@@ -1469,8 +1388,7 @@
     },
     "95": {
         "texte": "Haxan blessé tend un collier aux héros. Mathieu fonce pour l'exécuter.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Laisser Mathieu agir",
                 "nextChapter": "96"
@@ -1488,8 +1406,7 @@
     },
     "96": {
         "texte": "Haxan prend le contrôle de Mathieu et détruit tout.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "131"
@@ -1507,8 +1424,7 @@
     },
     "97": {
         "texte": "Les héros scellent Haxan dans une simulation.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "132"
@@ -1526,8 +1442,7 @@
     },
     "98": {
         "texte": "Ahmed Éclipse affronte Haxan mais s'effondre.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "99"
@@ -1545,8 +1460,7 @@
     },
     "99": {
         "texte": "Ahmed retrouve espoir et tue Haxan.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "132"
@@ -1564,8 +1478,7 @@
     },
     "100": {
         "texte": "Raf hyperchargé aide à tuer Haxan.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "132"
@@ -1583,8 +1496,7 @@
     },
     "101": {
         "texte": "Haxan prend le dessus et tue tous les héros.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "-",
                 "nextChapter": "131"
@@ -1606,8 +1518,7 @@
     },
     "103": {
         "texte": "Haxan tua Raf et Mikael, qui étaient déjà affaiblis. Il épargne Emeryk, lui offrant de devenir son esclave en échange de sa vie.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Accepter",
                 "nextChapter": 104
@@ -1625,8 +1536,7 @@
     },
     "105": {
         "texte": "Haxan exploite la faille chez Alex, forçant Alex à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, Ahmed se transforme en Ahmed Éclipse,...",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Envoyer Ahmed attaquer Alex",
                 "nextChapter": 1051
@@ -1644,8 +1554,7 @@
     },
     "106": {
         "texte": "Tandis qu'Ahmed sortait CapQc du combat, Haxan exploite la faille chez Alex, le transformant en son alter ego maléfique, l'Éclipse. Au même moment Ahmed se transforma à son tour en sa phase ultime, Ahmed Éclipse, gagnant une force formidable.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Ordonner à Ahmed d'attaquer Alex",
                 "nextChapter": 107
@@ -1667,8 +1576,7 @@
     },
     "109": {
         "texte": "L'équipe se prépare à défendre, mais au même moment, Haxan exploite la faille chez Alex, forçant Alex à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, Ahmed se transforme en Ahmed Éclipse, gagnant une force phénoménale. Alex utilisa de la magie noire pour neutraliser toute l'équipe de héros, mais Ahmed ne fut pas affecté.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Ahmed attaque Alex",
                 "nextChapter": 110
@@ -1698,8 +1606,7 @@
     },
     "114": {
         "texte": "Dans un long combat, Haxan finit par tuer tous les héros. Il saisit Emeryk, lui proposant de devenir l'animal de compagnie de sa femme.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Accepter",
                 "nextChapter": 133
@@ -1725,8 +1632,7 @@
     },
     "118": {
         "texte": "Alex réussit à redonner à Cap Qc le contrôle de son corps. Haxan, furieux, tua Alex, qui juste avant de mourir ouvrit un portail menant directement en enfer, aspirant Haxan, Alex, Ahmed et Casquette Man.",
-        "choix": [
-            {
+        "choix": [{
                 "id": 1,
                 "text": "Elie sauve Ahmed",
                 "nextChapter": 119
