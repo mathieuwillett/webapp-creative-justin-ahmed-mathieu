@@ -1085,16 +1085,16 @@
         "choix": [{
                 "id": 1,
                 "text": "Continuer d'attaquer",
-                "nextChapter": "171"
+                "nextChapter": "71"
             },
             {
                 "id": 2,
                 "text": "Se mettre sur la défensive",
-                "nextChapter": "172"
+                "nextChapter": "72"
             }
         ]
     },
-    "141": {
+    "41": {
         "texte": "Haxan subit le coup, crache une dent au sol, puis prend un élan afin de riposter.",
         "choix": [{
                 "id": 1,
