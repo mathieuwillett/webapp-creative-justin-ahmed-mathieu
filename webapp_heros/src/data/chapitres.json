@@ -80,7 +80,10 @@
     },
     "5": {
         "texte": "L'Homme se cache par peur. Le Tacticien tente de le rejoindre, mais l'homme volant se précipite sur lui et l'attrape par le cou. ",
-        "nextChapter": "14"
+        "nextChapter": "14",
+        "active": {
+            "Ahmed": false
+        }
     },
     "6": {
         "texte": "Le Cyborg utilise un rayon phasique et tire sur l'homme, celui-ci esquive le rayon et fonce sur lui à pleine vitesse, créant un énorme cratère au sol, le Cyborg gisant au fond.",
@@ -511,7 +514,14 @@
     },
     "23": {
         "texte": "L'Homme tombe dans sa deuxième phase, il devient Ultra.",
-        "nextChapter": "1214"
+        "nextChapter": "1214",
+        "damage": {
+            "HommeUltra": 100
+        },
+        "active": {
+            "Ahmed": false,
+            "HommeUltra": true
+        }
     },
     "24": {
         "texte": "Haxan rattrape l'Homme et le tue en passant sa main au travers de sa poitrine. Quelques heures plus tard, le reste de l'équipe se réunit pour l'affronter.",
@@ -657,7 +667,10 @@
                 "text": "Bloquer le coup",
                 "nextChapter": "74"
             }
-        ]
+        ],
+        "damage": {
+            "Haxan": 100
+        }
     },
     "42": {
         "texte": "Haxan ne bouge pas d'un poil tandis que le rocher s'approche à toute vitesse. Le rocher est détruit à l'impact, Haxan n'a pas bougé d'un poil. Haxan tire un rayon laser mauve dans le torse de l'Homme.",
@@ -1085,7 +1098,6 @@
         "active": {
             "CapQC": false
         }
-        
     },
     "73": {
         "texte": "Haxan esquive le coup, puis riposte d'un coup fatal, tranchant la tête de l'Homme avec sa main.",
