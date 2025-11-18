@@ -66,19 +66,19 @@ export default {
 
     <ChoicePanel>
       <ChoiceButton class="bouton-start" @click="startAt('0')">
-        <ChoiceButtonText>l'homme et le tacticien</ChoiceButtonText>
+        <ChoiceButtonText>L'Homme et le Tacticien</ChoiceButtonText>
       </ChoiceButton>
 
       <ChoiceButton class="bouton-start" @click="startAt('1')">
-        <ChoiceButtonText>Le barbare et le cyborg</ChoiceButtonText>
+        <ChoiceButtonText>Le Barbare et le Cyborg</ChoiceButtonText>
       </ChoiceButton>
 
       <ChoiceButton class="bouton-start" @click="startAt('2')">
-        <ChoiceButtonText>Capitaine Québec et Le magicien</ChoiceButtonText>
+        <ChoiceButtonText>Capitaine Québec et le Magicien</ChoiceButtonText>
       </ChoiceButton>
 
       <ChoiceButton class="bouton-start" @click="startAt('3')">
-        <ChoiceButtonText>Le modélisateur et le loup</ChoiceButtonText>
+        <ChoiceButtonText>Le Modélisateur et le Loup</ChoiceButtonText>
       </ChoiceButton>
     </ChoicePanel>
   </div>
