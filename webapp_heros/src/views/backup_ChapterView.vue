@@ -8,7 +8,6 @@ import ChoiceButtonText from "@/components/histoire/ChoiceButtonText.vue"
 import ContinueButton from "@/components/histoire/ContinueButton.vue"
 
 import { useStoryStore } from "@/stores/storyStore"
-import { usePlayerStore } from "@/stores/playerStore"
 
 export default {
     name: "chapter",
