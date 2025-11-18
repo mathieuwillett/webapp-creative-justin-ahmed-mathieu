@@ -101,6 +101,23 @@ export const usePlayerStore = defineStore('player', {
       this.active.HommeUltra = this.active.HommeUltra
       this.active.HommeEclipse = this.active.HommeEclipse
       this.active.Haxan = this.active.Haxan
+    },
+
+    //Modifie dynamiquement les images des héros selon leurs points de vie actuels.
+    updateHealth() {
+        for (const [name, hp] of Object.entries(this.hp)) {
+    
+          if (hp < 30) {
+            console.log(`${name} is in critical danger!`);
+            // mettre l'image wounded mad
+          } 
+          else if (hp < 60) {
+            console.log(`${name} is getting weak.`);
+            // mettre l'image wounded
+          }
+    
+        }
+      
     }
   }
 })
