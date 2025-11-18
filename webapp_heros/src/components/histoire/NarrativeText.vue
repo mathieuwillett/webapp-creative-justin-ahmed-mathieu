@@ -14,9 +14,11 @@ div {
     padding: 2vw;
     border: solid black 2px;
     color: white;
-    font-size: 25px;
+    font-size: 1.2vw;
     text-align: center;
     line-height: 30px;
 }
+
+
 </style>
 

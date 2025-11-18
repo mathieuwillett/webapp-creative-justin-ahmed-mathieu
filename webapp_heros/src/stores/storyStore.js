@@ -46,6 +46,17 @@ export const useStoryStore = defineStore("story", {
 
         players.applyDamage()
       }
+
+      if (chapter.active) {
+        const players = usePlayerStore()
+
+        for (const perso in chapter.active) {
+          players.active[perso] = chapter.active[perso]
+        }
+
+        players.CheckActive()
+        
+      }
     },
 
     makeChoice(choice) {

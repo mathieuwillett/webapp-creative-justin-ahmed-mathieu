@@ -117,7 +117,10 @@
             }
         ],
         "damage": {
-            "Homme": 20
+            "Homme": 100
+        },
+        "active": {
+            "Homme": true
         }
     },
     "13": {
@@ -272,7 +275,10 @@
                 "text": "Être défensif",
                 "nextChapter": "38"
             }
-        ]
+        ],
+        "active": {
+            "CapQC": true
+        }
     },
     "1213": {
         "texte": "L'équipe se prépare à combattre Haxan sans l'Homme.",

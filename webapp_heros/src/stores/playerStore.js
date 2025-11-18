@@ -30,9 +30,24 @@ export const usePlayerStore = defineStore('player', {
       HommeUltra: 0,
       HommeEclipse: 0,
       Haxan: 0
+    },
+
+    active: {
+      Homme: null,
+      Tacticien: null,
+      CapQC: null,
+      Magicien: null,
+      Barbare: null,
+      Cyborg: null,
+      Loup: null,
+      Modelisateur: null,
+      CapCanada: null,
+      HommeUltra: null,
+      HommeEclipse: null,
+      Haxan: null
     }
   }),
-  
+
   //getters c'est comme computed dans une app vue
   getters: {
     canAccessEnding: () => {
@@ -71,5 +86,21 @@ export const usePlayerStore = defineStore('player', {
       this.damage.HommeEclipse = 0
       this.damage.Haxan = 0
     },
+    CheckActive() {
+
+      console.log("Personnages actifs :", this.active)
+      this.active.Homme = this.active.Homme
+      this.active.Tacticien = this.active.Tacticien
+      this.active.CapQC = this.active.CapQC
+      this.active.Magicien = this.active.Magicien
+      this.active.Barbare = this.active.Barbare
+      this.active.Cyborg = this.active.Cyborg
+      this.active.Loup = this.active.Loup
+      this.active.Modelisateur = this.active.Modelisateur
+      this.active.CapCanada = this.active.CapCanada
+      this.active.HommeUltra = this.active.HommeUltra
+      this.active.HommeEclipse = this.active.HommeEclipse
+      this.active.Haxan = this.active.Haxan
+    }
   }
 })
