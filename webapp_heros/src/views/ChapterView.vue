@@ -49,6 +49,8 @@ export default {
     methods: {
         selectChoice(choice) {
     if (!choice.nextChapter) {
+        //Vérifie si le fonctionnement de vie fonctionne
+        applyDamage();
         this.story.currentChapter = null
         this.story.narrative = "Fin de l'histoire."
         this.story.availableChoices = []

@@ -32,6 +32,12 @@ export const usePlayerStore = defineStore('player', {
       Haxan: 0
     }
   }),
+  
+  //getters c'est comme computed dans une app vue
+  getters: {
+    canAccessEnding: () => {
+    }
+  },
 
   actions: {
     applyDamage() {
@@ -64,6 +70,6 @@ export const usePlayerStore = defineStore('player', {
       this.damage.HommeUltra = 0
       this.damage.HommeEclipse = 0
       this.damage.Haxan = 0
-    }
+    },
   }
 })
