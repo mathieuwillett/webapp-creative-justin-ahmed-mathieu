@@ -17,18 +17,17 @@ const store = usePlayerStore();
       >
         <img :src="personnage.img" :alt="personnage.name" :class="{ dead: store.hp[personnage.name] <= 0 }"/>
       </div>
-    </div>
-    
-
-    <div class="wrapper">
-  <div class="personnages" v-for="(personnage, index) in store.images.filter(p => p.name == 'Haxan')"
-    :key="index">
-    <img :src="personnage.img" :alt="personnage.name" />
-  </div>
-</div>
 
 
-  
+      <div class="wrapper">
+        <div class="personnages" v-for="(personnage, index) in store.images.filter(p => p.name == 'Haxan')"
+          :key="index">
+          <img :src="personnage.img" :alt="personnage.name" />
+        </div>
+      </div>
+
+
+
 
       <!-- <div
         class="haxan"
@@ -42,8 +41,6 @@ const store = usePlayerStore();
 
 <style scoped>
 .screen {
-  background-image: url(@/assets/War2.png);
-  background-size: contain;
   width: 100%;
   height: 50vh;
   display: flex;
@@ -52,13 +49,24 @@ const store = usePlayerStore();
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  position: relative;
+  overflow: hidden;
+}
+
+.screen::before {
+  content: "";
+  inset: 0;
+  background-image: url(@/assets/War2.png);
+  background-size: contain;
+  filter: blur(3px);
+  position: absolute;
+  z-index: -1;
 }
 
 .personnages {
   /* background-color: red; */
   height: 12vw;
   width: 8vw;
-   border: solid 2px black; 
   user-select: none;
   display: flex;
   justify-content: center;
