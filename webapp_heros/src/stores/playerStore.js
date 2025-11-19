@@ -45,7 +45,20 @@ export const usePlayerStore = defineStore('player', {
       HommeUltra: null,
       HommeEclipse: null,
       Haxan: null
-    }
+    },
+
+    images: [
+      { id: 1, name: "Homme", img: "/Images/Ahmed/PixelAhmed.png", lightWound: "/Images/Ahmed/PixelAhmedLightWound.png", Wounded: "/Images/Ahmed/PixelAhmedWounded.png", HeavyWound: "/Images/Ahmed/PixelAhmedHeavyWound.png" },
+      { id: 2, name: "Tacticien", img: "/Images/Mike/PixelMike.png", lightWound: "/Images/Mike/PixelMike.png" },
+      { id: 3, name: "CapQC", img: "/Images/CapitaineQuebec/PixelCap.png", lightWound: "/Images/CapitaineQuebec/PixelCap.png" },
+      { id: 4, name: "Magicien", img: "/Images/Alex/PixelAlex.png", lightWound: "/Images/Alex/PixelAlex.png" },
+      { id: 5, name: "Barbare", img: "/Images/Mathieu/PixelMathieu.png", lightWound: "/Images/Mathieu/PixelMathieu.png" },
+      { id: 6, name: "Cyborg", img: "/Images/Raf/PixelRaf.png", lightWound: "/Images/Raf/PixelRaf.png" },
+      { id: 7, name: "Loup", img: "/Images/Emeryk/PixelEmeryk.png", lightWound: "/Images/Emeryk/PixelEmeryk.png" },
+      { id: 8, name: "Modelisateur", img: "/Images/Elie/PixelElie.png", lightWound: "/Images/Elie/PixelElie.png" },
+      { id: 13, name: "Haxan", img: "/Images/Haxan/PixelHaxan.png", lightWound: "/Images/Haxan/PixelHaxan.png" },
+      // …
+    ]
   }),
 
   //getters c'est comme computed dans une app vue
@@ -85,6 +98,32 @@ export const usePlayerStore = defineStore('player', {
       this.damage.HommeUltra = 0
       this.damage.HommeEclipse = 0
       this.damage.Haxan = 0
+
+      // Logique pour updater les images affichées pour correspondre aux dégâts subits
+      for (const character of Object.keys(this.hp)) {
+        const hp = this.hp[character];
+        const imagePersonnage = this.images.find(c => c.name === character);
+
+        if (!imagePersonnage) continue;
+
+        if (hp > 50 && hp <= 70) {
+            // Change l'image actuelle du personnage pour sa version lightWound
+            imagePersonnage.img = imagePersonnage.lightWound;
+          
+        } else if (hp > 20 && hp <= 50) {
+
+            // Change l'image actuelle du personnage pour sa version Wounded
+            imagePersonnage.img = imagePersonnage.Wounded;
+          
+
+        } else if (hp <= 20) {
+
+            // Change l'image actuelle du personnage pour sa version Heavy Wound
+            imagePersonnage.img = imagePersonnage.HeavyWound;
+          
+
+        }
+      }
     },
     CheckActive() {
 
@@ -101,23 +140,7 @@ export const usePlayerStore = defineStore('player', {
       this.active.HommeUltra = this.active.HommeUltra
       this.active.HommeEclipse = this.active.HommeEclipse
       this.active.Haxan = this.active.Haxan
-    },
-
-    //Modifie dynamiquement les images des héros selon leurs points de vie actuels.
-    updateHealth() {
-        for (const [name, hp] of Object.entries(this.hp)) {
-    
-          if (hp < 30) {
-            console.log(`${name} is in critical danger!`);
-            // mettre l'image wounded mad
-          } 
-          else if (hp < 60) {
-            console.log(`${name} is getting weak.`);
-            // mettre l'image wounded
-          }
-    
-        }
-      
     }
+
   }
 })

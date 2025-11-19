@@ -1,7 +1,7 @@
 <script setup>
-import { useCharactersStore } from '@/stores/imagesStore.js'
+import { usePlayerStore } from '@/stores/playerStore.js'
 
-const store = useCharactersStore()
+const store = usePlayerStore()
 </script>
 
 <template>
@@ -9,7 +9,7 @@ const store = useCharactersStore()
     <div class="wrapper">
       <div 
         class="personnages"
-        v-for="(personnage, index) in store.characters"
+        v-for="(personnage, index) in store.images"
         :key="index"
       >
         <img :src="personnage.img" :alt="personnage.name" />
@@ -36,6 +36,7 @@ const store = useCharactersStore()
 .personnages {
     background-color: red;
     height: 20vh;
+    width: 155px;
     border: solid 2px black;
     
 }
