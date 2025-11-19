@@ -57,7 +57,11 @@
                 "text": "L'équipe se cache et appellent des renforts",
                 "nextChapter": "11"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true
+        }
     },
     "4": {
         "texte": "Qui devrait attaquer",
@@ -72,11 +76,7 @@
                 "text": "Le Tacticien",
                 "nextChapter": "13"
             }
-        ],
-        "active": {
-            "Homme": true,
-            "Tacticien": true
-        }
+        ]
     },
     "5": {
         "texte": "L'Homme se cache par peur. Le Tacticien tente de le rejoindre, mais l'homme volant se précipite sur lui et l'attrape par le cou. ",
@@ -557,11 +557,27 @@
     },
     "26": {
         "texte": "Haxan regarde l'Homme droit dans les yeux avant d'écraser le Tacticien au sol, le tuant à l'impact.",
-        "nextChapter": "1216"
+        "nextChapter": "1216",
+        "damage": {
+            "Tacticien": 100
+        }
     },
     "27": {
         "texte": "Le Barbare enfonce ses haches dans Haxan, mais n'arrive plus à les retirer. Haxan ricane, puis utilise un pouvoir psychique pour désintégrer le Barbare. Les héros arrivent plus tard.",
-        "nextChapter": "1217"
+        "nextChapter": "1217",
+        "damage": {
+            "Barbare": 100,
+            "Haxan": 20
+        },
+        "active": {
+            "Homme": false,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true
+        }
     },
     "28": {
         "texte": "Haxan est surpris du courage du Barbare, et décide d'absorber son âme, augmentant encore plus la force phénoménale de Haxan.",
@@ -585,7 +601,10 @@
     },
     "33": {
         "texte": "Capitaine Québec est transpercé par les rayons, le laissant mourir au sol, laissant la vie sauve au Magicien. Les autres héros arrivent au même moment.",
-        "nextChapter": "1222"
+        "nextChapter": "1222",
+        "damage": {
+            "CapQC": 100
+        }
     },
     "34": {
         "texte": "La décharge de Capitaine Québec arrive partiellement à retenir le rayon de Haxan, mais pas complètement. Haxan parvint à tuer le Magicien de son rayon, laissant Capitaine Québec seul. Les autres héros arrivent au même moment.",
@@ -638,7 +657,7 @@
         ],
         "damage": {
             "Haxan": 5,
-            "CapQc": 35
+            "CapQC": 35
         },
         "active": {
             "Homme": false
@@ -678,7 +697,7 @@
             }
         ],
         "damage": {
-            "CapQc": 15,
+            "CapQC": 15,
             "Loup": 15
         }
     },
