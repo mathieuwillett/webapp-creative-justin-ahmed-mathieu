@@ -34,18 +34,18 @@ export const usePlayerStore = defineStore('player', {
     },
 
     active: {
-      Homme: null,
-      Tacticien: null,
-      CapQC: null,
-      Magicien: null,
-      Barbare: null,
-      Cyborg: null,
-      Loup: null,
-      Modelisateur: null,
-      CapCanada: null,
-      HommeUltra: null,
-      HommeEclipse: null,
-      Haxan: null
+      Homme: false,
+      Tacticien: false,
+      CapQC: false,
+      Magicien: false,
+      Barbare: false,
+      Cyborg: false,
+      Loup: false,
+      Modelisateur: false,
+      CapCanada: false,
+      HommeUltra: false,
+      HommeEclipse: false,
+      Haxan: false
     },
 
     images: [

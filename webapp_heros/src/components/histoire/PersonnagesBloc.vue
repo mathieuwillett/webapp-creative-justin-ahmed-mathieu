@@ -13,7 +13,7 @@ const store = usePlayerStore();
       <div
         class="personnages"
         v-for="(personnage, index) in store.images.filter(p => p.name !== 'Haxan')"
-        :key="index"
+        :key="index" :class="{absent: store.active[personnage.name] == false}"
       >
         <img :src="personnage.img" :alt="personnage.name" :class="{ dead: store.hp[personnage.name] <= 0 }"/>
       </div>
@@ -88,5 +88,9 @@ img {
 
 img.dead {
   filter: grayscale(100%) brightness(120%);
+}
+
+div.absent {
+  display: none;
 }
 </style>
