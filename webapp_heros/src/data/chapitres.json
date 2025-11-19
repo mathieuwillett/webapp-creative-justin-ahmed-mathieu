@@ -12,7 +12,11 @@
                 "text": "L'équipe se cache et appellent des renforts",
                 "nextChapter": "5"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true
+        }
     },
     "1": {
         "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
@@ -57,11 +61,7 @@
                 "text": "L'équipe se cache et appellent des renforts",
                 "nextChapter": "11"
             }
-        ],
-        "active": {
-            "Homme": true,
-            "Tacticien": true
-        }
+        ]
     },
     "4": {
         "texte": "Qui devrait attaquer",
@@ -581,11 +581,18 @@
     },
     "28": {
         "texte": "Haxan est surpris du courage du Barbare, et décide d'absorber son âme, augmentant encore plus la force phénoménale de Haxan.",
-        "nextChapter": "1218"
+        "nextChapter": "1218",
+        "damage": {
+            "Barbare": 100
+        }
     },
     "29": {
         "texte": "Le message a bel et bien passé, mais malheureusement, Haxan connaît leur position. Il envoie une charge orbitale mortelle sur leur position, les réduisant en cendres.",
-        "nextChapter": "1217"
+        "nextChapter": "1217",
+        "damage": {
+            "Barbare": 100,
+            "Haxan": 100
+        }
     },
     "30": {
         "texte": "Les héros, avec le temps supplémentaire, ont le temps de localiser la position du Cyborg, mais Haxan aussi. Il lance une charge orbitale pour anéantir le Cyborg et le Barbare, mais au même moment, le Magicien ouvre un portail dimensionnel, téléportant les héros de l'éclipse sur leur position, permettant au Modélisateur de créer un bouclier 3D.",
