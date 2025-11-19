@@ -1,7 +1,9 @@
 <template>
-    <div>
-        <p>Personnage 1</p>
-        <p>Personnage 2</p>
+    <div class="wrapper">
+        <div class="scene"><img class="image" src="/Images/Scenes/FastFood.png" alt=""></div>
+        <div class="scene scene2"><img class="image" src="/Images/Scenes/Bar.png" alt=""></div>
+        <div class="scene scene3"><img class="image" src="/Images/Scenes/Meditation.png" alt=""></div>
+        <div class="scene scene4"><img class="image" src="/Images/Scenes/Cafe.png" alt=""></div>
     </div>
 </template>
 
@@ -23,5 +25,12 @@ p{
     -moz-user-select: none;    /* Firefox */
     -ms-user-select: none;     /* IE/Edge */
 }
+
+.image {
+    height:100%;
+    transition: transform 0.3s ease;
+}
+
+
     
 </style>
