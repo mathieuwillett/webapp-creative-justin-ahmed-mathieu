@@ -31,7 +31,11 @@
                 "text": "L'équipe se cache et appellent des renforts",
                 "nextChapter": "7"
             }
-        ]
+        ],
+        "active": {
+            "Cyborg": true,
+            "Barbare": true
+        }
     },
     "2": {
         "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
@@ -46,7 +50,11 @@
                 "text": "L'équipe se cache et appellent des renforts",
                 "nextChapter": "9"
             }
-        ]
+        ],
+        "active": {
+            "CapQC": true,
+            "Magicien": true
+        }
     },
     "3": {
         "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
@@ -61,7 +69,11 @@
                 "text": "L'équipe se cache et appellent des renforts",
                 "nextChapter": "11"
             }
-        ]
+        ],
+        "active": {
+            "Modelisateur": true,
+            "Loup": true
+        }
     },
     "4": {
         "texte": "Qui devrait attaquer",
