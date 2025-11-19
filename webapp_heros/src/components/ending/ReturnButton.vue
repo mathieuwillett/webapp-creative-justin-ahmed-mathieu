@@ -11,4 +11,8 @@ button {
     width: 100vw;
     height: 5vh;
 }
+
+button:hover {
+    cursor: pointer;
+}
 </style>

@@ -49,13 +49,14 @@ export const usePlayerStore = defineStore('player', {
     },
 
     images: [
+      { id: 0, name: "HommeEclipse", img: "/Images/AhmedEclipse/PixelAhmedEclipse.png", lightWound: "/Images/AhmedEclipse/PixelAhmedEclipse.png", Wounded: "/Images/AhmedEclipse/PixelAhmedEclipseWounded.png", HeavyWound: "/Images/AhmedEclipse/PixelAhmedEclipseWounded.png" },
       { id: 1, name: "Homme", img: "/Images/Ahmed/PixelAhmed.png", lightWound: "/Images/Ahmed/PixelAhmedLightWound.png", Wounded: "/Images/Ahmed/PixelAhmedWounded.png", HeavyWound: "/Images/Ahmed/PixelAhmedHeavyWound.png" },
       { id: 2, name: "Tacticien", img: "/Images/Mike/PixelMike.png", lightWound: "/Images/Mike/PixelMikeLightWound.png", Wounded: "/Images/Mike/PixelMikeWounded.png", HeavyWound: "/Images/Mike/PixelMikeHeavyWound.png" },
       { id: 3, name: "CapQC", img: "/Images/CapitaineQuebec/PixelCap.png", lightWound: "/Images/CapitaineQuebec/PixelCapLightWound.png", Wounded: "/Images/CapitaineQuebec/PixelCapWounded.png", HeavyWound: "/Images/CapitaineQuebec/PixelCapHeavyWound.png" },
       { id: 4, name: "Magicien", img: "/Images/Alex/PixelAlex.png", lightWound: "/Images/Alex/PixelAlex.png", Wounded: "/Images/Alex/PixelAlexWounded.png", HeavyWound: "/Images/Alex/PixelAlexHeavyWound.png" },
       { id: 5, name: "Barbare", img: "/Images/Mathieu/PixelMathieu.png", lightWound: "/Images/Mathieu/PixelMathieuLightWound.png", Wounded: "/Images/Mathieu/PixelMathieuWounded.png", HeavyWound: "/Images/Mathieu/PixelMathieuHeavyWound.png" },
-      { id: 6, name: "Cyborg", img: "/Images/Raf/PixelRaf.png", lightWound: "/Images/Raf/PixelRafLightWound.png", Wounded: "/Images/Raf/PixelRafWounded.png", HeavyWound: "/Images/Ahmed/PixelAhmedHeavyWound.png" },
-      { id: 7, name: "Loup", img: "/Images/Emeryk/PixelEmeryk.png", lightWound: "/Images/Emeryk/PixelEmerykLightWound.png", Wounded: "/Images/Emeryk/PixelEmerykLightWound.png", HeavyWound: "/Images/Emeryk/PixelEmerykHeavyWound.png" },
+      { id: 6, name: "Cyborg", img: "/Images/Raf/PixelRaf.png", lightWound: "/Images/Raf/PixelRafLightWound.png", Wounded: "/Images/Raf/PixelRafWounded.png", HeavyWound: "/Images/Raf/PixelRafHeavyWound.png" },
+      { id: 7, name: "Loup", img: "/Images/Emeryk/PixelEmeryk.png", lightWound: "/Images/Emeryk/PixelEmerykLightWound.png", Wounded: "/Images/Emeryk/PixelEmerykLightWound.png", HeavyWound: "/Images/Emeryk/PixelEmerykWounded.png" },
       { id: 8, name: "Modelisateur", img: "/Images/Elie/PixelElie.png", lightWound: "/Images/Elie/PixelElieLightWound.png", Wounded: "/Images/Elie/PixelElieWounded.png", HeavyWound: "/Images/Elie/PixelElieHeavyWound.png" },
       { id: 9, name: "Haxan", img: "/Images/Haxan/PixelHaxan.png", lightWound: "/Images/Haxan/PixelHaxanLightWound.png", Wounded: "/Images/Haxan/PixelHaxanLightWound.png", HeavyWound: "/Images/Haxan/PixelHaxanHeavyWound.png" },
       // …

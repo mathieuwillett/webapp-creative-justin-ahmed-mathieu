@@ -1,5 +1,6 @@
 <script>
 import MenuButtonNew from '../components/layout/MenuButtonNew.vue';
+import MenuButtonPersonnages from '../components/layout/MenuButtonPersonnages.vue';
 import AppFooter from '../components/layout/AppFooter.vue';
 
 export default {
@@ -7,6 +8,7 @@ export default {
 
     components: {
         MenuButtonNew,
+        MenuButtonPersonnages,
         AppFooter
     },
 
@@ -23,8 +25,9 @@ export default {
 
 <template>
     <div class="page">
-        <h1 class="titre">Les Héros de l'Éclipse</h1>
+        <h1 style="" class="titre">Les Héros de l'Éclipse</h1>
         <MenuButtonNew @click="startAdventure()" class="bouton"></MenuButtonNew>
+        <MenuButtonPersonnages class="bouton"></MenuButtonPersonnages>
     </div>
     <AppFooter></AppFooter>
 </template>
@@ -36,6 +39,7 @@ export default {
     font-family: pixel;
     src: url(../assets/fonts/Monocraft.ttf) format(truetype);
 }
+
 
 * {
     box-sizing: border-box;
@@ -57,6 +61,10 @@ export default {
 .titre {
     font-size: 6vw;
     font-weight: 500;
+    user-select: none;       /* Standard */
+    -webkit-user-select: none; /* Chrome, Safari, Edge */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE/Edge */
 }
 
 .bouton:hover {
