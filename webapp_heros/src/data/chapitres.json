@@ -179,7 +179,10 @@
                 "text": "Le Barbare s'incline devant Haxan",
                 "nextChapter": "28"
             }
-        ]
+        ],        
+        "damage": {
+            "Cyborg": 100
+        }
     },
     "16": {
         "texte": "Le message est bien reçu par les héros, qui répondent présent, mais au même moment, la communication est coupée par une mystérieuse voix, un dénommé Haxan, qui souhaite rétablir l'équilibre dans ce monde, en exterminant la race humaine.",
@@ -239,7 +242,11 @@
                 "text": "Rester au sol",
                 "nextChapter": "36"
             }
-        ]
+        ],        
+        "damage": {
+            "Modelisateur": 15,
+            "Loup": 15
+        }
     },
     "20": {
         "texte": "Le vilain vit l'emblème et commença à saccager la ville et tuer encore plus, mettant les héros dans un dilemme moral.",
@@ -331,7 +338,11 @@
                 "text": "Être défensif",
                 "nextChapter": "42"
             }
-        ]
+        ],
+        "active": {
+            "Homme": false,
+            "HommeUltra": true
+        }
     },
     "1215": {
         "texte": "L'équipe se prépare à combattre Haxan.",
@@ -514,18 +525,7 @@
     },
     "23": {
         "texte": "L'Homme tombe dans sa deuxième phase, il devient Ultra.",
-        "choix": [
-            {
-                "id": 1,
-                "text": "Attaquer Haxan tous en même temps.",
-                "nextChapter": 43
-            },
-            {
-                "id": 2,
-                "text": "Attaquer à tour de rôle.",
-                "nextChapter": 44
-            }
-        ],
+        "nextChapter": "1214",
         "active": {
             "Homme": false,
             "HommeUltra": true
@@ -697,7 +697,7 @@
             }
         ],
         "damage": {
-            "Haxan": 20
+            "Haxan": 60
         }
     },
     "42": {
@@ -1171,19 +1171,43 @@
     },
     "77": {
         "texte": "L'Homme tue Haxan, rétablissant la paix sur la planète et sauvant l'avenir de la race humaine. Les héros de l'éclipse seront dorénavant reconnus pour des millénaires comme des légendes, sauveurs de l'humanité.",
-        "nextChapter": "132"
+        "nextChapter": "132",
+        "damage": {
+            "Haxan": 100
+        }
     },
     "78": {
         "texte": "L'Homme tue les héros de l'éclipse. Haxan respecte sa part du marché et créa un univers alternatif pour l'Homme, où il vécut heureux avec sa femme et ses enfants, tandis que Haxan termine sa destruction de la planète Terre.",
-        "nextChapter": "128"
+        "nextChapter": "128",
+        "damage": {
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100
+        }
     },
     "79": {
         "texte": "Le torse de l'Homme est transpercé, il s'écroule au sol, expirant son dernier souffle.",
-        "nextChapter": "80"
+        "nextChapter": "80",
+        "damage": {
+            "Homme": 100
+        }
     },
     "80": {
         "texte": "Les autres héros arrivèrent trop tard. Haxan détruit la Terre entière, les héros inclus.",
-        "nextChapter": "80"
+        "nextChapter": "80",
+        "damage": {
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100
+        }
     },
     "81": {
         "texte": "Haxan, dans le combat, fut blessé au dos, mais tua le Barbare et Capitaine Québec. Il propose d'épargner les deux autres, à condition qu'ils le suivent dans sa quête pour conquérir l'univers et le rendre 'meilleur'.",
@@ -1198,15 +1222,27 @@
                 "text": "Refuser",
                 "nextChapter": "83"
             }
-        ]
+        ],
+        "damage": {
+            "Barbare": 100,
+            "CapQC": 100
+        }
     },
     "82": {
         "texte": "Haxan rigole, prononce 'pathétique', puis fit un rayon laser mauve et désintégra les deux héros restants, faisant de lui l'unique vainqueur de cet affrontement.",
-        "nextChapter": "131"
+        "nextChapter": "131",        
+        "damage": {
+            "Loup": 100,
+            "Modelisateur": 100
+        }
     },
     "83": {
         "texte": "Haxan fit un léger sourire, puis tira un rayon laser mauve et désintégra les deux héros restants, faisant de lui l'unique vainqueur de cet affrontement.",
-        "nextChapter": "131"
+        "nextChapter": "131",        
+        "damage": { 
+            "Loup": 100,
+            "Modelisateur": 100
+        }
     },
     "84": {
         "texte": "Dans le combat, Haxan est blessé au cœur, mais finit par tuer le Magicien et le Loup. Le Cyborg, seul survivant, est gravement touché, il va mourir dans les prochaines minutes.",
@@ -1221,15 +1257,30 @@
                 "text": "Le Cyborg se laisse mourir.",
                 "nextChapter": "83"
             }
-        ]
+        ],        
+        "damage": { 
+            "Magicien": 100,
+            "Cyborg": 40,
+            "Loup": 100,
+            "Haxan": 30
+        }
     },
     "85": {
         "texte": "Le Cyborg explosa, détruisant la planète Terre, tuant la race humaine et Haxan en un coup.",
-        "nextChapter": "129"
+        "nextChapter": "0",        
+        "damage": { 
+            "Magicien": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Haxan": 30
+        }
     },
     "86": {
         "texte": "Le Cyborg se laissa mourir, les héros de l'éclipse échouèrent.",
-        "nextChapter": "131"
+        "nextChapter": "131",
+        "damage": { 
+            "Cyborg": 100
+        }
     },
     "87": {
         "texte": "L'Homme offre à Haxan de faire un deal. Haxan semble réfléchir un moment, puis épargne le jet des héros, qui finissent par atterrir pour rejoindre l'Homme, qui lui avance vers Haxan.",
@@ -1237,23 +1288,47 @@
     },
     "88": {
         "texte": "Haxan aspira l'âme de l'Homme, puis s'envola dans l'espace, épargnant la planète Terre et ses habitants.",
-        "nextChapter": "126"
+        "nextChapter": "126",
+        "damage": { 
+            "Homme": 100
+        }
     },
     "89": {
         "texte": "Haxan est blessé au visage, mais parvient à achever le Magicien et le Tacticien. L'Homme, démoralisé, abandonnera le combat. Lui aussi finira par mourir des mains de Haxan.",
-        "nextChapter": "131"
+        "nextChapter": "131",
+        "damage": { 
+            "Magicien": 100,
+            "Tacticien": 100,
+            "Homme": 100,
+            "Haxan": 30
+        }
     },
     "90": {
         "texte": "Haxan est blessé au bras, mais finit par tuer l'Homme et le Modélisateur, laissant uniquement Capitaine Québec vivant.",
-        "nextChapter": "91"
+        "nextChapter": "91",
+        "damage": { 
+            "Homme": 100,
+            "Modelisateur": 100,
+            "Haxan": 20
+        }
     },
     "91": {
         "texte": "Malgré ses nombreuses blessures et devant un adversaire définitivement plus fort, Capitaine Québec continua de combattre jusqu'à son dernier souffle, prouvant son courage et son dévouement.",
-        "nextChapter": "131"
+        "nextChapter": "131",
+        "damage": { 
+            "Magicien": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Haxan": 30
+        }
     },
     "92": {
         "texte": "Dans le combat, Haxan absorbe l'âme des deux derniers héros, finissant victorieux.",
-        "nextChapter": "131"
+        "nextChapter": "131",
+        "damage": { 
+            "Homme": 100,
+            "Magicien": 100
+        }
     },
     "93": {
         "texte": "Haxan salue le courage du Magicien, avant de le saisir par le cou, se préparant à le tuer.",
@@ -1508,10 +1583,6 @@
             "HommeEclipse": true,
             "Haxan": true
         }
-    },
-    "129": {
-        "texte": "Le Cyborg explosa, détruisant la planète Terre, tuant la race humaine et Haxan en un coup.",
-        "nextChapter": 0
     },
     "130": {
         "texte": "Les héros s'inclinèrent devant le grand Haxan. Les médias de la Terre entière les voient comme des lâches, avant que Haxan n'en termine avec eux et le reste de la race humaine.",

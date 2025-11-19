@@ -1,5 +1,6 @@
 import { defineStore } from "pinia"
 
+
 export const usePlayerStore = defineStore('player', {
   state: () => ({
     hp: {
@@ -56,7 +57,7 @@ export const usePlayerStore = defineStore('player', {
       { id: 6, name: "Cyborg", img: "/Images/Raf/PixelRaf.png", lightWound: "/Images/Raf/PixelRafLightWound.png", Wounded: "/Images/Raf/PixelRafWounded.png", HeavyWound: "/Images/Ahmed/PixelAhmedHeavyWound.png" },
       { id: 7, name: "Loup", img: "/Images/Emeryk/PixelEmeryk.png", lightWound: "/Images/Emeryk/PixelEmerykLightWound.png", Wounded: "/Images/Emeryk/PixelEmerykLightWound.png", HeavyWound: "/Images/Emeryk/PixelEmerykHeavyWound.png" },
       { id: 8, name: "Modelisateur", img: "/Images/Elie/PixelElie.png", lightWound: "/Images/Elie/PixelElieLightWound.png", Wounded: "/Images/Elie/PixelElieWounded.png", HeavyWound: "/Images/Elie/PixelElieHeavyWound.png" },
-      { id: 13, name: "Haxan", img: "/Images/Haxan/PixelHaxan.png", lightWound: "/Images/Haxan/PixelHaxanLightWound.png", Wounded: "/Images/Haxan/PixelHaxanLightWound.png", HeavyWound: "/Images/Haxan/PixelHaxanHeavyWound.png" },
+      { id: 9, name: "Haxan", img: "/Images/Haxan/PixelHaxan.png", lightWound: "/Images/Haxan/PixelHaxanLightWound.png", Wounded: "/Images/Haxan/PixelHaxanLightWound.png", HeavyWound: "/Images/Haxan/PixelHaxanHeavyWound.png" },
       // …
     ]
   }),
@@ -105,6 +106,8 @@ export const usePlayerStore = defineStore('player', {
         const imagePersonnage = this.images.find(c => c.name === character);
 
         if (!imagePersonnage) continue;
+
+        
 
         if (hp > 50 && hp <= 70) {
           // Change l'image actuelle du personnage pour sa version lightWound
