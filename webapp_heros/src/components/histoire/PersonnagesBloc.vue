@@ -42,13 +42,13 @@ const store = usePlayerStore();
 
 <style scoped>
 .screen {
-  background-color: lightgray;
+  background-image: url(@/assets/War2.png);
+  background-size: contain;
   width: 100%;
   height: 50vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: solid 2px black;
   display: flex;
   justify-content: center;
   align-items: flex-end;

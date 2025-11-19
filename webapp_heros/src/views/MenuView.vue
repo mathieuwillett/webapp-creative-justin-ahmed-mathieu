@@ -1,17 +1,13 @@
 <script>
 import MenuButtonNew from '../components/layout/MenuButtonNew.vue';
 import AppFooter from '../components/layout/AppFooter.vue';
-import MenuButtonLoad from '../components/layout/MenuButtonLoad.vue';
-import MenuButtonContinue from '../components/layout/MenuButtonContinue.vue';
 
 export default {
     name: 'home',
 
     components: {
         MenuButtonNew,
-        AppFooter,
-        MenuButtonLoad,
-        MenuButtonContinue
+        AppFooter
     },
 
     methods: {
@@ -29,8 +25,6 @@ export default {
     <div class="page">
         <h1 class="titre">Les Héros de l'Éclipse</h1>
         <MenuButtonNew @click="startAdventure()" class="bouton"></MenuButtonNew>
-        <MenuButtonContinue class="bouton"></MenuButtonContinue>
-        <MenuButtonLoad class="bouton"></MenuButtonLoad>
     </div>
     <AppFooter></AppFooter>
 </template>
@@ -54,14 +48,10 @@ export default {
     background-color: lightgrey;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     align-items: center;
     width: 100vw;
     height: 95vh;
-}
-
-.page>* {
-    margin: 3vh;
 }
 
 .titre {

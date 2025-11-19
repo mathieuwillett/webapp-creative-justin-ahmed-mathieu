@@ -514,22 +514,46 @@
     },
     "23": {
         "texte": "L'Homme tombe dans sa deuxième phase, il devient Ultra.",
-        "nextChapter": "1214",
-        "damage": {
-            "HommeUltra": 100
-        },
+        "choix": [
+            {
+                "id": 1,
+                "text": "Attaquer Haxan tous en même temps.",
+                "nextChapter": 43
+            },
+            {
+                "id": 2,
+                "text": "Attaquer à tour de rôle.",
+                "nextChapter": 44
+            }
+        ],
         "active": {
-            "Ahmed": false,
+            "Homme": false,
             "HommeUltra": true
         }
     },
     "24": {
         "texte": "Haxan rattrape l'Homme et le tue en passant sa main au travers de sa poitrine. Quelques heures plus tard, le reste de l'équipe se réunit pour l'affronter.",
-        "nextChapter": "1215"
+        "nextChapter": "1215",
+        "damage": {
+            "Homme": 100
+        },
+        "active": {
+            "Homme": false,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true
+        }
     },
     "25": {
         "texte": "Haxan attrape l'Homme par le cou, puis le casse en deux.",
-        "nextChapter": "1214"
+        "nextChapter": "1214",
+        "damage": {
+            "Homme": 100
+        }
     },
     "26": {
         "texte": "Haxan regarde l'Homme droit dans les yeux avant d'écraser le Tacticien au sol, le tuant à l'impact.",
@@ -621,7 +645,7 @@
         }
     },
     "39": {
-        "texte": "L'équipe attaque Haxan, ne lui infligeant pas grand dommage. Cependant, Le Cyborg voit son bras détruit dans l'action. Une éclipse apparaît dans le ciel.",
+        "texte": "L'équipe attaque Haxan, ne lui infligeant pas grand dommage. Cependant, Le Cyborg voit son bras endommagé dans l'action. Une éclipse apparaît dans le ciel.",
         "choix": [
             {
                 "id": 1,
@@ -635,7 +659,7 @@
             }
         ],
         "damage": {
-            "Cyborg": 30,
+            "Cyborg": 42,
             "Haxan": 5
         }
     },
@@ -652,7 +676,11 @@
                 "text": "Se mettre sur la défensive",
                 "nextChapter": "72"
             }
-        ]
+        ],
+        "damage": {
+            "CapQc": 15,
+            "Loup": 15
+        }
     },
     "41": {
         "texte": "Haxan subit le coup, crache une dent au sol, puis prend un élan afin de riposter.",
