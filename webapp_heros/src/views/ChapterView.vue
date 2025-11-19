@@ -51,7 +51,7 @@ export default {
     if (!choice.nextChapter) {
         //Vérifie si le fonctionnement de vie fonctionne
         applyDamage();
-        updateHealth()
+        updateHealth();
         this.story.currentChapter = null
         this.story.narrative = "Fin de l'histoire."
         this.story.availableChoices = []

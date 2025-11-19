@@ -42,7 +42,7 @@ const routes = [{
     redirect: {
       name: 'menu'
     }
-  }
+  },
 ];
 
 

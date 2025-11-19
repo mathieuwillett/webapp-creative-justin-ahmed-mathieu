@@ -14,4 +14,8 @@ div {
     justify-content: center;
     align-items: center;
 }
+
+div:hover {
+    cursor: pointer;
+}
 </style>

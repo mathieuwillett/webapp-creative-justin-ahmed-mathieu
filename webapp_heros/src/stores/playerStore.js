@@ -49,14 +49,14 @@ export const usePlayerStore = defineStore('player', {
 
     images: [
       { id: 1, name: "Homme", img: "/Images/Ahmed/PixelAhmed.png", lightWound: "/Images/Ahmed/PixelAhmedLightWound.png", Wounded: "/Images/Ahmed/PixelAhmedWounded.png", HeavyWound: "/Images/Ahmed/PixelAhmedHeavyWound.png" },
-      { id: 2, name: "Tacticien", img: "/Images/Mike/PixelMike.png", lightWound: "/Images/Mike/PixelMike.png" },
-      { id: 3, name: "CapQC", img: "/Images/CapitaineQuebec/PixelCap.png", lightWound: "/Images/CapitaineQuebec/PixelCap.png" },
-      { id: 4, name: "Magicien", img: "/Images/Alex/PixelAlex.png", lightWound: "/Images/Alex/PixelAlex.png" },
-      { id: 5, name: "Barbare", img: "/Images/Mathieu/PixelMathieu.png", lightWound: "/Images/Mathieu/PixelMathieu.png" },
-      { id: 6, name: "Cyborg", img: "/Images/Raf/PixelRaf.png", lightWound: "/Images/Raf/PixelRaf.png" },
-      { id: 7, name: "Loup", img: "/Images/Emeryk/PixelEmeryk.png", lightWound: "/Images/Emeryk/PixelEmeryk.png" },
-      { id: 8, name: "Modelisateur", img: "/Images/Elie/PixelElie.png", lightWound: "/Images/Elie/PixelElie.png" },
-      { id: 13, name: "Haxan", img: "/Images/Haxan/PixelHaxan.png", lightWound: "/Images/Haxan/PixelHaxan.png" },
+      { id: 2, name: "Tacticien", img: "/Images/Mike/PixelMike.png", lightWound: "/Images/Mike/PixelMikeLightWound.png", Wounded: "/Images/Mike/PixelMikeWounded.png", HeavyWound: "/Images/Mike/PixelMikeHeavyWound.png" },
+      { id: 3, name: "CapQC", img: "/Images/CapitaineQuebec/PixelCap.png", lightWound: "/Images/CapitaineQuebec/PixelCapLightWound.png", Wounded: "/Images/CapitaineQuebec/PixelCapWounded.png", HeavyWound: "/Images/CapitaineQuebec/PixelCapHeavyWound.png" },
+      { id: 4, name: "Magicien", img: "/Images/Alex/PixelAlex.png", lightWound: "/Images/Alex/PixelAlex.png", Wounded: "/Images/Alex/PixelAlexWounded.png", HeavyWound: "/Images/Alex/PixelAlexHeavyWound.png" },
+      { id: 5, name: "Barbare", img: "/Images/Mathieu/PixelMathieu.png", lightWound: "/Images/Mathieu/PixelMathieuLightWound.png", Wounded: "/Images/Mathieu/PixelMathieuWounded.png", HeavyWound: "/Images/Mathieu/PixelMathieuHeavyWound.png" },
+      { id: 6, name: "Cyborg", img: "/Images/Raf/PixelRaf.png", lightWound: "/Images/Raf/PixelRafLightWound.png", Wounded: "/Images/Raf/PixelRafWounded.png", HeavyWound: "/Images/Ahmed/PixelAhmedHeavyWound.png" },
+      { id: 7, name: "Loup", img: "/Images/Emeryk/PixelEmeryk.png", lightWound: "/Images/Emeryk/PixelEmerykLightWound.png", Wounded: "/Images/Emeryk/PixelEmerykLightWound.png", HeavyWound: "/Images/Emeryk/PixelEmerykHeavyWound.png" },
+      { id: 8, name: "Modelisateur", img: "/Images/Elie/PixelElie.png", lightWound: "/Images/Elie/PixelElieLightWound.png", Wounded: "/Images/Elie/PixelElieWounded.png", HeavyWound: "/Images/Elie/PixelElieHeavyWound.png" },
+      { id: 13, name: "Haxan", img: "/Images/Haxan/PixelHaxan.png", lightWound: "/Images/Haxan/PixelHaxanLightWound.png", Wounded: "/Images/Haxan/PixelHaxanLightWound.png", HeavyWound: "/Images/Haxan/PixelHaxanHeavyWound.png" },
       // …
     ]
   }),
@@ -107,24 +107,26 @@ export const usePlayerStore = defineStore('player', {
         if (!imagePersonnage) continue;
 
         if (hp > 50 && hp <= 70) {
-            // Change l'image actuelle du personnage pour sa version lightWound
-            imagePersonnage.img = imagePersonnage.lightWound;
-          
+          // Change l'image actuelle du personnage pour sa version lightWound
+          imagePersonnage.img = imagePersonnage.lightWound;
+
         } else if (hp > 20 && hp <= 50) {
 
-            // Change l'image actuelle du personnage pour sa version Wounded
-            imagePersonnage.img = imagePersonnage.Wounded;
-          
+          // Change l'image actuelle du personnage pour sa version Wounded
+          imagePersonnage.img = imagePersonnage.Wounded;
+
 
         } else if (hp <= 20) {
 
-            // Change l'image actuelle du personnage pour sa version Heavy Wound
-            imagePersonnage.img = imagePersonnage.HeavyWound;
-          
+          // Change l'image actuelle du personnage pour sa version Heavy Wound
+          imagePersonnage.img = imagePersonnage.HeavyWound;
+
 
         }
       }
     },
+
+
     CheckActive() {
 
       console.log("Personnages actifs :", this.active)

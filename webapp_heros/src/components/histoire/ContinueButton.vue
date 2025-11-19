@@ -15,4 +15,8 @@ div {
     align-items: center;
     font-size: 3vw;
 }
+
+div:hover {
+    cursor: pointer;
+}
 </style>
