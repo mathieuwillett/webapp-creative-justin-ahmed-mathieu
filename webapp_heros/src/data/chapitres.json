@@ -12,7 +12,11 @@
                 "text": "L'équipe se cache et appellent des renforts",
                 "nextChapter": "5"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true
+        }
     },
     "1": {
         "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
@@ -57,11 +61,7 @@
                 "text": "L'équipe se cache et appellent des renforts",
                 "nextChapter": "11"
             }
-        ],
-        "active": {
-            "Homme": true,
-            "Tacticien": true
-        }
+        ]
     },
     "4": {
         "texte": "Qui devrait attaquer",
@@ -80,10 +80,7 @@
     },
     "5": {
         "texte": "L'Homme se cache par peur. Le Tacticien tente de le rejoindre, mais l'homme volant se précipite sur lui et l'attrape par le cou. ",
-        "nextChapter": "14",
-        "active": {
-            "Ahmed": false
-        }
+        "nextChapter": "14"
     },
     "6": {
         "texte": "Le Cyborg utilise un rayon phasique et tire sur l'homme, celui-ci esquive le rayon et fonce sur lui à pleine vitesse, créant un énorme cratère au sol, le Cyborg gisant au fond.",
@@ -125,9 +122,6 @@
         ],
         "damage": {
             "Homme": 100
-        },
-        "active": {
-            "Homme": false
         }
     },
     "13": {
@@ -146,9 +140,6 @@
         ],
         "damage": {
             "Tacticien": 100
-        },
-        "active": {
-            "Tacticien": false
         }
     },
     "14": {
@@ -513,7 +504,6 @@
         "texte": "Le reste des héros arrivent, ils se préparent à un dur combat, sans l'Homme.",
         "nextChapter": "1213",
         "active": {
-            "Homme": false,
             "Tacticien": true,
             "CapQC": true,
             "Magicien": true,
@@ -570,7 +560,6 @@
             "Haxan": 20
         },
         "active": {
-            "Homme": false,
             "Tacticien": true,
             "CapQC": true,
             "Magicien": true,
@@ -658,9 +647,6 @@
         "damage": {
             "Haxan": 5,
             "CapQC": 35
-        },
-        "active": {
-            "Homme": false
         }
     },
     "39": {
@@ -1076,9 +1062,6 @@
         "nextChapter": "75",
         "damage": {
             "Cyborg": 100
-        },
-        "active": {
-            "Cyborg": false
         }
     },
     "67": {
@@ -1087,17 +1070,11 @@
         "damage": {
             "Tacticien": 30,
             "Loup": 30
-        },
-        "active": {
-            "Cyborg": false
         }
     },
     "68": {
         "texte": "Alors que l'équipe était moins nombreuse, Haxan réussit à tuer le Barbare dans le combat, mais au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
         "nextChapter": "75",
-        "active": {
-            "Barbare": true
-        },
         "damage": {
             "Barbare": 100
         }
@@ -1107,9 +1084,6 @@
         "nextChapter": "75",
         "damage": {
             "CapQC": 100
-        },
-        "active": {
-            "CapQC": false
         }
     },
     "70": {
@@ -1117,9 +1091,6 @@
         "nextChapter": "75",
         "damage": {
             "Modelisateur": 100
-        },
-        "active": {
-            "Modelisateur": false
         }
     },
     "71": {
@@ -1129,9 +1100,6 @@
             "Loup": 100,
             "Barbare": 20,
             "Magicien": 20
-        },
-        "active": {
-            "Loup": false
         }
     },
     "72": {
@@ -1141,9 +1109,6 @@
             "Loup": 100,
             "Barbare": 20,
             "Magicien": 20
-        },
-        "active": {
-            "CapQC": false
         }
     },
     "73": {
@@ -1151,9 +1116,6 @@
         "nextChapter": "131",
         "damage": {
             "Homme": 100
-        },
-        "active": {
-            "Homme": false
         }
     },
     "74": {
@@ -1161,15 +1123,13 @@
         "nextChapter": "131",
         "damage": {
             "Homme": 15
-        },
-        "active": {
-            "Homme": false
         }
     },
     "75": {
         "texte": "L'Homme Éclipse sortit du cratère, il lève son doigt au ciel, invoquant une éclipse miniature, qui sera bientôt prête à être lancée.",
         "nextChapter": "76",
         "active": {
+            "Homme": false,
             "HommeEclipse": true
         }
     },
