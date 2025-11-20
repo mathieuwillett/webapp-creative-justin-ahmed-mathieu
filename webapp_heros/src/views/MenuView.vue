@@ -27,6 +27,11 @@ export default {
             this.$router.push({
                 name: 'start'
             });
+        },
+        menuPersonnages() {
+            this.$router.push({
+                name: 'perso'
+            })
         }
     }
 };
@@ -37,9 +42,9 @@ export default {
     <div class="page">
         <h1 style="" class="titre">Les Héros de l'Éclipse</h1>
         <MenuButtonNew @click="startAdventure(), reset()" class="bouton"></MenuButtonNew>
-        <MenuButtonPersonnages class="bouton"></MenuButtonPersonnages>
+        <MenuButtonPersonnages class="bouton" @click="menuPersonnages()"></MenuButtonPersonnages>
         <MusicButton></MusicButton>
-        
+
     </div>
     <AppFooter></AppFooter>
 </template>
@@ -73,10 +78,14 @@ export default {
 .titre {
     font-size: 6vw;
     font-weight: 500;
-    user-select: none;       /* Standard */
-    -webkit-user-select: none; /* Chrome, Safari, Edge */
-    -moz-user-select: none;    /* Firefox */
-    -ms-user-select: none;     /* IE/Edge */
+    user-select: none;
+    /* Standard */
+    -webkit-user-select: none;
+    /* Chrome, Safari, Edge */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE/Edge */
 }
 
 .bouton:hover {

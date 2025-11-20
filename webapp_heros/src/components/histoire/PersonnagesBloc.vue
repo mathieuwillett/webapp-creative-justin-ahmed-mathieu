@@ -10,25 +10,22 @@ const store = usePlayerStore();
   <div class="screen">
     <div class="groups">
       <div class="wrapper">
-      <div
-        class="personnages"
-        v-for="(personnage, index) in store.images.filter(p => p.name !== 'Haxan')"
-        :key="index" :class="{absent: store.active[personnage.name] == false}"
-      >
-        <img :src="personnage.img" :alt="personnage.name" :class="{ dead: store.hp[personnage.name] <= 0 }"/>
+        <div class="personnages" v-for="(personnage, index) in store.images.filter(p => p.name !== 'Haxan')"
+          :key="index" :class="{ absent: store.active[personnage.name] == false }">
+          <img :src="personnage.img" :alt="personnage.name" :class="{ dead: store.hp[personnage.name] <= 0 }" />
+        </div>
       </div>
-    </div>
-    
-
-    <div class="wrapper">
-  <div class="personnages" v-for="(personnage, index) in store.images.filter(p => p.name == 'Haxan')"
-    :key="index">
-    <img :src="personnage.img" :alt="personnage.name" />
-  </div>
-</div>
 
 
-  
+      <div class="wrapper">
+        <div class="personnages" v-for="(personnage, index) in store.images.filter(p => p.name == 'Haxan')"
+          :key="index">
+          <img :src="personnage.img" :alt="personnage.name" />
+        </div>
+      </div>
+
+
+
 
       <!-- <div
         class="haxan"

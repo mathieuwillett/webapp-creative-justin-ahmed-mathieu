@@ -9,6 +9,7 @@ import StartView from '../views/StartView.vue';
 import ChapterView from '../views/ChapterView.vue';
 import EndingView from '../views/EndingView.vue';
 import SavesView from '../views/SavesView.vue';
+import PersonnagesView from '@/views/PersonnagesView.vue';
 
 
 const routes = [{
@@ -35,6 +36,11 @@ const routes = [{
     path: '/saves',
     component: SavesView,
     name: 'saves'
+  },
+  {
+    path: '/perso',
+    component: PersonnagesView,
+    name: 'perso'
   },
   {
     path: '/:pathMatch(.*)*',
