@@ -88,9 +88,10 @@ const store = usePlayerStore();
 }
 
 img {
-  height: 12vw;
-  width: auto;
+    height: 100%;
+    object-fit: contain;
 }
+
 
 img.dead {
   filter: grayscale(100%) brightness(120%);
