@@ -33,7 +33,7 @@ img {
 
 button {
   padding: 1vw 2vh;
-    background-color: #ffd33d;
+    background-color: #FFA600;
     color: #111;
     border: none;
     cursor: pointer;
