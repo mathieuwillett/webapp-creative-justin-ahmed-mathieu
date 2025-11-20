@@ -52,7 +52,7 @@
 .background {
     width: 20vw;
     height: 50vh;
-    background: #ffd33d;
+    background: #FFA600;
     color: #111;
     font-weight: 700;
     letter-spacing: 0.06em;
