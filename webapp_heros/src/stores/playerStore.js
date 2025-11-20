@@ -59,6 +59,8 @@ export const usePlayerStore = defineStore('player', {
       { id: 7, name: "Loup", img: "/Images/Emeryk/PixelEmeryk.png", lightWound: "/Images/Emeryk/PixelEmerykLightWound.png", Wounded: "/Images/Emeryk/PixelEmerykLightWound.png", HeavyWound: "/Images/Emeryk/PixelEmerykWounded.png" },
       { id: 8, name: "Modelisateur", img: "/Images/Elie/PixelElie.png", lightWound: "/Images/Elie/PixelElieLightWound.png", Wounded: "/Images/Elie/PixelElieWounded.png", HeavyWound: "/Images/Elie/PixelElieHeavyWound.png" },
       { id: 9, name: "Haxan", img: "/Images/Haxan/PixelHaxan.png", lightWound: "/Images/Haxan/PixelHaxanLightWound.png", Wounded: "/Images/Haxan/PixelHaxanLightWound.png", HeavyWound: "/Images/Haxan/PixelHaxanHeavyWound.png" },
+      { id: 10, name: "HommeUltra", img: "/Images/AhmedUltra/PixelAhmedUltra.png", lightWound: "/Images/AhmedUltra/PixelAhmedUltra.png", Wounded: "/Images/AhmedUltra/PixelAhmedUltraWounded.png", HeavyWound: "/Images/AhmedUltra/PixelAhmedUltraHeavyWound.png" },
+      
       // …
     ]
   }),
@@ -146,7 +148,41 @@ export const usePlayerStore = defineStore('player', {
       this.active.HommeUltra = this.active.HommeUltra
       this.active.HommeEclipse = this.active.HommeEclipse
       this.active.Haxan = this.active.Haxan
+    },
+
+    ResetStats() {
+      this.hp.Homme = 100 
+      this.hp.Tacticien = 100 
+      this.hp.CapQC = 100 
+      this.hp.Magicien = 100 
+      this.hp.Barbare = 100 
+      this.hp.Cyborg = 100 
+      this.hp.Loup = 100 
+      this.hp.Modelisateur = 100 
+      this.hp.CapCanada = 100 
+      this.hp.HommeUltra = 100 
+      this.hp.HommeEclipse = 100 
+      this.hp.Haxan = 100 
+
+      this.active.Homme = false
+      this.active.Tacticien = false
+      this.active.CapQC = false
+      this.active.Magicien = false
+      this.active.Barbare = false
+      this.active.Cyborg = false
+      this.active.Loup = false
+      this.active.Modelisateur = false
+      this.active.CapCanada = false
+      this.active.HommeUltra = false
+      this.active.HommeEclipse = false
+      this.active.Haxan = false
+    },
+
+        reset() {
+      this.$reset() 
     }
+
+    
 
   }
 })

@@ -1,31 +1,41 @@
-import { defineStore } from 'pinia';
+// stores/audioStore.js
+import { defineStore } from "pinia";
 
-export const useAudioStore = defineStore('audio', {
+export const useAudioStore = defineStore("audio", {
+  state: () => ({
+    audio: null,
+    isMuted: true,
+    volume: 1, // 0 to 1
+  }),
 
-    //state c'est comme data dans une app vue
-    state: () => ({
-        currentMusic: "",
-        soundEffects: "",
-        volume: "",
-        isMuted: "",
-    }),
+  actions: {
+    init() {
+      if (!this.audio) {
+        this.audio = new Audio("/Audios/Menu.mp3"); // file in /public
+        this.audio.loop = true;
+        this.audio.volume = this.volume;
+        this.audio.muted = this.isMuted;
+      }
+    },
 
-    //actions c'est comme methods(fonctions) dans une app vue
-    actions: {
-        playMusic() {
+    playMusic() {
+      this.init();
+      this.audio.play();
+      this.audio.volume = 0.1;
+    },
 
-        },
+    pauseMusic() {
+      if (this.audio) this.audio.pause();
+    },
 
-        playSound() {
+    toggleMute() {
+      this.isMuted = !this.isMuted;
+      if (this.audio) this.audio.muted = this.isMuted;
+    },
 
-        },
-
-        toggleMute() {
-
-        },
-
-        setVolume() {
-
-        }
-    }
+    setVolume(value) {
+      this.volume = value;
+      if (this.audio) this.audio.volume = value;
+    },
+  },
 });

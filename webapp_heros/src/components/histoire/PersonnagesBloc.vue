@@ -91,7 +91,7 @@ const store = usePlayerStore();
 }
 
 img {
-  height: 100%;
+  height: 12vw;
   width: auto;
 }
 

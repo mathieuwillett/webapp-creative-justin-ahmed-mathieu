@@ -23,9 +23,16 @@ export default {
         ContinueButton
     },
 
+    data() {
+        return {
+            displayedText: '',   
+            typingInterval: null 
+        }
+    },
+
     computed: {
         story() {
-            return useStoryStore()  // reactive store
+            return useStoryStore()
         },
         texte() {
             return this.story.narrative
@@ -42,31 +49,55 @@ export default {
         this.story.goToChapter(this.$route.params.id)
     },
     watch: {
+        texte(newText) {
+            this.startTyping(newText)
+        },
         "$route.params.id"(newId) {
             this.story.goToChapter(newId)
         }
     },
     methods: {
-        selectChoice(choice) {
-    if (!choice.nextChapter) {
-        //Vérifie si le fonctionnement de vie fonctionne
-        applyDamage();
-        updateHealth();
-        this.story.currentChapter = null
-        this.story.narrative = "Fin de l'histoire."
-        this.story.availableChoices = []
-    } else {
-        const nextChapter = Number(choice.nextChapter)
-        this.story.currentChapter = nextChapter
 
-        // vérifie si le prochain chapitre est une fin, si oui, affiche l'écran de fin
-        if (nextChapter >= 126 && nextChapter <= 136) {
-            this.$router.push({ name: "ending" })
-        } else {
-            this.$router.push({ name: "chapter", params: { id: nextChapter } })
+        startTyping(fullText) {
+        if (this.typingInterval) {
+            clearInterval(this.typingInterval)
         }
-    }
-}
+
+        this.displayedText = ''
+        let index = 0
+        const speed = 50 
+
+        this.typingInterval = setInterval(() => {
+            this.displayedText += fullText[index]
+            index++
+
+            if (index >= fullText.length) {
+                clearInterval(this.typingInterval)
+                this.typingInterval = null
+            }
+        }, speed)
+    },
+
+        selectChoice(choice) {
+            if (!choice.nextChapter) {
+                //Vérifie si le fonctionnement de vie fonctionne
+                applyDamage();
+                updateHealth();
+                this.story.currentChapter = null
+                this.story.narrative = "Fin de l'histoire."
+                this.story.availableChoices = []
+            } else {
+                const nextChapter = Number(choice.nextChapter)
+                this.story.currentChapter = nextChapter
+
+                // vérifie si le prochain chapitre est une fin, si oui, affiche l'écran de fin
+                if (nextChapter >= 126 && nextChapter <= 136) {
+                    this.$router.push({ name: "ending" })
+                } else {
+                    this.$router.push({ name: "chapter", params: { id: nextChapter } })
+                }
+            }
+        }
 
     }
 
@@ -79,7 +110,7 @@ export default {
 
         <NarrativeText>
             <NarrativeTextParagraph>
-                {{ texte }}
+                {{ displayedText }}
             </NarrativeTextParagraph>
         </NarrativeText>
 
@@ -100,14 +131,14 @@ export default {
 
 <style scoped>
 .bouton-continuer:hover {
-  filter: brightness(105%);
-  transform: scale(1.05);
-  box-shadow: 0 0.5vw 0.5vw 0 #000;
+    filter: brightness(105%);
+    transform: scale(1.05);
+    box-shadow: 0 0.5vw 0.5vw 0 #000;
 }
 
 .bouton-choix:hover {
-  filter: brightness(105%);
-  transform: scale(1.05);
-  box-shadow: 0 0.5vw 0.5vw 0 #000;
+    filter: brightness(105%);
+    transform: scale(1.05);
+    box-shadow: 0 0.5vw 0.5vw 0 #000;
 }
 </style>

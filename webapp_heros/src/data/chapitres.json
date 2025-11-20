@@ -314,7 +314,7 @@
         }
     },
     "1213": {
-        "texte": "L'équipe se prépare à combattre Haxan sans l'Homme.",
+        "texte": "L'équipe se prépare à combattre Haxan sans l'Homme ni le Tacticien À MODIFIER",
         "choix": [
             {
                 "id": 1,
@@ -329,7 +329,7 @@
         ]
     },
     "1214": {
-        "texte": "Ultra s'apprête à affronter Haxan seul",
+        "texte": "L'Homme Ultra s'apprête à affronter Haxan seul",
         "choix": [
             {
                 "id": 1,
@@ -551,10 +551,11 @@
         }
     },
     "25": {
-        "texte": "Haxan attrape l'Homme par le cou, puis le casse en deux.",
-        "nextChapter": "1214",
+        "texte": "Haxan attrape également l'Homme par le cou, puis les cassent chacun en deux.",
+        "nextChapter": "1213",
         "damage": {
-            "Homme": 100
+            "Homme": 100,
+            "Tacticien": 100
         }
     },
     "26": {
@@ -1141,7 +1142,7 @@
         "texte": "Haxan frappe dans les bras de l'Homme qui bloque, l'onde de choc démolit complètement les deux bras de l'Homme.",
         "nextChapter": "131",
         "damage": {
-            "Homme": 15
+            "HommeUltra": 93
         }
     },
     "75": {

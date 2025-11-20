@@ -2,6 +2,8 @@
 import MenuButtonNew from '../components/layout/MenuButtonNew.vue';
 import MenuButtonPersonnages from '../components/layout/MenuButtonPersonnages.vue';
 import AppFooter from '../components/layout/AppFooter.vue';
+import MusicButton from '@/components/histoire/MusicButton.vue';
+import { usePlayerStore } from '@/stores/playerStore';
 
 export default {
     name: 'home',
@@ -9,7 +11,15 @@ export default {
     components: {
         MenuButtonNew,
         MenuButtonPersonnages,
-        AppFooter
+        AppFooter,
+        MusicButton
+    },
+
+    //joue au chargement de la page
+    mounted() {
+        const playerStore = usePlayerStore();
+        // reset toutes les données sauvegardées
+        playerStore.reset();
     },
 
     methods: {
@@ -26,8 +36,10 @@ export default {
 <template>
     <div class="page">
         <h1 style="" class="titre">Les Héros de l'Éclipse</h1>
-        <MenuButtonNew @click="startAdventure()" class="bouton"></MenuButtonNew>
+        <MenuButtonNew @click="startAdventure(), reset()" class="bouton"></MenuButtonNew>
         <MenuButtonPersonnages class="bouton"></MenuButtonPersonnages>
+        <MusicButton></MusicButton>
+        
     </div>
     <AppFooter></AppFooter>
 </template>
