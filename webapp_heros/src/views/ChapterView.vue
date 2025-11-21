@@ -65,7 +65,7 @@ export default {
 
         this.displayedText = ''
         let index = 0
-        const speed = 50 
+        const speed = 30 
 
         this.typingInterval = setInterval(() => {
             this.displayedText += fullText[index]
@@ -115,7 +115,7 @@ export default {
         </NarrativeText>
 
         <ChoicePanel>
-            <!-- MULTIPLE CHOICES -->
+            
             <ChoiceButton v-if="!showContinue" v-for="choice in choices" :key="choice.id" @click="selectChoice(choice)"
                 class="bouton-choix">
                 <ChoiceButtonText>
@@ -123,7 +123,7 @@ export default {
                 </ChoiceButtonText>
             </ChoiceButton>
 
-            <!-- SINGLE CONTINUE BUTTON -->
+            
             <ContinueButton v-if="showContinue" @click="selectChoice(choices[0])" class="bouton-continuer" />
         </ChoicePanel>
     </div>

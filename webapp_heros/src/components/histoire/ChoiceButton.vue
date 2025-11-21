@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     padding: 1vw 2vh;
-    background: #ffd33d;
+    background: #FFA600;
     color: #111;
     font-weight: 700;
     letter-spacing: 0.06em;

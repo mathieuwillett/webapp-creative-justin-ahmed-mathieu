@@ -1,6 +1,8 @@
 <script setup>
 import { usePlayerStore } from "@/stores/playerStore.js";
+import HealthBar from "@/components/layout/HealthBar.vue"
 const store = usePlayerStore();
+
 
 </script>
 
@@ -12,6 +14,7 @@ const store = usePlayerStore();
       <div class="wrapper">
         <div class="personnages" v-for="(personnage, index) in store.images.filter(p => p.name !== 'Haxan')"
           :key="index" :class="{ absent: store.active[personnage.name] == false }">
+          <HealthBar :hp="store.hp[personnage.name]" :maxHp="100" class="health-bar-wrapper"/>
           <img :src="personnage.img" :alt="personnage.name" :class="{ dead: store.hp[personnage.name] <= 0 }" />
         </div>
       </div>
@@ -20,19 +23,11 @@ const store = usePlayerStore();
       <div class="wrapper">
         <div class="personnages" v-for="(personnage, index) in store.images.filter(p => p.name == 'Haxan')"
           :key="index">
+          <HealthBar :hp="store.hp[personnage.name]" :maxHp="100" class="health-bar-wrapper"/>
           <img :src="personnage.img" :alt="personnage.name" />
         </div>
       </div>
 
-
-
-
-      <!-- <div
-        class="haxan"
-        v-for="(personnage, index) in store.images"
-        :key="8"
-      > <img :src="personnage.img" :alt="personnage.name">
-    </div> -->
     </div>
   </div>
 </template>
@@ -62,13 +57,26 @@ const store = usePlayerStore();
 }
 
 .personnages {
-  /* background-color: red; */
+  /*background-color: red; */
   height: 12vw;
   width: 8vw;
   user-select: none;
   display: flex;
-  justify-content: center;
+  flex-direction: column; 
+  align-items: center;     
+  justify-content: flex-end;
   margin: 0 0.2vw;
+}
+
+.personnages img {
+  flex: 1 1 auto;
+}
+
+.health-bar-wrapper {
+  flex: 0 0 16px;        
+  width: 100%;
+  margin-bottom: 4px;
+  order: -1;
 }
 
 .wrapper {
@@ -78,6 +86,7 @@ const store = usePlayerStore();
   bottom: 0;
   width: 100%;
 }
+
 
 .groups {
   display: flex;

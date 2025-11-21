@@ -30,12 +30,15 @@
     justify-content: center;
     position: relative;
     overflow: hidden;
+    justify-self: end;
+    justify-content: center; /* horizontal center */
+    align-items: flex-end;
 }
 
 .images ::v-deep img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .images::before {
@@ -56,7 +59,6 @@
     color: #111;
     font-weight: 700;
     letter-spacing: 0.06em;
-    cursor: pointer;
     position: relative;
     user-select: none;
 }

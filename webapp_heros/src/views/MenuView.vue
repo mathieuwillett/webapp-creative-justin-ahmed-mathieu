@@ -27,6 +27,7 @@ export default {
             this.$router.push({
                 name: 'start'
             });
+            audioStore.playMusic('TheEclipseRising.mp3');
         },
         menuPersonnages() {
             this.$router.push({
@@ -41,9 +42,9 @@ export default {
 <template>
     <div class="page">
         <h1 style="" class="titre">LES HÉROS DE L'ÉCLIPSE</h1>
-        <MenuButtonNew @click="startAdventure(), reset()" class="bouton"></MenuButtonNew>
+        <MenuButtonNew @click="startAdventure(), reset() " class="bouton"></MenuButtonNew>
         <MenuButtonPersonnages class="bouton" @click="menuPersonnages()"></MenuButtonPersonnages>
-        <MusicButton></MusicButton>
+        <MusicButton @click="audioStore.playMusic('TheEclipseRising.mp3')"></MusicButton>
         
     </div>
     <AppFooter></AppFooter>
