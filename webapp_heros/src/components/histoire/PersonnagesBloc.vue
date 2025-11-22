@@ -24,7 +24,7 @@ const store = usePlayerStore();
         <div class="personnages" v-for="(personnage, index) in store.images.filter(p => p.name == 'Haxan')"
           :key="index">
           <HealthBar :hp="store.hp[personnage.name]" :maxHp="100" class="health-bar-wrapper"/>
-          <img :src="personnage.img" :alt="personnage.name" />
+          <img :class="{ dead: store.hp.Haxan <= 0 }" :src="personnage.img" :alt="personnage.name" />
         </div>
       </div>
 

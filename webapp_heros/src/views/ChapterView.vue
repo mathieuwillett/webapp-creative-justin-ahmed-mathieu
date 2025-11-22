@@ -6,6 +6,7 @@ import ChoicePanel from "@/components/histoire/ChoicePanel.vue"
 import ChoiceButton from "@/components/histoire/ChoiceButton.vue"
 import ChoiceButtonText from "@/components/histoire/ChoiceButtonText.vue"
 import ContinueButton from "@/components/histoire/ContinueButton.vue"
+import { useAudioStore } from "@/stores/audioStore";
 
 import { useStoryStore } from "@/stores/storyStore"
 import { usePlayerStore } from "@/stores/playerStore"
@@ -45,8 +46,10 @@ export default {
         }
     },
     mounted() {
+        const audioStore = useAudioStore();
         this.story.loadChapters()
         this.story.goToChapter(this.$route.params.id)
+        audioStore.setTrack('TheEclipseRising.mp3')
     },
     watch: {
         texte(newText) {

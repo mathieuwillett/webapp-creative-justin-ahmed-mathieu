@@ -17,7 +17,8 @@ export const usePlayerStore = defineStore('player', {
       CapCanada: 100,
       HommeUltra: 100,
       HommeEclipse: 100,
-      Haxan: 100
+      Haxan: 100,
+      MagicienEclipse: 100
     },
 
     damage: {
@@ -47,7 +48,8 @@ export const usePlayerStore = defineStore('player', {
       CapCanada: false,
       HommeUltra: false,
       HommeEclipse: false,
-      Haxan: false
+      Haxan: false,
+      MagicienEclipse: false
     },
 
     images: [{
@@ -149,10 +151,18 @@ export const usePlayerStore = defineStore('player', {
         HeavyWound: "/Images/AhmedUltra/PixelAhmedUltraHeavyWound.png",
         title: "L'Homme Ultra"
       },
+      {
+        id: 12,
+        name: "MagicienEclipse",
+        img: "/Images/Alex/PixelAlexEclipse.png",
+        title: "Le Magicien (Éclipse)"
+      },
 
       // …
     ]
   }),
+
+  
 
   //getters c'est comme computed dans une app vue
   getters: {
@@ -175,6 +185,7 @@ export const usePlayerStore = defineStore('player', {
       this.hp.HommeUltra -= this.damage.HommeUltra
       this.hp.HommeEclipse -= this.damage.HommeEclipse
       this.hp.Haxan -= this.damage.Haxan
+      this.hp.MagicienEclipse = this.hp.Magicien
 
       console.log("HP après dégâts :", this.hp)
 

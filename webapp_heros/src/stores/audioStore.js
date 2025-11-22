@@ -23,30 +23,32 @@ export const useAudioStore = defineStore("audio", {
     },
 
     setTrack(track) {
-      if (this.currentTrack !== track) {
-        this.currentTrack = track;
-        if (this.audio) {
-          this.audio.src = `/Audios/${track}`; 
-          this.audio.load(); 
-          if (!this.isMuted) {
-            this.audio.play().catch((err) => {
-              console.warn("Audio failed to play:", err);
-            });
-          }
-        }
+  if (this.currentTrack !== track) {
+    if (this.audio && !this.audio.paused) {
+      this.audio.pause();
+    }
+
+    this.currentTrack = track;
+
+    if (this.audio) {
+      this.audio.src = `/Audios/${track}`;
+      this.audio.load();
+      if (!this.isMuted) {
+        this.audio.play().catch(err => {
+          console.warn("Audio failed to play:", err);
+        });
       }
-    },
+    }
+  }
+},
 
     playMusic(track = "Menu.mp3") {
   this.init(track);
   this.audio.volume = this.volume;
   this.audio.muted = this.isMuted;
 
-  // play only if not muted
   if (!this.isMuted) {
-    this.audio.play().catch((err) => {
-      console.warn("Audio failed to play:", err);
-    });
+    this.audio.play().catch(err => console.warn(err));
   }
 },
 

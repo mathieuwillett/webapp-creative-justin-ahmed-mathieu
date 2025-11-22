@@ -27,7 +27,6 @@ export default {
             this.$router.push({
                 name: 'start'
             });
-            audioStore.playMusic('TheEclipseRising.mp3');
         },
         menuPersonnages() {
             this.$router.push({
