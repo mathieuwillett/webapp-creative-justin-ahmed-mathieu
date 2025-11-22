@@ -92,7 +92,10 @@
     },
     "5": {
         "texte": "L'Homme se cache par peur. Le Tacticien tente de le rejoindre, mais l'homme volant se précipite sur lui et l'attrape par le cou. ",
-        "nextChapter": "14"
+        "nextChapter": "14",
+        "active": {
+            "Homme" : false
+        }
     },
     "6": {
         "texte": "Le Cyborg utilise un rayon phasique et tire sur l'homme, celui-ci esquive le rayon et fonce sur lui à pleine vitesse, créant un énorme cratère au sol, le Cyborg gisant au fond.",
