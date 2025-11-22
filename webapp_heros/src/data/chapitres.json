@@ -230,18 +230,7 @@
                 "text": "Invoquer des renforts",
                 "nextChapter": "32"
             }
-        ],
-        "active": {
-            "Homme": true,
-            "Tacticien": true,
-            "CapQC": true,
-            "Magicien": true,
-            "Barbare": true,
-            "Cyborg": true,
-            "Loup": true,
-            "Modelisateur": true,
-            "Haxan": true
-        }
+        ]
     },
     "18": {
         "texte": "Le vilain Haxan se présente, puis tire des rayons laser mauves de ses yeux vers le Magicien.",
@@ -754,7 +743,8 @@
             "Magicien": true,
             "Cyborg": true,
             "Loup": true,
-            "Modelisateur": true
+            "Modelisateur": true,
+            "Homme" : true
         }
     },
     "28": {
@@ -786,7 +776,18 @@
     },
     "32": {
         "texte": "Le Magicien ouvre un portail spatio-temporel, invoquant chacun des membres des héros de l'éclipse. Cependant, ses pouvoirs deviennent instables.",
-        "nextChapter": "1221"
+        "nextChapter": "1221",
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "33": {
         "texte": "Capitaine Québec est transpercé par les rayons, le laissant mourir au sol, laissant la vie sauve au Magicien. Les autres héros arrivent au même moment.",
@@ -1070,9 +1071,9 @@
             "Tacticien": 100,
             "Magicien": 100,
             "Modelisateur": 100,
-            "Homme" : 50,
-            "Loup": 43,
-            "CapQC" : 33,
+            "Homme" : 72,
+            "Loup": 100,
+            "CapQC" : 53,
             "Haxan" : 23
         }
     },
@@ -1214,7 +1215,14 @@
             }
         ],
         "damage": {
-            "CapQC": 30
+            "CapQC": 52,
+            "Homme": 17,
+            "Barbare" : 30,
+            "Cyborg" : 34,
+            "Modelisateur" : 20,
+            "Loup" : 34,
+            "Magicien" : 50,
+            "Haxan" : 16
         }
     },
     "56": {
@@ -1661,7 +1669,8 @@
             "Magicien": 100,
             "Cyborg": 100,
             "Loup": 100,
-            "Haxan": 34
+            "CapQC": 100,
+            "Haxan": 30
         }
     },
     "92": {
