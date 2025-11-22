@@ -99,7 +99,10 @@
     },
     "6": {
         "texte": "Le Cyborg utilise un rayon phasique et tire sur l'homme, celui-ci esquive le rayon et fonce sur lui à pleine vitesse, créant un énorme cratère au sol, le Cyborg gisant au fond.",
-        "nextChapter": "15"
+        "nextChapter": "15",
+        "damage": {
+            "Cyborg": 67
+        }
     },
     "7": {
         "texte": "Le Cyborg utilise son appareil de télécommunication pour faire appel aux héros de l'éclipse.",
@@ -273,8 +276,8 @@
             }
         ],
         "damage": {
-            "Modelisateur": 15,
-            "Loup": 15
+            "Modelisateur": 56,
+            "Loup": 47
         },
         "active": {
             "Haxan": true
@@ -323,7 +326,18 @@
                 "text": "Attaquer à tour de rôle",
                 "nextChapter": "52"
             }
-        ]
+        ],
+        "active": {
+            "Homme": 45,
+            "Tacticien": 23,
+            "CapQC": 24,
+            "Magicien": 41,
+            "Barbare": 12,
+            "Cyborg": 93,
+            "Loup": 12,
+            "Modelisateur": 44,
+            "Haxan": 4
+        }
     },
     "21": {
         "texte": "Haxan est gravement blessé au visage, il tombe à genoux, du sang tombe de son visage. Le reste de l'équipe fut alerté par le bruit, se rendant sur les lieux du combat.",
@@ -732,7 +746,7 @@
         "nextChapter": "1217",
         "damage": {
             "Barbare": 100,
-            "Haxan": 20
+            "Haxan": 34
         },
         "active": {
             "Tacticien": true,
@@ -755,7 +769,7 @@
         "nextChapter": "1217",
         "damage": {
             "Barbare": 100,
-            "Haxan": 100
+            "Cyborg": 100
         }
     },
     "30": {
@@ -809,10 +823,13 @@
     },
     "36": {
         "texte": "Les deux hommes choisirent de rester au sol, trop faibles pour continuer le combat. Alors qu'Haxan allait les achever, un homme en armure vola à toute allure pour atterrir au sol et arrêter le coup fatal qu'allait donner Haxan.",
-        "nextChapter": "1219"
+        "nextChapter": "1219",
+        "active" : {
+            "Cyborg" : true
+        }
     },
     "37": {
-        "texte": "Haxan tua la quasi-totalité de la ville avant que la totalité de l'équipe ne soit réunie. Ils se préparent à l'affronter.",
+        "texte": "Haxan tua la quasi-totalité de la ville avant que l'entièreté de l'équipe ne soit réunie. Ils se préparent à l'affronter.",
         "nextChapter": "1225",
         "active": {
             "Homme": true,
@@ -1022,10 +1039,17 @@
                 "text": "S'incliner",
                 "nextChapter": "130"
             }
-        ],
+        ],        
         "damage": {
-            "Loup": 100,
-            "Modelisateur": 100
+            "Homme": 77,
+            "Tacticien": 25,
+            "CapQC": 36,
+            "Magicien": 56,
+            "Barbare": 45,
+            "Cyborg": 67,
+            "Loup": 37,
+            "Modelisateur": 34,
+            "Haxan": 23
         }
     },
     "48": {
@@ -1045,7 +1069,11 @@
         "damage": {
             "Tacticien": 100,
             "Magicien": 100,
-            "Modelisateur": 100
+            "Modelisateur": 100,
+            "Homme" : 50,
+            "Loup": 43,
+            "CapQC" : 33,
+            "Haxan" : 23
         }
     },
     "49": {
@@ -1104,7 +1132,14 @@
             }
         ],
         "damage": {
-            "Homme": 60
+            "Homme": 67,
+            "Barbare" : 30,
+            "CapQC" : 54,
+            "Cyborg" : 34,
+            "Modelisateur" : 60,
+            "Loup" : 34,
+            "Magicien" : 50,
+            "Haxan" : 36
         }
     },
     "52": {
@@ -1329,8 +1364,8 @@
             }
         ],
         "damage": {
-            "Barbare": 100,
-            "Modelisateur": 100
+            "CapQC": 100,
+            "Homme": 100
         }
     },
     "63": {
@@ -1346,7 +1381,18 @@
                 "text": "Le Magicien tente de redonner à Capitaine Québec le contrôle de son esprit",
                 "nextChapter": "118"
             }
-        ]
+        ],
+        "damage": {
+            "Homme": 44,
+            "Tacticien": 52,
+            "CapQC": 23,
+            "Magicien": 54,
+            "Barbare": 12,
+            "Cyborg": 54,
+            "Loup": 47,
+            "Modelisateur": 44
+        }
+        
     },
     "64": {
         "texte": "Capitaine Québec est désolé de tous les civils tués. Haxan profite de ce moment de faiblesse pour prendre possession de l'esprit de celui-ci et tue le Magicien dans le combat.",
@@ -1589,13 +1635,14 @@
         }
     },
     "89": {
-        "texte": "Haxan est blessé au visage, mais parvient à achever le Magicien et le Tacticien. L'Homme, démoralisé, abandonnera le combat. Lui aussi finira par mourir des mains de Haxan.",
+        "texte": "Haxan est blessé au visage, mais parvient à achever le Magicien, Capitaine Québec et le Tacticien. L'Homme, démoralisé, abandonnera le combat. Lui aussi finira par mourir des mains de Haxan.",
         "nextChapter": "131",
         "damage": {
             "Magicien": 100,
             "Tacticien": 100,
             "Homme": 100,
-            "Haxan": 30
+            "Haxan": 38,
+            "CapQC" : 100
         }
     },
     "90": {
@@ -1668,11 +1715,23 @@
     },
     "98": {
         "texte": "Une éclipse apparaît dans le ciel. L'Homme effectue un transformement physique incroyable, gagnant une force inégalable. Sa jambe fut soignée sur le coup. L'Homme se relève et fonce sur Haxan. Les deux firent un combat cosmique, de force presque égale. Les deux furent blessés, mais Haxan finit par prendre le dessus. L'Homme Éclipse, épuisé. Haxan s'apprête à donner le coup de grâce.",
-        "nextChapter": "99"
+        "nextChapter": "99",
+        "damage": {
+            "Haxan": 64,
+            "HommeEclipse" : 89 
+        },
+        "active": {
+            "Homme": false,
+            "HommeUltra" : true
+        }
     },
     "99": {
-        "texte": "Au même moment, le pouvoir de la souveraineté redonne courage et espoir à l'Homme, qui encaisse le coup, puis riposte d'un coup mortel, achevant Haxan.",
-        "nextChapter": "132"
+        "texte": "Au même moment, Capitaine Québec avec le pouvoir de la souveraineté redonna courage et espoir à Ahmed, qui encaissa le coup, puis riposta d'un coup mortel, achevant Haxan",
+        "nextChapter": "132",
+        "damage": {
+            "Haxan": 100,
+            "HommeEclipse" : 9 
+        }
     },
     "100": {
         "texte": "Le Cyborg devient hyperchargé de l'énergie québécoise, se propulse sur Haxan. Avec le reste de l'équipe, ils viendront à bout d'Haxan, remportant la guerre.",
@@ -1680,7 +1739,18 @@
     },
     "101": {
         "texte": "Haxan prit le dessus sur les héros, achevant le Cyborg, et tuant tous les héros.",
-        "nextChapter": "131"
+        "nextChapter": "131",
+        "damage": {
+            "Homme": 100,
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "Haxan": 47
+        }
     },
     "102": {
         "texte": "Haxan, dans un combat sans merci, prit le dessus sur les héros restants, tuant ceux qui restaient, faisant de lui le grand gagnant.",
@@ -1890,14 +1960,15 @@
         "damage": {
             "Homme": 100,
             "Tacticien": 100,
-            "CapQC": 100,
+            "CapQC": 7,
             "Magicien": 100,
             "Barbare": 100,
             "Cyborg": 100,
             "Loup": 100,
             "Modelisateur": 100,
             "HommeUltra": 100,
-            "HommeEclipse": 100
+            "HommeEclipse": 100,
+            "Haxan": 24
         }
     },
     "118": {
@@ -1916,7 +1987,11 @@
         ],
         "damage": {
             "Tacticien": 100,
+            "CapQC" : 27,
             "Haxan": 100,
+            "Cyborg": 32,
+            "Loup": 23,
+            "Modelisateur": 16,
             "Magicien": 100,
             "Homme": 100
         }
