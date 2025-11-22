@@ -312,7 +312,18 @@
                 "text": "Attaquer à tour de rôle",
                 "nextChapter": "52"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "21": {
         "texte": "Haxan est gravement blessé au visage, il tombe à genoux, du sang tombe de son visage. Le reste de l'équipe fut alerté par le bruit, se rendant sur les lieux du combat.",
@@ -434,7 +445,18 @@
                 "text": "Attaquer à tour de rôle",
                 "nextChapter": "50"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "1219": {
         "texte": "L'équipe se prépare à affronter Haxan",
@@ -449,7 +471,18 @@
                 "text": "Attaquer à tour de rôle",
                 "nextChapter": "52"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "1220": {
         "texte": "L'équipe se prépare à affronter Haxan.",
@@ -464,7 +497,18 @@
                 "text": "Attaquer à tour de rôle",
                 "nextChapter": "54"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "1221": {
         "texte": "L'équipe se prépare à affronter Haxan.",
@@ -479,7 +523,18 @@
                 "text": "Attaquer à tour de rôle",
                 "nextChapter": "56"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "1222": {
         "texte": "L'équipe se prépare à affronter Haxan.",
@@ -494,7 +549,18 @@
                 "text": "Attaquer à tour de rôle",
                 "nextChapter": "58"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "1223": {
         "texte": "L'équipe se prépare à affronter Haxan.",
@@ -509,7 +575,18 @@
                 "text": "Attaquer à tour de rôle.",
                 "nextChapter": "60"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "1224": {
         "texte": "L'équipe se prépare à affronter Haxan.",
@@ -524,7 +601,18 @@
                 "text": "Attaquer à tour de rôle.",
                 "nextChapter": "62"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "1225": {
         "texte": "L'équipe se prépare à affronter Haxan.",
@@ -539,7 +627,18 @@
                 "text": "Attaquer à tour de rôle.",
                 "nextChapter": "64"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "22": {
         "texte": "Le reste des héros arrivent, ils se préparent à un dur combat, sans l'Homme.",
