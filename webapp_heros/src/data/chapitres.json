@@ -226,6 +226,14 @@
             }
         ],
         "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
             "Haxan": true
         }
     },
@@ -312,18 +320,7 @@
                 "text": "Attaquer à tour de rôle",
                 "nextChapter": "52"
             }
-        ],
-        "active": {
-            "Homme": true,
-            "Tacticien": true,
-            "CapQC": true,
-            "Magicien": true,
-            "Barbare": true,
-            "Cyborg": true,
-            "Loup": true,
-            "Modelisateur": true,
-            "Haxan": true
-        }
+        ]
     },
     "21": {
         "texte": "Haxan est gravement blessé au visage, il tombe à genoux, du sang tombe de son visage. Le reste de l'équipe fut alerté par le bruit, se rendant sur les lieux du combat.",
@@ -366,7 +363,18 @@
                 "text": "Être défensif",
                 "nextChapter": "40"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "1214": {
         "texte": "L'Homme Ultra s'apprête à affronter Haxan seul",
@@ -400,7 +408,18 @@
                 "text": "Attaquer à tour de rôle successivement",
                 "nextChapter": "44"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "1216": {
         "texte": "L'Homme se prépare à affronter Haxan",
@@ -430,7 +449,18 @@
                 "text": "Attaquer à tour de rôle",
                 "nextChapter": "48"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "1218": {
         "texte": "L'équipe se prépare à affronter Haxan surpuissant",
@@ -780,7 +810,18 @@
     },
     "37": {
         "texte": "Haxan tua la quasi-totalité de la ville avant que la totalité de l'équipe ne soit réunie. Ils se préparent à l'affronter.",
-        "nextChapter": "1225"
+        "nextChapter": "1225",
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "1371": {
         "texte": "L'équipe attaque Haxan tous en même temps, lui infligeant de lourds dégâts. Dans le combat, le Magicien est gravement touché. Une éclipse apparaît dans le ciel.",
@@ -1146,7 +1187,30 @@
                 "text": "Se mettre en position défensive",
                 "nextChapter": "109"
             }
-        ]
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        },
+        "damage": { 
+            "Homme": 20,
+            "Tacticien": 25,
+            "CapQC": 25,
+            "Magicien": 16,
+            "Barbare": 20,
+            "Cyborg": 35,
+            "Loup": 30,
+            "Modelisateur": 10,
+            "Haxan": 20
+        
+        }
     },
     "57": {
         "texte": "Dans le combat, Haxan tue l'Homme et le Cyborg.",
