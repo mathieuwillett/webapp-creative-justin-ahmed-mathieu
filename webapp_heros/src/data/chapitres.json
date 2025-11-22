@@ -104,7 +104,10 @@
     },
     "8": {
         "texte": "Le Magicien utilise un sort afin d'immobiliser l'homme et Capitaine Québec tire un éclair hydroélectrique sur celui-ci.",
-        "nextChapter": "17"
+        "nextChapter": "17",
+        "damage": {
+            "Haxan": 13
+        }
     },
     "9": {
         "texte": "Les deux héros se cachent, le Magicien entre en synchronisation psychique avec les héros de l'éclipse pour les alerter de la menace, mais au même moment, l'homme défonce le mur qui cachait les deux héros.",
@@ -584,7 +587,8 @@
         "nextChapter": "1213",
         "damage": {
             "Homme": 100,
-            "Tacticien": 100
+            "Tacticien": 100,
+            "haxan": 23
         }
     },
     "26": {
