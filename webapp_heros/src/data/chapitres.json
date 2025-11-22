@@ -96,7 +96,8 @@
     },
     "6": {
         "texte": "Le Cyborg utilise un rayon phasique et tire sur l'homme, celui-ci esquive le rayon et fonce sur lui à pleine vitesse, créant un énorme cratère au sol, le Cyborg gisant au fond.",
-        "nextChapter": "15"
+        "nextChapter": "15",
+        "TEST": "test"
     },
     "7": {
         "texte": "Le Cyborg utilise son appareil de télécommunication pour faire appel aux héros de l'éclipse.",

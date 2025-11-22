@@ -33,6 +33,7 @@
     justify-self: end;
     justify-content: center; /* horizontal center */
     align-items: flex-end;
+    user-select: none;
 }
 
 .images ::v-deep img {
