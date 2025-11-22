@@ -534,6 +534,16 @@
                 "nextChapter": "54"
             }
         ],
+        "damage": {
+            "Homme": 12,
+            "Barbare": 23,
+            "CapQC": 24,
+            "Cyborg": 14,
+            "Modelisateur": 20,
+            "Loup": 14,
+            "Magicien": 10,
+            "Haxan": 6
+        },
         "active": {
             "Homme": true,
             "Tacticien": true,
@@ -744,7 +754,7 @@
             "Cyborg": true,
             "Loup": true,
             "Modelisateur": true,
-            "Homme" : true
+            "Homme": true
         }
     },
     "28": {
@@ -825,8 +835,8 @@
     "36": {
         "texte": "Les deux hommes choisirent de rester au sol, trop faibles pour continuer le combat. Alors qu'Haxan allait les achever, un homme en armure vola à toute allure pour atterrir au sol et arrêter le coup fatal qu'allait donner Haxan.",
         "nextChapter": "1219",
-        "active" : {
-            "Cyborg" : true
+        "active": {
+            "Cyborg": true
         }
     },
     "37": {
@@ -918,11 +928,11 @@
         "damage": {
             "CapQC": 67,
             "Loup": 48,
-            "Magicien" : 20,
-            "Barbare" : 15,
-            "Cyborg" : 24,
-            "Modelisateur" : 24,
-            "Haxan" : 7
+            "Magicien": 20,
+            "Barbare": 15,
+            "Cyborg": 24,
+            "Modelisateur": 24,
+            "Haxan": 7
         }
     },
     "41": {
@@ -1040,7 +1050,7 @@
                 "text": "S'incliner",
                 "nextChapter": "130"
             }
-        ],        
+        ],
         "damage": {
             "Homme": 77,
             "Tacticien": 25,
@@ -1071,10 +1081,10 @@
             "Tacticien": 100,
             "Magicien": 100,
             "Modelisateur": 100,
-            "Homme" : 72,
+            "Homme": 72,
             "Loup": 100,
-            "CapQC" : 53,
-            "Haxan" : 23
+            "CapQC": 53,
+            "Haxan": 23
         }
     },
     "49": {
@@ -1134,13 +1144,13 @@
         ],
         "damage": {
             "Homme": 67,
-            "Barbare" : 30,
-            "CapQC" : 54,
-            "Cyborg" : 34,
-            "Modelisateur" : 60,
-            "Loup" : 34,
-            "Magicien" : 50,
-            "Haxan" : 36
+            "Barbare": 30,
+            "CapQC": 54,
+            "Cyborg": 34,
+            "Modelisateur": 60,
+            "Loup": 34,
+            "Magicien": 50,
+            "Haxan": 36
         }
     },
     "52": {
@@ -1177,7 +1187,15 @@
         ],
         "damage": {
             "Homme": 100,
-            "Modelisateur": 100
+            "HommeEclipse" : 100,
+            "HommeUltra" : 100,
+            "Barbare": 100,
+            "CapQC": 100,
+            "Cyborg": 100,
+            "Modelisateur": 100,
+            "Loup": 100,
+            "Magicien": 100,
+            "Haxan": 34
         }
     },
     "54": {
@@ -1217,12 +1235,12 @@
         "damage": {
             "CapQC": 52,
             "Homme": 17,
-            "Barbare" : 30,
-            "Cyborg" : 34,
-            "Modelisateur" : 20,
-            "Loup" : 34,
-            "Magicien" : 50,
-            "Haxan" : 16
+            "Barbare": 30,
+            "Cyborg": 34,
+            "Modelisateur": 20,
+            "Loup": 34,
+            "Magicien": 50,
+            "Haxan": 16
         }
     },
     "56": {
@@ -1250,7 +1268,7 @@
             "Modelisateur": true,
             "Haxan": true
         },
-        "damage": { 
+        "damage": {
             "Homme": 20,
             "Tacticien": 25,
             "CapQC": 25,
@@ -1260,7 +1278,6 @@
             "Loup": 30,
             "Modelisateur": 10,
             "Haxan": 20
-        
         }
     },
     "57": {
@@ -1400,7 +1417,6 @@
             "Loup": 47,
             "Modelisateur": 44
         }
-        
     },
     "64": {
         "texte": "Capitaine Québec est désolé de tous les civils tués. Haxan profite de ce moment de faiblesse pour prendre possession de l'esprit de celui-ci et tue le Magicien dans le combat.",
@@ -1476,9 +1492,9 @@
             "CapQC": 100,
             "Barbare": 20,
             "Magicien": 20,
-            "Cyborg" : 40,
-            "Modelisateur" : 35,
-            "Loup" : 59
+            "Cyborg": 40,
+            "Modelisateur": 35,
+            "Loup": 59
         }
     },
     "73": {
@@ -1650,7 +1666,7 @@
             "Tacticien": 100,
             "Homme": 100,
             "Haxan": 38,
-            "CapQC" : 100
+            "CapQC": 100
         }
     },
     "90": {
@@ -1727,11 +1743,11 @@
         "nextChapter": "99",
         "damage": {
             "Haxan": 64,
-            "HommeEclipse" : 89 
+            "HommeEclipse": 89
         },
         "active": {
             "Homme": false,
-            "HommeUltra" : true
+            "HommeUltra": true
         }
     },
     "99": {
@@ -1739,7 +1755,7 @@
         "nextChapter": "132",
         "damage": {
             "Haxan": 100,
-            "HommeEclipse" : 9 
+            "HommeEclipse": 9
         }
     },
     "100": {
@@ -1996,7 +2012,7 @@
         ],
         "damage": {
             "Tacticien": 100,
-            "CapQC" : 27,
+            "CapQC": 27,
             "Haxan": 100,
             "Cyborg": 32,
             "Loup": 23,
