@@ -92,7 +92,10 @@
     },
     "5": {
         "texte": "L'Homme se cache par peur. Le Tacticien tente de le rejoindre, mais l'homme volant se précipite sur lui et l'attrape par le cou. ",
-        "nextChapter": "14"
+        "nextChapter": "14",
+        "damage": {
+            "Tacticien": 18
+        }
     },
     "6": {
         "texte": "Le Cyborg utilise un rayon phasique et tire sur l'homme, celui-ci esquive le rayon et fonce sur lui à pleine vitesse, créant un énorme cratère au sol, le Cyborg gisant au fond.",
@@ -898,8 +901,13 @@
             }
         ],
         "damage": {
-            "CapQC": 15,
-            "Loup": 15
+            "CapQC": 67,
+            "Loup": 48,
+            "Magicien" : 20,
+            "Barbare" : 15,
+            "Cyborg" : 24,
+            "Modelisateur" : 24,
+            "Haxan" : 7
         }
     },
     "41": {
@@ -921,7 +929,7 @@
         }
     },
     "42": {
-        "texte": "Haxan ne bouge pas d'un poil tandis que le rocher s'approche à toute vitesse. Le rocher est détruit à l'impact, Haxan n'a pas bougé d'un poil. Haxan tire un rayon laser mauve dans le torse de l'Homme.",
+        "texte": "Haxan ne bouge pas d'un poil tandis que le rocher s'approche à toute vitesse. Le rocher est détruit à l'impact. Haxan tire un rayon laser mauve en direction du torse de l'Homme.",
         "choix": [
             {
                 "id": 1,
@@ -1406,24 +1414,27 @@
         "nextChapter": "75",
         "damage": {
             "Loup": 100,
-            "Barbare": 20,
-            "Magicien": 20
+            "Barbare": 56,
+            "Magicien": 60
         }
     },
     "72": {
         "texte": "Capitaine Québec se jette pour protéger l'équipe d'un jet mortel, mourant dans l'action. Au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
         "nextChapter": "75",
         "damage": {
-            "Loup": 100,
+            "CapQC": 100,
             "Barbare": 20,
-            "Magicien": 20
+            "Magicien": 20,
+            "Cyborg" : 40,
+            "Modelisateur" : 35,
+            "Loup" : 59
         }
     },
     "73": {
         "texte": "Haxan esquive le coup, puis riposte d'un coup fatal, tranchant la tête de l'Homme avec sa main.",
         "nextChapter": "131",
         "damage": {
-            "Homme": 100
+            "HommeUltra": 100
         }
     },
     "74": {
@@ -1480,7 +1491,7 @@
         "texte": "Le torse de l'Homme est transpercé, il s'écroule au sol, expirant son dernier souffle.",
         "nextChapter": "80",
         "damage": {
-            "Homme": 100
+            "HommeUltra": 100
         }
     },
     "80": {
