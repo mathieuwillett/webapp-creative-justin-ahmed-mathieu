@@ -663,6 +663,16 @@
     "35": {
         "texte": "Les deux héros se relevent, combattent du mieux qu'ils peuvent, mais affaiblis, ils finissent par succomber aux forces du mal. Le reste de l'équipe arrive plus tard.",
         "nextChapter": "1224",
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true
+        },
         "damage": {
             "Modelisateur": 100,
             "Loup": 100
