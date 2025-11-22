@@ -701,8 +701,8 @@
             }
         ],
         "damage": {
-            "Haxan": 40,
-            "Magicien": 50
+            "Haxan": 42,
+            "Magicien": 56
         }
     },
     "38": {
