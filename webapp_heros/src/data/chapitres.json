@@ -254,9 +254,6 @@
                 "nextChapter": "34"
             }
         ],
-        "damage": {
-            "Magicien": 20
-        },
         "active": {
             "Haxan": true
         }
@@ -788,7 +785,7 @@
         "texte": "La décharge de Capitaine Québec arrive partiellement à retenir le rayon de Haxan, mais pas complètement. Haxan parvint à tuer le Magicien de son rayon, laissant Capitaine Québec seul. Les autres héros arrivent au même moment.",
         "nextChapter": "1223",
         "damage": {
-            "CapQC": 20,
+            "CapQC": 23,
             "Magicien": 100
         }
     },
@@ -1791,7 +1788,9 @@
         ],
         "active": {
             "Homme": false,
-            "HommeEclipse": true
+            "HommeEclipse": true,
+            "Magicien": false,
+            "MagicienEclipse": true
         }
     },
     "110": {
