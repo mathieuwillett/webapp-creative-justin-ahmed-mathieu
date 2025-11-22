@@ -358,13 +358,13 @@
         "choix": [
             {
                 "id": 1,
-                "text": "Être offensif",
-                "nextChapter": "39"
+                "text": "Attaquer tous en même temps.",
+                "nextChapter": "43"
             },
             {
                 "id": 2,
-                "text": "Être défensif",
-                "nextChapter": "40"
+                "text": "Attaquer à tour de rôle successivement",
+                "nextChapter": "44"
             }
         ],
         "active": {
