@@ -4,6 +4,7 @@ import MenuButtonPersonnages from '../components/layout/MenuButtonPersonnages.vu
 import AppFooter from '../components/layout/AppFooter.vue';
 import MusicButton from '@/components/layout/MusicButton.vue';
 import { usePlayerStore } from '@/stores/playerStore';
+import { useAudioStore } from "@/stores/audioStore";
 
 export default {
     name: 'home',
@@ -17,6 +18,7 @@ export default {
 
     //joue au chargement de la page
     mounted() {
+        const audioStore = useAudioStore();
         const playerStore = usePlayerStore();
         // reset toutes les données sauvegardées
         playerStore.reset();

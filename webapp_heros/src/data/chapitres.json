@@ -758,7 +758,7 @@
         }
     },
     "28": {
-        "texte": "Haxan est surpris du courage du Barbare, et décide d'absorber son âme, augmentant encore plus la force phénoménale de Haxan.",
+        "texte": "Haxan est surpris du manque de courage du Barbare, et décide d'absorber son âme, augmentant encore plus la force phénoménale de Haxan. À MODIFIER",
         "nextChapter": "1218",
         "damage": {
             "Barbare": 100
@@ -988,7 +988,7 @@
         }
     },
     "44": {
-        "texte": "Le Barbare attaque le premier. Haxan le pulvérise d'un coup de laser, puis Capitaine Québec intervient. Il se fait envoyer dans un trou noir. Modélisateur tente de le sauver en construisant une chaîne, mais Haxan brise la chaîne et étrangle Modélisateur jusqu'à sa mort.",
+        "texte": "Le Barbare attaque le premier. Haxan le pulvérise d'un coup de laser, puis Capitaine Québec intervient. Il se fait envoyer dans un trou noir. Le Modélisateur tente de le sauver en construisant une chaîne, mais Haxan brise la chaîne et étrangle le Modélisateur jusqu'à sa mort.",
         "choix": [
             {
                 "id": 1,
@@ -1615,12 +1615,12 @@
             {
                 "id": 1,
                 "text": "Le Cyborg s'autodétruit.",
-                "nextChapter": "82"
+                "nextChapter": "85"
             },
             {
                 "id": 2,
                 "text": "Le Cyborg se laisse mourir.",
-                "nextChapter": "83"
+                "nextChapter": "86"
             }
         ],
         "damage": {

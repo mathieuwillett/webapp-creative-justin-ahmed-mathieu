@@ -70,6 +70,6 @@ export const useAudioStore = defineStore("audio", {
     setVolume(value) {
       this.volume = value;
       if (this.audio) this.audio.volume = value;
-    },
+    }
   },
 });
