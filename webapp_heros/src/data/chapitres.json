@@ -252,7 +252,7 @@
             }
         ],
         "damage": {
-            "Modelisateur": 56,
+            "Modelisateur": 86,
             "Loup": 47
         },
         "active": {
@@ -512,13 +512,14 @@
         ],
         "damage": {
             "Homme": 12,
+            "Tacticien" : 43,
             "Barbare": 23,
-            "CapQC": 24,
-            "Cyborg": 14,
+            "CapQC": 34,
+            "Cyborg": 36,
             "Modelisateur": 20,
-            "Loup": 14,
+            "Loup": 28,
             "Magicien": 10,
-            "Haxan": 6
+            "Haxan": 23
         },
         "active": {
             "Homme": true,
@@ -1253,6 +1254,7 @@
         ],
         "damage": {
             "CapQC": 52,
+            "Tacticien": 23,
             "Homme": 17,
             "Barbare": 30,
             "Cyborg": 34,
@@ -1355,8 +1357,15 @@
             }
         ],
         "damage": {
+            "Homme": 42,
             "Tacticien": 100,
-            "Modelisateur": 100
+            "CapQC": 23,
+            "Magicien": 26,
+            "Barbare": 14,
+            "Cyborg": 34,
+            "Loup": 21,
+            "Modelisateur": 100,
+            "Haxan": 7
         }
     },
     "60": {
@@ -1392,7 +1401,14 @@
         ],
         "damage": {
             "Magicien": 100,
-            "Cyborg": 100
+            "Cyborg": 100,
+            "Homme": 43,
+            "Barbare": 31,
+            "CapQC": 33,
+            "Modelisateur": 53,
+            "Loup": 23,
+            "Tacticien" : 23,
+            "Haxan": 4
         }
     },
     "62": {
@@ -1880,11 +1896,24 @@
                 "text": "Refuser",
                 "nextChapter": 104
             }
-        ]
+        ],
+        "damage" : {
+            "Homme": 12,
+            "CapQC": 32,
+            "Cyborg": 100,
+            "Modelisateur": 1,
+            "Loup": 78,
+            "Tacticien" : 100,
+            "Magicien": 1,
+            "Haxan": 15
+        }
     },
     "104": {
         "texte": "Haxan rigola un coup, puis donna un coup de pied mortel à le Loup, mettant fin au combat.",
-        "nextChapter": 131
+        "nextChapter": 131, 
+        "damage" : {
+            "Loup" : 100
+        }
     },
     "105": {
         "texte": "Haxan exploite la faille chez le Magicien, forçant celui-ci à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, l'Homme se transforme en l'Homme Éclipse, gagnant des pouvoirs astronomique",
@@ -2018,7 +2047,7 @@
             "Modelisateur": 100,
             "HommeUltra": 100,
             "HommeEclipse": 100,
-            "Haxan": 17
+            "Haxan": 41
         }
     },
     "114": {
@@ -2058,7 +2087,15 @@
         "texte": "Haxan fut blessé au combat, mais finit par tout de même l'emporter, remportant la victoire sur les héros.",
         "nextChapter": 131,
         "damage": {
-            "Haxan": 27
+            "Haxan": 27,
+            "Homme": 100,
+            "Barbare": 100,
+            "CapQC": 100,
+            "Cyborg": 100,
+            "Modelisateur": 100,
+            "Loup": 100,
+            "Tacticien" : 100,
+            "Magicien": 100
         }
     },
     "117": {
