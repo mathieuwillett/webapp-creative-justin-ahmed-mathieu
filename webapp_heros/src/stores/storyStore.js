@@ -36,7 +36,7 @@ export const useStoryStore = defineStore("story", {
       this.currentChapter = chapterId
       this.narrative = chapter.texte || ""
 
-      if (chapter.choix.length > 0) {
+      if (chapter.choix && chapter.choix.length > 0) {
         this.availableChoices = chapter.choix
       } else if (chapter.nextChapter) {
         this.availableChoices = [{
@@ -47,6 +47,7 @@ export const useStoryStore = defineStore("story", {
       } else {
         this.availableChoices = []
       }
+
 
       if (chapter.damage) {
         const players = usePlayerStore()
