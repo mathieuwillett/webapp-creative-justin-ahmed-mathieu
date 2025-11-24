@@ -673,7 +673,7 @@
     },
     "22": {
         "texte": "Le reste des héros arrivent, ils se préparent à un dur combat, sans l'Homme. À MODIFIER",
-        "nextChapter": "1213",
+        "nextChapter": "1226",
         "active": {
             "Tacticien": true,
             "CapQC": true,
