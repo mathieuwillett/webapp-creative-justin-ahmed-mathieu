@@ -1790,16 +1790,16 @@
         "texte": "Une éclipse apparaît dans le ciel. L'Homme effectue un transformement physique incroyable, gagnant une force inégalable. Sa jambe fut soignée sur le coup. L'Homme se relève et fonce sur Haxan. Les deux firent un combat cosmique, de force presque égale. Les deux furent blessés, mais Haxan finit par prendre le dessus. L'Homme Éclipse, épuisé. Haxan s'apprête à donner le coup de grâce.",
         "nextChapter": "99",
         "damage": {
-            "Haxan": 64,
+            "Haxan": 24,
             "HommeEclipse": 89
         },
         "active": {
             "Homme": false,
-            "HommeUltra": true
+            "HommeEclipse": true
         }
     },
     "99": {
-        "texte": "Au même moment, Capitaine Québec avec le pouvoir de la souveraineté redonna courage et espoir à Ahmed, qui encaissa le coup, puis riposta d'un coup mortel, achevant Haxan",
+        "texte": "Au même moment, Capitaine Québec, avec le pouvoir de la souveraineté, redonna courage et espoir à Ahmed, qui encaissa le coup, puis riposta d'un coup mortel, achevant Haxan.",
         "nextChapter": "132",
         "damage": {
             "Haxan": 100,
