@@ -759,7 +759,18 @@
     },
     "30": {
         "texte": "Les héros, avec le temps supplémentaire, ont le temps de localiser la position du Cyborg, mais Haxan aussi. Il lance une charge orbitale pour anéantir le Cyborg et le Barbare, mais au même moment, le Magicien ouvre un portail dimensionnel, téléportant les héros de l'éclipse sur leur position, permettant au Modélisateur de créer un bouclier 3D.",
-        "nextChapter": "1219"
+        "nextChapter": "1219",
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "31": {
         "texte": "Capitaine Québec lance une décharge hydroélectrique qui est cette fois totalement absorbée par Haxan, qui gagne en puissance. Capitaine Québec affaibli, se fait prendre par surprise par Haxan, qui le tua d'un coup fatal au dos, puis Haxan désintégra le Magicien.",
@@ -1104,7 +1115,7 @@
             "CapQC": 100,
             "Tacticien": 100,
             "Modelisateur": 100,
-            "Loup": 27,
+            "Loup": 100,
             "Homme": 68,
             "Cyborg": 47,
             "Magicien": 52,
@@ -1146,9 +1157,10 @@
         ],
         "damage": {
             "Homme": 67,
-            "Barbare": 30,
+            "Barbare": 28,
+            "Tacticien": 23,
             "CapQC": 54,
-            "Cyborg": 34,
+            "Cyborg": 39,
             "Modelisateur": 60,
             "Loup": 34,
             "Magicien": 50,
@@ -1744,12 +1756,31 @@
             }
         ],
         "damage": {
-            "Haxan": 77
+            "Homme": 11,
+            "Barbare": 12,
+            "CapQC": 13,
+            "Cyborg": 16,
+            "Modelisateur": 13,
+            "Loup": 11,
+            "Magicien": 22,
+            "Tacticien" : 23,
+            "Haxan": 37
         }
     },
     "96": {
         "texte": "Alors que le Magicien se préparait à sceller Haxan dans un monde simulé pour le restant de l'éternité, le Barbare fonça sur Haxan, qui le saisit, puis prit contrôle de son âme. Il lui ordonna de tuer le Magicien, et avec son aide, ils finirent par tuer tous les héros de l'éclipse. À la fin de l'affrontement, Haxan salua le Barbare, avant de le détruire lui ainsi que le restant de la planète.",
-        "nextChapter": "131"
+        "nextChapter": "131",
+        "damage": {
+            "Barbare" : 100,
+            "Homme": 100,
+            "CapQC": 100,
+            "Cyborg": 100,
+            "Modelisateur": 100,
+            "Loup": 100,
+            "Tacticien" : 100,
+            "Magicien": 100,
+            "Haxan": 16
+        }
     },
     "97": {
         "texte": "Les héros de l'éclipse ont retenu le Barbare, qui finira par se calmer. Puis le Magicien invoqua un sceau qui scelle Haxan dans une simulation pour l'éternité, le neutralisant et ramenant la paix sur la planète.",
