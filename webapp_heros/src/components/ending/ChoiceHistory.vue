@@ -14,17 +14,25 @@ export default {
 <template>
     <div class="history">
         <h2>Vos choix</h2>
+
         <ul>
-            <li v-for="(entry, index) in history" :key="index" v-if="history.length === 0">History is empty>
+
+            <!-- Show this when history is empty -->
+            <li v-if="history.length === 0">History is empty</li>
+
+            <!-- Show entries when history is NOT empty -->
+            <li v-for="(entry, index) in history" :key="index">
                 <strong>Chapitre {{ entry.chapter }}</strong>
 
                 <div v-if="entry.choice">
                     Choix : {{ entry.choice }}
                 </div>
             </li>
+
         </ul>
     </div>
 </template>
+
 
 
 <style scoped>
