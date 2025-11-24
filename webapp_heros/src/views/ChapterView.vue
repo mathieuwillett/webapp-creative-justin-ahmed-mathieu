@@ -26,8 +26,8 @@ export default {
 
     data() {
         return {
-            displayedText: '',   
-            typingInterval: null 
+            displayedText: '',
+            typingInterval: null
         }
     },
 
@@ -62,24 +62,24 @@ export default {
     methods: {
 
         startTyping(fullText) {
-        if (this.typingInterval) {
-            clearInterval(this.typingInterval)
-        }
-
-        this.displayedText = ''
-        let index = 0
-        const speed = 30 
-
-        this.typingInterval = setInterval(() => {
-            this.displayedText += fullText[index]
-            index++
-
-            if (index >= fullText.length) {
+            if (this.typingInterval) {
                 clearInterval(this.typingInterval)
-                this.typingInterval = null
             }
-        }, speed)
-    },
+
+            this.displayedText = ''
+            let index = 0
+            const speed = 30
+
+            this.typingInterval = setInterval(() => {
+                this.displayedText += fullText[index]
+                index++
+
+                if (index >= fullText.length) {
+                    clearInterval(this.typingInterval)
+                    this.typingInterval = null
+                }
+            }, speed)
+        },
 
         selectChoice(choice) {
             if (!choice.nextChapter) {
@@ -95,7 +95,7 @@ export default {
 
                 // vérifie si le prochain chapitre est une fin, si oui, affiche l'écran de fin
                 if (nextChapter >= 126 && nextChapter <= 136) {
-                    this.$router.push({ name: "ending" })
+                    this.$router.push({ name: "ending", params: { id: nextChapter } });
                 } else {
                     this.$router.push({ name: "chapter", params: { id: nextChapter } })
                 }
@@ -118,7 +118,7 @@ export default {
         </NarrativeText>
 
         <ChoicePanel>
-            
+
             <ChoiceButton v-if="!showContinue" v-for="choice in choices" :key="choice.id" @click="selectChoice(choice)"
                 class="bouton-choix">
                 <ChoiceButtonText>
@@ -126,7 +126,7 @@ export default {
                 </ChoiceButtonText>
             </ChoiceButton>
 
-            
+
             <ContinueButton v-if="showContinue" @click="selectChoice(choices[0])" class="bouton-continuer" />
         </ChoicePanel>
     </div>
