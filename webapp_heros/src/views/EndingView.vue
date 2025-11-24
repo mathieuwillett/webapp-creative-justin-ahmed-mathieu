@@ -2,6 +2,7 @@
 import ChoiceHistory from '@/components/ending/ChoiceHistory.vue';
 import EndingScreen from '@/components/ending/EndingScreen.vue';
 import ReturnButton from '@/components/ending/ReturnButton.vue';
+import { useStoryStore } from '@/stores/storyStore';
 
 export default {
     name: 'ending',
@@ -12,11 +13,14 @@ export default {
         ReturnButton
     },
 
+    setup() {
+        const story = useStoryStore();
+        return { story };
+    },
+
     methods: {
         retourMenu() {
-            this.$router.push({
-                name: 'home'
-            });
+            this.$router.push({ name: 'home' });
         }
     }
 };
@@ -24,9 +28,9 @@ export default {
 
 <template>
     <div>
-        <EndingScreen></EndingScreen>
-        <ChoiceHistory></ChoiceHistory>
-        <ReturnButton @click="retourMenu()"></ReturnButton>
+        <EndingScreen>
+            <ChoiceHistory :history="story.history" />
+            <ReturnButton @click="retourMenu()" />
+        </EndingScreen>
     </div>
 </template>
-

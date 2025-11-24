@@ -1,13 +1,16 @@
 <template>
     <div>
-        
+        <slot></slot>
     </div>
 </template>
 
 <style scoped>
 div {
-    background-color: lightblue;
+    background-color: greenyellow;
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
 </style>
