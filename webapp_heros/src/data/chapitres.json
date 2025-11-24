@@ -1179,9 +1179,17 @@
                 "text": "Continuer de combattre",
                 "nextChapter": "101"
             }
-        ],
-        "damage": {
-            "Cyborg": 70
+        ],       
+         "damage": {
+            "Homme": 51,
+            "Tacticien": 12,
+            "CapQC": 32,
+            "Magicien": 23,
+            "Barbare": 12,
+            "Cyborg": 66,
+            "Loup": 23,
+            "Modelisateur": 42,
+            "Haxan": 32
         }
     },
     "53": {
@@ -1201,12 +1209,13 @@
             "Homme": 100,
             "HommeEclipse": 100,
             "HommeUltra": 100,
-            "Barbare": 100,
-            "CapQC": 100,
-            "Cyborg": 100,
+            "Barbare": 23,
+            "Tacticien": 29,
+            "CapQC": 34,
+            "Cyborg": 10,
             "Modelisateur": 100,
-            "Loup": 100,
-            "Magicien": 100,
+            "Loup": 43,
+            "Magicien": 26,
             "Haxan": 34
         }
     },
@@ -1321,7 +1330,15 @@
             }
         ],
         "damage": {
-            "Cyborg": 100
+            "Homme": 41,
+            "Tacticien": 23,
+            "CapQC": 12,
+            "Magicien": 32,
+            "Barbare": 12,
+            "Cyborg": 100,
+            "Loup": 14,
+            "Modelisateur": 31,
+            "Haxan": 23
         }
     },
     "59": {
@@ -1808,7 +1825,18 @@
     },
     "100": {
         "texte": "Le Cyborg devient hyperchargé de l'énergie québécoise, se propulse sur Haxan. Avec le reste de l'équipe, ils viendront à bout d'Haxan, remportant la guerre.",
-        "nextChapter": "132"
+        "nextChapter": "132",
+        "damage": {
+            "Homme": 10,
+            "Tacticien": 23,
+            "CapQC": 24,
+            "Magicien": 21,
+            "Barbare": 26,
+            "Cyborg": 29,
+            "Loup": 22,
+            "Modelisateur": 30,
+            "Haxan": 100
+        }
     },
     "101": {
         "texte": "Haxan prit le dessus sur les héros, achevant le Cyborg, et tuant tous les héros.",
@@ -1827,7 +1855,18 @@
     },
     "102": {
         "texte": "Haxan, dans un combat sans merci, prit le dessus sur les héros restants, tuant ceux qui restaient, faisant de lui le grand gagnant.",
-        "nextChapter": 131
+        "nextChapter": 131,
+        "damage": {
+            "Homme": 100,
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "Haxan": 27
+        }
     },
     "103": {
         "texte": "Haxan tua le Cyborg et le Tacticien, qui étaient déjà affaiblis. Il épargne le Loup, lui offrant de devenir son esclave en échange de sa vie.",
