@@ -854,6 +854,7 @@
         ],
         "damage": {
             "Barbare": 14,
+            "Tacticien": 23,
             "CapQC": 26,
             "Cyborg": 21,
             "Modelisateur": 32,
@@ -899,8 +900,13 @@
             }
         ],
         "damage": {
-            "Cyborg": 42,
-            "Haxan": 5
+            "Barbare": 15,
+            "CapQC": 24,
+            "Cyborg": 57,
+            "Modelisateur": 34,
+            "Loup": 21,
+            "Magicien": 31,
+            "Haxan": 12
         }
     },
     "40": {
@@ -919,7 +925,8 @@
         "damage": {
             "CapQC": 67,
             "Loup": 48,
-            "Magicien": 20,
+            "Tacticien": 30,
+            "Magicien": 34,
             "Barbare": 15,
             "Cyborg": 24,
             "Modelisateur": 24,
@@ -1052,8 +1059,8 @@
             "Magicien": 56,
             "Barbare": 45,
             "Cyborg": 67,
-            "Loup": 37,
-            "Modelisateur": 34,
+            "Loup": 100,
+            "Modelisateur": 100,
             "Haxan": 23
         }
     },
@@ -1073,7 +1080,7 @@
         "damage": {
             "Tacticien": 100,
             "Magicien": 100,
-            "Modelisateur": 100,
+            "Modelisateur": 62,
             "Homme": 72,
             "Loup": 100,
             "CapQC": 53,
@@ -1426,7 +1433,13 @@
         "texte": "Haxan réussit à prendre le Cyborg par surprise, lui arrachant la tête, mais au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
         "nextChapter": "75",
         "damage": {
-            "Cyborg": 100
+            "Cyborg": 100,
+            "Barbare": 14,
+            "CapQC": 23,
+            "Modelisateur": 26,
+            "Loup": 15,
+            "Magicien": 24,
+            "Haxan": 10
         }
     },
     "67": {
@@ -1454,14 +1467,26 @@
         "texte": "L'équipe continue d'attaquer, mais Capitaine Québec, plus faible, se fit prendre par surprise, transpercé au cœur. Mais au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
         "nextChapter": "75",
         "damage": {
-            "CapQC": 100
+            "CapQC": 100,
+            "Barbare": 12,
+            "Cyborg": 12,
+            "Modelisateur": 32,
+            "Loup": 14,
+            "Magicien": 23,
+            "Haxan": 6
         }
     },
     "70": {
         "texte": "L'équipe moins nombreuse, Haxan parvint à tuer le Modélisateur d'un projectile mortel. Au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
         "nextChapter": "75",
         "damage": {
-            "Modelisateur": 100
+            "Modelisateur": 100,
+            "Barbare": 12,
+            "CapQC": 33,
+            "Cyborg": 23,
+            "Loup": 11,
+            "Magicien": 21,
+            "Haxan": 12
         }
     },
     "71": {
@@ -1479,6 +1504,7 @@
         "damage": {
             "CapQC": 100,
             "Barbare": 20,
+            "Tacticien" : 23,
             "Magicien": 20,
             "Cyborg": 40,
             "Modelisateur": 35,
@@ -1579,7 +1605,7 @@
             "CapQC": 100,
             "Loup": 48,
             "Modelisateur": 37,
-            "Haxan": 7
+            "Haxan": 17
         }
     },
     "82": {
@@ -1667,7 +1693,8 @@
         "damage": {
             "Homme": 100,
             "Modelisateur": 100,
-            "Haxan": 20
+            "Haxan": 20,
+            "CapQc" : 43
         }
     },
     "91": {
@@ -1678,7 +1705,7 @@
             "Cyborg": 100,
             "Loup": 100,
             "CapQC": 100,
-            "Haxan": 30
+            "Haxan": 10
         }
     },
     "92": {
