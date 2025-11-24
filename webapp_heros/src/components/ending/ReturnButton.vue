@@ -27,7 +27,6 @@
     position: relative;
     user-select: none;
     transition: transform 120ms, filter 120ms;
-    margin: 10vh;
 }
 
 .bouton::before {

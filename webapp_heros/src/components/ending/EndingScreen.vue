@@ -1,6 +1,5 @@
 <template>
     <div>
-        <slot></slot>
     </div>
 </template>
 
@@ -8,7 +7,7 @@
 div {
     background-color: greenyellow;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
