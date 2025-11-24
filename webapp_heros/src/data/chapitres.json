@@ -120,7 +120,7 @@
         "nextChapter": "18"
     },
     "10": {
-        "texte": "Le Modélisateur solidifie des chaînes de 3D, tirant l'homme volant au sol, l'homme se débat, mais Loup saute dessus afin de le maintenir au sol. Modélisateur créa une cage pour le maintenir au sol.",
+        "texte": "Le Modélisateur solidifie des chaînes de 3D, tirant l'homme volant au sol, l'homme se débat, mais le Loup saute dessus afin de le maintenir au sol. Modélisateur créa une cage pour le maintenir au sol.",
         "nextChapter": "19",
         "damage": {
             "Haxan": 10
@@ -443,7 +443,7 @@
         ]
     },
     "1217": {
-        "texte": "L'équipe se prépare à combattre Haxan",
+        "texte": "L'équipe se prépare à combattre Haxan À MODIFIER",
         "choix": [
             {
                 "id": 1,
@@ -469,7 +469,7 @@
         }
     },
     "1218": {
-        "texte": "L'équipe se prépare à affronter Haxan surpuissant",
+        "texte": "L'équipe se prépare à affronter Haxan surpuissant À MODIFIER",
         "choix": [
             {
                 "id": 1,
@@ -495,7 +495,7 @@
         }
     },
     "1219": {
-        "texte": "L'équipe se prépare à affronter Haxan",
+        "texte": "L'équipe se prépare à affronter Haxan À MODIFIER",
         "choix": [
             {
                 "id": 1,
@@ -521,7 +521,7 @@
         }
     },
     "1220": {
-        "texte": "L'équipe se prépare à affronter Haxan.",
+        "texte": "L'équipe se prépare à affronter Haxan. À MODIFIER",
         "choix": [
             {
                 "id": 1,
@@ -583,7 +583,7 @@
         }
     },
     "1222": {
-        "texte": "L'équipe se prépare à affronter Haxan.",
+        "texte": "L'équipe se prépare à affronter Haxan. À MODIFIER",
         "choix": [
             {
                 "id": 1,
@@ -609,7 +609,7 @@
         }
     },
     "1223": {
-        "texte": "L'équipe se prépare à affronter Haxan.",
+        "texte": "L'équipe se prépare à affronter Haxan. À MODIFIER",
         "choix": [
             {
                 "id": 1,
@@ -687,7 +687,7 @@
         }
     },
     "22": {
-        "texte": "Le reste des héros arrivent, ils se préparent à un dur combat, sans l'Homme.",
+        "texte": "Le reste des héros arrivent, ils se préparent à un dur combat, sans l'Homme. À MODIFIER",
         "nextChapter": "1213",
         "active": {
             "Tacticien": true,
@@ -708,13 +708,13 @@
         }
     },
     "24": {
-        "texte": "Haxan rattrape l'Homme et le tue en passant sa main au travers de sa poitrine. Quelques heures plus tard, le reste de l'équipe se réunit pour l'affronter.",
+        "texte": "Haxan rattrape l'Homme et le tue en transpercant sa main au travers de la poitrine de l'Homme. Quelques heures plus tard, le reste de l'équipe se réunit pour l'affronter.",
         "nextChapter": "1215",
         "damage": {
             "Homme": 100
         },
         "active": {
-            "Homme": false,
+            "Homme": true,
             "Tacticien": true,
             "CapQC": true,
             "Magicien": true,
@@ -758,7 +758,7 @@
         }
     },
     "28": {
-        "texte": "Haxan est surpris du manque de courage du Barbare, et décide d'absorber son âme, augmentant encore plus la force phénoménale de Haxan. À MODIFIER",
+        "texte": "Haxan est surpris du manque de courage du Barbare, et décide d'absorber son âme, augmentant encore plus sa force phénoménale. À MODIFIER",
         "nextChapter": "1218",
         "damage": {
             "Barbare": 100
@@ -777,7 +777,7 @@
         "nextChapter": "1219"
     },
     "31": {
-        "texte": "Capitaine Québec lance une décharge hydroélectrique qui est cette fois totalement absorbée par Haxan, qui gagne en puissance. Capitaine Québec affaibli, il se fait prendre par surprise par Haxan, qui le tua d'un coup fatal au dos, puis Haxan désintégra le Magicien.",
+        "texte": "Capitaine Québec lance une décharge hydroélectrique qui est cette fois totalement absorbée par Haxan, qui gagne en puissance. Capitaine Québec affaibli, se fait prendre par surprise par Haxan, qui le tua d'un coup fatal au dos, puis Haxan désintégra le Magicien.",
         "nextChapter": "1220",
         "damage": {
             "CapQC": 100,
@@ -983,8 +983,14 @@
             }
         ],
         "damage": {
-            "Cyborg": 30,
-            "Magicien": 100
+            "Cyborg": 100,
+            "Magicien": 100,
+            "Barbare": 24,
+            "CapQC": 38,
+            "Modelisateur": 58,
+            "Loup": 27,
+            "Haxan": 12,
+            "Tacticien": 29
         }
     },
     "44": {
@@ -1590,11 +1596,14 @@
         ],
         "damage": {
             "Barbare": 100,
-            "CapQC": 100
+            "CapQC": 100,
+            "Loup": 48,
+            "Modelisateur": 37,
+            "Haxan": 7
         }
     },
     "82": {
-        "texte": "Haxan rigole, prononce 'pathétique', puis fit un rayon laser mauve et désintégra les deux héros restants, faisant de lui l'unique vainqueur de cet affrontement.",
+        "texte": "Haxan rigole, prononce 'pathétique', puis tire un rayon laser mauve qui désintègre subitement les deux héros restants, faisant de lui l'unique vainqueur de cet affrontement.",
         "nextChapter": "131",
         "damage": {
             "Loup": 100,
