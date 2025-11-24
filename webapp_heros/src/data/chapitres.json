@@ -1110,7 +1110,13 @@
         "damage": {
             "CapQC": 100,
             "Tacticien": 100,
-            "Modelisateur": 100
+            "Modelisateur": 100,
+            "Loup": 27,
+            "Homme": 68,
+            "Cyborg": 47,
+            "Magicien": 52,
+            "Haxan": 23
+
         }
     },
     "50": {
