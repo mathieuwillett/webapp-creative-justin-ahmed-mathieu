@@ -834,6 +834,10 @@
         "nextChapter": "1219",
         "active": {
             "Cyborg": true
+        },
+        "damage" : {
+            "Cyborg": 9,
+            "Haxan": 5
         }
     },
     "37": {
@@ -1162,7 +1166,7 @@
             "Tacticien": 23,
             "CapQC": 54,
             "Cyborg": 39,
-            "Modelisateur": 60,
+            "Modelisateur": 42,
             "Loup": 34,
             "Magicien": 50,
             "Haxan": 36
@@ -1426,7 +1430,14 @@
         ],
         "damage": {
             "CapQC": 100,
-            "Homme": 100
+            "Homme": 100,
+            "Barbare": 12,
+            "Cyborg": 13,
+            "Modelisateur": 21,
+            "Loup": 32,
+            "Tacticien" : 23,
+            "Magicien": 21,
+            "Haxan": 8
         }
     },
     "63": {
@@ -1793,7 +1804,7 @@
             "Barbare": 12,
             "CapQC": 13,
             "Cyborg": 16,
-            "Modelisateur": 13,
+            "Modelisateur": 2,
             "Loup": 11,
             "Magicien": 22,
             "Tacticien" : 23,
@@ -2070,10 +2081,11 @@
             "Magicien": 100,
             "Barbare": 100,
             "Cyborg": 100,
-            "Loup": 47,
+            "Loup": 23,
             "Modelisateur": 100,
             "HommeUltra": 100,
-            "HommeEclipse": 100
+            "HommeEclipse": 100,
+            "Haxan" : 33
         }
     },
     "115": {
