@@ -1387,7 +1387,14 @@
         ],
         "damage": {
             "Barbare": 100,
-            "Modelisateur": 100
+            "Modelisateur": 100,
+            "Homme": 32,
+            "Tacticien": 24,
+            "CapQC": 23,
+            "Magicien": 26,
+            "Cyborg": 34,
+            "Loup": 21,
+            "Haxan": 15
         }
     },
     "61": {
