@@ -1,13 +1,18 @@
-import { defineStore } from "pinia"
+import {
+  defineStore
+} from "pinia"
 import chapitres from "../data/chapitres.json"
-import { usePlayerStore } from "@/stores/playerStore"
+import {
+  usePlayerStore
+} from "@/stores/playerStore"
 
 export const useStoryStore = defineStore("story", {
   state: () => ({
     currentChapter: null,
     narrative: "",
     availableChoices: [],
-    chapitres: chapitres
+    chapitres: chapitres,
+    history: []
   }),
 
   actions: {
@@ -24,18 +29,25 @@ export const useStoryStore = defineStore("story", {
         return
       }
 
+      this.history.push({
+        chapter: chapterId
+      })
+
       this.currentChapter = chapterId
       this.narrative = chapter.texte || ""
 
-      if (chapter.choix?.length > 0) {
+      if (chapter.choix && chapter.choix.length > 0) {
         this.availableChoices = chapter.choix
       } else if (chapter.nextChapter) {
-        this.availableChoices = [
-          { id: 0, text: "Continuer", nextChapter: chapter.nextChapter }
-        ]
+        this.availableChoices = [{
+          id: 0,
+          text: "Continuer",
+          nextChapter: chapter.nextChapter
+        }]
       } else {
         this.availableChoices = []
       }
+
 
       if (chapter.damage) {
         const players = usePlayerStore()
@@ -55,11 +67,18 @@ export const useStoryStore = defineStore("story", {
         }
 
         players.CheckActive()
-        
+
       }
     },
 
     makeChoice(choice) {
+
+      this.history.push({
+        chapter: this.currentChapter,
+        choice: choice.text,
+        nextChapter: choice.nextChapter || null
+      })
+
       if (choice.nextChapter) {
         this.goToChapter(choice.nextChapter)
       }
