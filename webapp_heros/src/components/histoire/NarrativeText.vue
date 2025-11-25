@@ -8,17 +8,14 @@
 div {
     display: flex;
     align-items: center;
-    background-color: rgb(102, 102, 102);
+    background-color: #FFA600;
     width: 100vw;
     height: 15vh;
     padding: 2vw;
     border: solid black 2px;
-    color: white;
+    color: black;
     font-size: 1.2vw;
     text-align: center;
     line-height: 30px;
 }
-
-
 </style>
-

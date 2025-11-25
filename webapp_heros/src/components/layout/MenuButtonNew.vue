@@ -1,6 +1,6 @@
 <template>
     <button class="bouton">
-        Nouvelle partie
+        Jouer
     </button>
 </template>
 

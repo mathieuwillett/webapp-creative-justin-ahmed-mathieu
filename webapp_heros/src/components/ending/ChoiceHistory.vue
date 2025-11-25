@@ -38,7 +38,7 @@ export default {
 <style scoped>
 .history {
     width: 30vw;
-    height: auto;
+    height: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,6 +56,7 @@ export default {
     position: relative;
     user-select: none;
     transition: transform 120ms, filter 120ms;
+    font-size: auto;
 }
 
 .history::before {

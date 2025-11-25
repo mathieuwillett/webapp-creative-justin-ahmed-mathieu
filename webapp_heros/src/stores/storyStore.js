@@ -82,6 +82,10 @@ export const useStoryStore = defineStore("story", {
       if (choice.nextChapter) {
         this.goToChapter(choice.nextChapter)
       }
+    },
+
+    reset() {
+      this.$reset();
     }
   }
 })
