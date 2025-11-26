@@ -9,7 +9,7 @@
 
 <style scoped>
 div {
-    background-color: lightgray;
+    background-color: black;
     width: 100vw;
     height: 50vh;
     display: flex;

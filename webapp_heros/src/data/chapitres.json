@@ -1,14 +1,14 @@
 {
     "0": {
-        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
+        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu. Une figure volante plane au-dessus d'eux, presque imperceptible.",
         "choix": [{
                 "id": 1,
-                "text": "L'Homme et le Tacticien attaquent l'homme volant.",
+                "text": "L'Homme et le Tacticien attaquent l'homme étrange.",
                 "nextChapter": "4"
             },
             {
                 "id": 2,
-                "text": "L'équipe se cache et appellent des renforts",
+                "text": "L'équipe se cache et appellent des renforts.",
                 "nextChapter": "5"
             }
         ],
@@ -18,15 +18,15 @@
         }
     },
     "1": {
-        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
+        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu. Une figure volante plane au-dessus d'eux, presque imperceptible.",
         "choix": [{
                 "id": 1,
-                "text": "Le Cyborg et le Barbare attaquent l'homme volant",
+                "text": "Le Cyborg et le Barbare attaquent l'homme étrange.",
                 "nextChapter": "6"
             },
             {
                 "id": 2,
-                "text": "L'équipe se cache et appellent des renforts",
+                "text": "L'équipe se cache et appellent des renforts.",
                 "nextChapter": "7"
             }
         ],
@@ -36,15 +36,15 @@
         }
     },
     "2": {
-        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
+        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu. Une figure volante plane au-dessus d'eux, presque imperceptible.",
         "choix": [{
                 "id": 1,
-                "text": "Capitaine Québec et le Magicien attaquent l'homme volant",
+                "text": "Capitaine Québec et le Magicien attaquent l'homme étrange.",
                 "nextChapter": "8"
             },
             {
                 "id": 2,
-                "text": "L'équipe se cache et appellent des renforts",
+                "text": "L'équipe se cache et appellent des renforts.",
                 "nextChapter": "9"
             }
         ],
@@ -54,15 +54,15 @@
         }
     },
     "3": {
-        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu, une figure volante vole au dessus de eux, imperceptible",
+        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu. Une figure volante plane au-dessus d'eux, presque imperceptible.",
         "choix": [{
                 "id": 1,
-                "text": "Le Modélisateur et le Loup attaquent l'homme volant",
+                "text": "Le Modélisateur et le Loup attaquent l'homme étrange.",
                 "nextChapter": "10"
             },
             {
                 "id": 2,
-                "text": "L'équipe se cache et appellent des renforts",
+                "text": "L'équipe se cache et appellent des renforts.",
                 "nextChapter": "11"
             }
         ],
@@ -72,7 +72,7 @@
         }
     },
     "4": {
-        "texte": "Qui devrait attaquer",
+        "texte": "Qui devrait attaquer?",
         "choix": [{
                 "id": 1,
                 "text": "L'Homme",
@@ -86,14 +86,14 @@
         ]
     },
     "5": {
-        "texte": "L'Homme se cache par peur. Le Tacticien tente de le rejoindre, mais l'homme volant se précipite sur lui et l'attrape par le cou. ",
+        "texte": "L'Homme se cache par peur. Le Tacticien tente de le rejoindre, mais l'homme étrange se jette sur lui et referme sa main sur son cou.",
         "nextChapter": "14",
         "damage": {
             "Tacticien": 18
         }
     },
     "6": {
-        "texte": "Le Cyborg utilise un rayon phasique et tire sur l'homme, celui-ci esquive le rayon et fonce sur lui à pleine vitesse, créant un énorme cratère au sol, le Cyborg gisant au fond.",
+        "texte": "Le Cyborg utilise un rayon phasique et tire sur l'homme. Celui-ci esquive le rayon et fonce sur lui à pleine vitesse, créant un énorme cratère au sol, le Cyborg gisant au fond.",
         "nextChapter": "15",
         "damage": {
             "Cyborg": 67
@@ -104,7 +104,7 @@
         "nextChapter": "16"
     },
     "8": {
-        "texte": "Le Magicien utilise un sort afin d'immobiliser l'homme et Capitaine Québec tire un éclair hydroélectrique sur celui-ci.",
+        "texte": "Le Magicien utilise un sort pour immobiliser l'homme et Capitaine Québec projette un éclair hydroélectrique sur lui.",
         "nextChapter": "17",
         "damage": {
             "Haxan": 13
@@ -115,18 +115,18 @@
         "nextChapter": "18"
     },
     "10": {
-        "texte": "Le Modélisateur solidifie des chaînes de 3D, tirant l'homme volant au sol, l'homme se débat, mais le Loup saute dessus afin de le maintenir au sol. Modélisateur créa une cage pour le maintenir au sol.",
+        "texte": "Le Modélisateur solidifie des chaînes en 3D pour tirer l'homme volant au sol. L'homme se débat, mais le Loup lui saute dessus pour le maintenir au sol. Le Modélisateur matérialise ensuite une cage afin de l'y enfermer.",
         "nextChapter": "19",
         "damage": {
             "Haxan": 10
         }
     },
     "11": {
-        "texte": "Les deux héros se cachent et le Modélisateur créa une géante emblème des héros de l'éclipse dans le ciel, espérant que d'autres la voient.",
+        "texte": "Les deux héros se cachent et le Modélisateur projette une immense emblème des Héros de l'Éclipse dans le ciel, espérant que d'autres la remarquent.",
         "nextChapter": "20"
     },
     "12": {
-        "texte": "L'Homme s'oppose à la figure volante. Celle-ci fonce sur l'Homme, lui donnant un uppercut si puissant que celui-ci fut propulsé dans l'orbite.",
+        "texte": "L'Homme s'oppose à la figure volante. Celle-ci fonce sur lui et lui donne un uppercut si puissant qu'il est propulsé jusque dans l'orbite.",
         "choix": [{
                 "id": 1,
                 "text": "Le Tacticien fonce sur le vilain et lui lance sa casquette au visage.",
@@ -143,7 +143,7 @@
         }
     },
     "13": {
-        "texte": "Le Tacticien s'oppose à la figure volante, qui en le voyant, lui donne un uppercut mortel, le propulsant en orbite.",
+        "texte": "Le Tacticien s'oppose à la figure volante. En le voyant, celle-ci lui assène un uppercut mortel et le projette en orbite.",
         "choix": [{
                 "id": 1,
                 "text": "L'Homme se fâche",
@@ -160,7 +160,7 @@
         }
     },
     "14": {
-        "texte": "Le vilain se présente, Haxan, dieu des dieux. Il stipule qu'il est présent afin de rétablir l'équilibre dans le monde, et pour cela, il doit anéantir la race humaine.",
+        "texte": "Le vilain se présente : Haxan, dieu des dieux. Il explique qu'il est ici pour rétablir l'équilibre dans le monde, et que pour cela, il doit anéantir la race humaine.",
         "choix": [{
                 "id": 1,
                 "text": "L'Homme attaque Haxan pour libérer le Tacticien",
@@ -174,7 +174,7 @@
         ]
     },
     "15": {
-        "texte": "Le vilain sort du cratère et se présente, Haxan, dieu des dieux. Il stipule qu'il est présent afin de rétablir l'équilibre dans le monde, et pour cela, il doit anéantir la race humaine. Après quoi, il casse le cou du Cyborg, le tuant instantanément.",
+        "texte": "Le vilain sort du cratère et se présente : Haxan, dieu des dieux. Il explique qu'il est ici pour rétablir l'équilibre dans le monde, et que pour cela, il doit anéantir la race humaine. Puis il saisit le Cyborg et lui brise le cou, le tuant sur le coup.",
         "choix": [{
                 "id": 1,
                 "text": "Le Barbare fonce sur Haxan et l'attaque avec ses haches",
@@ -191,7 +191,7 @@
         }
     },
     "16": {
-        "texte": "Le message est bien reçu par les héros, qui répondent présent, mais au même moment, la communication est coupée par une mystérieuse voix, un dénommé Haxan, qui souhaite rétablir l'équilibre dans ce monde, en exterminant la race humaine.",
+        "texte": "Le message est bien reçu par les héros, qui répondent présents. Mais au même moment, la communication se coupe, interrompue par une voix mystérieuse : Haxan, qui annonce vouloir rétablir l'équilibre du monde en exterminant la race humaine.",
         "choix": [{
                 "id": 1,
                 "text": "Éteindre la communication",
@@ -208,7 +208,7 @@
         }
     },
     "17": {
-        "texte": "L'homme semble inchangé, il se rapproche tranquillement, atterrit au sol, et se présente, Haxan, dieu des dieux. Il stipule qu'il est présent afin de rétablir l'équilibre dans le monde, et pour cela, il doit anéantir la race humaine.",
+        "texte": "L'homme semble totalement indemne. Il s'approche lentement, atterrit au sol et se présente : Haxan, dieu des dieux. Il explique qu'il est ici pour rétablir l'équilibre dans le monde, et que pour cela, il doit anéantir la race humaine.",
         "choix": [{
                 "id": 1,
                 "text": "Réattaquer",
@@ -222,7 +222,7 @@
         ]
     },
     "18": {
-        "texte": "Le vilain Haxan se présente, puis tire des rayons laser mauves de ses yeux vers le Magicien.",
+        "texte": "Le vilain Haxan se présente, puis projette des rayons laser mauves depuis ses yeux en direction du Magicien.",
         "choix": [{
                 "id": 1,
                 "text": "Capitaine Québec se jette devant le Magicien afin de le sauver des rayons.",
@@ -239,7 +239,7 @@
         }
     },
     "19": {
-        "texte": "Le vilain se présente, Haxan, dieu des dieux. Il stipule qu'il est présent afin de rétablir l'équilibre dans le monde, et pour cela, il doit anéantir la race humaine. En un mouvement, il détruit la cage, lance le Loup à travers un bâtiment et donne un violent coup de pied au Modélisateur, le propulsant à plusieurs mètres.",
+        "texte": "Le vilain se présente : Haxan, dieu des dieux. Il explique qu'il est ici pour rétablir l'équilibre dans le monde, et que pour cela, il doit anéantir la race humaine. En un seul mouvement, il détruit la cage, projette le Loup à travers un bâtiment et assène un violent coup de pied au Modélisateur, le rejetant sur plusieurs mètres.",
         "choix": [{
                 "id": 1,
                 "text": "Continuer le combat",
@@ -260,7 +260,7 @@
         }
     },
     "20": {
-        "texte": "Le vilain vit l'emblème et commença à saccager la ville et tuer encore plus, mettant les héros dans un dilemme moral.",
+        "texte": "Le vilain aperçoit l'emblème et se met aussitôt à saccager la ville et à tuer encore davantage, plongeant les héros dans un dilemme moral.",
         "choix": [{
                 "id": 1,
                 "text": "Rester cachés",
@@ -274,7 +274,7 @@
         ]
     },
     "1201": {
-        "texte": "Les deux héros sortirent affronter Haxan pour l'empêcher de faire encore plus de destruction. Ils arrivent à le retenir assez longtemps pour que le reste des héros arrivent.",
+        "texte": "Les deux héros sortent pour affronter Haxan afin de l'empêcher de causer encore plus de destruction. Ils réussissent à le retenir assez longtemps pour que le reste des héros arrive.",
         "nextChapter": 1202,
         "active": {
             "Homme": true,
