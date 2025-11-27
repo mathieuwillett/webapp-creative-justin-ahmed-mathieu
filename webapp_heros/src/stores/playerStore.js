@@ -155,7 +155,10 @@ export const usePlayerStore = defineStore('player', {
         id: 12,
         name: "MagicienEclipse",
         img: "/Images/Alex/PixelAlexEclipse.png",
-        title: "Le Magicien (Éclipse)"
+        title: "Le Magicien (Éclipse)",
+        lightWound: "/Images/Alex/PixelAlexEclipse.png",
+        Wounded: "/Images/Alex/PixelAlexEclipseWounded.png",
+        HeavyWound: "/Images/Alex/PixelAlexEclipseWounded.png",        
       },
 
       // …
