@@ -302,7 +302,6 @@
             "Haxan": true
         },
         "damage": {
-
             "Modelisateur": 21,
             "Loup": 32,
             "Haxan": 3
@@ -658,7 +657,8 @@
     },
     "1225": {
         "texte": "L'équipe se prépare à affronter Haxan. À MODIFIER",
-        "choix": [{
+        "choix": [
+            {
                 "id": 1,
                 "text": "Attaquer Haxan tous en même temps.",
                 "nextChapter": "63"
@@ -1132,7 +1132,7 @@
         "damage": {
             "Tacticien": 100,
             "Magicien": 100,
-            "Modelisateur": 62,
+            "Modelisateur": 52,
             "Homme": 72,
             "Loup": 100,
             "CapQC": 53,
@@ -1285,7 +1285,13 @@
         "damage": {
             "Homme": 100,
             "Modelisateur": 100,
-            "Barbare": 100
+            "Barbare": 100,
+            "Tacticien": 19,
+            "CapQC": 14,
+            "Cyborg": 12,
+            "Loup": 23,
+            "Magicien": 16,
+            "Haxan": 14
         }
     },
     "55": {
@@ -1367,7 +1373,14 @@
         ],
         "damage": {
             "Homme": 100,
-            "Cyborg": 100
+            "Cyborg": 100,
+            "Tacticien": 33,
+            "CapQC": 25,
+            "Magicien": 28,
+            "Barbare": 18,
+            "Loup": 22,
+            "Modelisateur": 28,
+            "Haxan": 20
         }
     },
     "58": {
@@ -1502,7 +1515,8 @@
     },
     "63": {
         "texte": "Les héros attaquent Haxan. Capitaine Québec est désolé de tous les civils tués. Haxan profite de ce moment de faiblesse pour prendre possession de l'esprit de celui-ci.",
-        "choix": [{
+        "choix": [
+            {
                 "id": 1,
                 "text": "Exécuter Capitaine Québec",
                 "nextChapter": "117"
@@ -2087,6 +2101,14 @@
             "HommeEclipse": true,
             "Magicien": false,
             "MagicienEclipse": true
+        },
+        "damage": {
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100
         }
     },
     "110": {
@@ -2102,7 +2124,8 @@
         "texte": "Alors que l'Homme s'attaquait à Haxan, le Magicien invoqua un sortilège noir réinitialisant l'univers.",
         "nextChapter": 136,
         "damage": {
-            "Homme": 42
+            "HommeEclipse": 42,
+            "Haxan": 32
         }
     },
     "112": {
@@ -2208,7 +2231,8 @@
     },
     "118": {
         "texte": "Le Magicien réussit à redonner à Capitaine Québec le contrôle de son corps. Haxan, furieux, tua le Magicien, qui juste avant de mourir ouvrit un portail menant directement en enfer, aspirant Haxan, le Magicien, l'Homme et le Tacticien. Le modélisateur peut réussir à sauver un des ces compagnons avant qu'ils ne soient tout deux aspirés, il dût faire un dur choix.",
-        "choix": [{
+        "choix": [
+            {
                 "id": 1,
                 "text": "Le Modélisateur sauve l'Homme",
                 "nextChapter": 119
@@ -2266,18 +2290,18 @@
     "122": {
         "texte": "Sans succès, Capitaine Québec et Haxan affrontèrent les héros, jusqu'à ce que le dernier d'entre eux soit mort.",
         "nextChapter": 135,
-            "Homme": 100,
-            "Tacticien": 100,
-            "CapQC": 43,
-            "Magicien": 100,
-            "Barbare": 100,
-            "Cyborg": 100,
-            "Loup": 100,
-            "Modelisateur": 100,
-            "CapCanada": 100,
-            "HommeUltra": 100,
-            "HommeEclipse": 100,
-            "Haxan" : 27
+        "Homme": 100,
+        "Tacticien": 100,
+        "CapQC": 43,
+        "Magicien": 100,
+        "Barbare": 100,
+        "Cyborg": 100,
+        "Loup": 100,
+        "Modelisateur": 100,
+        "CapCanada": 100,
+        "HommeUltra": 100,
+        "HommeEclipse": 100,
+        "Haxan": 27
     },
     "126": {
         "texte": "L'Homme sacrifia sa vie en échange de la planète Terre et de la race humaine.",
