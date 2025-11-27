@@ -540,17 +540,6 @@
                 "nextChapter": "54"
             }
         ],
-        "damage": {
-            "Homme": 12,
-            "Tacticien": 43,
-            "Barbare": 23,
-            "CapQC": 34,
-            "Cyborg": 36,
-            "Modelisateur": 20,
-            "Loup": 28,
-            "Magicien": 10,
-            "Haxan": 23
-        },
         "active": {
             "Homme": true,
             "Tacticien": true,
@@ -1193,7 +1182,10 @@
             "CapQC": 100,
             "Tacticien": 100,
             "Modelisateur": 100,
-            "Homme": 100
+            "Loup": 100,
+            "Homme": 100,
+            "Magicien": 67,
+            "Haxan": 20
         }
     },
     "51": {
@@ -1830,7 +1822,7 @@
             "Homme": 100,
             "Modelisateur": 100,
             "Haxan": 20,
-            "CapQc": 43
+            "CapQC": 37
         }
     },
     "91": {
