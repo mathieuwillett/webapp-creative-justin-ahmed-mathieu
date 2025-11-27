@@ -6,7 +6,7 @@
 
 <style scoped>
 div {
-    background-color: #ffd992;
+    background-color: #524d4d;
     width: 100vw;
     height: 35vh;
     display: flex;

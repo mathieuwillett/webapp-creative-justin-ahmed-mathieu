@@ -634,7 +634,7 @@
         }
     },
     "1225": {
-        "texte": "L'équipe se prépare à affronter Haxan.",
+        "texte": "L'équipe se prépare à affronter Haxan. À MODIFIER",
         "choix": [{
                 "id": 1,
                 "text": "Attaquer Haxan tous en même temps.",
@@ -1448,7 +1448,7 @@
         }
     },
     "63": {
-        "texte": "Capitaine Québec est désolé de tous les civils tués. Haxan profite de ce moment de faiblesse pour prendre possession de l'esprit de celui-ci.",
+        "texte": "Les héros attaquent Haxan. Capitaine Québec est désolé de tous les civils tués. Haxan profite de ce moment de faiblesse pour prendre possession de l'esprit de celui-ci.",
         "choix": [{
                 "id": 1,
                 "text": "Exécuter Capitaine Québec",
@@ -1858,7 +1858,7 @@
         }
     },
     "100": {
-        "texte": "Le Cyborg devient hyperchargé de l'énergie québécoise, se propulse sur Haxan. Avec le reste de l'équipe, ils viendront à bout d'Haxan, remportant la guerre.",
+        "texte": "Le Cyborg devient hyperchargé de l'énergie québécoise, se propulse sur Haxan. Avec le reste de l'équipe, ils viendront à bout d'Haxan, remportant la guerre, au seul prix de la vie du Cyborg.",
         "nextChapter": "132",
         "damage": {
             "Homme": 10,
@@ -2135,7 +2135,7 @@
         }
     },
     "118": {
-        "texte": "Le Magicien réussit à redonner à Capitaine Québec le contrôle de son corps. Haxan, furieux, tua le Magicien, qui juste avant de mourir ouvrit un portail menant directement en enfer, aspirant Haxan, le Magicien, l'Homme et le Tacticien.",
+        "texte": "Le Magicien réussit à redonner à Capitaine Québec le contrôle de son corps. Haxan, furieux, tua le Magicien, qui juste avant de mourir ouvrit un portail menant directement en enfer, aspirant Haxan, le Magicien, l'Homme et le Tacticien. Le modélisateur peut réussir à sauver un des ces compagnons avant qu'ils ne soient tout deux aspirés, il dût faire un dur choix.",
         "choix": [{
                 "id": 1,
                 "text": "Le Modélisateur sauve l'Homme",
