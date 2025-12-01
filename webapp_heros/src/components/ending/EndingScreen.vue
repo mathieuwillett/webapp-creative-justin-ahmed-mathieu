@@ -1,8 +1,10 @@
 <template>
-    <div class="ending-screen" :style="{
-        backgroundImage: background ? `url(${background.img})` : 'none'
-    }">
-    </div>
+    <div
+        class="ending-screen"
+        :style="{
+            backgroundImage: background ? `url(${background.img})` : 'none'
+        }"
+    ></div>
 </template>
 
 <script>
@@ -19,14 +21,15 @@ export default {
 
 <style scoped>
 .ending-screen {
+    position: absolute;   /* <— KEY */
+    inset: 0;             /* top: 0; right: 0; bottom: 0; left: 0 */
     width: 100vw;
-    height: 50vh;
-    background-size: 100% 200%;
+    height: 100vh;
+
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
+    z-index: -1;          /* <— places it BEHIND everything */
 }
 </style>

@@ -24,7 +24,8 @@ export default {
     data() {
         return {
             displayedText: "",
-            typingInterval: null
+            typingInterval: null,
+            showChoices: false
         };
     },
 
@@ -85,18 +86,61 @@ export default {
 
 
 <template>
-    <div>
+    <div class="ending-wrapper">
         <EndingScreen :background="endingBackground" />
 
+        
+        <div class="wrappingMenu">
+            <button @click="showChoices = !showChoices" class="toggle-btn">
+    <img v-if="showChoices" src="/Images/down-arrow.png" alt="Hide Choices">
+    <img v-else src="/Images/up-arrow.png" alt="Show Choices">
+</button>
         <NarrativeText>
             <NarrativeTextParagraph>
                 {{ displayedText }}
             </NarrativeTextParagraph>
         </NarrativeText>
-
-        <ChoicePanel>
+        <ChoicePanel v-show="showChoices">
             <ChoiceHistory :history="story.history" />
             <ReturnButton @click="retourMenu()" />
         </ChoicePanel>
     </div>
+    </div>
 </template>
+
+<style scoped>
+.ending-wrapper {
+    position: relative; /* IMPORTANT */
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrappingMenu {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toggle-btn {
+    height: 2vw;
+    width: 4vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle-btn img {
+    height: 1.5vw;
+    width: 1.5vw;
+    object-fit: contain;
+}
+</style>

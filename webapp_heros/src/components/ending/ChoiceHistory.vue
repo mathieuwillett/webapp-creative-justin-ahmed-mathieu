@@ -48,7 +48,6 @@ export default {
     font-weight: 700;
     letter-spacing: 0.06em;
     border: none;
-    cursor: pointer;
     border-radius: 12px;
     box-shadow:
         0 0 0 6px #000,
