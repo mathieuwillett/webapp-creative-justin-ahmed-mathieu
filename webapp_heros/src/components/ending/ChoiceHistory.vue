@@ -21,7 +21,7 @@ export default {
             <li v-if="history.length === 0">History is empty</li>
 
             <!-- Show entries when history is NOT empty -->
-            <li v-for="(entry, index) in history" :key="index">
+            <li v-for="(entry, index) in history" :key="index" style="font-size: 1.2rem;">
                 <strong>Chapitre {{ entry.chapter }}</strong>
 
                 <div v-if="entry.choice">
