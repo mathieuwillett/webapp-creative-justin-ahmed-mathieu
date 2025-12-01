@@ -2175,8 +2175,14 @@
         }
     },
     "118": {
+<<<<<<< Updated upstream
         "texte": "Le Magicien réussit à redonner à Capitaine Québec le contrôle de son corps. Haxan, furieux, tua le Magicien, qui juste avant de mourir ouvrit un portail menant directement en enfer, aspirant Haxan, le Magicien, l'Homme et le Tacticien. Le modélisateur peut réussir à sauver un des ces compagnons avant qu'ils ne soient tout deux aspirés, il dût faire un dur choix.",
         "choix": [{
+=======
+        "texte": "Le Magicien réussit à redonner à Capitaine Québec le contrôle de son corps. Haxan, furieux, massacra le Magicien, qui juste avant de mourir ouvrit un portail menant directement en enfer, aspirant Haxan, le Magicien, l'Homme et le Tacticien. Le modélisateur peut réussir à sauver un des ces compagnons avant qu'ils ne soient tout deux aspirés, il dût faire un dur choix.",
+        "choix": [
+            {
+>>>>>>> Stashed changes
                 "id": 1,
                 "text": "Le Modélisateur sauve l'Homme",
                 "nextChapter": 119
@@ -2194,12 +2200,12 @@
             "Cyborg": 32,
             "Loup": 23,
             "Modelisateur": 16,
-            "Magicien": 100,
+            "Magicien": 86,
             "Homme": 33
         }
     },
     "119": {
-        "texte": "Le Modélisateur sauva l'Homme, alors qu'Haxan et le Tacticien furent aspirés dans le trou noir. Ne voulant pas laisser la possibilité à Haxan de ressortir de ce portail, le Magicien le referma, y scellant à jamais le Tacticien et Haxan.",
+        "texte": "Le Modélisateur sauva l'Homme, alors qu'Haxan et le Tacticien furent aspirés dans le trou noir. Après quoi, le portail se referma, y scellant à jamais le Tacticien et Haxan.",
         "nextChapter": 132,
         "damage": {
             "Tacticien": 100,
@@ -2207,7 +2213,7 @@
         }
     },
     "120": {
-        "texte": "Le Modélisateur sauva le Tacticien, alors qu'Haxan et l'Homme furent aspirés dans le trou noir. Ne voulant pas laisser la possibilité à Haxan de ressortir de ce portail, Magicien le referma, y scellant à jamais l'Homme et Haxan.",
+        "texte": "Le Modélisateur sauva le Tacticien, alors qu'Haxan et l'Homme furent aspirés dans le trou noiAprès quoi, le portail se referma, y scellant à jamais l'Homme et Haxan.",
         "nextChapter": 132,
         "damage": {
             "Homme": 100,
