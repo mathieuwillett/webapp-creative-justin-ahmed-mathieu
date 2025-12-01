@@ -265,7 +265,7 @@
             }
         ],
         "damage": {
-            "Modelisateur": 56,
+            "Modelisateur": 46,
             "Loup": 47
         },
         "active": {
@@ -362,7 +362,7 @@
         }
     },
     "1213": {
-        "texte": "L'équipe se prépare à combattre Haxan sans l'Homme ni le Tacticien À MODIFIER",
+        "texte": "L'équipe se prépare à combattre Haxan sans l'Homme ni le Tacticien.",
         "choix": [
             {
                 "id": 1,
@@ -448,7 +448,7 @@
         ]
     },
     "1217": {
-        "texte": "L'équipe se prépare à combattre Haxan À MODIFIER",
+        "texte": "L'équipe se prépare à combattre Haxan",
         "choix": [
             {
                 "id": 1,
@@ -474,7 +474,7 @@
         }
     },
     "1218": {
-        "texte": "L'équipe se prépare à affronter Haxan surpuissant À MODIFIER",
+        "texte": "L'équipe se prépare à affronter un Haxan surpuissant",
         "choix": [
             {
                 "id": 1,
@@ -500,7 +500,7 @@
         }
     },
     "1219": {
-        "texte": "L'équipe se prépare à affronter Haxan À MODIFIER",
+        "texte": "L'équipe se prépare à affronter Haxan.",
         "choix": [
             {
                 "id": 1,
@@ -526,7 +526,7 @@
         }
     },
     "1220": {
-        "texte": "L'équipe se prépare à affronter Haxan. À MODIFIER",
+        "texte": "L'équipe se prépare à affronter Haxan.",
         "choix": [
             {
                 "id": 1,
@@ -578,7 +578,7 @@
         }
     },
     "1222": {
-        "texte": "L'équipe se prépare à affronter Haxan. À MODIFIER",
+        "texte": "L'équipe se prépare à affronter Haxan.",
         "choix": [
             {
                 "id": 1,
@@ -604,7 +604,7 @@
         }
     },
     "1223": {
-        "texte": "L'équipe se prépare à affronter Haxan. À MODIFIER",
+        "texte": "L'équipe se prépare à affronter Haxan.",
         "choix": [
             {
                 "id": 1,
@@ -656,7 +656,7 @@
         }
     },
     "1225": {
-        "texte": "L'équipe se prépare à affronter Haxan. À MODIFIER",
+        "texte": "L'équipe se prépare à affronter Haxan.",
         "choix": [
             {
                 "id": 1,
@@ -682,7 +682,7 @@
         }
     },
     "1226": {
-        "texte": "L'équipe se prépare à affronter Haxan. sans l'Homme",
+        "texte": "L'équipe se prépare à affronter Haxan, sans l'Homme.",
         "choix": [
             {
                 "id": 1,
@@ -694,10 +694,20 @@
                 "text": "Être défensif",
                 "nextChapter": "40"
             }
-        ]
+        ],
+        "active": {
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "22": {
-        "texte": "Le reste des héros arrivent, ils se préparent à un dur combat, sans l'Homme. À MODIFIER",
+        "texte": "Le reste des héros arrivent, ils se préparent à un dur combat, sans l'Homme.",
         "nextChapter": "1226",
         "active": {
             "Tacticien": true,
@@ -740,7 +750,7 @@
         "damage": {
             "Homme": 100,
             "Tacticien": 100,
-            "haxan": 23
+            "Haxan": 23
         }
     },
     "26": {
@@ -768,7 +778,7 @@
         }
     },
     "28": {
-        "texte": "Haxan est surpris du manque de courage du Barbare, et décide d'absorber son âme, augmentant encore plus sa force phénoménale. À MODIFIER",
+        "texte": "Haxan est surpris du manque de courage du Barbare, et décide d'absorber son âme, augmentant encore plus sa force phénoménale.",
         "nextChapter": "1218",
         "damage": {
             "Barbare": 100
