@@ -37,16 +37,7 @@ export default {
         },
         endingBackground() {
             const id = this.$route.params.id;
-
-            const map = {
-                "85": this.story.imagesFin[0],  // img 1
-                "130": this.story.endingsImgs[1], // img 2
-                // add more here:
-                // "200": this.story.endingsImgs[2],
-                // "300": this.story.endingsImgs[3],
-            };
-
-            return map[id] || null;
+            return this.story.endingImage(id); // ✔ clean, reactive, scalable
         }
     },
 
@@ -95,7 +86,7 @@ export default {
 
 <template>
     <div>
-        <EndingScreen :background="endingBackground"/>
+        <EndingScreen :background="endingBackground" />
 
         <NarrativeText>
             <NarrativeTextParagraph>

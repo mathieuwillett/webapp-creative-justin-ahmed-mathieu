@@ -13,8 +13,7 @@ export const useStoryStore = defineStore("story", {
     availableChoices: [],
     chapitres: chapitres,
     history: [],
-    imagesFin: [
-      {
+    imagesFin: [{
         id: 0,
         name: "finInterview",
         img: "/Images/Scenes/Fins/AhmedInterview.jpg"
@@ -74,18 +73,43 @@ export const useStoryStore = defineStore("story", {
         name: "Défaite - Haxan a gagné",
         img: "/Images/Scenes/Fins/SurrendedHerosEnd.jpg"
       },
-            {
+      {
         id: 12,
         name: "Neutre - L'univers est reset par le magicien",
         img: "/Images/Scenes/Fins/UniverseReset.png"
       },
-            {
+      {
         id: 13,
         name: "Défaite - L'univers est détruit par le vortex du magicien",
         img: "/Images/Scenes/Fins/VortexEnd.jpg"
       },
-    ]
+    ],
+    endingMap: {
+      "85": 5,
+      "127": 0,
+      "128": 7,
+      "130": 11,
+      "131": 8,
+      "132": 6,
+      "133": 4,
+      "134": 13,
+      "135": 3,
+      "136": 12,
+      "1000": 10,
+      "1100": 11,
+      "1200": 12,
+      "1300": 13,
+    },
   }),
+
+  getters: {
+    endingImage: (state) => {
+      return (endingId) => {
+        const index = state.endingMap[endingId];
+        return index !== undefined ? state.imagesFin[index] : null;
+      };
+    }
+  },
 
   actions: {
     loadChapters() {

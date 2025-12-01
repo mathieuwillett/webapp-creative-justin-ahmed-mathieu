@@ -94,11 +94,12 @@ export default {
                 this.story.currentChapter = nextChapter
 
                 // vérifie si le prochain chapitre est une fin, si oui, affiche l'écran de fin
-                if (nextChapter >= 126 && nextChapter <= 136) {
+                if (nextChapter == 85 || (nextChapter >= 126 && nextChapter <= 136)) {
                     this.$router.push({ name: "ending", params: { id: nextChapter } });
                 } else {
-                    this.$router.push({ name: "chapter", params: { id: nextChapter } })
+                    this.$router.push({ name: "chapter", params: { id: nextChapter } });
                 }
+
             }
         }
 
