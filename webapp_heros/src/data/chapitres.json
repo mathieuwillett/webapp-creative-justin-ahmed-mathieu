@@ -322,15 +322,15 @@
             }
         ],
         "active": {
-            "Homme": 45,
-            "Tacticien": 23,
-            "CapQC": 24,
-            "Magicien": 41,
-            "Barbare": 12,
-            "Cyborg": 93,
-            "Loup": 12,
-            "Modelisateur": 44,
-            "Haxan": 4
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
         }
     },
     "21": {
