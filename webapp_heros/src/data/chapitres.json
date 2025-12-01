@@ -265,7 +265,7 @@
             }
         ],
         "damage": {
-            "Modelisateur": 56,
+            "Modelisateur": 46,
             "Loup": 47
         },
         "active": {
@@ -322,15 +322,15 @@
             }
         ],
         "active": {
-            "Homme": 45,
-            "Tacticien": 23,
-            "CapQC": 24,
-            "Magicien": 41,
-            "Barbare": 12,
-            "Cyborg": 93,
-            "Loup": 12,
-            "Modelisateur": 44,
-            "Haxan": 4
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
         }
     },
     "21": {
@@ -362,7 +362,7 @@
         }
     },
     "1213": {
-        "texte": "L'équipe se prépare à combattre Haxan sans l'Homme ni le Tacticien À MODIFIER",
+        "texte": "L'équipe se prépare à combattre Haxan sans l'Homme ni le Tacticien.",
         "choix": [
             {
                 "id": 1,
@@ -448,7 +448,7 @@
         ]
     },
     "1217": {
-        "texte": "L'équipe se prépare à combattre Haxan À MODIFIER",
+        "texte": "L'équipe se prépare à combattre Haxan",
         "choix": [
             {
                 "id": 1,
@@ -474,7 +474,7 @@
         }
     },
     "1218": {
-        "texte": "L'équipe se prépare à affronter Haxan surpuissant À MODIFIER",
+        "texte": "L'équipe se prépare à affronter un Haxan surpuissant",
         "choix": [
             {
                 "id": 1,
@@ -500,7 +500,7 @@
         }
     },
     "1219": {
-        "texte": "L'équipe se prépare à affronter Haxan À MODIFIER",
+        "texte": "L'équipe se prépare à affronter Haxan.",
         "choix": [
             {
                 "id": 1,
@@ -526,7 +526,7 @@
         }
     },
     "1220": {
-        "texte": "L'équipe se prépare à affronter Haxan. À MODIFIER",
+        "texte": "L'équipe se prépare à affronter Haxan.",
         "choix": [
             {
                 "id": 1,
@@ -578,7 +578,7 @@
         }
     },
     "1222": {
-        "texte": "L'équipe se prépare à affronter Haxan. À MODIFIER",
+        "texte": "L'équipe se prépare à affronter Haxan.",
         "choix": [
             {
                 "id": 1,
@@ -604,7 +604,7 @@
         }
     },
     "1223": {
-        "texte": "L'équipe se prépare à affronter Haxan. À MODIFIER",
+        "texte": "L'équipe se prépare à affronter Haxan.",
         "choix": [
             {
                 "id": 1,
@@ -656,7 +656,7 @@
         }
     },
     "1225": {
-        "texte": "L'équipe se prépare à affronter Haxan. À MODIFIER",
+        "texte": "L'équipe se prépare à affronter Haxan.",
         "choix": [
             {
                 "id": 1,
@@ -682,7 +682,7 @@
         }
     },
     "1226": {
-        "texte": "L'équipe se prépare à affronter Haxan. sans l'Homme",
+        "texte": "L'équipe se prépare à affronter Haxan, sans l'Homme.",
         "choix": [
             {
                 "id": 1,
@@ -694,10 +694,20 @@
                 "text": "Être défensif",
                 "nextChapter": "40"
             }
-        ]
+        ],
+        "active": {
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
     },
     "22": {
-        "texte": "Le reste des héros arrivent, ils se préparent à un dur combat, sans l'Homme. À MODIFIER",
+        "texte": "Le reste des héros arrivent, ils se préparent à un dur combat, sans l'Homme.",
         "nextChapter": "1226",
         "active": {
             "Tacticien": true,
@@ -740,7 +750,7 @@
         "damage": {
             "Homme": 100,
             "Tacticien": 100,
-            "haxan": 23
+            "Haxan": 23
         }
     },
     "26": {
@@ -768,7 +778,7 @@
         }
     },
     "28": {
-        "texte": "Haxan est surpris du manque de courage du Barbare, et décide d'absorber son âme, augmentant encore plus sa force phénoménale. À MODIFIER",
+        "texte": "Haxan est surpris du manque de courage du Barbare, et décide d'absorber son âme, augmentant encore plus sa force phénoménale.",
         "nextChapter": "1218",
         "damage": {
             "Barbare": 100
@@ -901,7 +911,7 @@
             "Modelisateur": 32,
             "Loup": 16,
             "Magicien": 63,
-            "Haxan": 22
+            "Haxan": 42
         }
     },
     "38": {
@@ -921,11 +931,11 @@
         "damage": {
             "Barbare": 21,
             "CapQC": 45,
-            "Cyborg": 34,
-            "Modelisateur": 42,
-            "Loup": 30,
-            "Magicien": 43,
-            "Haxan": 8
+            "Cyborg": 24,
+            "Modelisateur": 22,
+            "Loup": 20,
+            "Magicien": 23,
+            "Haxan": 30
         }
     },
     "39": {
@@ -969,7 +979,7 @@
         "damage": {
             "CapQC": 67,
             "Loup": 48,
-            "Tacticien": 30,
+            "Tacticien": 28,
             "Magicien": 34,
             "Barbare": 15,
             "Cyborg": 24,
@@ -1008,7 +1018,10 @@
                 "text": "Foncer vers Haxan",
                 "nextChapter": "79"
             }
-        ]
+        ],
+        "damage": {
+            "Haxan": 10
+        }
     },
     "43": {
         "texte": "L'équipe attaque, mais dans l'action, le Magicien fut distrait par le corps de son ami au sol. C'est alors qu'Haxan en profita pour le perforer avec sa main. Le Cyborg devient furieux, fonce sur Haxan, mais Haxan le saisit et l'arrache en deux morceaux.",
@@ -1603,7 +1616,7 @@
         }
     },
     "69": {
-        "texte": "L'équipe continue d'attaquer, mais Capitaine Québec, plus faible, se fit prendre par surprise, transpercé au cœur. Mais au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
+        "texte": "L'équipe continue d'attaquer, mais Capitaine Québec, plus faible, se fit prendre par surprise et se fait transpercer au cœur. Mais au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
         "nextChapter": "75",
         "damage": {
             "CapQC": 100,
@@ -1616,7 +1629,7 @@
         }
     },
     "70": {
-        "texte": "L'équipe moins nombreuse, Haxan parvint à tuer le Modélisateur d'un projectile mortel. Au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
+        "texte": "L'équipe moins nombreuse, Haxan parvint à tuer le Modélisateur d'un coup mortel. Au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
         "nextChapter": "75",
         "damage": {
             "Modelisateur": 100,
@@ -1919,7 +1932,7 @@
         "nextChapter": "132"
     },
     "98": {
-        "texte": "Une éclipse apparaît dans le ciel. L'Homme effectue un transformement physique incroyable, gagnant une force inégalable. Sa jambe fut soignée sur le coup. L'Homme se relève et fonce sur Haxan. Les deux firent un combat cosmique, de force presque égale. Les deux furent blessés, mais Haxan finit par prendre le dessus. L'Homme Éclipse, épuisé. Haxan s'apprête à donner le coup de grâce.",
+        "texte": "Une éclipse apparaît dans le ciel. L'Homme effectue un transformement physique incroyable, gagnant une force inégalable. Sa jambe fut soignée sur le coup. L'Homme se relève et fonce sur Haxan. Les deux firent un combat cosmique, de force presque égale. Les deux furent blessés, mais Haxan finit par prendre le dessus. L'Homme Éclipse est épuisé. Haxan s'apprête à donner le coup de grâce.",
         "nextChapter": "99",
         "damage": {
             "Haxan": 24,
@@ -1931,15 +1944,15 @@
         }
     },
     "99": {
-        "texte": "Au même moment, Capitaine Québec, avec le pouvoir de la souveraineté, redonna courage et espoir à l'homme éclipse, qui encaissa le coup, puis riposta d'un coup mortel, achevant Haxan.",
+        "texte": "Au même moment, Capitaine Québec, avec le pouvoir de la souveraineté, redonna courage et espoir à l'Homme Éclipse, qui encaissa le coup, puis riposta d'un coup mortel, achevant Haxan.",
         "nextChapter": "132",
         "damage": {
             "Haxan": 100,
-            "HommeEclipse": 9
+            "HommeEclipse": 5
         }
     },
     "100": {
-        "texte": "Le Cyborg devient hyperchargé de l'énergie québécoise, se propulse sur Haxan. Avec le reste de l'équipe, ils viendront à bout d'Haxan, remportant la guerre, au seul prix de la vie du Cyborg.",
+        "texte": "Le Cyborg devient hyperchargé de l'énergie québécoise et se propulse sur Haxan. Avec le reste de l'équipe, ils viendront à bout d'Haxan, remportant la guerre, au seul prix de la vie du Cyborg.",
         "nextChapter": "132",
         "damage": {
             "Homme": 10,
@@ -1947,7 +1960,7 @@
             "CapQC": 24,
             "Magicien": 21,
             "Barbare": 26,
-            "Cyborg": 29,
+            "Cyborg": 100,
             "Loup": 22,
             "Modelisateur": 12,
             "Haxan": 100
@@ -1998,18 +2011,18 @@
             }
         ],
         "damage": {
-            "Homme": 12,
-            "CapQC": 32,
+            "Homme": 100,
+            "CapQC": 100,
             "Cyborg": 100,
-            "Modelisateur": 1,
+            "Modelisateur": 100,
             "Loup": 78,
             "Tacticien": 100,
-            "Magicien": 1,
+            "Magicien": 100,
             "Haxan": 15
         }
     },
     "104": {
-        "texte": "Haxan rigola un coup, puis donna un coup de pied mortel à le Loup, mettant fin au combat.",
+        "texte": "Haxan rigola un coup, puis donna un coup de pied mortel au Loup, mettant fin au combat.",
         "nextChapter": 131,
         "damage": {
             "Loup": 100
@@ -2054,7 +2067,7 @@
         }
     },
     "106": {
-        "texte": "Tandis que l'Homme sortait Capitaine Québec du combat, Haxan exploite la faille chez le Magicien, le transformant en son alter ego maléfique, l'Éclipse. Au même moment l'Homme se transforma à son tour en sa phase ultime, l'Homme Éclipse, gagnant une force formidable. À MODIFIER",
+        "texte": "Tandis que l'Homme sortait Capitaine Québec du combat, Haxan exploite la faille chez le Magicien, le transformant en son alter ego maléfique, l'Éclipse. Au même moment l'Homme se transforma à son tour en sa phase ultime, l'Homme Éclipse, gagnant une force formidable.",
         "choix": [
             {
                 "id": 1,
@@ -2083,7 +2096,7 @@
         "nextChapter": 136
     },
     "109": {
-        "texte": "L'équipe se prépare à défendre, mais au même moment, Haxan exploite la faille chez Magicien, forçant Magicien à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, l'Homme se transforme en l'Homme Éclipse, gagnant une force phénoménale. Le Magicien utilisa de la magie noire pour neutraliser toute l'équipe de héros, mais l'Homme ne fut pas affecté.",
+        "texte": "L'équipe se prépare à défendre, mais au même moment, Haxan exploite la faille chez le Magicien, forçant celui-ci à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, l'Homme se transforme en l'Homme Éclipse, gagnant une force phénoménale. Le Magicien utilisa de la magie noire pour neutraliser toute l'équipe, mais l'Homme ne fut pas affecté.",
         "choix": [
             {
                 "id": 1,
@@ -2194,7 +2207,7 @@
         "texte": "Haxan exécuta le Loup puis conquit le restant de la planète, exterminant la race humaine.",
         "nextChapter": 131,
         "damage": {
-            "Loup": 27
+            "Loup": 100
         }
     },
     "116": {
@@ -2290,28 +2303,33 @@
     "122": {
         "texte": "Sans succès, Capitaine Québec et Haxan affrontèrent les héros, jusqu'à ce que le dernier d'entre eux soit mort.",
         "nextChapter": 135,
-        "Homme": 100,
-        "Tacticien": 100,
-        "CapQC": 43,
-        "Magicien": 100,
-        "Barbare": 100,
-        "Cyborg": 100,
-        "Loup": 100,
-        "Modelisateur": 100,
-        "CapCanada": 100,
-        "HommeUltra": 100,
-        "HommeEclipse": 100,
-        "Haxan": 27
+        "damage": {
+            "Homme": 100,
+            "Tacticien": 100,
+            "CapQC": 43,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "CapCanada": 100,
+            "HommeUltra": 100,
+            "HommeEclipse": 100,
+            "Haxan": 27
+        }
     },
     "126": {
         "texte": "L'Homme sacrifia sa vie en échange de la planète Terre et de la race humaine.",
-        "nextChapter": 0
+        "nextChapter": 0,
+        "damage": {
+            "Homme": 100
+        }
     },
     "127": {
         "texte": "L'Homme tua Haxan, rétabissant la paix sur la planète et sauvant l'avenir de la race humaine. Les héros de l'éclipse seront dorénavant reconnus pour des millénaires comme des légendes, sauveurs de l'humanité.",
         "nextChapter": 0,
         "damage": {
-            "Haxan": 1000
+            "Haxan": 100
         },
         "active": {
             "Haxan": false
@@ -2322,17 +2340,17 @@
         "nextChapter": 0,
         "damage": {
             "Homme": 0,
-            "Tacticien": 0,
-            "CapQC": 0,
-            "Magicien": 0,
-            "Barbare": 0,
-            "Cyborg": 0,
-            "Loup": 0,
-            "Modelisateur": 0,
-            "CapCanada": 0,
-            "HommeUltra": 0,
-            "HommeEclipse": 0,
-            "Haxan": 0
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "CapCanada": 100,
+            "HommeUltra": 100,
+            "HommeEclipse": 100,
+            "Haxan": 10
         }
     },
     "130": {
