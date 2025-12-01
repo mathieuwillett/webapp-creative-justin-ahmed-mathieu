@@ -12,7 +12,69 @@ export const useStoryStore = defineStore("story", {
     narrative: "",
     availableChoices: [],
     chapitres: chapitres,
-    history: []
+    history: [],
+    imagesFin: [
+      {
+        id: 0,
+        name: "finInterview",
+        img: "/Images/Scenes/Fins/AhmedInterview.jpg"
+      },
+      {
+        id: 1,
+        name: "haxanBloodlust",
+        img: "/Images/Ahmed/PixelAhmed.png"
+      },
+      {
+        id: 2,
+        name: "Tacticien",
+        img: "/Images/Mike/PixelMike.png"
+      },
+      {
+        id: 3,
+        name: "CapQC",
+        img: "/Images/CapitaineQuebec/PixelCap.png"
+      },
+      {
+        id: 4,
+        name: "Magicien",
+        img: "/Images/Alex/PixelAlex.png"
+      },
+      {
+        id: 5,
+        name: "Barbare",
+        img: "/Images/Mathieu/PixelMathieu.png"
+      },
+      {
+        id: 6,
+        name: "Cyborg",
+        img: "/Images/Raf/PixelRaf.png"
+      },
+      {
+        id: 7,
+        name: "Loup",
+        img: "/Images/Emeryk/PixelEmeryk.png"
+      },
+      {
+        id: 8,
+        name: "Modelisateur",
+        img: "/Images/Elie/PixelElie.png"
+      },
+      {
+        id: 9,
+        name: "Haxan",
+        img: "/Images/Haxan/PixelHaxan.png"
+      },
+      {
+        id: 10,
+        name: "HommeUltra",
+        img: "/Images/AhmedUltra/PixelAhmedUltra.png"
+      },
+      {
+        id: 11,
+        name: "MagicienEclipse",
+        img: "/Images/Alex/PixelAlexEclipse.png"
+      },
+    ]
   }),
 
   actions: {
