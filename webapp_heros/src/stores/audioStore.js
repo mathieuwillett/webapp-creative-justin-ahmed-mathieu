@@ -33,7 +33,7 @@ export const useAudioStore = defineStore("audio", {
       this.currentTrack = track;
 
       // Génère le chemin correct pour Vite
-      const audioURL = new URL(`../assets/Audios/${track}`,
+      const audioURL = new URL(`@/assets/Audios/${track}`,
         import.meta.url).href;
 
       if (this.audio) {
