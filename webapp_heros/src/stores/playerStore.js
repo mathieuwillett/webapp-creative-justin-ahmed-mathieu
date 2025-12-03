@@ -64,7 +64,7 @@ export const usePlayerStore = defineStore('player', {
       {
         id: 1,
         name: "Homme",
-        img: "../Images/Ahmed/PixelAhmed.png",
+        img: "/Images/Ahmed/PixelAhmed.png",
         lightWound: "../Images/Ahmed/PixelAhmedLightWound.png",
         Wounded: "../Images/Ahmed/PixelAhmedWounded.png",
         HeavyWound: "../Images/Ahmed/PixelAhmedHeavyWound.png",
