@@ -9,8 +9,8 @@ function toggleMusic() {
 }
 
 // Crée les URLs pour les images dans le script (Vite)
-const volumeImg = new URL('../assets/Images/volume.png', import.meta.url).href;
-const volumeMuteImg = new URL('../assets/Images/volumeMute.png', import.meta.url).href;
+const volumeImg = new URL('@/assets/Images/volume.png', import.meta.url).href;
+const volumeMuteImg = new URL('@/assets/Images/volumeMute.png', import.meta.url).href;
 </script>
 
 <template>
