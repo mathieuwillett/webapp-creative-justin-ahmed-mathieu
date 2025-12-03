@@ -14,7 +14,7 @@ const store = usePlayerStore();
       <div class="wrapper">
         <div class="personnages" v-for="(personnage, index) in store.images.filter(p => p.name !== 'Haxan')"
           :key="index" :class="{ absent: store.active[personnage.name] == false }">
-          <HealthBar :hp="store.hp[personnage.name]" :maxHp="100" class="health-bar-wrapper"/>
+          <HealthBar :hp="store.hp[personnage.name]" :maxHp="100" class="health-bar-wrapper" />
           <img :src="personnage.img" :alt="personnage.name" :class="{ dead: store.hp[personnage.name] <= 0 }" />
         </div>
       </div>
@@ -23,7 +23,7 @@ const store = usePlayerStore();
       <div class="wrapper">
         <div class="personnages" v-for="(personnage, index) in store.images.filter(p => p.name == 'Haxan')"
           :key="index">
-          <HealthBar :hp="store.hp[personnage.name]" :maxHp="100" class="health-bar-wrapper"/>
+          <HealthBar :hp="store.hp[personnage.name]" :maxHp="100" class="health-bar-wrapper" />
           <img :class="{ dead: store.hp.Haxan <= 0 }" :src="personnage.img" :alt="personnage.name" />
         </div>
       </div>
@@ -50,7 +50,8 @@ const store = usePlayerStore();
   content: "";
   inset: 0;
   background-image: url(@/assets/War2.png);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   filter: blur(3px);
   position: absolute;
   z-index: -1;
@@ -62,8 +63,8 @@ const store = usePlayerStore();
   width: 8vw;
   user-select: none;
   display: flex;
-  flex-direction: column; 
-  align-items: center;     
+  flex-direction: column;
+  align-items: center;
   justify-content: flex-end;
   margin: 0 0.2vw;
 }
@@ -73,7 +74,7 @@ const store = usePlayerStore();
 }
 
 .health-bar-wrapper {
-  flex: 0 0 16px;        
+  flex: 0 0 16px;
   width: 100%;
   margin-bottom: 4px;
   order: -1;
@@ -97,8 +98,8 @@ const store = usePlayerStore();
 }
 
 img {
-    height: 100%;
-    object-fit: contain;
+  height: 100%;
+  object-fit: contain;
 }
 
 
@@ -108,5 +109,23 @@ img.dead {
 
 div.absent {
   display: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .wrapper {
+    flex-wrap: wrap;
+    align-items: end;
+  }
+
+  .personnages {
+    height: 20vh;
+    width: 10vw;
+  }
+
+  .health-bar-wrapper {
+  flex: 0 0 16px;
+  width: 100%;
+  margin-bottom: -25px;
+}
 }
 </style>

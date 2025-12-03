@@ -31,7 +31,7 @@ const hpColor = computed(() => {
 <style scoped>
 .health-bar {
   width: 120px;
-  min-height: 16px;
+  min-height: 5px;
   background: #333;
   border: 1px solid #111;
   border-radius: 4px;

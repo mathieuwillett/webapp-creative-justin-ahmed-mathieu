@@ -18,4 +18,11 @@ div {
     text-align: center;
     line-height: 30px;
 }
+
+@media screen and (max-width: 1400px) {
+   div {
+    height: 30vh;
+    padding: 1vw;
+   }
+}
 </style>

@@ -18,4 +18,10 @@ div {
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 1400px) {
+   div {
+    height: 20vh;
+   }
+}
 </style>
