@@ -55,19 +55,19 @@ export const usePlayerStore = defineStore('player', {
     images: [{
         id: 0,
         name: "HommeEclipse",
-        img: "/Images/AhmedEclipse/PixelAhmedEclipse.png",
-        lightWound: "/Images/AhmedEclipse/PixelAhmedEclipse.png",
-        Wounded: "/Images/AhmedEclipse/PixelAhmedEclipseWounded.png",
-        HeavyWound: "/Images/AhmedEclipse/PixelAhmedEclipseWounded.png",
+        img: "@/assets/Images/AhmedEclipse/PixelAhmedEclipse.png",
+        lightWound: "@/assets/Images/AhmedEclipse/PixelAhmedEclipse.png",
+        Wounded: "@/assets/Images/AhmedEclipse/PixelAhmedEclipseWounded.png",
+        HeavyWound: "@/assets/Images/AhmedEclipse/PixelAhmedEclipseWounded.png",
         title: "L'Homme Éclipse"
       },
       {
         id: 1,
         name: "Homme",
-        img: "/Images/Ahmed/PixelAhmed.png",
-        lightWound: "/Images/Ahmed/PixelAhmedLightWound.png",
-        Wounded: "/Images/Ahmed/PixelAhmedWounded.png",
-        HeavyWound: "/Images/Ahmed/PixelAhmedHeavyWound.png",
+        img: "@/assets/Images/Ahmed/PixelAhmed.png",
+        lightWound: "@/assets/Images/Ahmed/PixelAhmedLightWound.png",
+        Wounded: "@/assets/Images/Ahmed/PixelAhmedWounded.png",
+        HeavyWound: "@/assets/Images/Ahmed/PixelAhmedHeavyWound.png",
         title: "L'Homme"
       },
       {
