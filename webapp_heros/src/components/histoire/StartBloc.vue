@@ -1,9 +1,9 @@
 <template>
     <div class="wrapper">
-        <div class="scene scene1"><img class="image" src="/Images/Scenes/FastFood.png" alt=""></div>
-        <div class="scene scene2"><img class="image" src="/Images/Scenes/Bar.png" alt=""></div>
-        <div class="scene scene3"><img class="image" src="/Images/Scenes/Meditation.png" alt=""></div>
-        <div class="scene scene4"><img class="image" src="/Images/Scenes/Cafe.png" alt=""></div>
+        <div class="scene scene1"><img class="image" src="@/assets/Images/Scenes/FastFood.png" alt=""></div>
+        <div class="scene scene2"><img class="image" src="@/assets/Images/Scenes/Bar.png" alt=""></div>
+        <div class="scene scene3"><img class="image" src="@/assets/Images/Scenes/Meditation.png" alt=""></div>
+        <div class="scene scene4"><img class="image" src="@/assets/Images/Scenes/Cafe.png" alt=""></div>
     </div>
 </template>
 

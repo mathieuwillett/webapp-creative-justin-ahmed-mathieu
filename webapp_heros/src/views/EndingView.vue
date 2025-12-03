@@ -89,28 +89,29 @@ export default {
     <div class="ending-wrapper">
         <EndingScreen :background="endingBackground" />
 
-        
+
         <div class="wrappingMenu">
             <button @click="showChoices = !showChoices" class="toggle-btn">
-    <img v-if="showChoices" src="/Images/down-arrow.png" alt="Hide Choices">
-    <img v-else src="/Images/up-arrow.png" alt="Show Choices">
-</button>
-        <NarrativeText>
-            <NarrativeTextParagraph>
-                {{ displayedText }}
-            </NarrativeTextParagraph>
-        </NarrativeText>
-        <ChoicePanel v-show="showChoices">
-            <ChoiceHistory :history="story.history" />
-            <ReturnButton @click="retourMenu()" />
-        </ChoicePanel>
-    </div>
+                <img v-if="showChoices" src="@/assets/Images/down-arrow.png" alt="Hide Choices">
+                <img v-else src="@/assets/Images/up-arrow.png" alt="Show Choices">
+            </button>
+            <NarrativeText>
+                <NarrativeTextParagraph>
+                    {{ displayedText }}
+                </NarrativeTextParagraph>
+            </NarrativeText>
+            <ChoicePanel v-show="showChoices">
+                <ChoiceHistory :history="story.history" />
+                <ReturnButton @click="retourMenu()" />
+            </ChoicePanel>
+        </div>
     </div>
 </template>
 
 <style scoped>
 .ending-wrapper {
-    position: relative; /* IMPORTANT */
+    position: relative;
+    /* IMPORTANT */
     width: 100vw;
     height: 100vh;
 }

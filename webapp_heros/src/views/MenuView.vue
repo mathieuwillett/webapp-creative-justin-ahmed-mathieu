@@ -96,10 +96,11 @@ export default {
 }
 
 .titre {
-    background-image: url(/public/Images/Titre.png);
+    background-image: url(@/assets/Images/Titre.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;  /* keeps aspect ratio */
+    background-size: contain;
+    /* keeps aspect ratio */
     width: 50vw;
     height: 7vw;
 }

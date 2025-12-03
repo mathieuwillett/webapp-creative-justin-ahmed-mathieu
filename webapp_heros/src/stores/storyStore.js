@@ -16,74 +16,89 @@ export const useStoryStore = defineStore("story", {
     imagesFin: [{
         id: 0,
         name: "finInterview",
-        img: "./Images/Scenes/Fins/AhmedInterview.jpg"
+        img: new URL('@/assets/Images/Scenes/Fins/AhmedInterview.jpg',
+          import.meta.url).href
       },
       {
         id: 1,
         name: "Haxan Bloodlust",
-        img: "./Images/Scenes/Fins/BloodLustHaxanWin.jpg"
+        img: new URL('@/assets/Images/Scenes/Fins/BloodLustHaxanWin.jpg',
+          import.meta.url).href
       },
       {
         id: 2,
-        name: "Victoire - Breaking News, les héros aux nouvelles",
-        img: "./Images/Scenes/Fins/BreakingNewsVictory.png"
+        name: "Victoire - Breaking News",
+        img: new URL('@/assets/Images/Scenes/Fins/BreakingNewsVictory.png',
+          import.meta.url).href
       },
       {
         id: 3,
-        name: "Défaite - Colonnel Canada possédé par Haxan",
-        img: "./Images/Scenes/Fins/ColCanHaxanVictory.jpg"
+        name: "Défaite - Colonnel Canada possédé",
+        img: new URL('@/assets/Images/Scenes/Fins/ColCanHaxanVictory.jpg',
+          import.meta.url).href
       },
       {
         id: 4,
-        name: "Défaite - Le loup apprivoisé ",
-        img: "./Images/Scenes/Fins/Cursed.png"
+        name: "Défaite - Le loup apprivoisé",
+        img: new URL('@/assets/Images/Scenes/Fins/Cursed.png',
+          import.meta.url).href
       },
       {
         id: 5,
-        name: "Défaite - Le Cyborg Explose ",
-        img: "./Images/Scenes/Fins/ExplodingRafEnd.jpg"
+        name: "Défaite - Le Cyborg explose",
+        img: new URL('@/assets/Images/Scenes/Fins/ExplodingRafEnd.jpg',
+          import.meta.url).href
       },
       {
         id: 6,
-        name: "Victoire - Capitaine Québec et Le Magicien ont une statue d'or à leurs effigies",
-        img: "./Images/Scenes/Fins/GoldenStatueCapAlex.jpg"
+        name: "Victoire - Statues d'or",
+        img: new URL('@/assets/Images/Scenes/Fins/GoldenStatueCapAlex.jpg',
+          import.meta.url).href
       },
       {
         id: 7,
-        name: "Victoire - Et l'homme fonda sa famille et vécurent heureux jusqu'à la fin des temps",
-        img: "./Images/Scenes/Fins/HappyEnding.png"
+        name: "Happy ending",
+        img: new URL('@/assets/Images/Scenes/Fins/HappyEnding.png',
+          import.meta.url).href
       },
       {
         id: 8,
-        name: "Défaite - Haxan décima la race humaine et changea de planète dans sa soif de conquète",
-        img: "./Images/Scenes/Fins/HaxanConquering.png"
+        name: "Haxan conquiert tout",
+        img: new URL('@/assets/Images/Scenes/Fins/HaxanConquering.png',
+          import.meta.url).href
       },
       {
         id: 9,
-        name: "Victoire - Le Barbare et Le Cyborg ont une statue d'or à leurs effigies",
-        img: "./Images/Scenes/Fins/MatRafStatues.png"
+        name: "Statues des héros",
+        img: new URL('@/assets/Images/Scenes/Fins/MatRafStatues.png',
+          import.meta.url).href
       },
       {
         id: 10,
-        name: "Victoire - Le Tacticien fête la victoire en mangeant au restaurant",
-        img: "./Images/Scenes/Fins/MikeEatingEnding.png"
+        name: "Tacticien mange au resto",
+        img: new URL('@/assets/Images/Scenes/Fins/MikeEatingEnding.png',
+          import.meta.url).href
       },
       {
         id: 11,
-        name: "Défaite - Haxan a gagné",
-        img: "./Images/Scenes/Fins/SurrendedHerosEnd.jpg"
+        name: "Défaite - Haxan gagne",
+        img: new URL('@/assets/Images/Scenes/Fins/SurrendedHerosEnd.jpg',
+          import.meta.url).href
       },
       {
         id: 12,
-        name: "Neutre - L'univers est reset par le magicien",
-        img: "./Images/Scenes/Fins/UniverseReset.png"
+        name: "Univers reset",
+        img: new URL('@/assets/Images/Scenes/Fins/UniverseReset.png',
+          import.meta.url).href
       },
       {
         id: 13,
-        name: "Défaite - L'univers est détruit par le vortex du magicien",
-        img: "./Images/Scenes/Fins/VortexEnd.jpg"
+        name: "Vortex du magicien",
+        img: new URL('@/assets/Images/Scenes/Fins/VortexEnd.jpg',
+          import.meta.url).href
       },
     ],
+
     endingMap: {
       "85": 5,
       "127": 0,
