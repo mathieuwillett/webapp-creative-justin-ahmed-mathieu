@@ -16,72 +16,72 @@ export const useStoryStore = defineStore("story", {
     imagesFin: [{
         id: 0,
         name: "finInterview",
-        img: "/Images/Scenes/Fins/AhmedInterview.jpg"
+        img: "./Images/Scenes/Fins/AhmedInterview.jpg"
       },
       {
         id: 1,
         name: "Haxan Bloodlust",
-        img: "/Images/Scenes/Fins/BloodLustHaxanWin.jpg"
+        img: "./Images/Scenes/Fins/BloodLustHaxanWin.jpg"
       },
       {
         id: 2,
         name: "Victoire - Breaking News, les héros aux nouvelles",
-        img: "/Images/Scenes/Fins/BreakingNewsVictory.png"
+        img: "./Images/Scenes/Fins/BreakingNewsVictory.png"
       },
       {
         id: 3,
         name: "Défaite - Colonnel Canada possédé par Haxan",
-        img: "/Images/Scenes/Fins/ColCanHaxanVictory.jpg"
+        img: "./Images/Scenes/Fins/ColCanHaxanVictory.jpg"
       },
       {
         id: 4,
         name: "Défaite - Le loup apprivoisé ",
-        img: "/Images/Scenes/Fins/Cursed.png"
+        img: "./Images/Scenes/Fins/Cursed.png"
       },
       {
         id: 5,
         name: "Défaite - Le Cyborg Explose ",
-        img: "/Images/Scenes/Fins/ExplodingRafEnd.jpg"
+        img: "./Images/Scenes/Fins/ExplodingRafEnd.jpg"
       },
       {
         id: 6,
         name: "Victoire - Capitaine Québec et Le Magicien ont une statue d'or à leurs effigies",
-        img: "/Images/Scenes/Fins/GoldenStatueCapAlex.jpg"
+        img: "./Images/Scenes/Fins/GoldenStatueCapAlex.jpg"
       },
       {
         id: 7,
         name: "Victoire - Et l'homme fonda sa famille et vécurent heureux jusqu'à la fin des temps",
-        img: "/Images/Scenes/Fins/HappyEnding.png"
+        img: "./Images/Scenes/Fins/HappyEnding.png"
       },
       {
         id: 8,
         name: "Défaite - Haxan décima la race humaine et changea de planète dans sa soif de conquète",
-        img: "/Images/Scenes/Fins/HaxanConquering.png"
+        img: "./Images/Scenes/Fins/HaxanConquering.png"
       },
       {
         id: 9,
         name: "Victoire - Le Barbare et Le Cyborg ont une statue d'or à leurs effigies",
-        img: "/Images/Scenes/Fins/MatRafStatues.png"
+        img: "./Images/Scenes/Fins/MatRafStatues.png"
       },
       {
         id: 10,
         name: "Victoire - Le Tacticien fête la victoire en mangeant au restaurant",
-        img: "/Images/Scenes/Fins/MikeEatingEnding.png"
+        img: "./Images/Scenes/Fins/MikeEatingEnding.png"
       },
       {
         id: 11,
         name: "Défaite - Haxan a gagné",
-        img: "/Images/Scenes/Fins/SurrendedHerosEnd.jpg"
+        img: "./Images/Scenes/Fins/SurrendedHerosEnd.jpg"
       },
       {
         id: 12,
         name: "Neutre - L'univers est reset par le magicien",
-        img: "/Images/Scenes/Fins/UniverseReset.png"
+        img: "./Images/Scenes/Fins/UniverseReset.png"
       },
       {
         id: 13,
         name: "Défaite - L'univers est détruit par le vortex du magicien",
-        img: "/Images/Scenes/Fins/VortexEnd.jpg"
+        img: "./Images/Scenes/Fins/VortexEnd.jpg"
       },
     ],
     endingMap: {
