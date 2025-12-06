@@ -188,65 +188,41 @@ RAS = Rien À Signaler
 
 ### Ce que l'AUTRE équipe a trouvé dans NOTRE projet
 
-**Équipe qui nous a testés :** [Nom de l'équipe]  
-**Date de réception :** 6 décembre 2024
+**Équipe qui nous a testés :** [Jad, Matis et Anton]  
+**Date de réception :** 4 décembre 2024
 
 ### Statistiques
 
 | Priorité | Bogues reçus | Corrigés | En cours | Pas encore faits |
 |----------|------------|----------|----------|------------------|
-| 🔴 Critiques | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
-| 🟠 Majeurs | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
-| 🟡 Mineurs | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
-| **TOTAL** | **[X]** | **[X]** | **[X]** | **[X]** |
+| 🔴 Critiques | [0] | [0] ✅ | [0] 🔄 | [0] ⏸️ |
+| 🟠 Majeurs | [0] | [0] ✅ | [0] 🔄 | [0] ⏸️ |
+| 🟡 Mineurs | [2] | [0] ✅ | [2] 🔄 | [2] ⏸️ |
+| **TOTAL** | **[2]** | **[0]** | **[2]** | **[2]** |
 
 ### Liste détaillée des bugs reçus
 
-#### 🔴 Bogues Critiques reçus
-
-**Bogue #1 : [Titre]**
-
-- **Description :** [Ce que l'autre équipe a trouvé]
-- **Étapes pour reproduire :** [Leurs étapes]
-- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
-- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
-- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
-- **Assigné à :** [Nom]
-- **Date de correction :** [Date si corrigé]
-
-**Bogue #2 : [Titre]**
-
-- [Même format pour chaque bug critique]
-
-#### 🟠 Bogues Majeurs reçus
-
-**Bogue #3 : [Titre]**
-
-- [Format simplifié OK pour majeurs si beaucoup]
-
 #### 🟡 Bogues Mineurs reçus
 
-**Bogues #4-12 :** [Liste brève]
+**Bogue #1 : [Responsive sur ending]**
 
-- Voir Trello pour détails complets : [Lien]
+- **Description :** La page ending n’est pas encore responsive
+- **Étapes pour reproduire :** Aller à la page ending sur téléphone, Observer
+- **Notre analyse :** 🟡 MINEUR - Petit problème, amélioration souhaitable
+- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Plan de correction :** Faire le responsive
+- **Assigné à :** [Mathieu]
+- **Date de correction :** 8 décembre
 
-### Notre réaction aux bugs reçus
+**Bogue #2 : [Pas d'image sur le bouton volume + audio ne fonctionne pas]**
 
-**Bogues que nous confirmons :**
-
-- X bugs confirmés comme vrais bugs
-
-**Bogues que nous contestons (avec justification) :**
-
-- [Bogue #X] : Nous pensons que ce n'est pas un bug parce que [raison]
-- [A été discuté avec l'enseignant : décision finale = ...]
-
-**Nouveaux bugs découverts grâce à leurs tests :**
-
-- X bugs qu'on n'aurait jamais trouvés nous-mêmes
-- Merci à l'équipe testeuse pour leur regard externe !
-
----
+- **Description :** L’image du bouton volume a disparu et l’audio ne fonctionne plus
+- **Étapes pour reproduire :** Aller à l’accueil, Cliquer le bouton volume, Observer et écouter
+- **Notre analyse :** 🟡 MINEUR - Petit problème, amélioration souhaitable
+- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Plan de correction :** Réparer l'audio et changer le chemin de l'image.
+- **Assigné à :** [Justin]
+- **Date de correction :** 8 décembre
 
 ## 5. PARTIE 2C : Plan de corrections
 
@@ -392,15 +368,13 @@ RAS = Rien À Signaler
 
 | Page | Performance | Accessibility | Best Practices | Notes |
 |------|-------------|---------------|----------------|-------|
-| Accueil | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
-| [Page principale] | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
+| Accueil | [100]/100 | [90]/100 | [96]/100 | [Tout est bien] |
 
 #### Résultats Mobile
 
 | Page | Performance | Accessibility | Best Practices | Notes |
 |------|-------------|---------------|----------------|-------|
-| Accueil | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
-| [Page principale] | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
+| Accueil | [95]/100 | [90]/100 | [96]/100 | [Tout est bien] |
 
 **Screenshots Lighthouse :** Voir annexes
 
@@ -410,13 +384,7 @@ RAS = Rien À Signaler
 
 | Avant | Après | Économie |
 |-------|-------|----------|
-| [X] MB total | [X] MB total | [X]% économisés |
-| [X] images | [X] images compressées | Outil : TinyPNG |
-
-**Exemples :**
-
-- `image1.jpg` : 5.2 MB → 1.8 MB (65% économie)
-- `background.png` : 3.1 MB → 800 KB (74% économie)
+| [0.126] MB total | [0.126] MB total | [0]% économisés |
 
 #### Autres optimisations
 
@@ -429,12 +397,12 @@ RAS = Rien À Signaler
 
 **Tests manuels (connexion normale) :**
 
-- Page d'accueil : [X] secondes
-- Page principale : [X] secondes
-- Page la plus lourde : [X] secondes
+- Page d'accueil : [0] secondes
+- Page principale : [0] secondes
+- Page la plus lourde : [0] secondes
 
 **Objectif :** < 3 secondes  
-**Atteint :** ✅ Oui / ⚠️ Partiellement / ❌ Non
+**Atteint :** ✅ Oui
 
 ---
 
@@ -443,29 +411,29 @@ RAS = Rien À Signaler
 ### État global du projet au 8 décembre
 
 **Le projet est-il prêt pour la remise finale ?**
-✅ Oui, fonctionnel / ⚠️ Presque, corrections en cours / ❌ Non, bugs critiques restants
+⚠️ Presque, corrections en cours
 
 **Résumé de la qualité :**
 
 | Aspect | État | Commentaire |
 |--------|------|-------------|
-| **Fonctionnalités principales** | ✅ / ⚠️ / ❌ | [Commentaire] |
-| **Bogues critiques** | ✅ Tous corrigés / ⚠️ En cours / ❌ Restants | [Détails] |
-| **Bogues majeurs** | ✅ / ⚠️ / ❌ | [X]/[Y] corrigés |
-| **Accessibilité** | ✅ / ⚠️ / ❌ | Score : [X]/100 |
-| **Performance** | ✅ / ⚠️ / ❌ | Lighthouse : [X]/100 |
-| **Responsive** | ✅ / ⚠️ / ❌ | [Commentaire] |
+| **Fonctionnalités principales** | ✅ |
+| **Bogues critiques** | ✅ Tous corrigés |
+| **Bogues majeurs** | ⚠️ | [0]/[2] corrigés |
+| **Accessibilité** | ✅ / ⚠️ / ❌ | Score : [90]/100 |
+| **Performance** | ✅ | Lighthouse : [96]/100 |
+| **Responsive** | ⚠️ | [Il reste le responsive de la page ending à faire.] |
 
 ### Bilan des tests
 
 **Statistiques globales :**
 
-- **Bogues trouvés (tous) :** [X] (internes + reçus)
-- **Bogues corrigés :** [X] ([X]%)
-- **Bogues en cours :** [X] (seront corrigés d'ici le 10)
-- **Bogues mineurs reportés :** [X]
+- **Bogues trouvés (tous) :** [2] (internes + reçus)
+- **Bogues corrigés :** [0] (0%)
+- **Bogues en cours :** [2] (seront corrigés d'ici le 10)
+- **Bogues mineurs reportés :** [2]
 
-**Temps total consacré au QA :** [X] heures
+**Temps total consacré au QA :** [4] heures
 
 ### Ce qui fonctionne bien ✅
 
@@ -503,6 +471,7 @@ RAS = Rien À Signaler
 ### Annexe B : Screenshots Lighthouse
 
 ![page d'accueil](image-2.png)
+![accueil mobile](image-5.png)
 
 ### Annexe C : Screenshots de bugs
 
