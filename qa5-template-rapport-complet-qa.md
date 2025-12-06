@@ -208,66 +208,41 @@ aucun
 
 ### Ce que l'AUTRE équipe a trouvé dans NOTRE projet
 
-**Équipe qui nous a testés :** [Nom de l'équipe]  
-**Date de réception :** 6 décembre 2024
+**Équipe qui nous a testés :** [Jad, Matis et Anton]  
+**Date de réception :** 4 décembre 2024
 
 ### Statistiques
 
 | Priorité | Bogues reçus | Corrigés | En cours | Pas encore faits |
 |----------|------------|----------|----------|------------------|
-| 🔴 Critiques | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
-| 🟠 Majeurs | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
-| 🟡 Mineurs | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
-| **TOTAL** | **[X]** | **[X]** | **[X]** | **[X]** |
+| 🔴 Critiques | [0] | [0] ✅ | [0] 🔄 | [0] ⏸️ |
+| 🟠 Majeurs | [0] | [0] ✅ | [0] 🔄 | [0] ⏸️ |
+| 🟡 Mineurs | [2] | [0] ✅ | [2] 🔄 | [2] ⏸️ |
+| **TOTAL** | **[2]** | **[0]** | **[2]** | **[2]** |
 
 ### Liste détaillée des bugs reçus
 
-#### 🔴 Bogues Critiques reçus
-
-
-**Bogue #1 : [Titre]**
-
-- **Description :** [Ce que l'autre équipe a trouvé]
-- **Étapes pour reproduire :** [Leurs étapes]
-- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
-- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
-- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
-- **Assigné à :** [Nom]
-- **Date de correction :** [Date si corrigé]
-
-**Bogue #2 : [Titre]**
-
-- [Même format pour chaque bug critique]
-
-#### 🟠 Bogues Majeurs reçus
-
-**Bogue #3 : [Titre]**
-
-- [Format simplifié OK pour majeurs si beaucoup]
-
 #### 🟡 Bogues Mineurs reçus
 
-**Bogues #4-12 :** [Liste brève]
+**Bogue #1 : [Responsive sur ending]**
 
-- Voir Trello pour détails complets : [Lien]
+- **Description :** La page ending n’est pas encore responsive
+- **Étapes pour reproduire :** Aller à la page ending sur téléphone, Observer
+- **Notre analyse :** 🟡 MINEUR - Petit problème, amélioration souhaitable
+- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Plan de correction :** Faire le responsive
+- **Assigné à :** [Mathieu]
+- **Date de correction :** 8 décembre
 
-### Notre réaction aux bugs reçus
+**Bogue #2 : [Pas d'image sur le bouton volume + audio ne fonctionne pas]**
 
-**Bogues que nous confirmons :**
-
-- X bugs confirmés comme vrais bugs
-
-**Bogues que nous contestons (avec justification) :**
-
-- [Bogue #X] : Nous pensons que ce n'est pas un bug parce que [raison]
-- [A été discuté avec l'enseignant : décision finale = ...]
-
-**Nouveaux bugs découverts grâce à leurs tests :**
-
-- X bugs qu'on n'aurait jamais trouvés nous-mêmes
-- Merci à l'équipe testeuse pour leur regard externe !
-
----
+- **Description :** L’image du bouton volume a disparu et l’audio ne fonctionne plus
+- **Étapes pour reproduire :** Aller à l’accueil, Cliquer le bouton volume, Observer et écouter
+- **Notre analyse :** 🟡 MINEUR - Petit problème, amélioration souhaitable
+- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Plan de correction :** Réparer l'audio et changer le chemin de l'image.
+- **Assigné à :** [Justin]
+- **Date de correction :** 8 décembre
 
 ## 5. PARTIE 2C : Plan de corrections
 
@@ -355,14 +330,14 @@ aucun
 
 | Test | Résultat | Action |
 |------|----------|--------|
-| Tab fonctionne sur tous les éléments | ✅ / ⚠️ / ❌ | [Si problème : plan de correction] |
-| Focus visible | ✅ / ⚠️ / ❌ | |
-| Enter/Space activent les boutons | ✅ / ⚠️ / ❌ | |
-| Skip links présents (optionnel) | ✅ / ⚠️ / ❌ | |
+| Tab fonctionne sur tous les éléments | ⚠️ | juste le menu. Changer pour btn |
+| Focus visible | ✅ | |
+| Enter/Space activent les boutons | ✅ | |
+| Skip links présents (optionnel) | ❌ | |
 
-**Problèmes trouvés :** [X]  
-**Corrigés :** [X]  
-**En cours :** [X]
+**Problèmes trouvés :** [2]  
+**Corrigés :** [0]  
+**En cours :** [2]
 
 #### Contraste des couleurs
 
@@ -372,31 +347,31 @@ RAS = Rien À Signaler
 
 | Élément | Couleurs | Ratio | Conforme WCAG AA | Action |
 |---------|----------|-------|------------------|--------|
-| Texte principal | #333 sur #FFF | 12.6:1 | ✅ Excellent | RAS |
-| Boutons | #FFF sur #007BFF | 4.5:1 | ✅ Conforme | RAS |
+| Texte principal | #333 sur #ffa600 | 12.6:1 | ✅ Excellent | RAS |
+| Boutons | #ffa600 sur #524d4d | 4.5:1 | ✅ Conforme | RAS |
 | Liens | #0066CC sur #FFF | 7.5:1 | ✅ Excellent | RAS |
-| Texte secondaire | #888 sur #FFF | 3.5:1 | ❌ Trop faible | À corriger |
+| Texte secondaire | #333 sur #ffa600 | 3.5:1 | ✅ Excellent | RAS |
 
-**Problèmes de contraste :** [X]  
-**Plan de correction :** [Détails]
+**Problèmes de contraste :** []  
+**Plan de correction :** [aucuns]
 
 #### Images et médias
 
 | Test | Résultat | Notes |
 |------|----------|-------|
-| Toutes les images ont un alt | ✅ [X]/[Y] | [X] images sans alt à corriger |
-| Alt descriptifs (pas "image1.jpg") | ✅ / ⚠️ | [Détails si problèmes] |
-| Images décoratives avec alt="" | ✅ / ⚠️ | [Détails] |
+| Toutes les images ont un alt | ✅ [62.4]/[100%] | [X] images sans alt à corriger |
+| Alt descriptifs (pas "image1.jpg") | ⚠️ | [à faire] |
+| Images décoratives avec alt="" | ⚠️ | [non] |
 
 ### Score global d'accessibilité
 
 **Résumé :**
 
-- Navigation clavier : [X]/[Y] tests passés
-- Contraste : [X]/[Y] éléments conformes
-- Images : [X]/[Y] avec alt approprié
+- Navigation clavier : [3]/[10] tests passés
+- Contraste : [10]/[10] éléments conformes
+- Images : [6]/[10] avec alt approprié
 
-**Score estimé : [X]/100**
+**Score estimé : [63,333333]/100**
 
 ---
 
@@ -413,15 +388,13 @@ RAS = Rien À Signaler
 
 | Page | Performance | Accessibility | Best Practices | Notes |
 |------|-------------|---------------|----------------|-------|
-| Accueil | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
-| [Page principale] | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
+| Accueil | [100]/100 | [90]/100 | [96]/100 | [Tout est bien] |
 
 #### Résultats Mobile
 
 | Page | Performance | Accessibility | Best Practices | Notes |
 |------|-------------|---------------|----------------|-------|
-| Accueil | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
-| [Page principale] | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
+| Accueil | [95]/100 | [90]/100 | [96]/100 | [Tout est bien] |
 
 **Screenshots Lighthouse :** Voir annexes
 
@@ -431,13 +404,7 @@ RAS = Rien À Signaler
 
 | Avant | Après | Économie |
 |-------|-------|----------|
-| [X] MB total | [X] MB total | [X]% économisés |
-| [X] images | [X] images compressées | Outil : TinyPNG |
-
-**Exemples :**
-
-- `image1.jpg` : 5.2 MB → 1.8 MB (65% économie)
-- `background.png` : 3.1 MB → 800 KB (74% économie)
+| [0.126] MB total | [0.126] MB total | [0]% économisés |
 
 #### Autres optimisations
 
@@ -450,12 +417,12 @@ RAS = Rien À Signaler
 
 **Tests manuels (connexion normale) :**
 
-- Page d'accueil : [X] secondes
-- Page principale : [X] secondes
-- Page la plus lourde : [X] secondes
+- Page d'accueil : [0] secondes
+- Page principale : [0] secondes
+- Page la plus lourde : [0] secondes
 
 **Objectif :** < 3 secondes  
-**Atteint :** ✅ Oui / ⚠️ Partiellement / ❌ Non
+**Atteint :** ✅ Oui
 
 ---
 
@@ -464,58 +431,54 @@ RAS = Rien À Signaler
 ### État global du projet au 8 décembre
 
 **Le projet est-il prêt pour la remise finale ?**
-✅ Oui, fonctionnel / ⚠️ Presque, corrections en cours / ❌ Non, bugs critiques restants
+⚠️ Presque, corrections en cours
 
 **Résumé de la qualité :**
 
 | Aspect | État | Commentaire |
 |--------|------|-------------|
-| **Fonctionnalités principales** | ✅ / ⚠️ / ❌ | [Commentaire] |
-| **Bogues critiques** | ✅ Tous corrigés / ⚠️ En cours / ❌ Restants | [Détails] |
-| **Bogues majeurs** | ✅ / ⚠️ / ❌ | [X]/[Y] corrigés |
-| **Accessibilité** | ✅ / ⚠️ / ❌ | Score : [X]/100 |
-| **Performance** | ✅ / ⚠️ / ❌ | Lighthouse : [X]/100 |
-| **Responsive** | ✅ / ⚠️ / ❌ | [Commentaire] |
+| **Fonctionnalités principales** | ✅ |
+| **Bogues critiques** | ✅ Tous corrigés |
+| **Bogues majeurs** | ⚠️ | [0]/[2] corrigés |
+| **Accessibilité** | ✅ / ⚠️ / ❌ | Score : [90]/100 |
+| **Performance** | ✅ | Lighthouse : [96]/100 |
+| **Responsive** | ⚠️ | [Il reste le responsive de la page ending à faire.] |
 
 ### Bilan des tests
 
 **Statistiques globales :**
 
-- **Bogues trouvés (tous) :** [X] (internes + reçus)
-- **Bogues corrigés :** [X] ([X]%)
-- **Bogues en cours :** [X] (seront corrigés d'ici le 10)
-- **Bogues mineurs reportés :** [X]
+- **Bogues trouvés (tous) :** [2] (internes + reçus)
+- **Bogues corrigés :** [0] (0%)
+- **Bogues en cours :** [2] (seront corrigés d'ici le 10)
+- **Bogues mineurs reportés :** [2]
 
-**Temps total consacré au QA :** [X] heures
+**Temps total consacré au QA :** [4] heures
 
 ### Ce qui fonctionne bien ✅
 
-1. [Ex: Toutes les fonctionnalités principales sont stables]
-2. [Ex: Design responsive sur tous les appareils]
-3. [Ex: Performance excellente après optimisation]
+1. [L'Histoire fonctionne.]
+2. [Les images apparaissent et la logique de vie fonctionne.]
+3. [Le site est fluide.]
 
 ### Défis rencontrés et solutions 🔧
 
-1. **Défi :** [Ex: Bogues difficiles à reproduire]
-   - **Solution :** [Ex: Tests systématiques avec documentation précise]
-
-2. **Défi :** [Ex: Manque de temps pour tout corriger]
-   - **Solution :** [Ex: Priorisation rigoureuse : critiques d'abord]
+1. **Défi :** [Github Pages difficile à comprendre]
+   - **Solution :** [Essais erreurs]
 
 ### Apprentissages 📚
 
 **Ce que nous avons appris durant le processus QA :**
 
-1. [Ex: L'importance de tester sur vrais appareils, pas juste DevTools]
-2. [Ex: Un regard externe trouve des bugs qu'on ne voit plus]
-3. [Ex: Documenter clairement les bugs fait gagner du temps]
+1. [Faire regarder le site par quelqu'un d'autre.]
+2. [Faire attention aux détails.]
 
 ### Confiance pour la remise finale 🎯
 
-**Sur une échelle de 1 à 10, notre confiance est : [X]/10**
+**Sur une échelle de 1 à 10, notre confiance est : [8]/10**
 
 **Justification :**
-[2-3 phrases expliquant pourquoi vous êtes confiant ou quelles sont vos inquiétudes restantes]
+[Nous avons un peu peur, car il y a encore quelques bugs depuis que le site est en ligne. Mis à part ça, nous sommes assez confiants de notre travail et il y a peu de bugs.]
 
 ---
 
@@ -523,26 +486,25 @@ RAS = Rien À Signaler
 
 ### Annexe A : Checklist complète des tests
 
-[Inclure la grille de test complétée]
+![grille de tests](image-1.png)
 
 ### Annexe B : Screenshots Lighthouse
 
-[Captures d'écran des rapports Lighthouse pour pages principales]
+![page d'accueil](image-2.png)
+![accueil mobile](image-5.png)
 
 ### Annexe C : Screenshots de bugs
 
-[Captures d'écran des bugs majeurs/critiques]
+![responsive ending pas fini](image-3.png)
+![image du volume disparue](image-4.png)
 
 ### Annexe D : Lien vers Trello
 
-**Board Trello avec tous les bugs :** [URL]
+**Board Trello avec tous les bugs :** [https://trello.com/b/JcKOFoZN/trelloprojetfinalweb]
 
 **Organisation du board :**
 
-- Colonne "Bogues trouvés" : [X] cartes
-- Colonne "En correction" : [X] cartes
-- Colonne "À valider" : [X] cartes
-- Colonne "Corrigé" : [X] cartes
+- Colonne "Bogues trouvés" : [2] cartes
 
 ### Annexe E : Métriques additionnelles
 
@@ -558,9 +520,9 @@ RAS = Rien À Signaler
 
 **Ce rapport a été rédigé et validé par :**
 
-- [Nom 1] - [Rôle] - Date : [Date]
-- [Nom 2] - [Rôle] - Date : [Date]
-- [Nom 3] - [Rôle] - Date : [Date]
+- [Justin Montpetit] - [Chef de projet] - Date : [5 décembre 2025]
+- [Ahmed Kaissoumi] - [Responsable design et animations] - Date : [5 décembre 2025]
+- [Mathieu Willett] - [Responsable données et système] - Date : [5 décembre 2025]
 
 **Nous confirmons que ce rapport reflète fidèlement l'état de notre projet et de notre processus QA.**
 
