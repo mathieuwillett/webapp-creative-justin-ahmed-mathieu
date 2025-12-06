@@ -37,9 +37,9 @@
 
 ### Liens importants
 
-- **Projet en ligne :** [https://votre-projet.netlify.app]
+- **Projet en ligne :** [https://mathieuwillett.github.io/webapp-creative-justin-ahmed-mathieu/]
 - **GitHub :** [https://github.com/mathieuwillett/webapp-creative-justin-ahmed-mathieu]
-- **Trello (bugs) :** [https://trello.com/b/...]
+- **Trello (bugs) :** [https://trello.com/b/JcKOFoZN/trelloprojetfinalweb]
 - **Projet testé (externe) :** [https://mraosix.github.io/webapp-creative-emeryk-elie-edelwyn/#/]
 
 ---
@@ -48,9 +48,9 @@
 
 ### Ce que NOUS avons trouvé dans le projet de l'autre équipe
 
-**Projet testé :** [Nom du projet]  
-**Équipe testée :** [Nom de l'équipe]  
-**Type :** [Mémoires interactives / Trace ton chemin]
+**Projet testé :** [Dernier Souvenir]  
+**Équipe testée :** ["Emeryk, Elie, Edelwyn"]  
+**Type :** [Trace ton chemin]
 
 ### Résumé des tests effectués
 
@@ -75,14 +75,17 @@
 
 | Priorité | Nombre | % |
 |----------|--------|---|
-| 🔴 Critiques | [X] | [X]% |
-| 🟠 Majeurs | [X] | [X]% |
-| 🟡 Mineurs | [X] | [X]% |
-| **TOTAL** | **[X]** | **100%** |
+| 🔴 Critiques | [0] | [0]% |
+| 🟠 Majeurs | [0] | [0]% |
+| 🟡 Mineurs | [0] | [0]% |
+| **TOTAL** | **[0]** | **100%** |
 
 ### Liste des bugs trouvés (résumé)
 
-**Tous les détails sont dans notre board Trello :** [Lien]
+Littéralement aucun bug
+
+**Tous les détails sont dans notre board Trello :** [[Lien](https://trello.com/b/JcKOFoZN/trelloprojetfinalweb)]
+(Équipe Émeryk, Eli, Edelwyn)
 
 #### 🔴 Bogues Critiques
 
@@ -115,21 +118,33 @@
 
 **Points forts observés :**
 
-1. [Ex: Interface utilisateur très intuitive]
-2. [Ex: Design cohérent et professionnel]
-3. [Ex: Performance excellente]
+1. Histoire intéressante
+- L'histoire est plutôt riche et recherché pour 
+un projet étudiant
+
+2. Système de progression complexe
+- Selon la progression du joueur, plusieurs choix se présentent ce qui donnent un vrai sens de progression.
+
+3. Système d'inventaire complet
+- Plusieurs objets sont mis à la disposition du joueur
+
+4. Design recherché
+- Le design est épuré, les couleurs sont agréables visuellement, le placement des éléments sont optimaux
+
+5. Responsive soigné
+- S'adapte à toutes les tailles
+
 
 **Axes d'amélioration identifiés :**
 
-1. [Ex: Accessibilité au clavier à améliorer]
-2. [Ex: Responsive mobile nécessite ajustements]
+1. L'ajout d'une musique et d'effets sonores aurait été intéressant pour un jeu de ce type
 
 **Évaluation globale (1-5 étoiles) :**
 
-- Facilité d'utilisation : ⭐⭐⭐⭐☆
-- Stabilité : ⭐⭐⭐☆☆
-- Design : ⭐⭐⭐⭐⭐
-- Performance : ⭐⭐⭐⭐☆
+- Facilité d'utilisation : ⭐⭐⭐⭐⭐
+- Stabilité : ⭐⭐⭐⭐⭐
+- Design : ⭐⭐⭐⭐
+- Performance : ⭐⭐⭐⭐⭐
 
 ---
 
@@ -141,21 +156,21 @@
 
 **Checklist complète (à ajuster en fonction de votre projet) :**
 
-- [✅ / ☐] Navigation entre toutes les salles/chapitres
-- [✅ / ☐] Ajout de mémoire / Lecture des chapitres
-- [✅ / ☐] Édition de mémoire / Système de choix
-- [✅ / ☐] Suppression de mémoire / Branches narratives
-- [✅ / ☐] Upload d'images / Tracking des conséquences
-- [✅ / ☐] Tags et filtres / Toutes les fins
-- [✅ / ☐] Recherche / Historique des décisions
-- [✅ / ☐] Responsive (mobile, tablette, desktop)
-- [✅ / ☐] Multi-navigateurs (Chrome, Firefox)
-- [✅ / ☐] Navigation au clavier
-- [✅ / ☐] Contraste des couleurs
-- [✅ / ☐] Alt text sur images
-- [✅ / ☐] Cas limites (formulaires vides, texte long, etc.)
+- [✅] Navigation entre toutes les salles/chapitres
+- [✅] Ajout de mémoire / Lecture des chapitres
+- [✅] Édition de mémoire / Système de choix
+- [✅] Suppression de mémoire / Branches narratives
+- [✅] Upload d'images / Tracking des conséquences
+- [✅] Tags et filtres / Toutes les fins
+- [✅] Recherche / Historique des décisions
+- [✅] Responsive (mobile, tablette, desktop)
+- [✅] Multi-navigateurs (Chrome, Firefox)
+- [✅] Navigation au clavier
+- [✅] Contraste des couleurs
+- [☐] Alt text sur images
+- [✅] Cas limites (formulaires vides, texte long, etc.)
 
-**Taux de réussite :** [X]/[Y] tests passés = [X]%
+**Taux de réussite :** [X]/[Y] tests passés = [92]%
 
 ### Environnements testés
 
@@ -166,11 +181,13 @@ RAS = Rien À Signaler
 | Chrome Desktop | ✅ | ✅ Fonctionne | Quelques bugs mineurs |
 | Firefox Desktop | ✅ | ✅ Fonctionne | RAS |
 | Edge Desktop | ✅ | ✅ | RAS|
-| Mobile 375px | ✅ | ⚠️ Bogues trouvés | [Détails] |
+| Mobile 375px | ✅ | ⚠️ Bogues trouvés | [[Bug 1](https://trello.com/c/G28qT5pe)] [Bug 2](https://trello.com/c/Uls09n0J) | 
 | Tablette 768px | ✅ | ✅ Fonctionne | RAS |
 | Desktop 1920px | ✅ | ✅ Fonctionne | RAS |
 
-### Bogues trouvés dans notre propre projet
+### Bogues trouvés dans notre propre projet (par l'autre équipe)
+
+aucun
 
 **En plus des bugs reçus de l'autre équipe, nous avons trouvé :**
 
@@ -178,10 +195,13 @@ RAS = Rien À Signaler
 |-------|-------|----------|--------|-----------|
 | [X] | [Titre] | 🔴 | Corrigé ✅ | [Nom] |
 | [X] | [Titre] | 🟠 | En cours 🔄 | [Nom] |
-| [X] | [Titre] | 🟡 | À faire ⏸️ | [Nom] |
+| [X] | [Bug responsive sur ending : boutons compressés ] | 🟡 | À faire ⏸️ | [Nom] |
+| [X] | Pas d'image sur le bouton volume + audio ne fonctionne pas | 🟡 | À faire ⏸️ | [Nom] |
 
-**Total bugs trouvés en interne :** [X]
 
+**Total bugs trouvés en interne :** [2]
+[[Bug 1](https://trello.com/c/G28qT5pe)] |
+[[Bug 2](https://trello.com/c/Uls09n0J)] | 
 ---
 
 ## 4. PARTIE 2B : Bogues reçus
@@ -203,6 +223,7 @@ RAS = Rien À Signaler
 ### Liste détaillée des bugs reçus
 
 #### 🔴 Bogues Critiques reçus
+
 
 **Bogue #1 : [Titre]**
 
