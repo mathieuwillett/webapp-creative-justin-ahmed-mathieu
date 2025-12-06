@@ -469,32 +469,28 @@ RAS = Rien À Signaler
 
 ### Ce qui fonctionne bien ✅
 
-1. [Ex: Toutes les fonctionnalités principales sont stables]
-2. [Ex: Design responsive sur tous les appareils]
-3. [Ex: Performance excellente après optimisation]
+1. [L'Histoire fonctionne.]
+2. [Les images apparaissent et la logique de vie fonctionne.]
+3. [Le site est fluide.]
 
 ### Défis rencontrés et solutions 🔧
 
-1. **Défi :** [Ex: Bogues difficiles à reproduire]
-   - **Solution :** [Ex: Tests systématiques avec documentation précise]
-
-2. **Défi :** [Ex: Manque de temps pour tout corriger]
-   - **Solution :** [Ex: Priorisation rigoureuse : critiques d'abord]
+1. **Défi :** [Github Pages difficile à comprendre]
+   - **Solution :** [Essais erreurs]
 
 ### Apprentissages 📚
 
 **Ce que nous avons appris durant le processus QA :**
 
-1. [Ex: L'importance de tester sur vrais appareils, pas juste DevTools]
-2. [Ex: Un regard externe trouve des bugs qu'on ne voit plus]
-3. [Ex: Documenter clairement les bugs fait gagner du temps]
+1. [Faire regarder le site par quelqu'un d'autre.]
+2. [Faire attention aux détails.]
 
 ### Confiance pour la remise finale 🎯
 
-**Sur une échelle de 1 à 10, notre confiance est : [X]/10**
+**Sur une échelle de 1 à 10, notre confiance est : [8]/10**
 
 **Justification :**
-[2-3 phrases expliquant pourquoi vous êtes confiant ou quelles sont vos inquiétudes restantes]
+[Nous avons un peu peur, car il y a encore quelques bugs depuis que le site est en ligne. Mis à part ça, nous sommes assez confiants de notre travail et il y a peu de bugs.]
 
 ---
 
@@ -502,26 +498,24 @@ RAS = Rien À Signaler
 
 ### Annexe A : Checklist complète des tests
 
-[Inclure la grille de test complétée]
+![grille de tests](image-1.png)
 
 ### Annexe B : Screenshots Lighthouse
 
-[Captures d'écran des rapports Lighthouse pour pages principales]
+![page d'accueil](image-2.png)
 
 ### Annexe C : Screenshots de bugs
 
-[Captures d'écran des bugs majeurs/critiques]
+![responsive ending pas fini](image-3.png)
+![image du volume disparue](image-4.png)
 
 ### Annexe D : Lien vers Trello
 
-**Board Trello avec tous les bugs :** [URL]
+**Board Trello avec tous les bugs :** [https://trello.com/b/JcKOFoZN/trelloprojetfinalweb]
 
 **Organisation du board :**
 
-- Colonne "Bogues trouvés" : [X] cartes
-- Colonne "En correction" : [X] cartes
-- Colonne "À valider" : [X] cartes
-- Colonne "Corrigé" : [X] cartes
+- Colonne "Bogues trouvés" : [2] cartes
 
 ### Annexe E : Métriques additionnelles
 
@@ -537,9 +531,9 @@ RAS = Rien À Signaler
 
 **Ce rapport a été rédigé et validé par :**
 
-- [Nom 1] - [Rôle] - Date : [Date]
-- [Nom 2] - [Rôle] - Date : [Date]
-- [Nom 3] - [Rôle] - Date : [Date]
+- [Justin Montpetit] - [Chef de projet] - Date : [5 décembre 2025]
+- [Ahmed Kaissoumi] - [Responsable design et animations] - Date : [5 décembre 2025]
+- [Mathieu Willett] - [Responsable données et système] - Date : [5 décembre 2025]
 
 **Nous confirmons que ce rapport reflète fidèlement l'état de notre projet et de notre processus QA.**
 
