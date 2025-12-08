@@ -29,11 +29,11 @@
 
 | Membre | Rôle dans les tests | Heures consacrées |
 |--------|---------------------|-------------------|
-| [Willet Mathieu] | Tests externes + internes | [X] heures |
-| [Montpetit Justin] | Tests internes + corrections | [X] heures |
-| [Kaissoumi Ahmed] | Tests accessibilité + performance | [X] heures |
+| [Willet Mathieu] | Tests externes + internes | [3] heures |
+| [Montpetit Justin] | Tests internes + corrections | [3] heures |
+| [Kaissoumi Ahmed] | Tests accessibilité + performance | [3] heures |
 
-**Total d'heures de QA :** [X] heures
+**Total d'heures de QA :** [3] heures
 
 ### Liens importants
 
