@@ -44,4 +44,10 @@
     transform: translateY(-1vh);
     filter: brightness(1.05);
 }
+
+@media screen and (max-width: 1400px) {
+    .bouton {
+        width: 50vw;
+    }
+}
 </style>

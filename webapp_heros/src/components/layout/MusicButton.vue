@@ -63,4 +63,11 @@ button:hover {
   transform: translateY(-1vh);
   filter: brightness(1.05);
 }
+
+@media screen and (max-width: 1400px) {
+    .bouton {
+        width: 20vw;
+        height: 20vh;
+    }
+}
 </style>

@@ -49,4 +49,11 @@
     transform: scale(1.05);
     box-shadow: 0 0.5vw 0.5vw 0 #000;
 }
+
+@media screen and (max-width: 1400px) {
+    .bouton {
+        height: 15vh;
+        font-size: 1vh;
+    }
+}
 </style>
