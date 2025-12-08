@@ -28,6 +28,12 @@ export default {
 
     },
 
+    data() {
+    return {
+      audioStore: useAudioStore()
+    };
+  },
+
     methods: {
         startAdventure() {
             this.$router.push({
@@ -49,7 +55,7 @@ export default {
         <div class="titre"></div>
         <MenuButtonNew @click="startAdventure(), reset()" class="bouton"></MenuButtonNew>
         <MenuButtonPersonnages class="bouton" @click="menuPersonnages()"></MenuButtonPersonnages>
-        <MusicButton @click="audioStore.playMusic('TheEclipseRising.mp3')" class="bouton"></MusicButton>
+        <MusicButton @click="audioStore.playMusic('Menu.mp3')" class="bouton"></MusicButton>
 
     </div>
     <AppFooter></AppFooter>

@@ -3,15 +3,15 @@ import { useAudioStore } from "@/stores/audioStore";
 
 const audio = useAudioStore();
 
-// Toggle le son
 function toggleMusic() {
   audio.toggleMute();
+  audio.playMusic("Menu.mp3"); // ← ADD THIS
 }
 
-// Crée les URLs pour les images dans le script (Vite)
 const volumeImg = new URL('@/assets/Images/volume.png', import.meta.url).href;
 const volumeMuteImg = new URL('@/assets/Images/volumeMute.png', import.meta.url).href;
 </script>
+
 
 <template>
   <button @click="toggleMusic()">

@@ -27,17 +27,18 @@ export const useAudioStore = defineStore("audio", {
 
     setTrack(track) {
       if (this.currentTrack === track) return;
-
+    
       if (this.audio && !this.audio.paused) this.audio.pause();
-
+    
       this.currentTrack = track;
-
-      // Génère le chemin correct pour Vite
-      const audioURL = new URL(`@/src/assets/Audios/${track}`, import.meta.env.BASE_URL).href;
+    
+      // Correct Vite path resolution
+      const audioURL = new URL(`../assets/Audios/${track}`, import.meta.url).href;
+    
       if (this.audio) {
         this.audio.src = audioURL;
         this.audio.load();
-
+    
         if (!this.isMuted) {
           this.audio.play().catch(err => {
             console.warn("Audio failed to play:", err);
