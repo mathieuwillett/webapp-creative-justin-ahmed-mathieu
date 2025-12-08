@@ -252,75 +252,33 @@ aucun
 
 | Statut | Nombre | % du total |
 |--------|--------|------------|
-| ✅ Corrigés et validés | [X] | [X]% |
-| 🔄 En cours (sera fait d'ici le 10) | [X] | [X]% |
-| ⏸️ Reportés (si temps) | [X] | [X]% |
-| ❌ Non corrigés (justifiés) | [X] | [X]% |
+| ✅ Corrigés et validés | [0] | [0]% |
+| 🔄 En cours (sera fait d'ici le 10) | [2] | [100]% |
+| ⏸️ Reportés (si temps) | [0] | [0]% |
+| ❌ Non corrigés (justifiés) | [0] | [0]% |
 
 ### Priorités de correction (8→10 décembre)
 
-#### ✅ Déjà corrigés (avant le 8)
-
-**Bogues critiques corrigés :**
-
-1. **Bogue #1 : [Titre]**
-   - Corrigé par : [Nom]
-   - Date : [Date]
-   - Solution : [Brève description de comment c'était corrigé]
-   - Re-testé : ✅ Confirmé OK
-
 #### 🔄 En cours (sera fait d'ici le 10)
-
-**Bogues critiques en cours :**
-
-1. **Bogue #X : [Titre]**
-   - Assigné à : [Nom]
-   - Temps estimé : [X] heures
-   - Sera fait : [9 décembre]
-   - Statut actuel : [50% fait / bloqué sur X / presque fini]
-
-**Bogues majeurs en cours :**
-
-2. **Bogue #Y : [Titre]**
-   - [Même format]
-
-#### ⏸️ Reportés (ferons si temps après les critiques/majeurs)
 
 **Bogues mineurs à faire si temps :**
 
-1. Bogue #Z : [Titre] - Temps estimé : [X]h
-2. Bogue #W : [Titre] - Temps estimé : [X]h
+1. Bogue #1 : [Responsive ending] - Temps estimé : [1]h
+2. Bogue #2 : [Audio ne fonctionne pas] - Temps estimé : [1]h
 
 #### ❌ Non corrigés (avec justification)
-
-**Bogue #Q : [Titre]**
-
-- **Pourquoi pas corrigé :** [Raison valable]
-  - Exemple : "Nécessiterait une refonte majeure de l'architecture (20h de travail)"
-  - Exemple : "Après discussion, ce n'est pas un bug mais une limitation de la techno utilisée"
-- **Impact :** [Faible / Utilisateur peut contourner le problème en...]
 
 ### Plan de travail (8-10 décembre)
 
 **Lundi 8 (soir) :**
 
-- [ ] Finir Bogue #1 (Carl - 2h)
-- [ ] Commencer Bogue #5 (Alex - 3h)
+- [x] Finir Bogue #1 (Mathieu - 1h)
+- [x] Finir Bogue #2 (Justin - 1h)
 
 **Mardi 9 :**
 
-- [ ] Finir Bogue #5 (Alex - 2h)
-- [ ] Corriger Bogue #7 (Jordan - 4h)
-- [ ] Tests sur bugs corrigés (Équipe - 1h)
+- [x] Commenter le code
 
-**Mercredi 10 (matin avant remise) :**
-
-- [ ] Finir Bogue #7 si pas fini
-- [ ] Corrections mineures urgentes
-- [ ] Tests finaux
-- [ ] Mise à jour documentation
-
----
 
 ## 6. Accessibilité
 
