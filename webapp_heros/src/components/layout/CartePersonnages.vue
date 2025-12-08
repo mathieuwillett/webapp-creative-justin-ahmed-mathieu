@@ -1,15 +1,10 @@
 <template>
     <div class="card">
+        <div class="name">
+            <slot name="name"></slot>
+        </div>
         <div class="images">
             <slot name="images"></slot>
-        </div>
-        <div class="background">
-            <div class="name">
-                <slot name="name"></slot>
-            </div>
-            <div class="description">
-                <slot name="descriptions"></slot>
-            </div>
         </div>
     </div>
 </template>
@@ -19,21 +14,25 @@
     width: 40vw;
     height: 50vh;
     display: flex;
+    flex-direction: column;
     margin-bottom: 10vh;
     box-shadow: 0 0 0 6px #000, 0 6px 0 rgba(0, 0, 0, 0.15);
 }
 
 .images {
-    width: 20vw;
-    height: 100%;
+    width: 40vw;
+    height: 90%;
     display: flex;
     justify-content: center;
     position: relative;
     overflow: hidden;
     justify-self: end;
-    justify-content: center; /* horizontal center */
+    justify-content: center;
+    /* horizontal center */
     align-items: flex-end;
     user-select: none;
+    position: relative;
+    z-index: 0;
 }
 
 .images ::v-deep img {
@@ -53,9 +52,12 @@
     z-index: -1;
 }
 
-.background {
-    width: 20vw;
-    height: 50vh;
+.name {
+    width: 40vw;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #FFA600;
     color: #111;
     font-weight: 700;
@@ -64,23 +66,8 @@
     user-select: none;
 }
 
-.name {
-    width: 20vw;
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.description {
-    width: 20vw;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.background::before {
+.name::before {
     content: "";
     position: absolute;
     inset: 0;
