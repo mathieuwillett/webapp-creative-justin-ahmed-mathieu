@@ -14,15 +14,13 @@ const volumeMuteImg = new URL('@/assets/Images/volumeMute.png', import.meta.url)
 </script>
 
 <template>
-  <div>
-    <button @click="toggleMusic()">
-      <img :src="audio.isMuted ? volumeMuteImg : volumeImg" alt="Volume">
-    </button>
-  </div>
+  <button @click="toggleMusic()">
+    <img :src="audio.isMuted ? volumeMuteImg : volumeImg" alt="Volume">
+  </button>
 </template>
 
 
-<style>
+<style scoped>
 img {
   aspect-ratio: 1;
   height: 5vw;
@@ -65,9 +63,9 @@ button:hover {
 }
 
 @media screen and (max-width: 1400px) {
-    .bouton {
-        width: 20vw;
-        height: 20vh;
-    }
+  button {
+    width: 20vw;
+    height: 12vh;
+  }
 }
 </style>

@@ -46,7 +46,7 @@ export default {
 
 <template>
     <div class="page">
-        <div style="" class="titre"></div>
+        <div class="titre"></div>
         <MenuButtonNew @click="startAdventure(), reset()" class="bouton"></MenuButtonNew>
         <MenuButtonPersonnages class="bouton" @click="menuPersonnages()"></MenuButtonPersonnages>
         <MusicButton @click="audioStore.playMusic('TheEclipseRising.mp3')" class="bouton"></MusicButton>
@@ -110,5 +110,12 @@ export default {
     filter: brightness(105%);
     transform: scale(1.05);
     box-shadow: 0 0.5vw 0.5vw 0 #000;
+}
+
+@media screen and (max-width: 1400px) {
+    .titre {
+        width: 100vw;
+        height: 10vh;
+    }
 }
 </style>
