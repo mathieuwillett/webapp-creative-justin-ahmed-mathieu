@@ -577,44 +577,44 @@ Comment stockez-vous les chapitres et choix?
 ### 8.1 Critères techniques
 
 - [ ] Application Vue.js fonctionnelle sans erreurs console
-- [ ] Minimum 8 composants Vue bien structurés
-- [ ] Vue Router avec 5+ routes
-- [ ] Pinia implémenté avec state management cohérent
-- [ ] CSS organisé avec variables
-- [ ] Animations GSAP fluides
-- [ ] Système de sauvegarde fonctionnel
+- [OK] Minimum 8 composants Vue bien structurés
+- [OK] Vue Router avec 5+ routes
+- [OK] Pinia implémenté avec state management cohérent
+- [OK] CSS organisé avec variables
+- [Non] Animations GSAP fluides
+- [Non] Système de sauvegarde fonctionnel
 - [ ] Code validé (ESLint)
-- [ ] Responsive sur 3 breakpoints
+- [OK] Responsive sur 3 breakpoints
 - [ ] Accessibilité WCAG AA
 
 ### 8.2 Critères narratifs
 
-- [ ] Histoire cohérente du début à la fin
-- [ ] Minimum 8 chapitres/scènes
-- [ ] Au moins 3 fins différentes
-- [ ] Choix ayant un impact réel sur l'histoire
-- [ ] Aucune faute d'orthographe majeure
-- [ ] Dialogues naturels et crédibles
-- [ ] Rythme narratif bien dosé
+- [OK] Histoire cohérente du début à la fin
+- [OK] Minimum 8 chapitres/scènes
+- [OK] Au moins 3 fins différentes
+- [OK] Choix ayant un impact réel sur l'histoire
+- [OK] Aucune faute d'orthographe majeure
+- [OK] Dialogues naturels et crédibles
+- [OK] Rythme narratif bien dosé
 
 ### 8.3 Critères de qualité
 
-- [ ] Interface intuitive et facile à utiliser
-- [ ] Design cohérent et esthétique
-- [ ] Lisibilité du texte (taille, contraste, police)
-- [ ] Animations pertinentes (pas excessives)
-- [ ] Temps de chargement < 2 secondes
-- [ ] Aucun bug bloquant
+- [OK] Interface intuitive et facile à utiliser
+- [OK] Design cohérent et esthétique
+- [OK] Lisibilité du texte (taille, contraste, police)
+- [OK] Animations pertinentes (pas excessives)
+- [OK] Temps de chargement < 2 secondes
+- [OK] Aucun bug bloquant
 - [ ] Musique/sons appropriés
 - [ ] Documentation complète (README)
 
 ### 8.4 Critères créatifs
 
-- [ ] Histoire originale et engageante
-- [ ] Personnages mémorables
-- [ ] Twist ou surprise dans l'intrigue
-- [ ] Expérience émotionnelle impactante
-- [ ] Rejouabilité (envie de tester d'autres chemins)
+- [OK] Histoire originale et engageante
+- [OK] Personnages mémorables
+- [OK] Twist ou surprise dans l'intrigue
+- [OK] Expérience émotionnelle impactante
+- [OK] Rejouabilité (envie de tester d'autres chemins)
 
 
 ## 📅 9. Calendrier du projet: Planning prévisionnel
