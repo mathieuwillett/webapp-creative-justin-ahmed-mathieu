@@ -344,8 +344,6 @@ Listez vos composants Vue principaux:
   - `ResetStats()` → réinitialise les points de vie et l’état actif de tous les personnages  
   - `reset()` → remet le store à son état initial (`$reset()`)  
 
-- **Getters** : *(non définis explicitement, mais possibles à ajouter : `isAlive`, `getHp`, `getActiveCharacters`)*  
-
 ---
 
 #### 4. `useAudioStore` *(implémenté dans `audioStore.js`)*  
