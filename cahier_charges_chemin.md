@@ -113,7 +113,7 @@ Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
 | 8  | Alexandre (Le Magicien)    | Protagoniste | Farouche, loyal, protecteur.         | Transformation en ours, force brute, endurance surhumaine, polyvalence.                                       | Presque tous les chapitres  |
 | 9  | Elie (Le Modélisateur Mental) | Protagoniste | Créatif, analytique, innovant.     | Modélisation mentale 3D tangible, création d’objets et environnements.                                       | Presque tous les chapitres  |
 | 10 | Emeryk (L’Homme-Loup)      | Protagoniste | Sauvage, brillant, loyal.            | Force et agilité lupine, vitesse de codage, sens aiguisés, instinct sauvage.                                  | Presque tous les chapitres  |
-| 11 | Hazan (Le Dieu des Dieux)  | Antagoniste  | Calme, sûr de lui, mystérieux.       | Omnipotence, connaissance absolue, manipulation de la réalité, immunité aux faiblesses.                        | Tous les chapitres          |
+| 11 | Haxan (Le Dieu des Dieux)  | Antagoniste  | Calme, sûr de lui, mystérieux.       | Omnipotence, connaissance absolue, manipulation de la réalité, immunité aux faiblesses.                        | Tous les chapitres          |
 
 
 ### 2.6 Système de conséquences
