@@ -854,9 +854,9 @@ Comment stockez-vous les chapitres et choix?
 
 *Signatures:*
 
-- Chef de projet: _______________
-- Membre 2: _______________
-- Membre 3: _______________
+- Chef de projet: Mathieu Willet
+- Membre 2: Justin Montpetit
+- Membre 3: Ahmed Kaissoumi
 - Membre 4: _______________ (si applicable)
 
 *Validation enseignant:* _______________  
