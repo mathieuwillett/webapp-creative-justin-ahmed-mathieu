@@ -1,0 +1,83 @@
+<template>
+    <div class="card">
+        <div class="name">
+            <slot name="name"></slot>
+        </div>
+        <div class="images">
+            <slot name="images"></slot>
+        </div>
+    </div>
+</template>
+
+<style scoped>
+.card {
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    box-shadow: 0 0 0 6px #000, 0 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+.images {
+    width: 40vw;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    justify-self: end;
+    justify-content: center;
+    /* horizontal center */
+    align-items: flex-end;
+    user-select: none;
+    position: relative;
+    z-index: 0;
+}
+
+.images ::v-deep img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.images::before {
+    content: "";
+    inset: 0;
+    background-image: url("@/assets/War2.png");
+    background-size: cover;
+    filter: blur(3px);
+    opacity: 0.8;
+    position: absolute;
+    z-index: -1;
+}
+
+.name {
+    width: 40vw;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFA600;
+    color: #111;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    position: relative;
+    user-select: none;
+}
+
+
+.name::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+        radial-gradient(circle at 10% 10%, rgba(0, 0, 0, .25) 0 2px, transparent 2px),
+        radial-gradient(circle at 60% 40%, rgba(0, 0, 0, .18) 0 3px, transparent 3px),
+        radial-gradient(circle at 85% 80%, rgba(0, 0, 0, .12) 0 4px, transparent 4px);
+    background-size: 8px 8px, 12px 12px, 20px 20px;
+    opacity: 0.35;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+}
+</style>

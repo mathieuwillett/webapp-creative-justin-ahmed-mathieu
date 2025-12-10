@@ -1,0 +1,489 @@
+# Rapport de Contrôle Qualité
+
+**Nom de l'équipe :** [L'équipe JDMania]  
+**Nom du projet :** [Les héros de l'éclipse]  
+**Type de projet :** [Trace ton chemin]  
+**Date :** 5 décembre 2025
+
+<a href="https://tim-montmorency.com/compendium/582-511-web5/projets/appweb-creative/qa5-template-rapport-complet-qa.md" class="md-button">📥 Télécharger template de départ en markdown</a>
+
+
+
+## 📋 Table des matières
+
+1. [Informations générales](#1-informations-générales)
+2. [PARTIE 1 : Tests externes](#2-partie-1-tests-externes)
+3. [PARTIE 2A : Tests internes](#3-partie-2a-tests-internes)
+4. [PARTIE 2B : Bogues reçus](#4-partie-2b-bugs-reçus)
+5. [PARTIE 2C : Plan de corrections](#5-partie-2c-plan-de-corrections)
+6. [Accessibilité](#6-accessibilité)
+7. [Performance](#7-performance)
+8. [Conclusion](#8-conclusion)
+9. [Annexes](#9-annexes)
+
+---
+
+## 1. Informations générales
+
+### Équipe
+
+| Membre | Rôle dans les tests | Heures consacrées |
+|--------|---------------------|-------------------|
+| [Willet Mathieu] | Tests externes + internes | [3] heures |
+| [Montpetit Justin] | Tests internes + corrections | [3] heures |
+| [Kaissoumi Ahmed] | Tests accessibilité + performance | [3] heures |
+
+**Total d'heures de QA :** [3] heures
+
+### Liens importants
+
+- **Projet en ligne :** [https://mathieuwillett.github.io/webapp-creative-justin-ahmed-mathieu/]
+- **GitHub :** [https://github.com/mathieuwillett/webapp-creative-justin-ahmed-mathieu]
+- **Trello (bugs) :** [https://trello.com/b/JcKOFoZN/trelloprojetfinalweb]
+- **Projet testé (externe) :** [https://mraosix.github.io/webapp-creative-emeryk-elie-edelwyn/#/]
+
+---
+
+## 2. PARTIE 1 : Tests externes
+
+### Ce que NOUS avons trouvé dans le projet de l'autre équipe
+
+**Projet testé :** [Dernier Souvenir]  
+**Équipe testée :** ["Emeryk, Elie, Edelwyn"]  
+**Type :** [Trace ton chemin]
+
+### Résumé des tests effectués
+
+**Environnements testés :**
+
+- ✅ Chrome 120 (Desktop)
+- ✅ Firefox 121 (Desktop)
+- ✅ Edge (Desktop)
+- ✅ Mobile 375px (DevTools)
+- ✅ Tablette 768px (DevTools)
+- ⚠️ Safari (non testé - pas d'accès)
+
+**Tests complétés :**
+
+- ✅ Tests fonctionnels (checklist complète)
+- ✅ Tests responsive (3 tailles)
+- ✅ Tests multi-navigateurs (Chrome, Firefox)
+- ✅ Tests d'accessibilité
+- ✅ Tests de cas limites
+
+### Statistiques des bugs trouvés
+
+| Priorité | Nombre | % |
+|----------|--------|---|
+| 🔴 Critiques | [0] | [0]% |
+| 🟠 Majeurs | [0] | [0]% |
+| 🟡 Mineurs | [0] | [0]% |
+| **TOTAL** | **[0]** | **100%** |
+
+### Liste des bugs trouvés (résumé)
+
+Littéralement aucun bug
+
+**Tous les détails sont dans notre board Trello :** [[Lien](https://trello.com/b/JcKOFoZN/trelloprojetfinalweb)]
+(Équipe Émeryk, Eli, Edelwyn)
+
+#### 🔴 Bogues Critiques
+
+1. **Bogue #1 : [Titre]**
+
+   - **Description :** [Brève description]
+   - **Impact :** [Pourquoi c'est critique]
+   - **Statut chez eux :** [À faire / En cours / Corrigé]
+   - **Carte Trello :** [Lien]
+
+2. **Bogue #2 : [Titre]**
+
+   - [Même format]
+
+#### 🟠 Bogues Majeurs
+
+3. **Bogue #3 : [Titre]**
+
+   - [Même format]
+
+4. **Bogue #4 : [Titre]**
+
+   - [Même format]
+
+#### 🟡 Bogues Mineurs
+
+5-12. [Liste brève, détails complets dans Trello]
+
+### Impression générale du projet testé
+
+**Points forts observés :**
+
+1. Histoire intéressante
+- L'histoire est plutôt riche et recherché pour 
+un projet étudiant
+
+2. Système de progression complexe
+- Selon la progression du joueur, plusieurs choix se présentent ce qui donnent un vrai sens de progression.
+
+3. Système d'inventaire complet
+- Plusieurs objets sont mis à la disposition du joueur
+
+4. Design recherché
+- Le design est épuré, les couleurs sont agréables visuellement, le placement des éléments sont optimaux
+
+5. Responsive soigné
+- S'adapte à toutes les tailles
+
+
+**Axes d'amélioration identifiés :**
+
+1. L'ajout d'une musique et d'effets sonores aurait été intéressant pour un jeu de ce type
+
+**Évaluation globale (1-5 étoiles) :**
+
+- Facilité d'utilisation : ⭐⭐⭐⭐⭐
+- Stabilité : ⭐⭐⭐⭐⭐
+- Design : ⭐⭐⭐⭐
+- Performance : ⭐⭐⭐⭐⭐
+
+---
+
+## 3. PARTIE 2A : Tests internes
+
+### Ce que NOUS avons testé dans NOTRE projet
+
+### Résumé des tests effectués
+
+**Checklist complète (à ajuster en fonction de votre projet) :**
+
+- [✅] Navigation entre toutes les salles/chapitres
+- [✅] Ajout de mémoire / Lecture des chapitres
+- [✅] Édition de mémoire / Système de choix
+- [✅] Suppression de mémoire / Branches narratives
+- [✅] Upload d'images / Tracking des conséquences
+- [✅] Tags et filtres / Toutes les fins
+- [✅] Recherche / Historique des décisions
+- [✅] Responsive (mobile, tablette, desktop)
+- [✅] Multi-navigateurs (Chrome, Firefox)
+- [✅] Navigation au clavier
+- [✅] Contraste des couleurs
+- [☐] Alt text sur images
+- [✅] Cas limites (formulaires vides, texte long, etc.)
+
+**Taux de réussite :** [X]/[Y] tests passés = [92]%
+
+### Environnements testés
+
+RAS = Rien À Signaler
+
+| Environnement | Testé | Résultat | Notes |
+|---------------|-------|----------|-------|
+| Chrome Desktop | ✅ | ✅ Fonctionne | Quelques bugs mineurs |
+| Firefox Desktop | ✅ | ✅ Fonctionne | RAS |
+| Edge Desktop | ✅ | ✅ | RAS|
+| Mobile 375px | ✅ | ⚠️ Bogues trouvés | [[Bug 1](https://trello.com/c/G28qT5pe)] [Bug 2](https://trello.com/c/Uls09n0J) | 
+| Tablette 768px | ✅ | ✅ Fonctionne | RAS |
+| Desktop 1920px | ✅ | ✅ Fonctionne | RAS |
+
+### Bogues trouvés dans notre propre projet (par l'autre équipe)
+
+aucun
+
+**En plus des bugs reçus de l'autre équipe, nous avons trouvé :**
+
+| Bogue # | Titre | Priorité | Statut | Assigné à |
+|-------|-------|----------|--------|-----------|
+| [X] | [Titre] | 🔴 | Corrigé ✅ | [Nom] |
+| [X] | [Titre] | 🟠 | En cours 🔄 | [Nom] |
+| [X] | [Bug responsive sur ending : boutons compressés ] | 🟡 | À faire ⏸️ | [Nom] |
+| [X] | Pas d'image sur le bouton volume + audio ne fonctionne pas | 🟡 | À faire ⏸️ | [Nom] |
+
+
+**Total bugs trouvés en interne :** [2]
+[[Bug 1](https://trello.com/c/G28qT5pe)] |
+[[Bug 2](https://trello.com/c/Uls09n0J)] | 
+---
+
+## 4. PARTIE 2B : Bogues reçus
+
+### Ce que l'AUTRE équipe a trouvé dans NOTRE projet
+
+**Équipe qui nous a testés :** [Jad, Matis et Anton]  
+**Date de réception :** 4 décembre 2024
+
+### Statistiques
+
+| Priorité | Bogues reçus | Corrigés | En cours | Pas encore faits |
+|----------|------------|----------|----------|------------------|
+| 🔴 Critiques | [0] | [0] ✅ | [0] 🔄 | [0] ⏸️ |
+| 🟠 Majeurs | [0] | [0] ✅ | [0] 🔄 | [0] ⏸️ |
+| 🟡 Mineurs | [2] | [0] ✅ | [2] 🔄 | [2] ⏸️ |
+| **TOTAL** | **[2]** | **[0]** | **[2]** | **[2]** |
+
+### Liste détaillée des bugs reçus
+
+#### 🟡 Bogues Mineurs reçus
+
+**Bogue #1 : [Responsive sur ending]**
+
+- **Description :** La page ending n’est pas encore responsive
+- **Étapes pour reproduire :** Aller à la page ending sur téléphone, Observer
+- **Notre analyse :** 🟡 MINEUR - Petit problème, amélioration souhaitable
+- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Plan de correction :** Faire le responsive
+- **Assigné à :** [Mathieu]
+- **Date de correction :** 8 décembre
+
+**Bogue #2 : [Pas d'image sur le bouton volume + audio ne fonctionne pas]**
+
+- **Description :** L’image du bouton volume a disparu et l’audio ne fonctionne plus
+- **Étapes pour reproduire :** Aller à l’accueil, Cliquer le bouton volume, Observer et écouter
+- **Notre analyse :** 🟡 MINEUR - Petit problème, amélioration souhaitable
+- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
+- **Plan de correction :** Réparer l'audio et changer le chemin de l'image.
+- **Assigné à :** [Justin]
+- **Date de correction :** 8 décembre
+
+## 5. PARTIE 2C : Plan de corrections
+
+### État au 8 décembre (aujourd'hui)
+
+**Résumé de nos corrections :**
+
+| Statut | Nombre | % du total |
+|--------|--------|------------|
+| ✅ Corrigés et validés | [0] | [0]% |
+| 🔄 En cours (sera fait d'ici le 10) | [2] | [100]% |
+| ⏸️ Reportés (si temps) | [0] | [0]% |
+| ❌ Non corrigés (justifiés) | [0] | [0]% |
+
+### Priorités de correction (8→10 décembre)
+
+#### 🔄 En cours (sera fait d'ici le 10)
+
+**Bogues mineurs à faire si temps :**
+
+1. Bogue #1 : [Responsive ending] - Temps estimé : [1]h
+2. Bogue #2 : [Audio ne fonctionne pas] - Temps estimé : [1]h
+
+#### ❌ Non corrigés (avec justification)
+
+### Plan de travail (8-10 décembre)
+
+**Lundi 8 (soir) :**
+
+- [x] Finir Bogue #1 (Mathieu - 1h)
+- [x] Finir Bogue #2 (Justin - 1h)
+
+**Mardi 9 :**
+
+- [x] Commenter le code
+
+
+## 6. Accessibilité
+
+### Tests effectués
+
+#### Navigation au clavier
+
+| Test | Résultat | Action |
+|------|----------|--------|
+| Tab fonctionne sur tous les éléments | ⚠️ | juste le menu. Changer pour btn |
+| Focus visible | ✅ | |
+| Enter/Space activent les boutons | ✅ | |
+| Skip links présents (optionnel) | ❌ | |
+
+**Problèmes trouvés :** [2]  
+**Corrigés :** [0]  
+**En cours :** [2]
+
+#### Contraste des couleurs
+
+**Tests effectués avec WebAIM Contrast Checker :**
+
+RAS = Rien À Signaler
+
+| Élément | Couleurs | Ratio | Conforme WCAG AA | Action |
+|---------|----------|-------|------------------|--------|
+| Texte principal | #333 sur #ffa600 | 12.6:1 | ✅ Excellent | RAS |
+| Boutons | #ffa600 sur #524d4d | 4.5:1 | ✅ Conforme | RAS |
+| Liens | #0066CC sur #FFF | 7.5:1 | ✅ Excellent | RAS |
+| Texte secondaire | #333 sur #ffa600 | 3.5:1 | ✅ Excellent | RAS |
+
+**Problèmes de contraste :** []  
+**Plan de correction :** [aucuns]
+
+#### Images et médias
+
+| Test | Résultat | Notes |
+|------|----------|-------|
+| Toutes les images ont un alt | ✅ [62.4]/[100%] | [X] images sans alt à corriger |
+| Alt descriptifs (pas "image1.jpg") | ⚠️ | [à faire] |
+| Images décoratives avec alt="" | ⚠️ | [non] |
+
+### Score global d'accessibilité
+
+**Résumé :**
+
+- Navigation clavier : [3]/[10] tests passés
+- Contraste : [10]/[10] éléments conformes
+- Images : [6]/[10] avec alt approprié
+
+**Score estimé : [63,333333]/100**
+
+---
+
+## 7. Performance
+
+### Tests Lighthouse
+
+**Configuration :**
+
+- Mode : Desktop ET Mobile
+- Options : Performance, Accessibility, Best Practices
+
+#### Résultats Desktop
+
+| Page | Performance | Accessibility | Best Practices | Notes |
+|------|-------------|---------------|----------------|-------|
+| Accueil | [100]/100 | [90]/100 | [96]/100 | [Tout est bien] |
+
+#### Résultats Mobile
+
+| Page | Performance | Accessibility | Best Practices | Notes |
+|------|-------------|---------------|----------------|-------|
+| Accueil | [95]/100 | [90]/100 | [96]/100 | [Tout est bien] |
+
+**Screenshots Lighthouse :** Voir annexes
+
+### Optimisations effectuées
+
+#### Compression des images
+
+| Avant | Après | Économie |
+|-------|-------|----------|
+| [0.126] MB total | [0.126] MB total | [0]% économisés |
+
+#### Autres optimisations
+
+- ✅ Ajout de `loading="lazy"` sur [X] images
+- ✅ Minification du code (build production)
+- ✅ Suppression de console.log()
+- ⏸️ À faire : [Si applicable]
+
+### Temps de chargement
+
+**Tests manuels (connexion normale) :**
+
+- Page d'accueil : [0] secondes
+- Page principale : [0] secondes
+- Page la plus lourde : [0] secondes
+
+**Objectif :** < 3 secondes  
+**Atteint :** ✅ Oui
+
+---
+
+## 8. Conclusion
+
+### État global du projet au 8 décembre
+
+**Le projet est-il prêt pour la remise finale ?**
+⚠️ Presque, corrections en cours
+
+**Résumé de la qualité :**
+
+| Aspect | État | Commentaire |
+|--------|------|-------------|
+| **Fonctionnalités principales** | ✅ |
+| **Bogues critiques** | ✅ Tous corrigés |
+| **Bogues majeurs** | ⚠️ | [0]/[2] corrigés |
+| **Accessibilité** | ✅ / ⚠️ / ❌ | Score : [90]/100 |
+| **Performance** | ✅ | Lighthouse : [96]/100 |
+| **Responsive** | ⚠️ | [Il reste le responsive de la page ending à faire.] |
+
+### Bilan des tests
+
+**Statistiques globales :**
+
+- **Bogues trouvés (tous) :** [2] (internes + reçus)
+- **Bogues corrigés :** [0] (0%)
+- **Bogues en cours :** [2] (seront corrigés d'ici le 10)
+- **Bogues mineurs reportés :** [2]
+
+**Temps total consacré au QA :** [4] heures
+
+### Ce qui fonctionne bien ✅
+
+1. [L'Histoire fonctionne.]
+2. [Les images apparaissent et la logique de vie fonctionne.]
+3. [Le site est fluide.]
+
+### Défis rencontrés et solutions 🔧
+
+1. **Défi :** [Github Pages difficile à comprendre]
+   - **Solution :** [Essais erreurs]
+
+### Apprentissages 📚
+
+**Ce que nous avons appris durant le processus QA :**
+
+1. [Faire regarder le site par quelqu'un d'autre.]
+2. [Faire attention aux détails.]
+
+### Confiance pour la remise finale 🎯
+
+**Sur une échelle de 1 à 10, notre confiance est : [8]/10**
+
+**Justification :**
+[Nous avons un peu peur, car il y a encore quelques bugs depuis que le site est en ligne. Mis à part ça, nous sommes assez confiants de notre travail et il y a peu de bugs.]
+
+---
+
+## 9. Annexes
+
+### Annexe A : Checklist complète des tests
+
+![grille de tests](image-1.png)
+
+### Annexe B : Screenshots Lighthouse
+
+![page d'accueil](image-2.png)
+![accueil mobile](image-5.png)
+
+### Annexe C : Screenshots de bugs
+
+![responsive ending pas fini](image-3.png)
+![image du volume disparue](image-4.png)
+
+### Annexe D : Lien vers Trello
+
+**Board Trello avec tous les bugs :** [https://trello.com/b/JcKOFoZN/trelloprojetfinalweb]
+
+**Organisation du board :**
+
+- Colonne "Bogues trouvés" : [2] cartes
+
+### Annexe E : Métriques additionnelles
+
+**Commits Git durant la phase QA :**
+
+- [Date] : [X] commits (corrections bugs)
+- [Date] : [X] commits
+- Total : [X] commits de corrections
+
+---
+
+## ✅ Signatures
+
+**Ce rapport a été rédigé et validé par :**
+
+- [Justin Montpetit] - [Chef de projet] - Date : [5 décembre 2025]
+- [Ahmed Kaissoumi] - [Responsable design et animations] - Date : [5 décembre 2025]
+- [Mathieu Willett] - [Responsable données et système] - Date : [5 décembre 2025]
+
+**Nous confirmons que ce rapport reflète fidèlement l'état de notre projet et de notre processus QA.**
+
+---
+
+**Date de dernière mise à jour :** 8 décembre 2024  

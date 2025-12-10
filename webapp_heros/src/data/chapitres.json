@@ -1,0 +1,2316 @@
+{
+    "0": {
+        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu. Une figure volante plane au-dessus d'eux, presque imperceptible.",
+        "choix": [{
+                "id": 1,
+                "text": "L'Homme et le Tacticien attaquent l'homme étrange.",
+                "nextChapter": "4"
+            },
+            {
+                "id": 2,
+                "text": "L'équipe se cache et appellent des renforts.",
+                "nextChapter": "5"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true
+        }
+    },
+    "1": {
+        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu. Une figure volante plane au-dessus d'eux, presque imperceptible.",
+        "choix": [{
+                "id": 1,
+                "text": "Le Cyborg et le Barbare attaquent l'homme étrange.",
+                "nextChapter": "6"
+            },
+            {
+                "id": 2,
+                "text": "L'équipe se cache et appellent des renforts.",
+                "nextChapter": "7"
+            }
+        ],
+        "active": {
+            "Cyborg": true,
+            "Barbare": true
+        }
+    },
+    "2": {
+        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu. Une figure volante plane au-dessus d'eux, presque imperceptible.",
+        "choix": [{
+                "id": 1,
+                "text": "Capitaine Québec et le Magicien attaquent l'homme étrange.",
+                "nextChapter": "8"
+            },
+            {
+                "id": 2,
+                "text": "L'équipe se cache et appellent des renforts.",
+                "nextChapter": "9"
+            }
+        ],
+        "active": {
+            "CapQC": true,
+            "Magicien": true
+        }
+    },
+    "3": {
+        "texte": "L'équipe arrive dans une ville détruite, des bâtiments en feu. Une figure volante plane au-dessus d'eux, presque imperceptible.",
+        "choix": [{
+                "id": 1,
+                "text": "Le Modélisateur et le Loup attaquent l'homme étrange.",
+                "nextChapter": "10"
+            },
+            {
+                "id": 2,
+                "text": "L'équipe se cache et appellent des renforts.",
+                "nextChapter": "11"
+            }
+        ],
+        "active": {
+            "Modelisateur": true,
+            "Loup": true
+        }
+    },
+    "4": {
+        "texte": "Qui devrait attaquer?",
+        "choix": [{
+                "id": 1,
+                "text": "L'Homme",
+                "nextChapter": "12"
+            },
+            {
+                "id": 2,
+                "text": "Le Tacticien",
+                "nextChapter": "13"
+            }
+        ]
+    },
+    "5": {
+        "texte": "L'Homme se cache par peur. Le Tacticien tente de le rejoindre, mais l'homme étrange se jette sur lui et referme sa main sur son cou.",
+        "nextChapter": "14",
+        "damage": {
+            "Tacticien": 18
+        }
+    },
+    "6": {
+        "texte": "Le Cyborg utilise un rayon phasique et tire sur l'homme. Celui-ci esquive le rayon et fonce sur lui à pleine vitesse, créant un énorme cratère au sol, le Cyborg gisant au fond.",
+        "nextChapter": "15",
+        "damage": {
+            "Cyborg": 67
+        }
+    },
+    "7": {
+        "texte": "Le Cyborg utilise son appareil de télécommunication pour faire appel aux héros de l'éclipse.",
+        "nextChapter": "16"
+    },
+    "8": {
+        "texte": "Le Magicien utilise un sort pour immobiliser l'homme et Capitaine Québec projette un éclair hydroélectrique sur lui.",
+        "nextChapter": "17",
+        "damage": {
+            "Haxan": 13
+        }
+    },
+    "9": {
+        "texte": "Les deux héros se cachent, le Magicien entre en synchronisation psychique avec les héros de l'éclipse pour les alerter de la menace, mais au même moment, l'homme défonce le mur qui cachait les deux héros.",
+        "nextChapter": "18"
+    },
+    "10": {
+        "texte": "Le Modélisateur solidifie des chaînes en 3D pour tirer l'homme volant au sol. L'homme se débat, mais le Loup lui saute dessus pour le maintenir au sol. Le Modélisateur matérialise ensuite une cage afin de l'y enfermer.",
+        "nextChapter": "19",
+        "damage": {
+            "Haxan": 10
+        }
+    },
+    "11": {
+        "texte": "Les deux héros se cachent et le Modélisateur projette une immense emblème des Héros de l'Éclipse dans le ciel, espérant que d'autres la remarquent.",
+        "nextChapter": "20"
+    },
+    "12": {
+        "texte": "L'Homme s'oppose à la figure volante. Celle-ci fonce sur lui et lui donne un uppercut si puissant qu'il est propulsé jusque dans l'orbite.",
+        "choix": [{
+                "id": 1,
+                "text": "Le Tacticien fonce sur le vilain et lui lance sa casquette au visage.",
+                "nextChapter": "21"
+            },
+            {
+                "id": 2,
+                "text": "Le Tacticien fuit le combat et appelle des renforts",
+                "nextChapter": "22"
+            }
+        ],
+        "damage": {
+            "Homme": 100
+        }
+    },
+    "13": {
+        "texte": "Le Tacticien s'oppose à la figure volante. En le voyant, celle-ci lui assène un uppercut mortel et le projette en orbite.",
+        "choix": [{
+                "id": 1,
+                "text": "L'Homme se fâche",
+                "nextChapter": "23"
+            },
+            {
+                "id": 2,
+                "text": "L'Homme contient sa colère et fuit le combat",
+                "nextChapter": "24"
+            }
+        ],
+        "damage": {
+            "Tacticien": 100
+        }
+    },
+    "14": {
+        "texte": "Le vilain se présente : Haxan, dieu des dieux. Il explique qu'il est ici pour rétablir l'équilibre dans le monde, et que pour cela, il doit anéantir la race humaine.",
+        "choix": [{
+                "id": 1,
+                "text": "L'Homme attaque Haxan pour libérer le Tacticien",
+                "nextChapter": "25"
+            },
+            {
+                "id": 2,
+                "text": "L'Homme s'excuse à Haxan et propose de relâcher le Tacticien, pour que les deux partent",
+                "nextChapter": "26"
+            }
+        ]
+    },
+    "15": {
+        "texte": "Le vilain sort du cratère et se présente : Haxan, dieu des dieux. Il explique qu'il est ici pour rétablir l'équilibre dans le monde, et que pour cela, il doit anéantir la race humaine. Puis il saisit le Cyborg et lui brise le cou, le tuant sur le coup.",
+        "choix": [{
+                "id": 1,
+                "text": "Le Barbare fonce sur Haxan et l'attaque avec ses haches",
+                "nextChapter": "27"
+            },
+            {
+                "id": 2,
+                "text": "Le Barbare s'incline devant Haxan",
+                "nextChapter": "28"
+            }
+        ],
+        "damage": {
+            "Cyborg": 100
+        }
+    },
+    "16": {
+        "texte": "Le message est bien reçu par les héros, qui répondent présents. Mais au même moment, la communication se coupe, interrompue par une voix mystérieuse : Haxan, qui annonce vouloir rétablir l'équilibre du monde en exterminant la race humaine.",
+        "choix": [{
+                "id": 1,
+                "text": "Éteindre la communication",
+                "nextChapter": "29"
+            },
+            {
+                "id": 2,
+                "text": "Continuer d'écouter",
+                "nextChapter": "30"
+            }
+        ],
+        "active": {
+            "Haxan": true
+        }
+    },
+    "17": {
+        "texte": "L'homme semble totalement indemne. Il s'approche lentement, atterrit au sol et se présente : Haxan, dieu des dieux. Il explique qu'il est ici pour rétablir l'équilibre dans le monde, et que pour cela, il doit anéantir la race humaine.",
+        "choix": [{
+                "id": 1,
+                "text": "Réattaquer",
+                "nextChapter": "31"
+            },
+            {
+                "id": 2,
+                "text": "Invoquer des renforts",
+                "nextChapter": "32"
+            }
+        ]
+    },
+    "18": {
+        "texte": "Le vilain Haxan se présente, puis projette des rayons laser mauves depuis ses yeux en direction du Magicien.",
+        "choix": [{
+                "id": 1,
+                "text": "Capitaine Québec se jette devant le Magicien afin de le sauver des rayons.",
+                "nextChapter": "33"
+            },
+            {
+                "id": 2,
+                "text": "Capitaine Québec tire une décharge hydro-électrique pour contrer le rayon.",
+                "nextChapter": "34"
+            }
+        ],
+        "active": {
+            "Haxan": true
+        }
+    },
+    "19": {
+        "texte": "Le vilain se présente : Haxan, dieu des dieux. Il explique qu'il est ici pour rétablir l'équilibre dans le monde, et que pour cela, il doit anéantir la race humaine. En un seul mouvement, il détruit la cage, projette le Loup à travers un bâtiment et assène un violent coup de pied au Modélisateur, le rejetant sur plusieurs mètres.",
+        "choix": [{
+                "id": 1,
+                "text": "Continuer le combat",
+                "nextChapter": "35"
+            },
+            {
+                "id": 2,
+                "text": "Rester au sol",
+                "nextChapter": "36"
+            }
+        ],
+        "damage": {
+            "Modelisateur": 46,
+            "Loup": 47
+        },
+        "active": {
+            "Haxan": true
+        }
+    },
+    "20": {
+        "texte": "Le vilain aperçoit l'emblème et se met aussitôt à saccager la ville et à tuer encore davantage, plongeant les héros dans un dilemme moral.",
+        "choix": [{
+                "id": 1,
+                "text": "Rester cachés",
+                "nextChapter": "37"
+            },
+            {
+                "id": 2,
+                "text": "L'affronter",
+                "nextChapter": "1201"
+            }
+        ]
+    },
+    "1201": {
+        "texte": "Les deux héros sortent pour affronter Haxan afin de l'empêcher de causer encore plus de destruction. Ils réussissent à le retenir assez longtemps pour que le reste des héros arrive.",
+        "nextChapter": 1202,
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        },
+        "damage": {
+            "Modelisateur": 21,
+            "Loup": 32,
+            "Haxan": 3
+        }
+    },
+    "1202": {
+        "texte": "L'équipe se prépare à affronter Haxan",
+        "choix": [{
+                "id": 1,
+                "text": "Attaquer Haxan tous en même temps",
+                "nextChapter": "51"
+            },
+            {
+                "id": 2,
+                "text": "Attaquer à tour de rôle",
+                "nextChapter": "52"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "21": {
+        "texte": "Haxan est gravement blessé au visage, il tombe à genoux, du sang tombe de son visage. Le reste de l'équipe fut alerté par le bruit, se rendant sur les lieux du combat.",
+        "choix": [{
+                "id": 1,
+                "text": "Être offensif",
+                "nextChapter": "1371"
+            },
+            {
+                "id": 2,
+                "text": "Être défensif",
+                "nextChapter": "38"
+            }
+        ],
+        "damage": {
+            "Haxan": 40
+        },
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true
+        }
+    },
+    "1213": {
+        "texte": "L'équipe se prépare à combattre Haxan sans l'Homme ni le Tacticien.",
+        "choix": [{
+                "id": 1,
+                "text": "Attaquer tous en même temps.",
+                "nextChapter": "43"
+            },
+            {
+                "id": 2,
+                "text": "Attaquer à tour de rôle successivement",
+                "nextChapter": "44"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "1214": {
+        "texte": "L'Homme Ultra s'apprête à affronter Haxan seul",
+        "choix": [{
+                "id": 1,
+                "text": "Être offensif",
+                "nextChapter": "41"
+            },
+            {
+                "id": 2,
+                "text": "Être défensif",
+                "nextChapter": "42"
+            }
+        ],
+        "active": {
+            "Homme": false,
+            "HommeUltra": true
+        }
+    },
+    "1215": {
+        "texte": "L'équipe se prépare à combattre Haxan.",
+        "choix": [{
+                "id": 1,
+                "text": "Attaquer tous en même temps.",
+                "nextChapter": "43"
+            },
+            {
+                "id": 2,
+                "text": "Attaquer à tour de rôle successivement",
+                "nextChapter": "44"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "1216": {
+        "texte": "L'Homme se prépare à affronter Haxan",
+        "choix": [{
+                "id": 1,
+                "text": "Menacer Haxan",
+                "nextChapter": "45"
+            },
+            {
+                "id": 2,
+                "text": "Essayer de gagner du temps",
+                "nextChapter": "46"
+            }
+        ]
+    },
+    "1217": {
+        "texte": "L'équipe se prépare à combattre Haxan",
+        "choix": [{
+                "id": 1,
+                "text": "Attaquer Haxan tous en même temps.",
+                "nextChapter": "47"
+            },
+            {
+                "id": 2,
+                "text": "Attaquer à tour de rôle",
+                "nextChapter": "48"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "1218": {
+        "texte": "L'équipe se prépare à affronter un Haxan surpuissant",
+        "choix": [{
+                "id": 1,
+                "text": "Attaquer Haxan tous en même temps.",
+                "nextChapter": "49"
+            },
+            {
+                "id": 2,
+                "text": "Attaquer à tour de rôle",
+                "nextChapter": "50"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "1219": {
+        "texte": "L'équipe se prépare à affronter Haxan.",
+        "choix": [{
+                "id": 1,
+                "text": "Attaquer Haxan tous en même temps.",
+                "nextChapter": "51"
+            },
+            {
+                "id": 2,
+                "text": "Attaquer à tour de rôle",
+                "nextChapter": "52"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "1220": {
+        "texte": "L'équipe se prépare à affronter Haxan.",
+        "choix": [{
+                "id": 1,
+                "text": "Attaquer Haxan tous en même temps.",
+                "nextChapter": "53"
+            },
+            {
+                "id": 2,
+                "text": "Attaquer à tour de rôle",
+                "nextChapter": "54"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "1221": {
+        "texte": "L'équipe se prépare à affronter Haxan.",
+        "choix": [{
+                "id": 1,
+                "text": "Attaquer Haxan tous en même temps.",
+                "nextChapter": "55"
+            },
+            {
+                "id": 2,
+                "text": "Attaquer à tour de rôle",
+                "nextChapter": "56"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "1222": {
+        "texte": "L'équipe se prépare à affronter Haxan.",
+        "choix": [{
+                "id": 1,
+                "text": "Attaquer Haxan tous en même temps.",
+                "nextChapter": "57"
+            },
+            {
+                "id": 2,
+                "text": "Attaquer à tour de rôle",
+                "nextChapter": "58"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "1223": {
+        "texte": "L'équipe se prépare à affronter Haxan.",
+        "choix": [{
+                "id": 1,
+                "text": "Attaquer Haxan tous en même temps.",
+                "nextChapter": "59"
+            },
+            {
+                "id": 2,
+                "text": "Attaquer à tour de rôle.",
+                "nextChapter": "60"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "1224": {
+        "texte": "L'équipe se prépare à affronter Haxan.",
+        "choix": [{
+                "id": 1,
+                "text": "Attaquer Haxan tous en même temps.",
+                "nextChapter": "61"
+            },
+            {
+                "id": 2,
+                "text": "Attaquer à tour de rôle.",
+                "nextChapter": "62"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "1225": {
+        "texte": "L'équipe se prépare à affronter Haxan.",
+        "choix": [{
+                "id": 1,
+                "text": "Attaquer Haxan tous en même temps.",
+                "nextChapter": "63"
+            },
+            {
+                "id": 2,
+                "text": "Attaquer à tour de rôle.",
+                "nextChapter": "64"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "1226": {
+        "texte": "L'équipe se prépare à affronter Haxan, sans l'Homme.",
+        "choix": [{
+                "id": 1,
+                "text": "Être offensif",
+                "nextChapter": "39"
+            },
+            {
+                "id": 2,
+                "text": "Être défensif",
+                "nextChapter": "40"
+            }
+        ],
+        "active": {
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "22": {
+        "texte": "Le reste des héros arrivent, ils se préparent à un dur combat, sans l'Homme.",
+        "nextChapter": "1226",
+        "active": {
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true
+        }
+    },
+    "23": {
+        "texte": "L'Homme tombe dans sa deuxième phase, il devient Ultra.",
+        "nextChapter": "1214",
+        "active": {
+            "Homme": false,
+            "HommeUltra": true
+        }
+    },
+    "24": {
+        "texte": "Haxan rattrape l'Homme et le tue en transpercant sa main au travers de la poitrine de l'Homme. Quelques heures plus tard, le reste de l'équipe se réunit pour l'affronter.",
+        "nextChapter": "1215",
+        "damage": {
+            "Homme": 100
+        },
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true
+        }
+    },
+    "25": {
+        "texte": "Haxan attrape également l'Homme par le cou, puis les cassent chacun en deux.",
+        "nextChapter": "1213",
+        "damage": {
+            "Homme": 100,
+            "Tacticien": 100,
+            "Haxan": 23
+        }
+    },
+    "26": {
+        "texte": "Haxan regarde l'Homme droit dans les yeux avant d'écraser le Tacticien au sol, le tuant à l'impact.",
+        "nextChapter": "1216",
+        "damage": {
+            "Tacticien": 100
+        }
+    },
+    "27": {
+        "texte": "Le Barbare enfonce ses haches dans Haxan, mais n'arrive plus à les retirer. Haxan ricane, puis utilise un pouvoir psychique pour désintégrer le Barbare. Les héros arrivent plus tard.",
+        "nextChapter": "1217",
+        "damage": {
+            "Barbare": 100,
+            "Haxan": 34
+        },
+        "active": {
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Homme": true
+        }
+    },
+    "28": {
+        "texte": "Haxan est surpris du manque de courage du Barbare, et décide d'absorber son âme, augmentant encore plus sa force phénoménale.",
+        "nextChapter": "1218",
+        "damage": {
+            "Barbare": 100
+        }
+    },
+    "29": {
+        "texte": "Le message a bel et bien passé, mais malheureusement, Haxan connaît leur position. Il envoie une charge orbitale mortelle sur leur position, les réduisant en cendres.",
+        "nextChapter": "1217",
+        "damage": {
+            "Barbare": 100,
+            "Cyborg": 100
+        }
+    },
+    "30": {
+        "texte": "Les héros, avec le temps supplémentaire, ont le temps de localiser la position du Cyborg, mais Haxan aussi. Il lance une charge orbitale pour anéantir le Cyborg et le Barbare, mais au même moment, le Magicien ouvre un portail dimensionnel, téléportant les héros de l'éclipse sur leur position, permettant au Modélisateur de créer un bouclier 3D.",
+        "nextChapter": "1219",
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "31": {
+        "texte": "Capitaine Québec lance une décharge hydroélectrique qui est cette fois totalement absorbée par Haxan, qui gagne en puissance. Capitaine Québec affaibli, se fait prendre par surprise par Haxan, qui le tua d'un coup fatal au dos, puis Haxan désintégra le Magicien.",
+        "nextChapter": "1220",
+        "damage": {
+            "CapQC": 100,
+            "Magicien": 100
+        }
+    },
+    "32": {
+        "texte": "Le Magicien ouvre un portail spatio-temporel, invoquant chacun des membres des héros de l'éclipse. Cependant, ses pouvoirs deviennent instables.",
+        "nextChapter": "1221",
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "33": {
+        "texte": "Capitaine Québec est transpercé par les rayons, le laissant mourir au sol, laissant la vie sauve au Magicien. Les autres héros arrivent au même moment.",
+        "nextChapter": "1222",
+        "damage": {
+            "CapQC": 100
+        }
+    },
+    "34": {
+        "texte": "La décharge de Capitaine Québec arrive partiellement à retenir le rayon de Haxan, mais pas complètement. Haxan parvint à tuer le Magicien de son rayon, laissant Capitaine Québec seul. Les autres héros arrivent au même moment.",
+        "nextChapter": "1223",
+        "damage": {
+            "CapQC": 23,
+            "Magicien": 100
+        }
+    },
+    "35": {
+        "texte": "Les deux héros se relevent, combattent du mieux qu'ils peuvent, mais affaiblis, ils finissent par succomber aux forces du mal. Le reste de l'équipe arrive plus tard.",
+        "nextChapter": "1224",
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true
+        },
+        "damage": {
+            "Modelisateur": 100,
+            "Loup": 100
+        }
+    },
+    "36": {
+        "texte": "Les deux hommes choisirent de rester au sol, trop faibles pour continuer le combat. Alors qu'Haxan allait les achever, un homme en armure vola à toute allure pour atterrir au sol et arrêter le coup fatal qu'allait donner Haxan.",
+        "nextChapter": "1219",
+        "active": {
+            "Cyborg": true
+        },
+        "damage": {
+            "Cyborg": 9,
+            "Haxan": 5
+        }
+    },
+    "37": {
+        "texte": "Haxan tua la quasi-totalité de la ville avant que l'entièreté de l'équipe ne soit réunie. Ils se préparent à l'affronter.",
+        "nextChapter": "1225",
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        }
+    },
+    "1371": {
+        "texte": "L'équipe attaque Haxan tous en même temps, lui infligeant de lourds dégâts. Dans le combat, le Magicien est gravement touché. Une éclipse apparaît dans le ciel.",
+        "choix": [{
+                "id": 1,
+                "text": "Le Magicien utilise un sortilège pour faire en sorte que l'éclipse soit à son apogée",
+                "nextChapter": "65"
+            },
+            {
+                "id": 2,
+                "text": "Continuer de tous attaquer",
+                "nextChapter": "66"
+            }
+        ],
+        "damage": {
+            "Barbare": 14,
+            "Tacticien": 23,
+            "CapQC": 26,
+            "Cyborg": 21,
+            "Modelisateur": 32,
+            "Loup": 16,
+            "Magicien": 63,
+            "Haxan": 42
+        }
+    },
+    "38": {
+        "texte": "Le Tacticien fit un plan de défense ingénieux. L'équipe reste sur ses gardes, bloquant les attaques d'Haxan et offrant une forte riposte. Haxan est légèrement blessé dans le processus. Capitaine Québec est touché à l'épaule. Une éclipse apparaît dans le ciel.",
+        "choix": [{
+                "id": 1,
+                "text": "Continuer d'attaquer",
+                "nextChapter": "67"
+            },
+            {
+                "id": 2,
+                "text": "Envoyer le Cyborg soigner Capitaine Québec",
+                "nextChapter": "68"
+            }
+        ],
+        "damage": {
+            "Barbare": 21,
+            "CapQC": 45,
+            "Cyborg": 24,
+            "Modelisateur": 22,
+            "Loup": 20,
+            "Magicien": 23,
+            "Haxan": 30
+        }
+    },
+    "39": {
+        "texte": "L'équipe attaque Haxan, ne lui infligeant pas grand dommage. Cependant, Le Cyborg voit son bras endommagé dans l'action. Une éclipse apparaît dans le ciel.",
+        "choix": [{
+                "id": 1,
+                "text": "Continuer d'attaquer",
+                "nextChapter": "69"
+            },
+            {
+                "id": 2,
+                "text": "Ordonner au Cyborg de se retirer pour soigner son bras",
+                "nextChapter": "70"
+            }
+        ],
+        "damage": {
+            "Barbare": 15,
+            "CapQC": 24,
+            "Cyborg": 57,
+            "Modelisateur": 34,
+            "Loup": 21,
+            "Magicien": 31,
+            "Haxan": 12
+        }
+    },
+    "40": {
+        "texte": "Le Tacticien fit un plan de défense ingénieux, permettant à l'équipe de bien se défendre contre les attaques d'Haxan. Capitaine Québec et le Loup sont blessés dans l'action. Une éclipse apparaît dans le ciel.",
+        "choix": [{
+                "id": 1,
+                "text": "Continuer d'attaquer",
+                "nextChapter": "71"
+            },
+            {
+                "id": 2,
+                "text": "Se mettre sur la défensive",
+                "nextChapter": "72"
+            }
+        ],
+        "damage": {
+            "CapQC": 67,
+            "Loup": 48,
+            "Tacticien": 28,
+            "Magicien": 34,
+            "Barbare": 15,
+            "Cyborg": 24,
+            "Modelisateur": 24,
+            "Haxan": 7
+        }
+    },
+    "41": {
+        "texte": "Haxan subit le coup, crache une dent au sol, puis prend un élan afin de riposter.",
+        "choix": [{
+                "id": 1,
+                "text": "Attaquer",
+                "nextChapter": "73"
+            },
+            {
+                "id": 2,
+                "text": "Bloquer le coup",
+                "nextChapter": "74"
+            }
+        ],
+        "damage": {
+            "Haxan": 60
+        }
+    },
+    "42": {
+        "texte": "Haxan ne bouge pas d'un poil tandis que le rocher s'approche à toute vitesse. Le rocher est détruit à l'impact. Haxan tire un rayon laser mauve en direction du torse de l'Homme.",
+        "choix": [{
+                "id": 1,
+                "text": "Bloquer le laser",
+                "nextChapter": "79"
+            },
+            {
+                "id": 2,
+                "text": "Foncer vers Haxan",
+                "nextChapter": "79"
+            }
+        ],
+        "damage": {
+            "Haxan": 10
+        }
+    },
+    "43": {
+        "texte": "L'équipe attaque, mais dans l'action, le Magicien fut distrait par le corps de son ami au sol. C'est alors qu'Haxan en profita pour le perforer avec sa main. Le Cyborg devient furieux, fonce sur Haxan, mais Haxan le saisit et l'arrache en deux morceaux.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "81"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "Cyborg": 100,
+            "Magicien": 100,
+            "Barbare": 24,
+            "CapQC": 38,
+            "Modelisateur": 58,
+            "Loup": 27,
+            "Haxan": 12,
+            "Tacticien": 29
+        }
+    },
+    "44": {
+        "texte": "Le Barbare attaque le premier. Haxan le pulvérise d'un coup de laser, puis Capitaine Québec intervient. Il se fait envoyer dans un trou noir. Le Modélisateur tente de le sauver en construisant une chaîne, mais Haxan brise la chaîne et étrangle le Modélisateur jusqu'à sa mort.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "84"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "CapQC": 100,
+            "Barbare": 100,
+            "Modelisateur": 100,
+            "Cyborg": 23,
+            "Loup": 23,
+            "Magicien": 34,
+            "Haxan": 6
+        }
+    },
+    "45": {
+        "texte": "L'Homme menace Haxan de mort. Celui-ci n'a aucune réaction. Le jet des héros est aperçu dans le ciel. Haxan envoie un météore dessus.",
+        "choix": [{
+                "id": 1,
+                "text": "Négocier",
+                "nextChapter": "87"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ]
+    },
+    "46": {
+        "texte": "Haxan rigole, il trouve l'Homme bien drôle. Les héros arrivent en jet, mais Haxan les voyant arriver, envoie un météore dessus.",
+        "choix": [{
+                "id": 1,
+                "text": "Négocier",
+                "nextChapter": "87"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ]
+    },
+    "47": {
+        "texte": "L'équipe attaque Haxan. Dans le combat, il tue le Loup et le Modélisateur d'un coup de pied fatal.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "89"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "Homme": 77,
+            "Tacticien": 25,
+            "CapQC": 36,
+            "Magicien": 56,
+            "Barbare": 45,
+            "Cyborg": 67,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "Haxan": 23
+        }
+    },
+    "48": {
+        "texte": "L'équipe attaque Haxan. Dans le combat, Haxan tue le Tacticien, le Magicien et le Loup.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "90"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "Tacticien": 100,
+            "Magicien": 100,
+            "Modelisateur": 52,
+            "Homme": 72,
+            "Loup": 100,
+            "CapQC": 53,
+            "Haxan": 23
+        }
+    },
+    "49": {
+        "texte": "Haxan, dans le combat, tue Capitaine Québec, le Loup, le Modélisateur et le Tacticien.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "92"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "CapQC": 100,
+            "Tacticien": 100,
+            "Modelisateur": 100,
+            "Loup": 100,
+            "Homme": 68,
+            "Cyborg": 47,
+            "Magicien": 52,
+            "Haxan": 23
+        }
+    },
+    "50": {
+        "texte": "Haxan tue dans le combat Capitaine Québec, le Loup, le Modélisateur, le Tacticien et l'Homme.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "93"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "CapQC": 100,
+            "Tacticien": 100,
+            "Modelisateur": 100,
+            "Loup": 100,
+            "Homme": 100,
+            "Magicien": 67,
+            "Haxan": 20
+        }
+    },
+    "51": {
+        "texte": "L'équipe attaque Haxan. Dans le combat, l'Homme est gravement touché à la jambe et ne peut plus marcher.",
+        "choix": [{
+                "id": 1,
+                "text": "Continuer d'attaquer Haxan",
+                "nextChapter": "95"
+            },
+            {
+                "id": 2,
+                "text": "Le Magicien invoque l'éclipse",
+                "nextChapter": "98"
+            }
+        ],
+        "damage": {
+            "Homme": 67,
+            "Barbare": 28,
+            "Tacticien": 23,
+            "CapQC": 54,
+            "Cyborg": 39,
+            "Modelisateur": 42,
+            "Loup": 34,
+            "Magicien": 50,
+            "Haxan": 36
+        }
+    },
+    "52": {
+        "texte": "L'équipe attaque Haxan. Dans le combat, Le Cyborg est perforé d'une lance du Modélisateur, utilisée par Haxan.",
+        "choix": [{
+                "id": 1,
+                "text": "Capitaine Québec recharge l'armure du Cyborg d'un éclair hydro-électrique",
+                "nextChapter": "100"
+            },
+            {
+                "id": 2,
+                "text": "Continuer de combattre",
+                "nextChapter": "101"
+            }
+        ],
+        "damage": {
+            "Homme": 51,
+            "Tacticien": 42,
+            "CapQC": 32,
+            "Magicien": 23,
+            "Barbare": 12,
+            "Cyborg": 66,
+            "Loup": 23,
+            "Modelisateur": 42,
+            "Haxan": 32
+        }
+    },
+    "53": {
+        "texte": "L'équipe attaque Haxan, qui riposte en tuant L'Homme et le Modélisateur.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "102"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "Homme": 100,
+            "HommeEclipse": 100,
+            "HommeUltra": 100,
+            "Barbare": 23,
+            "Tacticien": 29,
+            "CapQC": 34,
+            "Cyborg": 10,
+            "Modelisateur": 100,
+            "Loup": 43,
+            "Magicien": 26,
+            "Haxan": 34
+        }
+    },
+    "54": {
+        "texte": "L'équipe attaque Haxan, qui riposte en tuant l'Homme, le Modélisateur et le Barbare.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "103"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "Homme": 100,
+            "Modelisateur": 100,
+            "Barbare": 100,
+            "Tacticien": 19,
+            "CapQC": 14,
+            "Cyborg": 12,
+            "Loup": 23,
+            "Magicien": 16,
+            "Haxan": 14
+        }
+    },
+    "55": {
+        "texte": "L'équipe attaque Haxan ensemble, mais dans la foulée, Haxan remarque une faille chez le Magicien. Capitaine Québec est assommé en combat.",
+        "choix": [{
+                "id": 1,
+                "text": "Continuer de combattre",
+                "nextChapter": "105"
+            },
+            {
+                "id": 2,
+                "text": "Sortir le Capitaine du champ de bataille",
+                "nextChapter": "106"
+            }
+        ],
+        "damage": {
+            "CapQC": 52,
+            "Tacticien": 23,
+            "Homme": 17,
+            "Barbare": 30,
+            "Cyborg": 34,
+            "Modelisateur": 20,
+            "Loup": 34,
+            "Magicien": 50,
+            "Haxan": 16
+        }
+    },
+    "56": {
+        "texte": "L'équipe attaque Haxan ensemble, mais dans la foulée Haxan remarque une faille chez le Magicien.",
+        "choix": [{
+                "id": 1,
+                "text": "Continuer de combattre",
+                "nextChapter": "105"
+            },
+            {
+                "id": 2,
+                "text": "Se mettre en position défensive",
+                "nextChapter": "109"
+            }
+        ],
+        "active": {
+            "Homme": true,
+            "Tacticien": true,
+            "CapQC": true,
+            "Magicien": true,
+            "Barbare": true,
+            "Cyborg": true,
+            "Loup": true,
+            "Modelisateur": true,
+            "Haxan": true
+        },
+        "damage": {
+            "Homme": 20,
+            "Tacticien": 25,
+            "CapQC": 25,
+            "Magicien": 16,
+            "Barbare": 20,
+            "Cyborg": 35,
+            "Loup": 30,
+            "Modelisateur": 10,
+            "Haxan": 20
+        }
+    },
+    "57": {
+        "texte": "Dans le combat, Haxan tue l'Homme et le Cyborg.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "112"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "Homme": 100,
+            "Cyborg": 100,
+            "Tacticien": 33,
+            "CapQC": 25,
+            "Magicien": 28,
+            "Barbare": 18,
+            "Loup": 22,
+            "Modelisateur": 28,
+            "Haxan": 20
+        }
+    },
+    "58": {
+        "texte": "Dans le combat, Haxan tue le Cyborg.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "112"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "Homme": 41,
+            "Tacticien": 23,
+            "CapQC": 12,
+            "Magicien": 32,
+            "Barbare": 12,
+            "Cyborg": 100,
+            "Loup": 14,
+            "Modelisateur": 31,
+            "Haxan": 23
+        }
+    },
+    "59": {
+        "texte": "Dans le combat, le Modélisateur et le Tacticien sont tués.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "113"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "Homme": 42,
+            "Tacticien": 100,
+            "CapQC": 23,
+            "Magicien": 26,
+            "Barbare": 14,
+            "Cyborg": 34,
+            "Loup": 21,
+            "Modelisateur": 100,
+            "Haxan": 7
+        }
+    },
+    "60": {
+        "texte": "Dans le combat, Haxan tue le Modélisateur et le Barbare.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "114"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "Barbare": 100,
+            "Modelisateur": 100,
+            "Homme": 32,
+            "Tacticien": 24,
+            "CapQC": 23,
+            "Magicien": 26,
+            "Cyborg": 34,
+            "Loup": 21,
+            "Haxan": 15
+        }
+    },
+    "61": {
+        "texte": "Haxan tue le Magicien et le Cyborg dans le combat.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "116"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "Magicien": 100,
+            "Cyborg": 100,
+            "Homme": 43,
+            "Barbare": 31,
+            "CapQC": 33,
+            "Modelisateur": 53,
+            "Loup": 23,
+            "Tacticien": 33,
+            "Haxan": 14
+        }
+    },
+    "62": {
+        "texte": "Dans le combat, Haxan tue Capitaine Québec et l'Homme.",
+        "choix": [{
+                "id": 1,
+                "text": "Riposter",
+                "nextChapter": "116"
+            },
+            {
+                "id": 2,
+                "text": "S'incliner",
+                "nextChapter": "130"
+            }
+        ],
+        "damage": {
+            "CapQC": 100,
+            "Homme": 100,
+            "Barbare": 32,
+            "Cyborg": 43,
+            "Modelisateur": 21,
+            "Loup": 32,
+            "Tacticien": 33,
+            "Magicien": 38,
+            "Haxan": 8
+        }
+    },
+    "63": {
+        "texte": "Les héros attaquent Haxan. Capitaine Québec est désolé de tous les civils tués. Haxan profite de ce moment de faiblesse pour prendre possession de l'esprit de celui-ci.",
+        "choix": [{
+                "id": 1,
+                "text": "Exécuter Capitaine Québec",
+                "nextChapter": "117"
+            },
+            {
+                "id": 2,
+                "text": "Le Magicien tente de redonner à Capitaine Québec le contrôle de son esprit",
+                "nextChapter": "118"
+            }
+        ],
+        "damage": {
+            "Homme": 44,
+            "Tacticien": 52,
+            "CapQC": 23,
+            "Magicien": 54,
+            "Barbare": 12,
+            "Cyborg": 54,
+            "Loup": 47,
+            "Modelisateur": 44
+        }
+    },
+    "64": {
+        "texte": "Capitaine Québec est désolé de tous les civils tués. Haxan profite de ce moment de faiblesse pour prendre possession de l'esprit de celui-ci et tue le Magicien dans le combat.",
+        "choix": [{
+                "id": 1,
+                "text": "Exécuter Capitaine Québec",
+                "nextChapter": "121"
+            },
+            {
+                "id": 2,
+                "text": "Tenter de résonner Capitaine Québec",
+                "nextChapter": "122"
+            }
+        ],
+        "damage": {
+            "Magicien": 100,
+            "Homme": 14,
+            "Tacticien": 22,
+            "CapQC": 23,
+            "Barbare": 12,
+            "Cyborg": 24,
+            "Loup": 27,
+            "Modelisateur": 24,
+            "Haxan": 12
+        }
+    },
+    "65": {
+        "texte": "Alors qu'Haxan avait saisi le Magicien par le cou et s'apprêtait à le tuer, un étrange projectile est tombé du ciel.",
+        "nextChapter": "75"
+    },
+    "66": {
+        "texte": "Haxan réussit à prendre le Cyborg par surprise, lui arrachant la tête, mais au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
+        "nextChapter": "75",
+        "damage": {
+            "Cyborg": 100,
+            "Barbare": 14,
+            "CapQC": 23,
+            "Modelisateur": 26,
+            "Loup": 15,
+            "Magicien": 24,
+            "Haxan": 10
+        }
+    },
+    "67": {
+        "texte": "Haxan commence à prendre le dessus, blesse le Tacticien et le Loup, mais au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
+        "nextChapter": "75",
+        "damage": {
+            "Tacticien": 30,
+            "Loup": 30
+        }
+    },
+    "68": {
+        "texte": "Alors que l'équipe était moins nombreuse, Haxan réussit à tuer le Barbare dans le combat, mais au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
+        "nextChapter": "75",
+        "damage": {
+            "Barbare": 100,
+            "CapQC": 23,
+            "Cyborg": 12,
+            "Modelisateur": 22,
+            "Loup": 14,
+            "Magicien": 23,
+            "Haxan": 4
+        }
+    },
+    "69": {
+        "texte": "L'équipe continue d'attaquer, mais Capitaine Québec, plus faible, se fit prendre par surprise et se fait transpercer au cœur. Mais au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
+        "nextChapter": "75",
+        "damage": {
+            "CapQC": 100,
+            "Barbare": 12,
+            "Cyborg": 12,
+            "Modelisateur": 32,
+            "Loup": 14,
+            "Magicien": 23,
+            "Haxan": 6
+        }
+    },
+    "70": {
+        "texte": "L'équipe moins nombreuse, Haxan parvint à tuer le Modélisateur d'un coup mortel. Au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
+        "nextChapter": "75",
+        "damage": {
+            "Modelisateur": 100,
+            "Barbare": 12,
+            "CapQC": 33,
+            "Cyborg": 23,
+            "Loup": 11,
+            "Magicien": 21,
+            "Haxan": 12
+        }
+    },
+    "71": {
+        "texte": "Le Loup est tué, le Barbare et le Magicien sont blessés, c'est alors qu'au même moment un projectile vint s'écraser au sol, créant un énorme cratère.",
+        "nextChapter": "75",
+        "damage": {
+            "Loup": 100,
+            "Barbare": 56,
+            "Magicien": 60
+        }
+    },
+    "72": {
+        "texte": "Capitaine Québec se jette pour protéger l'équipe d'un jet mortel, mourant dans l'action. Au même moment, un projectile vint s'écraser au sol, créant un énorme cratère.",
+        "nextChapter": "75",
+        "damage": {
+            "CapQC": 100,
+            "Barbare": 20,
+            "Tacticien": 23,
+            "Magicien": 20,
+            "Cyborg": 40,
+            "Modelisateur": 35,
+            "Loup": 59
+        }
+    },
+    "73": {
+        "texte": "Haxan esquive le coup, puis riposte d'un coup fatal, tranchant la tête de l'Homme avec sa main.",
+        "nextChapter": "131",
+        "damage": {
+            "HommeUltra": 100
+        }
+    },
+    "74": {
+        "texte": "Haxan frappe dans les bras de l'Homme qui bloque, l'onde de choc démolit complètement les deux bras de l'Homme.",
+        "nextChapter": "131",
+        "damage": {
+            "HommeUltra": 93
+        }
+    },
+    "75": {
+        "texte": "L'Homme Éclipse sortit du cratère, il lève son doigt au ciel, invoquant une éclipse miniature, qui sera bientôt prête à être lancée.",
+        "nextChapter": "76",
+        "active": {
+            "Homme": false,
+            "HommeEclipse": true
+        }
+    },
+    "76": {
+        "texte": "Haxan fut terrifié pour la première fois dans son existence. Il fit alors une proposition à l'Homme : il lui créera une réalité alternative où il a une femme parfaite et une famille, sa vie de rêve, mais cette réalité n'est possible que si l'Homme accepte de tuer ses camarades avec l'éclipse.",
+        "choix": [{
+                "id": 1,
+                "text": "Propulser l'éclipse sur Haxan",
+                "nextChapter": "77"
+            },
+            {
+                "id": 2,
+                "text": "Propulser l'éclipse sur les héros",
+                "nextChapter": "78"
+            }
+        ]
+    },
+    "77": {
+        "texte": "L'Homme tue Haxan, rétablissant la paix sur la planète et sauvant l'avenir de la race humaine. Les héros de l'éclipse seront dorénavant reconnus pour des millénaires comme des légendes, sauveurs de l'humanité.",
+        "nextChapter": "132",
+        "damage": {
+            "Haxan": 100
+        }
+    },
+    "78": {
+        "texte": "L'Homme tue les héros de l'éclipse. Haxan respecte sa part du marché et créa un univers alternatif pour l'Homme, où il vécut heureux avec sa femme et ses enfants, tandis que Haxan termine sa destruction de la planète Terre.",
+        "nextChapter": "128",
+        "damage": {
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100
+        }
+    },
+    "79": {
+        "texte": "Le torse de l'Homme est transpercé, il s'écroule au sol, expirant son dernier souffle.",
+        "nextChapter": "80",
+        "damage": {
+            "HommeUltra": 100
+        }
+    },
+    "80": {
+        "texte": "Les autres héros arrivèrent trop tard. Haxan détruit la Terre entière, les héros inclus.",
+        "nextChapter": "131",
+        "damage": {
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100
+        }
+    },
+    "81": {
+        "texte": "Haxan, dans le combat, fut blessé au dos, mais tua le Barbare et Capitaine Québec. Il propose d'épargner les deux autres, à condition qu'ils le suivent dans sa quête pour conquérir l'univers et le rendre 'meilleur'.",
+        "choix": [{
+                "id": 1,
+                "text": "Accepter",
+                "nextChapter": "82"
+            },
+            {
+                "id": 2,
+                "text": "Refuser",
+                "nextChapter": "83"
+            }
+        ],
+        "damage": {
+            "Barbare": 100,
+            "CapQC": 100,
+            "Loup": 48,
+            "Modelisateur": 37,
+            "Haxan": 17
+        }
+    },
+    "82": {
+        "texte": "Haxan rigole, prononce 'pathétique', puis tire un rayon laser mauve qui désintègre subitement les deux héros restants, faisant de lui l'unique vainqueur de cet affrontement.",
+        "nextChapter": "131",
+        "damage": {
+            "Loup": 100,
+            "Modelisateur": 100
+        }
+    },
+    "83": {
+        "texte": "Haxan fit un léger sourire, puis tira un rayon laser mauve et désintégra les deux héros restants, faisant de lui l'unique vainqueur de cet affrontement.",
+        "nextChapter": "131",
+        "damage": {
+            "Loup": 100,
+            "Modelisateur": 100
+        }
+    },
+    "84": {
+        "texte": "Dans le combat, Haxan est blessé au cœur, mais finit par tuer le Magicien et le Loup. Le Cyborg, seul survivant, est gravement touché, il va mourir dans les prochaines minutes.",
+        "choix": [{
+                "id": 1,
+                "text": "Le Cyborg s'autodétruit.",
+                "nextChapter": "85"
+            },
+            {
+                "id": 2,
+                "text": "Le Cyborg se laisse mourir.",
+                "nextChapter": "86"
+            }
+        ],
+        "damage": {
+            "Magicien": 100,
+            "Cyborg": 48,
+            "Loup": 100,
+            "Haxan": 33
+        }
+    },
+    "85": {
+        "texte": "Le Cyborg explosa, détruisant la planète Terre, tuant la race humaine et Haxan en un coup.",
+        "nextChapter": 0,
+        "damage": {
+            "Homme": 100,
+            "Barbare": 100,
+            "CapQC": 100,
+            "Cyborg": 100,
+            "Modelisateur": 100,
+            "Loup": 100,
+            "Magicien": 100,
+            "Haxan": 100
+        }
+    },
+    "86": {
+        "texte": "Le Cyborg se laissa mourir, les héros de l'éclipse échouèrent.",
+        "nextChapter": "131",
+        "damage": {
+            "Cyborg": 100
+        }
+    },
+    "87": {
+        "texte": "L'Homme offre à Haxan de faire un deal. Haxan semble réfléchir un moment, puis épargne le jet des héros, qui finissent par atterrir pour rejoindre l'Homme, qui lui avance vers Haxan.",
+        "nextChapter": "88"
+    },
+    "88": {
+        "texte": "Haxan aspira l'âme de l'Homme, puis s'envola dans l'espace, épargnant la planète Terre et ses habitants.",
+        "nextChapter": "126",
+        "damage": {
+            "Homme": 100
+        }
+    },
+    "89": {
+        "texte": "Haxan est blessé au visage, mais parvient à achever le Magicien, Capitaine Québec et le Tacticien. L'Homme, démoralisé, abandonnera le combat. Lui aussi finira par mourir des mains de Haxan.",
+        "nextChapter": "131",
+        "damage": {
+            "Magicien": 100,
+            "Tacticien": 100,
+            "Homme": 100,
+            "Haxan": 38,
+            "CapQC": 100
+        }
+    },
+    "90": {
+        "texte": "Haxan est blessé au bras, mais finit par tuer l'Homme et le Modélisateur, laissant uniquement Capitaine Québec vivant.",
+        "nextChapter": "91",
+        "damage": {
+            "Homme": 100,
+            "Modelisateur": 100,
+            "Haxan": 20,
+            "CapQC": 37
+        }
+    },
+    "91": {
+        "texte": "Malgré ses nombreuses blessures et devant un adversaire définitivement plus fort, Capitaine Québec continua de combattre jusqu'à son dernier souffle, prouvant son courage et son dévouement.",
+        "nextChapter": "131",
+        "damage": {
+            "Magicien": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "CapQC": 100,
+            "Haxan": 21
+        }
+    },
+    "92": {
+        "texte": "Dans le combat, Haxan absorbe l'âme des deux derniers héros, finissant victorieux.",
+        "nextChapter": "131",
+        "damage": {
+            "Homme": 100,
+            "Magicien": 100
+        }
+    },
+    "93": {
+        "texte": "Haxan salue le courage du Magicien, avant de le saisir par le cou, se préparant à le tuer.",
+        "choix": [{
+                "id": 1,
+                "text": "Le Magicien invoque un vortex aspirant ce qu'il reste de la terre, lui compris, terminant le travail d'Haxan",
+                "nextChapter": "134"
+            },
+            {
+                "id": 2,
+                "text": "Laisser Haxan le tuer",
+                "nextChapter": "131"
+            }
+        ]
+    },
+    "95": {
+        "texte": "Haxan se voit blessé par les nombreuses attaques des héros. À genoux devant eux, Haxan alla saisir dans sa poche un collier, qu'il tendit aux héros. C'était le collier de la fille du Barbare, qu'il a tuée précédemment. Un grand sourire au visage, le Barbare, fou de rage, fonce sur Haxan pour l'exécuter.",
+        "choix": [{
+                "id": 1,
+                "text": "Laisser le Barbare agir",
+                "nextChapter": "96"
+            },
+            {
+                "id": 2,
+                "text": "Empêcher le Barbare de tuer Haxan",
+                "nextChapter": "97"
+            }
+        ],
+        "damage": {
+            "Homme": 11,
+            "Barbare": 12,
+            "CapQC": 13,
+            "Cyborg": 16,
+            "Modelisateur": 2,
+            "Loup": 11,
+            "Magicien": 22,
+            "Tacticien": 23,
+            "Haxan": 37
+        }
+    },
+    "96": {
+        "texte": "Alors que le Magicien se préparait à sceller Haxan dans un monde simulé pour le restant de l'éternité, le Barbare fonça sur Haxan, qui le saisit, puis prit contrôle de son âme. Il lui ordonna de tuer le Magicien, et avec son aide, ils finirent par tuer tous les héros de l'éclipse. À la fin de l'affrontement, Haxan salua le Barbare, avant de le détruire lui ainsi que le restant de la planète.",
+        "nextChapter": "131",
+        "damage": {
+            "Barbare": 100,
+            "Homme": 100,
+            "CapQC": 100,
+            "Cyborg": 100,
+            "Modelisateur": 100,
+            "Loup": 100,
+            "Tacticien": 100,
+            "Magicien": 100,
+            "Haxan": 16
+        }
+    },
+    "97": {
+        "texte": "Les héros de l'éclipse ont retenu le Barbare, qui finira par se calmer. Puis le Magicien invoqua un sceau qui scelle Haxan dans une simulation pour l'éternité, le neutralisant et ramenant la paix sur la planète.",
+        "nextChapter": "132"
+    },
+    "98": {
+        "texte": "Une éclipse apparaît dans le ciel. L'Homme effectue un transformement physique incroyable, gagnant une force inégalable. Sa jambe fut soignée sur le coup. L'Homme se relève et fonce sur Haxan. Les deux firent un combat cosmique, de force presque égale. Les deux furent blessés, mais Haxan finit par prendre le dessus. L'Homme Éclipse est épuisé. Haxan s'apprête à donner le coup de grâce.",
+        "nextChapter": "99",
+        "damage": {
+            "Haxan": 24,
+            "HommeEclipse": 89
+        },
+        "active": {
+            "Homme": false,
+            "HommeEclipse": true
+        }
+    },
+    "99": {
+        "texte": "Au même moment, Capitaine Québec, avec le pouvoir de la souveraineté, redonna courage et espoir à l'Homme Éclipse, qui encaissa le coup, puis riposta d'un coup mortel, achevant Haxan.",
+        "nextChapter": "132",
+        "damage": {
+            "Haxan": 100,
+            "HommeEclipse": 5
+        }
+    },
+    "100": {
+        "texte": "Le Cyborg devient hyperchargé de l'énergie québécoise et se propulse sur Haxan. Avec le reste de l'équipe, ils viendront à bout d'Haxan, remportant la guerre, au seul prix de la vie du Cyborg.",
+        "nextChapter": "132",
+        "damage": {
+            "Homme": 10,
+            "Tacticien": 23,
+            "CapQC": 24,
+            "Magicien": 21,
+            "Barbare": 26,
+            "Cyborg": 100,
+            "Loup": 22,
+            "Modelisateur": 12,
+            "Haxan": 100
+        }
+    },
+    "101": {
+        "texte": "Haxan prit le dessus sur les héros, achevant le Cyborg, et tuant tous les héros.",
+        "nextChapter": "131",
+        "damage": {
+            "Homme": 100,
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "Haxan": 47
+        }
+    },
+    "102": {
+        "texte": "Haxan, dans un combat sans merci, prit le dessus sur les héros restants, tuant ceux qui restaient, faisant de lui le grand gagnant.",
+        "nextChapter": 131,
+        "damage": {
+            "Homme": 100,
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "Haxan": 27
+        }
+    },
+    "103": {
+        "texte": "Haxan tua le Cyborg et le Tacticien, qui étaient déjà affaiblis. Il épargne le Loup, lui offrant de devenir son esclave en échange de sa vie.",
+        "choix": [{
+                "id": 1,
+                "text": "Accepter",
+                "nextChapter": 104
+            },
+            {
+                "id": 2,
+                "text": "Refuser",
+                "nextChapter": 104
+            }
+        ],
+        "damage": {
+            "Homme": 100,
+            "CapQC": 100,
+            "Cyborg": 100,
+            "Modelisateur": 100,
+            "Loup": 78,
+            "Tacticien": 100,
+            "Magicien": 100,
+            "Haxan": 15
+        }
+    },
+    "104": {
+        "texte": "Haxan rigola un coup, puis donna un coup de pied mortel au Loup, mettant fin au combat.",
+        "nextChapter": 131,
+        "damage": {
+            "Loup": 100
+        }
+    },
+    "105": {
+        "texte": "Haxan exploite la faille chez le Magicien, forçant celui-ci à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, l'Homme se transforme en l'Homme Éclipse, gagnant des pouvoirs astronomique",
+        "choix": [{
+                "id": 1,
+                "text": "Envoyer l'Homme attaquer le Magicien",
+                "nextChapter": 2051
+            },
+            {
+                "id": 2,
+                "text": "Raisonner le Magicien",
+                "nextChapter": 108
+            }
+        ],
+        "active": {
+            "Homme": false,
+            "HommeEclipse": true,
+            "Magicien": false,
+            "MagicienEclipse": true
+        }
+    },
+    "2051": {
+        "texte": "L'Homme tue le Magicien d'un coup brutal, puis les héros affrontèrent Haxan, mais ne faisant pas le poids, succombèrent tous dans le combat",
+        "nextChapter": 131,
+        "damage": {
+            "Homme": 100,
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "HommeUltra": 100,
+            "HommeEclipse": 100,
+            "Haxan": 37
+        }
+    },
+    "106": {
+        "texte": "Tandis que l'Homme sortait Capitaine Québec du combat, Haxan exploite la faille chez le Magicien, le transformant en son alter ego maléfique, l'Éclipse. Au même moment l'Homme se transforma à son tour en sa phase ultime, l'Homme Éclipse, gagnant une force formidable.",
+        "choix": [{
+                "id": 1,
+                "text": "Ordonner à l'Homme d'attaquer le Magicien",
+                "nextChapter": 107
+            },
+            {
+                "id": 2,
+                "text": "Raisonner le Magicien",
+                "nextChapter": 108
+            }
+        ],
+        "active": {
+            "Homme": false,
+            "HommeEclipse": true,
+            "Magicien": false,
+            "MagicienEclipse": true
+        }
+    },
+    "107": {
+        "texte": "L'Homme, trop loin du combat, tenta d'exécuter le Magicien, mais le Magicien parvint à invoquer un sortilège qui provoqua la réinitialisation de l'univers.",
+        "nextChapter": 136
+    },
+    "108": {
+        "texte": "Le Tacticien tenta de redonner la raison au Magicien, mais celui-ci désormais corrompu, invoqua un sortilège provoquant la réinitialisation de l'univers.",
+        "nextChapter": 136
+    },
+    "109": {
+        "texte": "L'équipe se prépare à défendre, mais au même moment, Haxan exploite la faille chez le Magicien, forçant celui-ci à se transformer en son alter ego maléfique, l'Éclipse. Au même moment, l'Homme se transforme en l'Homme Éclipse, gagnant une force phénoménale. Le Magicien utilisa de la magie noire pour neutraliser toute l'équipe, mais l'Homme ne fut pas affecté.",
+        "choix": [{
+                "id": 1,
+                "text": "L'Homme attaque le Magicien",
+                "nextChapter": 110
+            },
+            {
+                "id": 2,
+                "text": "L'Homme attaque Haxan",
+                "nextChapter": 111
+            }
+        ],
+        "active": {
+            "Homme": false,
+            "HommeEclipse": true,
+            "Magicien": false,
+            "MagicienEclipse": true
+        },
+        "damage": {
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100
+        }
+    },
+    "110": {
+        "texte": "L'Homme attaque le Magicien, le pulvérisant d'un seul coup, puis se retourna pour affronter Haxan. S'ensuivit un combat acharné, qui termina par la mort de l'Homme, qui avant de mourir transférat volontairement le pouvoir de l'Éclipse à Haxan, qui était déjà trop puissant pour contenir ce nouveau pouvoir. Haxan se désintégra.",
+        "nextChapter": 132,
+        "damage": {
+            "Magicien": 100,
+            "HommeEclipse": 100,
+            "Haxan": 100
+        }
+    },
+    "111": {
+        "texte": "Alors que l'Homme s'attaquait à Haxan, le Magicien invoqua un sortilège noir réinitialisant l'univers.",
+        "nextChapter": 136,
+        "damage": {
+            "HommeEclipse": 42,
+            "Haxan": 32
+        }
+    },
+    "112": {
+        "texte": "Les héros restants attaquèrent Haxan, lui infligeant de lourds dégâts, mais Haxan finit par venir à bout d'eux, faisant de lui le seul survivant de ce combat.",
+        "nextChapter": 131,
+        "damage": {
+            "Homme": 100,
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "HommeUltra": 100,
+            "HommeEclipse": 100,
+            "Haxan": 39
+        }
+    },
+    "113": {
+        "texte": "Un combat acharné fut livré par les héros, mais ils n'étaient pas assez forts. Haxan finit par venir à bout de chacun des héros, remportant la guerre.",
+        "nextChapter": 131,
+        "damage": {
+            "Homme": 100,
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "HommeUltra": 100,
+            "HommeEclipse": 100,
+            "Haxan": 41
+        }
+    },
+    "114": {
+        "texte": "Dans un long combat, Haxan finit par tuer tous les héros. Il saisit le Loup, lui proposant de devenir l'animal de compagnie de sa femme.",
+        "choix": [{
+                "id": 1,
+                "text": "Accepter",
+                "nextChapter": 133
+            },
+            {
+                "id": 2,
+                "text": "Refuser",
+                "nextChapter": 115
+            }
+        ],
+        "damage": {
+            "Homme": 100,
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 23,
+            "Modelisateur": 100,
+            "HommeUltra": 100,
+            "HommeEclipse": 100,
+            "Haxan": 33
+        }
+    },
+    "115": {
+        "texte": "Haxan exécuta le Loup puis conquit le restant de la planète, exterminant la race humaine.",
+        "nextChapter": 131,
+        "damage": {
+            "Loup": 100
+        }
+    },
+    "116": {
+        "texte": "Haxan fut blessé au combat, mais finit par tout de même l'emporter, remportant la victoire sur les héros.",
+        "nextChapter": 131,
+        "damage": {
+            "Haxan": 27,
+            "Homme": 100,
+            "Barbare": 100,
+            "CapQC": 100,
+            "Cyborg": 100,
+            "Modelisateur": 100,
+            "Loup": 100,
+            "Tacticien": 100,
+            "Magicien": 100
+        }
+    },
+    "117": {
+        "texte": "Les héros attaquèrent Capitaine Québec, mais celui-ci combattait désormais avec Haxan. Surpris, les héros tombèrent un à un.",
+        "nextChapter": 135,
+        "damage": {
+            "Homme": 100,
+            "Tacticien": 100,
+            "CapQC": 37,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "HommeUltra": 100,
+            "HommeEclipse": 100,
+            "Haxan": 24
+        }
+    },
+    "118": {
+        "texte": "Le Magicien réussit à redonner à Capitaine Québec le contrôle de son corps. Haxan, furieux, massacra le Magicien, qui juste avant de mourir ouvrit un portail menant directement en enfer, aspirant Haxan, le Magicien, l'Homme et le Tacticien. Le modélisateur peut réussir à sauver un des ces compagnons avant qu'ils ne soient tout deux aspirés, il dût faire un dur choix.",
+        "choix": [
+            {
+                "id": 1,
+                "text": "Le Modélisateur sauve l'Homme",
+                "nextChapter": 119
+            },
+            {
+                "id": 2,
+                "text": "Le Modélisateur sauve le Tacticien",
+                "nextChapter": 120
+            }
+        ],
+        "damage": {
+            "Tacticien": 21,
+            "CapQC": 27,
+            "Haxan": 100,
+            "Cyborg": 32,
+            "Loup": 23,
+            "Modelisateur": 16,
+            "Magicien": 86,
+            "Homme": 33
+        }
+    },
+    "119": {
+        "texte": "Le Modélisateur sauva l'Homme, alors qu'Haxan et le Tacticien furent aspirés dans le trou noir. Après quoi, le portail se referma, y scellant à jamais le Tacticien et Haxan.",
+        "nextChapter": 132,
+        "damage": {
+            "Tacticien": 100,
+            "Haxan": 100
+        }
+    },
+    "120": {
+        "texte": "Le Modélisateur sauva le Tacticien, alors qu'Haxan et l'Homme furent aspirés dans le trou noir. Après quoi, le portail se referma, y scellant à jamais l'Homme et Haxan.",
+        "nextChapter": 132,
+        "damage": {
+            "Homme": 100,
+            "Haxan": 100
+        }
+    },
+    "121": {
+        "texte": "Les héros exécutent Capitaine Québec, puis continuèrent le combat contre Haxan, mais surpris, ils finirent par tous périr.",
+        "nextChapter": 131,
+        "damage": {
+            "Homme": 100,
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "CapCanada": 100,
+            "HommeUltra": 100,
+            "HommeEclipse": 100
+        }
+    },
+    "122": {
+        "texte": "Sans succès, Capitaine Québec et Haxan affrontèrent les héros, jusqu'à ce que le dernier d'entre eux soit mort.",
+        "nextChapter": 135,
+        "damage": {
+            "Homme": 100,
+            "Tacticien": 100,
+            "CapQC": 43,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "CapCanada": 100,
+            "HommeUltra": 100,
+            "HommeEclipse": 100,
+            "Haxan": 27
+        }
+    },
+    "126": {
+        "texte": "L'Homme sacrifia sa vie en échange de la planète Terre et de la race humaine.",
+        "nextChapter": 0,
+        "damage": {
+            "Homme": 100
+        }
+    },
+    "127": {
+        "texte": "L'Homme tua Haxan, rétabissant la paix sur la planète et sauvant l'avenir de la race humaine. Les héros de l'éclipse seront dorénavant reconnus pour des millénaires comme des légendes, sauveurs de l'humanité.",
+        "nextChapter": 0,
+        "damage": {
+            "Haxan": 100
+        },
+        "active": {
+            "Haxan": false
+        }
+    },
+    "128": {
+        "texte": "L'Homme tua les héros de l'éclipse. Haxan respecte sa part du marché et créa un univers alternatif pour l'Homme, où il vécut heureux avec sa femme et ses enfants, tandis que Haxan termina sa destruction de la planète Terre.",
+        "nextChapter": 0,
+        "damage": {
+            "Homme": 0,
+            "Tacticien": 100,
+            "CapQC": 100,
+            "Magicien": 100,
+            "Barbare": 100,
+            "Cyborg": 100,
+            "Loup": 100,
+            "Modelisateur": 100,
+            "CapCanada": 100,
+            "HommeUltra": 100,
+            "HommeEclipse": 100,
+            "Haxan": 10
+        }
+    },
+    "130": {
+        "texte": "Les héros s'inclinèrent devant le grand Haxan. Les médias de la Terre entière les voient comme des lâches, avant que Haxan n'en termine avec eux et le reste de la race humaine.",
+        "nextChapter": 0
+    },
+    "131": {
+        "texte": "Haxan vint à bout de tous les héros. Il décima la race humaine toute entière, puis changea de planète, à la conquête de la prochaine race à exterminer.",
+        "nextChapter": 0
+    },
+    "132": {
+        "texte": "Les héros vinrent à bout de Haxan, ramenant paix et sérénité sur la planète Terre, assurant la survie de la race humaine. Les héros de l'éclipse seront maintenant perçus pendant des millénaires comme des légendes, véritables sauveurs de l'humanité.",
+        "nextChapter": 0
+    },
+    "133": {
+        "texte": "Le Loup deviendra l'animal de compagnie de la femme de Haxan, laissant la Terre se faire détruire, Haxan remportant cette guerre.",
+        "nextChapter": 0
+    },
+    "134": {
+        "texte": "Le Magicien détruit la Terre d'un vortex magique, tuant Haxan et le reste de la race humaine.",
+        "nextChapter": 0
+    },
+    "135": {
+        "texte": "Haxan remportera le combat, détruisant totalement la race humaine, achevant son objectif. Dorénavant accompagné de Capitaine Québec, maintenant renommé Colonel Canada, ils continueront leur chemin vers la prochaine planète à détruire.",
+        "nextChapter": 0
+    },
+    "136": {
+        "texte": "L'univers fut réinitialisé, effaçant toute trace d'existence de la vie, laissant place à la création d'un nouvel univers.",
+        "nextChapter": 0
+    }
+}
