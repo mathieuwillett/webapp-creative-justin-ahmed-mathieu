@@ -48,6 +48,7 @@
 @media screen and (max-width: 1400px) {
     .bouton {
         width: 50vw;
+        font-size: 1.3vh;
     }
 }
 </style>

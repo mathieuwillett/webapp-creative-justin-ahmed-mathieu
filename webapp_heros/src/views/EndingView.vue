@@ -45,13 +45,13 @@ export default {
     methods: {
         // Fonction qui permet de revenir au menu principal
         retourMenu() {
-       // Utilise le router de Vue pour aller à la page "home"
+            // Utilise le router de Vue pour aller à la page "home"
             this.$router.push({ name: 'home' });
         },
 
         // Fonction qui affiche un texte lettre par lettre
         startTyping(fullText) {
-             
+
             // Arrête l’animation précédente si elle existe
             if (this.typingInterval) clearInterval(this.typingInterval);
 
@@ -64,7 +64,7 @@ export default {
                 this.displayedText += fullText[index];
                 index++;
 
-            // Quand tout le texte est écrit, on arrête
+                // Quand tout le texte est écrit, on arrête
                 if (index >= fullText.length) {
                     clearInterval(this.typingInterval);
                     this.typingInterval = null;
@@ -75,7 +75,7 @@ export default {
 
     mounted() {
         const audioStore = useAudioStore();
-          // Au montage du composant : aller au chapitre correspondant à l'id dans l'URL
+        // Au montage du composant : aller au chapitre correspondant à l'id dans l'URL
         this.story.goToChapter(this.$route.params.id);
         audioStore.setTrack("TheEclipseRising.mp3");
     },
@@ -147,6 +147,27 @@ export default {
     padding: 0;
     border: none;
     cursor: pointer;
+    background: #FFA600;
+    color: #111;
+    box-shadow:
+        0 0 0 6px #000,
+        0 6px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}
+
+.toggle-btn:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background-image:
+        radial-gradient(circle at 10% 10%, rgba(0, 0, 0, .25) 0 2px, transparent 2px),
+        radial-gradient(circle at 60% 40%, rgba(0, 0, 0, .18) 0 3px, transparent 3px),
+        radial-gradient(circle at 85% 80%, rgba(0, 0, 0, .12) 0 4px, transparent 4px);
+    background-size: 8px 8px, 12px 12px, 20px 20px;
+    opacity: 0.35;
+    mix-blend-mode: overlay;
+    pointer-events: none;
 }
 
 .toggle-btn img {

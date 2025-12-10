@@ -75,4 +75,10 @@ export default {
         font-size: 0.8vh;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .history {
+        font-size: 0.6vh;
+    }
+}
 </style>

@@ -15,4 +15,10 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 1400px) {
+    footer {
+        font-size: 1vh;
+    }
+}
 </style>
