@@ -36,7 +36,7 @@ export default {
             </CartePersonnages>
         </div>
 
-        <ReturnButton @click="retourMenu()" />
+        <ReturnButton class="boutonRetour" @click="retourMenu()" />
     </div>
 </template>
 
@@ -69,5 +69,9 @@ h2 {
 .img {
     width: 100%;
     height: 100%;
+}
+
+.boutonRetour {
+    margin-bottom: 5vw;
 }
 </style>
