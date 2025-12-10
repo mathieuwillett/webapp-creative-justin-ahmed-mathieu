@@ -23,22 +23,24 @@ export default {
 
   data() {
     return {
-      story: useStoryStore(),
-      router: useRouter(),
+      story: useStoryStore(), // Récupère le store de l'histoire
+      router: useRouter(), // Récupère l'objet router pour la navigation
     };
   },
 
   mounted() {
+    // Vérifie si les chapitres n'existent pas ou sont vides
     if (
       !this.story.chapitres ||
       Object.keys(this.story.chapitres).length === 0
     ) {
-      this.story.loadChapters();
+      this.story.loadChapters(); // Charge les chapitres si nécessaire
     }
   },
 
   methods: {
     startAt(chapterId) {
+      // Redirige vers la page du chapitre correspondant
       this.router.push({
         name: "chapter",
         params: { id: chapterId },
