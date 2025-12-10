@@ -31,33 +31,40 @@ export default {
 
     computed: {
         story() {
-            return useStoryStore();   // ✔ correct reactive access
+            return useStoryStore();   // Récupère le store qui contient l'histoire
         },
         texte() {
-            return this.story.narrative; // ✔ reactivity restored
+            return this.story.narrative; // Donne accès au texte narratif de l'histoire
         },
         endingBackground() {
             const id = this.$route.params.id;
-            return this.story.endingImage(id); // ✔ clean, reactive, scalable
+            return this.story.endingImage(id); // Retourne l'image de fin selon l'id du chapitre
         }
     },
 
     methods: {
+        // Fonction qui permet de revenir au menu principal
         retourMenu() {
+       // Utilise le router de Vue pour aller à la page "home"
             this.$router.push({ name: 'home' });
         },
 
+        // Fonction qui affiche un texte lettre par lettre
         startTyping(fullText) {
+             
+            // Arrête l’animation précédente si elle existe
             if (this.typingInterval) clearInterval(this.typingInterval);
 
-            this.displayedText = "";
-            let index = 0;
-            const speed = 30;
+            this.displayedText = ""; // Vide le texte affiché
+            let index = 0; // Position dans le texte
+            const speed = 30; // Vitesse d’écriture (ms)
 
+            // Ajoute un caractère toutes les 30 ms
             this.typingInterval = setInterval(() => {
                 this.displayedText += fullText[index];
                 index++;
 
+            // Quand tout le texte est écrit, on arrête
                 if (index >= fullText.length) {
                     clearInterval(this.typingInterval);
                     this.typingInterval = null;
@@ -68,15 +75,18 @@ export default {
 
     mounted() {
         const audioStore = useAudioStore();
-        this.story.goToChapter(this.$route.params.id);  // now it works
+          // Au montage du composant : aller au chapitre correspondant à l'id dans l'URL
+        this.story.goToChapter(this.$route.params.id);
         audioStore.setTrack("TheEclipseRising.mp3");
     },
 
 
     watch: {
+        // quand la variable "texte" change, lancer l'effet d'écriture
         texte(newText) {
             this.startTyping(newText);
         },
+        // quand l'id dans l'URL change, aller au nouveau chapitre
         "$route.params.id"(newId) {
             this.story.goToChapter(newId);
         }
