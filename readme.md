@@ -30,7 +30,7 @@ Un appel est reçu par les héros de l'éclipse indiquant qu'un mystérieux homm
     - Affichage de la fin atteinte
   - Récapitulatif des choix faits
   - Option de recommencer ou charger
-  - Apparition progressive du texte (optionnel: effet typewriter)
+  - Apparition progressive du texte
 
 ## Technologies utilisées
 
