@@ -17,6 +17,7 @@
   /* Firefox */
   -ms-user-select: none;
   /* IE/Edge */
+  line-height: normal;
 }
 
 @media screen and (max-width: 1400px) {
