@@ -46,37 +46,37 @@ export default {
         }
     },
     mounted() {
-        const audioStore = useAudioStore();
-        this.story.loadChapters()
-        this.story.goToChapter(this.$route.params.id)
+        const audioStore = useAudioStore(); // Récupère le store audio pour gérer la musique
+        this.story.loadChapters() // Charge les données des chapitres depuis le store
+        this.story.goToChapter(this.$route.params.id) // Va directement au chapitre correspondant à l'ID de la route
         audioStore.setTrack('TheEclipseRising.mp3')
     },
     watch: {
-        texte(newText) {
+        texte(newText) {  // Quand la propriété "texte" change, déclenche l'effet d'écriture progressive
             this.startTyping(newText)
         },
-        "$route.params.id"(newId) {
+        "$route.params.id"(newId) { // Surveille le changement d'ID dans l'URL et charge le nouveau chapitre
             this.story.goToChapter(newId)
         }
     },
     methods: {
 
         startTyping(fullText) {
-            if (this.typingInterval) {
+            if (this.typingInterval) { // Si une animation est déjà en cours, on l'arrête
                 clearInterval(this.typingInterval)
             }
 
-            this.displayedText = ''
-            let index = 0
-            const speed = 30
+            this.displayedText = '' // Réinitialise le texte affiché
+            let index = 0 // Position actuelle dans le texte
+            const speed = 30 // Vitesse d'affichage des caractères (ms)
 
             this.typingInterval = setInterval(() => {
-                this.displayedText += fullText[index]
+                this.displayedText += fullText[index] // Ajoute un caractère à chaque intervalle
                 index++
 
                 if (index >= fullText.length) {
-                    clearInterval(this.typingInterval)
-                    this.typingInterval = null
+                    clearInterval(this.typingInterval) // Arrête l'intervalle quand tout le texte est affiché
+                    this.typingInterval = null // Libère la référence
                 }
             }, speed)
         },
